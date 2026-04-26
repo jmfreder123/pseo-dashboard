@@ -207,7 +207,7 @@ with tab2:
                 institution_cat="Institution"
             ),
         )
-        fig.update_yaxes(range=[0.5, 1.0], tickformat=".0%")
+        fig.update_yaxes(range=[0.4, 1.0], tickformat=".0%")
         fig.update_xaxes(tickmode="array", tickvals=[1, 5, 10], ticktext=["Y1", "Y5", "Y10"])
         fig.update_layout(
             height=600,
