@@ -29,7 +29,8 @@ DATA_DIR = Path(__file__).parent / "data"
 def load_tsi():
     az = pd.read_csv(DATA_DIR / "az_tsi.csv")
     tx = pd.read_csv(DATA_DIR / "tx_tsi.csv")
-    df = pd.concat([az, tx], ignore_index=True)
+    co = pd.read_csv(DATA_DIR / "co_tsi.csv")
+    df = pd.concat([az, tx, co], ignore_index=True)
     df["grad_cohort"] = df["grad_cohort"].astype(str)
     df["horizon"] = df["horizon"].astype(int)
     return df
@@ -38,7 +39,8 @@ def load_tsi():
 def load_flows():
     az = pd.read_csv(DATA_DIR / "az_regional_flows.csv")
     tx = pd.read_csv(DATA_DIR / "tx_regional_flows.csv")
-    df = pd.concat([az, tx], ignore_index=True)
+    co = pd.read_csv(DATA_DIR / "co_regional_flows.csv")
+    df = pd.concat([az, tx, co], ignore_index=True)
     df["grad_cohort"] = df["grad_cohort"].astype(str)
     df["horizon"] = df["horizon"].astype(int)
     return df
@@ -54,7 +56,8 @@ st.sidebar.header("Filters")
 # Default institution set: 3 AZ + 3 representative TX
 DEFAULT_INSTITUTIONS = [
     "ASU", "NAU", "UA",
-    "UT Austin", "Texas A&M", "Sam Houston State"
+    "UT Austin", "Texas A&M", "Sam Houston State",
+    "CU Boulder", "Colorado State", "CU Denver"
 ]
 
 # State
