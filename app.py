@@ -263,7 +263,14 @@ with tab3:
                     regions = state_agg["region_cat"].unique().tolist()
 
                     # Single muted color for all institutions in a state
-                    inst_color = AZ_INST_COLOR if state_code == "AZ" else TX_INST_COLOR
+                    if state_code == "AZ":
+                        inst_color = AZ_INST_COLOR
+                    elif state_code == "TX":
+                        inst_color = TX_INST_COLOR
+                    elif state_code == "CO":
+                        inst_color = CO_INST_COLOR
+                    else:
+                        inst_color = "#888888"  # fallback gray
                     inst_colors = [inst_color] * len(institutions)
                     region_colors = [REGION_COLORS.get(r, "#dddddd") for r in regions]
                     node_colors = inst_colors + region_colors
