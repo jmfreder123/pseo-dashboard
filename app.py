@@ -251,6 +251,7 @@ with tab3:
             # Soft state-themed institution palettes
             AZ_INST_COLOR = "#a4506b"   # muted maroon
             TX_INST_COLOR = "#c47b3a"   # muted burnt-orange
+            CO_INST_COLOR = "#5a8b8e"   # muted teal (Colorado)
 
             states_with_data = sorted(agg["state"].unique())
 
