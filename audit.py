@@ -20,6 +20,9 @@ BUNDLED_AZ_TSI = DASHBOARD_DATA / "az_tsi.csv"
 BUNDLED_AZ_FLOWS = DASHBOARD_DATA / "az_regional_flows.csv"
 BUNDLED_TX_TSI = DASHBOARD_DATA / "tx_tsi.csv"
 BUNDLED_TX_FLOWS = DASHBOARD_DATA / "tx_regional_flows.csv"
+BUNDLED_CO_TSI = DASHBOARD_DATA / "co_tsi.csv"
+BUNDLED_CO_FLOWS = DASHBOARD_DATA / "co_regional_flows.csv"
+RAW_CO = DROPBOX_BASE / "OR, UT, CO, TX" / "pseof_co.csv"
 
 # Institution code lookups
 AZ_INST_CODES = {"ASU": "00108100", "NAU": "00108200", "UA": "00108300"}
@@ -27,6 +30,13 @@ TX_INST_CODES = {
     "UT Austin": "00365800",
     "Texas A&M": "00363200",
     "Sam Houston State": "00360600",
+}
+
+CO_INST_CODES = {
+    "CU Boulder": "00137000",
+    "Colorado School of Mines": "00134800",
+    "Metro State Denver": "00136000",
+    "Colorado State": "00135000",
 }
 
 # Industry NAICS code lookups
@@ -192,6 +202,9 @@ def main():
     bundled_az_flows = pd.read_csv(BUNDLED_AZ_FLOWS)
     bundled_tx_tsi = pd.read_csv(BUNDLED_TX_TSI)
     bundled_tx_flows = pd.read_csv(BUNDLED_TX_FLOWS)
+    bundled_co_tsi = pd.read_csv(BUNDLED_CO_TSI)
+    bundled_co_flows = pd.read_csv(BUNDLED_CO_FLOWS)
+    raw_co = pd.read_csv(RAW_CO, dtype=str, low_memory=False)
 
     print("\n" + "=" * 70)
     print("STANDARD AUDIT — 10 spot checks")
@@ -230,6 +243,22 @@ def main():
                 "UT Austin", TX_INST_CODES["UT Austin"], "Information", "2004", "West South Central", 1)
     audit_flows("TX-5: Texas A&M Information -> Pacific Y1", raw_tx, bundled_tx_flows,
                 "Texas A&M", TX_INST_CODES["Texas A&M"], "Information", "2004", "Pacific", 1)
+
+    # CO TSI checks
+    print("\n### CO TSI checks ###")
+    audit_tsi("CO-1: CU Boulder Information 2004 Y1", raw_co, bundled_co_tsi,
+              "CU Boulder", CO_INST_CODES["CU Boulder"], "Information", "2004", 1)
+    audit_tsi("CO-2: Colorado School of Mines Mining 2010 Y10", raw_co, bundled_co_tsi,
+              "Colorado School of Mines", CO_INST_CODES["Colorado School of Mines"], "Mining", "2010", 10)
+    audit_tsi("CO-3: Metro State Denver Health Care 2016 Y1", raw_co, bundled_co_tsi,
+              "Metro State Denver", CO_INST_CODES["Metro State Denver"], "Health Care", "2016", 1)
+
+    # CO flows checks
+    print("\n### CO regional flows checks ###")
+    audit_flows("CO-4: CU Boulder Information -> Pacific Y1", raw_co, bundled_co_flows,
+                "CU Boulder", CO_INST_CODES["CU Boulder"], "Information", "2004", "Pacific", 1)
+    audit_flows("CO-5: Colorado State Education -> Mountain Y1", raw_co, bundled_co_flows,
+                "Colorado State", CO_INST_CODES["Colorado State"], "Education", "2004", "Mountain", 1)
 
     print("\n" + "=" * 70)
     print("Audit complete.")
