@@ -144,7 +144,7 @@ col4.metric("Observed cells", f"{tsi_filtered['emp_n_'].notna().sum():,}")
 # ============================================================
 # Tabs
 # ============================================================
-tab1, tab2, tab3, tab4 = st.tabs(["Heatmap", "Horizon Decay", "Regional Flows (Sankey)", "Summary Table"])
+tab1, tab2, tab3, tab4 = st.tabs(["Heatmap", "Retention Over Time", "Regional Flows (Sankey)", "Summary Table"])
 
 # ---------------- Heatmap ----------------
 with tab1:
@@ -185,7 +185,7 @@ with tab1:
 
 # ---------------- Horizon decay line plot ----------------
 with tab2:
-    st.subheader("Horizon Decay — TSI by horizon, one line per institution")
+    st.subheader("Retention Over Time — TSI by horizon, one line per institution")
 
     h = tsi_filtered[tsi_filtered["horizon"].isin(horizons_for_lineplot)]
     if h.empty:
