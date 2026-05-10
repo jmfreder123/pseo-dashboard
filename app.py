@@ -57,7 +57,7 @@ st.sidebar.header("Filters")
 DEFAULT_INSTITUTIONS = [
     "ASU", "NAU", "UA",
     "UT Austin", "Texas A&M", "Sam Houston State",
-    "CU Boulder", "Colorado State", "CU Denver"
+    "CU Boulder", "Colorado State"
 ]
 
 # State
@@ -144,7 +144,83 @@ col4.metric("Observed cells", f"{tsi_filtered['emp_n_'].notna().sum():,}")
 # ============================================================
 # Tabs
 # ============================================================
-tab1, tab2, tab3, tab4 = st.tabs(["Heatmap", "Retention Over Time", "Regional Flows (Sankey)", "Summary Table"])
+tab0, tab1, tab2, tab3, tab4 = st.tabs([
+    "Overview",
+    "Heatmap",
+    "Horizon Decay",
+    "Regional Flows (Sankey)",
+    "Summary Table"
+])
+
+# ---------------- Overview ----------------
+with tab0:
+    st.markdown(
+        """
+        ### A year after graduation, most college graduates are still working in their state. Ten years out, the picture looks very different.
+
+        This dashboard presents the Talent Stickiness Index (TSI), a measure of the share
+        of a university's graduates who remain employed in their home state at one, five,
+        and ten years after graduation. It draws on the U.S. Census Bureau's Postsecondary
+        Employment Outcomes (PSEO) data and covers bachelor's degree graduates from public
+        universities in Arizona, Texas, and Colorado, across graduation cohorts from 2004
+        to 2019 and twenty industries defined by two-digit NAICS codes.
+
+        The TSI is purely descriptive. It documents where graduates work; it does not explain why
+        graduates stay or leave.
+        """
+    )
+
+    st.markdown("#### How to read this dashboard")
+    st.markdown(
+        """
+        - **State** and **Institution** filters compare retention across schools.
+        - **Industry** filters isolate retention within a sector.
+        - **Horizon** controls how many years after graduation the data reflects (Y1, Y5, Y10).
+        - **Cohort** controls which graduating classes are included.
+        """
+    )
+
+    st.markdown("The four panels each answer a different question:")
+    st.markdown(
+        """
+        - **Heatmap** — which institution-industry combinations retain the most graduates?
+        - **Horizon Decay** — how does retention change as graduates move further from graduation?
+        - **Regional Flows** — where do graduates who leave the state actually go?
+        - **Summary Table** — the underlying values, filterable and downloadable.
+        """
+    )
+
+    with st.expander("Data and method"):
+        st.markdown(
+            """
+            Data come from the U.S. Census Bureau's Postsecondary Employment Outcomes
+            (PSEO) program, which links graduate records from participating state systems
+            to Longitudinal Employer-Household Dynamics (LEHD) employment records.
+
+            The TSI is calculated as the ratio of in-state employed graduates to total
+            employed graduates within each cell. Aggregate values are weighted: counts
+            are summed across cohorts before the ratio is computed. Suppressed cells are
+            dropped before aggregation.
+
+            Y10 data are observed only for the 2004, 2007, and 2010 cohorts. Y5 data
+            exclude the 2019 cohort. Coverage varies by institution and industry; cells
+            with fewer than the PSEO disclosure threshold are suppressed in the source data.
+            """
+        )
+
+    with st.expander("About"):
+        st.markdown(
+            """
+            This dashboard was built by John M. Fredericks and Roxanne Murphy, both of whom are doctoral students in Educational
+            Policy and Evaluation at Arizona State University, in collaboration with
+            advisors Mr. Margarita Pivovarova. It is part of their work
+            supported by the PSEO Coalition.
+
+            **Source data:** U.S. Census Bureau, LEHD Postsecondary Employment Outcomes (PSEO).
+            **Source code:** [github.com/jmfreder123/pseo-dashboard](https://github.com/jmfreder123/pseo-dashboard)
+            **Contact:** [jmfrede5@asu.edu]
+            """
+        )
 
 # ---------------- Heatmap ----------------
 with tab1:
@@ -185,7 +261,7 @@ with tab1:
 
 # ---------------- Horizon decay line plot ----------------
 with tab2:
-    st.subheader("Retention Over Time — TSI by horizon, one line per institution")
+    st.subheader("Horizon Decay — TSI by horizon, one line per institution")
 
     h = tsi_filtered[tsi_filtered["horizon"].isin(horizons_for_lineplot)]
     if h.empty:
@@ -219,7 +295,6 @@ with tab2:
         st.plotly_chart(fig, use_container_width=True)
 
 # ---------------- Sankey ----------------
-# ---------------- Sankey ----------------
 with tab3:
     st.subheader(f"Regional Flows — Y{horizon_selected}, total counts across selected filters")
 
@@ -249,9 +324,9 @@ with tab3:
                 "Pacific":             "#f9cb9c",
             }
             # Soft state-themed institution palettes
-            AZ_INST_COLOR = "#a4506b"   # muted maroon
-            TX_INST_COLOR = "#c47b3a"   # muted burnt-orange
-            CO_INST_COLOR = "#5a8b8e"   # muted teal (Colorado)
+            AZ_INST_COLOR = "#a4506b"   # muted maroon (ASU)
+            TX_INST_COLOR = "#c47b3a"   # muted burnt-orange (Texas)
+            CO_INST_COLOR = "#5a8b8e"   # muted teal (Colorado mountains)
 
             states_with_data = sorted(agg["state"].unique())
 
@@ -274,7 +349,7 @@ with tab3:
                     elif state_code == "CO":
                         inst_color = CO_INST_COLOR
                     else:
-                        inst_color = "#888888"  # fallback gray
+                        inst_color = "#888888"
                     inst_colors = [inst_color] * len(institutions)
                     region_colors = [REGION_COLORS.get(r, "#dddddd") for r in regions]
                     node_colors = inst_colors + region_colors
@@ -322,7 +397,7 @@ with tab3:
                         plot_bgcolor="white",
                     )
                     st.plotly_chart(fig, use_container_width=True)
-                    
+
 # ---------------- Summary Table ----------------
 with tab4:
     st.subheader("Filtered TSI Data")
