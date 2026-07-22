@@ -156,13 +156,13 @@ tab0, tab1, tab2, tab3, tab4 = st.tabs([
 with tab0:
     st.markdown(
         """
-        ### A year after graduation, most college graduates are still working in their state. Ten years out, the picture looks very different.
+        ### A year after graduation, most college graduates are still working in the state where they earned their degree. Ten years out, the picture looks very different.
 
         This dashboard presents the Talent Stickiness Index (TSI), a measure of the share
-        of a university's graduates who remain employed in their home state at one, five,
-        and ten years after graduation. It draws on the U.S. Census Bureau's Postsecondary
-        Employment Outcomes (PSEO) data and covers bachelor's degree graduates from public
-        universities in Arizona, Texas, and Colorado, across graduation cohorts from 2004
+        of a university's graduates who remain employed in that same state at one, five,
+        and ten years after graduation. Built on the U.S. Census Bureau's Postsecondary
+        Employment Outcomes (PSEO) data, it covers bachelor's degree graduates from public
+        universities in Arizona, Texas, and Colorado, spanning graduation cohorts from 2004
         to 2019 and twenty industries defined by two-digit NAICS codes.
 
         The TSI is purely descriptive. It documents where graduates work; it does not explain why
