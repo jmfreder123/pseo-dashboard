@@ -59,6 +59,13 @@ OR_INST_CODES = {
     "Oregon Tech": "00321100",
 }
 
+MT_INST_CODES = {
+    "Montana State": "00253200",
+    "University of Montana": "00253600",
+    "MSU Billings": "00253000",
+    "Montana Tech": "00253100",
+}
+
 UT_INST_CODES = {
     "University of Utah": "00367500",
     "Utah State": "00367700",
@@ -346,17 +353,174 @@ def check_ut(raw, tsi, flows):
         print("  PASS  2004 and 2007 absent, as expected for UT")
 
 
-CHECKS = {"az": check_az, "tx": check_tx, "co": check_co, "or": check_or, "ut": check_ut}
+def _report(name, ok, detail=""):
+    print(f"\n--- {name} ---")
+    print(f"  {'PASS' if ok else 'FAIL'}  {detail}")
+    return ok
+
+
+def check_benchmark():
+    """Audit the participating-state reference series.
+
+    There is no single raw file to diff against -- the benchmark is a sum over
+    33 states -- so this checks arithmetic invariants, agreement with the
+    per-state files that feed it, and that the IPEDS sector rule still selects
+    what it was validated to select.
+    """
+    bench_path = DASHBOARD_DATA / "benchmark.csv"
+    comp_path = DASHBOARD_DATA / "benchmark_composition.csv"
+    if not bench_path.exists():
+        print("\n### BENCHMARK checks ###")
+        print("  SKIP  data/benchmark.csv not present -- run build_benchmark.py")
+        return
+
+    b = pd.read_csv(bench_path)
+    comp = pd.read_csv(comp_path) if comp_path.exists() else None
+
+    print("\n### BENCHMARK arithmetic ###")
+
+    si = b["emp_instate_"] / b["emp_n_"]
+    both = b["SI_by_cohort"].notna() & si.notna()
+    worst = (b.loc[both, "SI_by_cohort"] - si[both]).abs().max()
+    _report("BM-1: SI_by_cohort == emp_instate_ / emp_n_",
+            worst < 1e-6, f"max abs deviation {worst:.2e} over {both.sum():,} cells")
+
+    bad = b[(b["emp_instate_"] > b["emp_n_"]) & b["emp_n_"].notna()]
+    _report("BM-2: in-state never exceeds total", len(bad) == 0,
+            f"{len(bad)} violating cells")
+
+    neg = b[(b[["emp_instate_", "emp_n_"]] < 0).any(axis=1)]
+    _report("BM-3: no negative counts", len(neg) == 0, f"{len(neg)} negative cells")
+
+    print("\n### BENCHMARK structure ###")
+
+    _report("BM-4: 20 NAICS sectors present",
+            b["industry_cat"].nunique() == 20,
+            f"{b['industry_cat'].nunique()} industries")
+
+    _report("BM-5: horizons are exactly 1, 5, 10",
+            sorted(b["horizon"].unique()) == [1, 5, 10],
+            f"{sorted(b['horizon'].unique())}")
+
+    cohorts = sorted(b["grad_cohort"].astype(str).unique())
+    _report("BM-6: cohorts are the triennial set",
+            cohorts == ["2004", "2007", "2010", "2013", "2016", "2019"],
+            f"{cohorts}")
+
+    _report("BM-7: single label, marked BENCH",
+            set(b["state"]) == {"BENCH"} and b["institution_cat"].nunique() == 1,
+            f"state={set(b['state'])}, label={b['institution_cat'].unique()[0]!r}")
+
+    print("\n### BENCHMARK vs the states it contains ###")
+
+    # Every dashboard state feeds the benchmark, so for any cell the benchmark
+    # total must be at least what those states contribute. This catches a
+    # benchmark built from the wrong frame or missing states.
+    states = sorted(p.name[:2] for p in DASHBOARD_DATA.glob("*_tsi.csv"))
+    parts = [pd.read_csv(DASHBOARD_DATA / f"{s}_tsi.csv") for s in states]
+    dash = pd.concat(parts, ignore_index=True)
+    dash["grad_cohort"] = dash["grad_cohort"].astype(str)
+    b2 = b.copy()
+    b2["grad_cohort"] = b2["grad_cohort"].astype(str)
+
+    keys = ["grad_cohort", "industry_cat", "horizon"]
+    # Rename rather than lean on merge suffixes: these column names already end
+    # in an underscore, so suffixing yields emp_n__dash and reads as a typo.
+    d_sum = (dash.groupby(keys, as_index=False)[["emp_instate_", "emp_n_"]].sum()
+                 .rename(columns={"emp_instate_": "instate_dash", "emp_n_": "n_dash"}))
+    b_sum = b2[keys + ["emp_instate_", "emp_n_"]].rename(
+        columns={"emp_instate_": "instate_bench", "emp_n_": "n_bench"})
+    m = d_sum.merge(b_sum, on=keys, how="inner")
+    short = m[m["n_dash"] > m["n_bench"] + 0.5]
+    _report(f"BM-8: benchmark >= sum of {len(states)} dashboard states",
+            len(short) == 0,
+            f"{len(short)} cells where the states exceed the benchmark "
+            f"(of {len(m):,} compared)")
+
+    if comp is not None:
+        print("\n### BENCHMARK composition ###")
+        included = comp[comp["institutions"] > 0]
+        _report("BM-9: composition recorded for every included state",
+                len(included) > 0 and included["institutions"].sum() > 0,
+                f"{len(included)} states, {included['institutions'].sum():,} institutions")
+
+        _report("BM-10: PSEO's `us` file (WGU) excluded",
+                "US" not in set(comp["state"]),
+                "WGU is a single private online university, not a national aggregate")
+
+    print("\n### IPEDS sector rule ###")
+    try:
+        from build_benchmark import public_university_opeids
+        ok_ids = public_university_opeids()
+    except Exception as e:                                       # noqa: BLE001
+        print(f"  SKIP  could not load IPEDS: {type(e).__name__}: {e}")
+        return
+
+    curated = {
+        "AZ": ["00108100", "00108200", "00108300"],
+        "CO": ["00134500", "00134800", "00134900", "00135000", "00135300", "00135800",
+               "00136000", "00136500", "00137000", "00137200", "00450800", "00450900"],
+        "TX": ["00354100", "00358100", "00359200", "00363000", "00360600", "00362400",
+               "00363100", "00363200", "00363900", "00361500", "00364400", "00365200",
+               "00361200", "00359400", "00365600", "00365800", "00366100", "00359900",
+               "01011500", "00366500"],
+        "OR": ["00319300", "00321100", "00321000", "00321600", "00321900", "00322300",
+               "00320900"],
+        "UT": ["00367500", "00367700", "00402700", "00368000", "00367800", "00367100"],
+        "MT": ["00253200", "00253600", "00253000", "00253100", "00253300", "00253700"],
+    }
+    flat = [c for v in curated.values() for c in v]
+    missing = [c for c in flat if c not in ok_ids]
+    _report("BM-11: rule keeps every curated dashboard institution",
+            not missing, f"{len(flat) - len(missing)}/{len(flat)} retained"
+                         + (f", missing {missing}" if missing else ""))
+
+    # Community colleges that award a few bachelor's degrees, and WGU
+    should_drop = {
+        "00954200": "Community College of Denver",
+        "02116300": "Pueblo Community College",
+        "00450600": "Colorado Mountain College",
+        "00134600": "Arapahoe Community College",
+        "03339400": "Western Governors University (private)",
+    }
+    kept = {c: n for c, n in should_drop.items() if c in ok_ids}
+    _report("BM-12: rule drops community colleges and WGU",
+            not kept, f"{len(should_drop) - len(kept)}/{len(should_drop)} dropped"
+                      + (f", wrongly kept {list(kept.values())}" if kept else ""))
+
+
+def check_mt(raw, tsi, flows):
+    print("\n### MT TSI checks ###")
+    audit_tsi("MT-1: Montana State Mining 2004 Y1", raw, tsi,
+              "Montana State", MT_INST_CODES["Montana State"], "Mining", "2004", 1)
+    audit_tsi("MT-2: U Montana Education 2010 Y10", raw, tsi,
+              "University of Montana", MT_INST_CODES["University of Montana"], "Education", "2010", 10)
+    audit_tsi("MT-3: Montana Tech Manufacturing 2016 Y5", raw, tsi,
+              "Montana Tech", MT_INST_CODES["Montana Tech"], "Manufacturing", "2016", 5)
+
+    print("\n### MT regional flows checks ###")
+    audit_flows("MT-4: Montana State Education -> Mountain Y1", raw, flows,
+                "Montana State", MT_INST_CODES["Montana State"], "Education", "2004", "Mountain", 1)
+    audit_flows("MT-5: U Montana Information -> Pacific Y1", raw, flows,
+                "University of Montana", MT_INST_CODES["University of Montana"], "Information", "2004", "Pacific", 1)
+
+
+CHECKS = {"az": check_az, "tx": check_tx, "co": check_co, "or": check_or,
+          "ut": check_ut, "mt": check_mt}
 
 
 def main():
-    states = [s.lower() for s in sys.argv[1:]] or list(CHECKS)
+    args = [s.lower() for s in sys.argv[1:]]
+    want_bench = (not args) or ("benchmark" in args)
+    states = [s for s in args if s != "benchmark"] or (list(CHECKS) if not args else [])
     unknown = [s for s in states if s not in CHECKS]
     if unknown:
-        sys.exit(f"no checks defined for: {', '.join(unknown)}. Known: {', '.join(CHECKS)}")
+        sys.exit(f"no checks defined for: {', '.join(unknown)}. "
+                 f"Known: {', '.join(CHECKS)}, benchmark")
 
+    label = ", ".join([s.upper() for s in states] + (["BENCHMARK"] if want_bench else []))
     print("=" * 70)
-    print(f"STANDARD AUDIT — {', '.join(s.upper() for s in states)}")
+    print(f"STANDARD AUDIT — {label}")
     print("=" * 70)
 
     for st in states:
@@ -365,6 +529,9 @@ def main():
         tsi = load_bundled(st, "tsi")
         flows = load_bundled(st, "regional_flows")
         CHECKS[st](raw, tsi, flows)
+
+    if want_bench:
+        check_benchmark()
 
     print("\n" + "=" * 70)
     print("Audit complete.")

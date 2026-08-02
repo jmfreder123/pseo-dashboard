@@ -65,6 +65,49 @@ matching the `.do` files. This matters: Colorado's documented `>= 320` selects
 because Colorado has a 2001 cohort the triennial filter drops. Thresholds
 quoted in this README are on the all-cohort scale and reproduce exactly.
 
+## Participating-state reference line
+
+`build_benchmark.py` aggregates the same analytic frame across every state in
+the PSEO release and emits `data/benchmark.csv`, which the Horizon Decay tab
+draws as a dashed reference line. `data/benchmark_composition.csv` records
+which states and how many institutions went into it.
+
+```bash
+python3 build_benchmark.py --out data
+```
+
+**It is not a national figure.** PSEO covers about two thirds of states and
+excludes California, Florida, and New Jersey among others, so the line is a
+participating-state average weighted by graduate counts. Texas alone is
+roughly 14% of the weight.
+
+### Defining "public university"
+
+PSEO carries no public/private or two-year/four-year flag, so institution
+sector comes from the IPEDS HD file, joined on OPEID — PSEO's 8-digit
+institution code is the same identifier IPEDS pads to 10 characters. The rule
+is:
+
+```
+CONTROL == 1  AND  (INSTCAT == 2  OR  HLOFFER >= 7)
+```
+
+Neither half works alone:
+
+- `INSTCAT == 2` ("primarily baccalaureate or above") drops Utah Valley,
+  Weber State, Southern Utah, and Utah Tech — real universities that carry
+  `INSTCAT 3` because Utah's dual-mission system awards many associate degrees.
+- `HLOFFER >= 7` (master's or higher) recovers those four but loses
+  University of Montana Western, which is baccalaureate-only.
+
+The union keeps **all 54 institutions** in the curated state files while
+dropping every community college that awards a handful of bachelor's degrees
+(`INSTCAT 3` with `HLOFFER 5`) and Western Governors University (`CONTROL 2`,
+private). Pass `--no-ipeds` to skip the filter and see the difference.
+
+Note that PSEO's `us` file is **not** a national aggregate — it is Western
+Governors University alone, filed under `us` because it has no home state.
+
 ## Filters
 
 - **State** — any combination of the loaded states

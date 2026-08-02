@@ -13,10 +13,13 @@ Raw files are read from the configured local paths if present, otherwise
 downloaded from `https://lehd.ces.census.gov/data/pseo/latest_release/` and
 cached in `.raw_cache/` (gitignored).
 
-## Run of 2026-08-02 — 32/32 pass
+## Run of 2026-08-02 — 49/49 pass
 
-Source: PSEO `latest_release`. Full run, `python3 audit.py` with no arguments:
-27 per-state spot checks plus 5 Layer 3 aggregation checks, no failures.
+Source: PSEO `latest_release`, IPEDS HD2023. 32 per-state spot checks,
+12 benchmark checks, and 5 Layer 3 aggregation checks, no failures.
+
+`python3 audit.py` runs everything; `python3 audit.py mt benchmark` runs a
+subset.
 
 ### Arizona (5/5)
 
@@ -89,6 +92,43 @@ earlier Stata `total` command, so the match confirms the Streamlit aggregation
 reproduces the Stata pipeline's output — not merely that the bundled CSVs match
 the raw release. L3-2 and L3-3 confirm that cross-cohort and cross-state
 aggregation compose correctly when several filters are active at once.
+
+### Montana (5/5)
+
+| Check | in-state / total | Result |
+|---|---|---|
+| MT-1 Montana State Mining 2004 Y1 | — | PASS |
+| MT-2 U Montana Education 2010 Y10 | — | PASS |
+| MT-3 Montana Tech Manufacturing 2016 Y5 | — | PASS |
+| MT-4 Montana State Education → Mountain Y1 | — | PASS |
+| MT-5 U Montana Information → Pacific Y1 | — | PASS |
+
+### Benchmark (12/12)
+
+The participating-state reference series is a sum over 31 states, so there is
+no single raw file to diff against. These check arithmetic invariants,
+agreement with the state files that feed it, and that the IPEDS sector rule
+still selects what it was validated to select.
+
+| Check | Result |
+|---|---|
+| BM-1 `SI_by_cohort == emp_instate_ / emp_n_` (max dev 3.45e-08) | PASS |
+| BM-2 in-state never exceeds total | PASS |
+| BM-3 no negative counts | PASS |
+| BM-4 20 NAICS sectors present | PASS |
+| BM-5 horizons are exactly 1, 5, 10 | PASS |
+| BM-6 cohorts are the triennial set | PASS |
+| BM-7 single label, marked `BENCH` | PASS |
+| BM-8 benchmark ≥ sum of the 6 dashboard states (280 cells) | PASS |
+| BM-9 composition recorded — 31 states, 356 institutions | PASS |
+| BM-10 PSEO's `us` file (WGU) excluded | PASS |
+| BM-11 IPEDS rule keeps all 54 curated institutions | PASS |
+| BM-12 IPEDS rule drops community colleges and WGU | PASS |
+
+BM-11 and BM-12 are the regression guards that matter: they pin the sector
+rule to the behaviour it was validated on, so a future IPEDS vintage that
+reclassified Utah's dual-mission universities or a Colorado community college
+would fail the audit rather than silently change the baseline.
 
 ## Scope and limitations
 

@@ -18,7 +18,11 @@ usage is one state's raw file (Texas, ~360 MB) rather than all of them.
 """
 
 import argparse
+import io
 import sys
+import urllib.request
+import zipfile
+from pathlib import Path
 
 import pandas as pd
 
@@ -35,8 +39,53 @@ from build_state_data import (
 
 GROUP_KEYS = ["grad_cohort", "industry_cat", "horizon"]
 
+IPEDS_URL = "https://nces.ed.gov/ipeds/datacenter/data/HD{year}.zip"
+IPEDS_CACHE = Path(__file__).parent / ".raw_cache"
 
-def reduce_state(st, min_observed=None):
+
+def public_university_opeids(year=2023):
+    """OPEIDs of public institutions that are primarily baccalaureate-or-above.
+
+    PSEO carries no public/private or two-year/four-year flag, so sector comes
+    from IPEDS, joined on OPEID (PSEO's institution code is the same 8-digit
+    identifier; IPEDS pads it to 10).
+
+    The rule is CONTROL == 1 (public) AND (INSTCAT == 2 OR HLOFFER >= 7):
+
+    - INSTCAT == 2 means "degree-granting, primarily baccalaureate or above".
+      On its own it drops Utah Valley, Weber State, Southern Utah and Utah
+      Tech, which are real universities but carry INSTCAT 3 because Utah's
+      dual-mission system awards many associate degrees.
+    - HLOFFER >= 7 means master's or higher, which recovers those four but
+      loses University of Montana Western, a baccalaureate-only university.
+
+    The union keeps all 54 institutions in the curated state files while
+    dropping every community college that awards a handful of bachelor's
+    degrees (they are INSTCAT 3 with HLOFFER 5) and Western Governors
+    University (CONTROL 2, private).
+
+    Institutions with several IPEDS records under one OPEID qualify if any
+    record does, so branch campuses do not knock out a parent.
+    """
+    IPEDS_CACHE.mkdir(parents=True, exist_ok=True)
+    csv_path = IPEDS_CACHE / f"HD{year}.csv"
+    if not csv_path.exists():
+        url = IPEDS_URL.format(year=year)
+        print(f"  fetching IPEDS {year}: {url}", file=sys.stderr)
+        with urllib.request.urlopen(url) as r:
+            z = zipfile.ZipFile(io.BytesIO(r.read()))
+        name = next(n for n in z.namelist() if n.lower().endswith(".csv"))
+        csv_path.write_bytes(z.read(name))
+
+    h = pd.read_csv(csv_path, dtype=str, encoding="utf-8-sig", engine="python")
+    h.columns = [c.upper() for c in h.columns]
+    h["OPEID"] = h["OPEID"].str.strip()
+    hl = pd.to_numeric(h["HLOFFER"], errors="coerce")
+    ok = (h["CONTROL"] == "1") & ((h["INSTCAT"] == "2") | (hl >= 7))
+    return set(h.loc[ok, "OPEID"].dropna())
+
+
+def reduce_state(st, min_observed=None, sector_ok=None):
     """Return (per-cell sums for st, composition row) or (None, row) on failure."""
     df, names = load_state(st)
     full = analytic_frame(df, st, triennial=False)
@@ -48,6 +97,11 @@ def reduce_state(st, min_observed=None):
         if min_observed is not None
         else cov.index.tolist()
     )
+    dropped_sector = 0
+    if sector_ok is not None:
+        before = len(keep)
+        keep = [i for i in keep if i in sector_ok]
+        dropped_sector = before - len(keep)
     if not keep:
         return None, {"state": st.upper(), "institutions": 0, "cohorts": "", "note": "no institutions survived"}
 
@@ -70,6 +124,7 @@ def reduce_state(st, min_observed=None):
     comp = {
         "state": st.upper(),
         "institutions": len(keep),
+        "dropped_non_university": dropped_sector,
         "cohorts": ",".join(sorted(f.grad_cohort.unique())),
         "grads_y1": int(long.loc[long.horizon == 1, "emp_n_"].sum()),
         "note": "",
@@ -85,16 +140,27 @@ def main():
     p.add_argument("--states", nargs="+", help="limit to these state codes (default: all)")
     p.add_argument("--exclude", nargs="+", default=[],
                    help="state codes to leave out, e.g. --exclude id")
+    p.add_argument("--no-ipeds", action="store_true",
+                   help="skip the IPEDS sector filter and keep every institution "
+                        "surviving the analytic frame (includes community colleges "
+                        "that award a few bachelor's degrees)")
+    p.add_argument("--ipeds-year", type=int, default=2023, help="IPEDS HD vintage")
     a = p.parse_args()
 
     states = [s.lower() for s in (a.states or sorted(FIPS))]
     states = [s for s in states if s not in {e.lower() for e in a.exclude}]
 
+    sector_ok = None
+    if not a.no_ipeds:
+        sector_ok = public_university_opeids(a.ipeds_year)
+        print(f"IPEDS {a.ipeds_year}: {len(sector_ok):,} public bachelor's-or-above "
+              f"institutions\n", file=sys.stderr)
+
     parts, comps = [], []
     for i, st in enumerate(states, 1):
         print(f"[{i}/{len(states)}] {st} …", file=sys.stderr, flush=True)
         try:
-            agg, comp = reduce_state(st, a.min_observed)
+            agg, comp = reduce_state(st, a.min_observed, sector_ok)
         except Exception as e:                                  # noqa: BLE001
             print(f"  skipped {st}: {type(e).__name__}: {e}", file=sys.stderr)
             comps.append({"state": st.upper(), "institutions": 0, "cohorts": "",

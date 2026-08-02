@@ -1,0 +1,281 @@
+institution_cat,industry_cat,grad_cohort,horizon,emp_instate_,emp_n_,SI_by_cohort,state
+Participating-state avg,Admin/Waste,2004,1,37011,51133,.7238183,BENCH
+Participating-state avg,Admin/Waste,2004,5,24132,39032,.61826193,BENCH
+Participating-state avg,Admin/Waste,2004,10,22145,37719,.58710462,BENCH
+Participating-state avg,Admin/Waste,2007,1,36482,49509,.73687613,BENCH
+Participating-state avg,Admin/Waste,2007,5,30369,47562,.63851392,BENCH
+Participating-state avg,Admin/Waste,2007,10,25457,43903,.5798465,BENCH
+Participating-state avg,Admin/Waste,2010,1,51671,69066,.74813944,BENCH
+Participating-state avg,Admin/Waste,2010,5,38727,61861,.62603253,BENCH
+Participating-state avg,Admin/Waste,2010,10,32910,56848,.5789122,BENCH
+Participating-state avg,Admin/Waste,2013,1,59940,81135,.7387687,BENCH
+Participating-state avg,Admin/Waste,2013,5,42315,68487,.61785448,BENCH
+Participating-state avg,Admin/Waste,2016,1,65326,89285,.73165703,BENCH
+Participating-state avg,Admin/Waste,2016,5,49374,81294,.60735112,BENCH
+Participating-state avg,Admin/Waste,2019,1,61177,83585,.73191363,BENCH
+Participating-state avg,Agriculture,2004,1,1622,2098,.77311724,BENCH
+Participating-state avg,Agriculture,2004,5,1484,2068,.71760154,BENCH
+Participating-state avg,Agriculture,2004,10,1505,2149,.70032573,BENCH
+Participating-state avg,Agriculture,2007,1,1776,2377,.74716032,BENCH
+Participating-state avg,Agriculture,2007,5,1845,2540,.72637796,BENCH
+Participating-state avg,Agriculture,2007,10,1923,2661,.72266066,BENCH
+Participating-state avg,Agriculture,2010,1,2047,2896,.706837,BENCH
+Participating-state avg,Agriculture,2010,5,2295,3263,.70334047,BENCH
+Participating-state avg,Agriculture,2010,10,2222,3175,.69984251,BENCH
+Participating-state avg,Agriculture,2013,1,2688,3739,.71890879,BENCH
+Participating-state avg,Agriculture,2013,5,2615,3737,.69975919,BENCH
+Participating-state avg,Agriculture,2016,1,2964,4118,.71976686,BENCH
+Participating-state avg,Agriculture,2016,5,2875,4048,.71022725,BENCH
+Participating-state avg,Agriculture,2019,1,2795,3840,.72786456,BENCH
+Participating-state avg,Arts/Entertainment,2004,1,11133,15117,.73645562,BENCH
+Participating-state avg,Arts/Entertainment,2004,5,7958,12418,.64084393,BENCH
+Participating-state avg,Arts/Entertainment,2004,10,6812,11192,.60864902,BENCH
+Participating-state avg,Arts/Entertainment,2007,1,11619,15510,.74912959,BENCH
+Participating-state avg,Arts/Entertainment,2007,5,9585,14746,.65000677,BENCH
+Participating-state avg,Arts/Entertainment,2007,10,7864,13277,.5923025,BENCH
+Participating-state avg,Arts/Entertainment,2010,1,14348,19515,.73522931,BENCH
+Participating-state avg,Arts/Entertainment,2010,5,12330,19245,.64068592,BENCH
+Participating-state avg,Arts/Entertainment,2010,10,8899,14727,.60426426,BENCH
+Participating-state avg,Arts/Entertainment,2013,1,16812,22958,.73229373,BENCH
+Participating-state avg,Arts/Entertainment,2013,5,13255,21009,.63092005,BENCH
+Participating-state avg,Arts/Entertainment,2016,1,18616,25686,.72475278,BENCH
+Participating-state avg,Arts/Entertainment,2016,5,12993,20446,.63547879,BENCH
+Participating-state avg,Arts/Entertainment,2019,1,15057,20253,.7434454,BENCH
+Participating-state avg,Construction,2004,1,19199,26893,.71390325,BENCH
+Participating-state avg,Construction,2004,5,15798,23716,.66613257,BENCH
+Participating-state avg,Construction,2004,10,16419,24654,.66597712,BENCH
+Participating-state avg,Construction,2007,1,16726,23988,.69726533,BENCH
+Participating-state avg,Construction,2007,5,17033,26026,.65446091,BENCH
+Participating-state avg,Construction,2007,10,19289,29194,.66071796,BENCH
+Participating-state avg,Construction,2010,1,18956,27196,.69701427,BENCH
+Participating-state avg,Construction,2010,5,23479,34771,.6752466,BENCH
+Participating-state avg,Construction,2010,10,25781,38083,.67696875,BENCH
+Participating-state avg,Construction,2013,1,23358,33370,.69997001,BENCH
+Participating-state avg,Construction,2013,5,27691,40445,.68465817,BENCH
+Participating-state avg,Construction,2016,1,27998,39714,.70499068,BENCH
+Participating-state avg,Construction,2016,5,31825,46554,.68361473,BENCH
+Participating-state avg,Construction,2019,1,29365,41029,.71571326,BENCH
+Participating-state avg,Education,2004,1,139686,172013,.81206656,BENCH
+Participating-state avg,Education,2004,5,163495,211597,.77267164,BENCH
+Participating-state avg,Education,2004,10,160024,216000,.74085188,BENCH
+Participating-state avg,Education,2007,1,136831,167497,.81691611,BENCH
+Participating-state avg,Education,2007,5,169356,220249,.76892972,BENCH
+Participating-state avg,Education,2007,10,169391,230107,.73614013,BENCH
+Participating-state avg,Education,2010,1,138614,171812,.80677718,BENCH
+Participating-state avg,Education,2010,5,189363,249309,.75955141,BENCH
+Participating-state avg,Education,2010,10,184732,251317,.73505574,BENCH
+Participating-state avg,Education,2013,1,156386,193033,.81015164,BENCH
+Participating-state avg,Education,2013,5,195807,259593,.75428462,BENCH
+Participating-state avg,Education,2016,1,157291,194531,.8085652,BENCH
+Participating-state avg,Education,2016,5,187166,249136,.75126034,BENCH
+Participating-state avg,Education,2019,1,153883,188764,.81521368,BENCH
+Participating-state avg,Finance,2004,1,61513,80576,.76341593,BENCH
+Participating-state avg,Finance,2004,5,56181,79333,.70816684,BENCH
+Participating-state avg,Finance,2004,10,53837,79555,.67672682,BENCH
+Participating-state avg,Finance,2007,1,55854,72938,.76577365,BENCH
+Participating-state avg,Finance,2007,5,59985,84559,.70938635,BENCH
+Participating-state avg,Finance,2007,10,58993,87085,.67741859,BENCH
+Participating-state avg,Finance,2010,1,63809,84302,.75690967,BENCH
+Participating-state avg,Finance,2010,5,72340,103276,.70045316,BENCH
+Participating-state avg,Finance,2010,10,71672,105096,.68196696,BENCH
+Participating-state avg,Finance,2013,1,65802,89118,.73836935,BENCH
+Participating-state avg,Finance,2013,5,74645,108930,.6852566,BENCH
+Participating-state avg,Finance,2016,1,68526,95809,.71523553,BENCH
+Participating-state avg,Finance,2016,5,78663,115943,.67846268,BENCH
+Participating-state avg,Finance,2019,1,67122,92946,.72216123,BENCH
+Participating-state avg,Food/Hospitality,2004,1,38592,52960,.72870094,BENCH
+Participating-state avg,Food/Hospitality,2004,5,17692,32583,.54298252,BENCH
+Participating-state avg,Food/Hospitality,2004,10,12682,26268,.48279276,BENCH
+Participating-state avg,Food/Hospitality,2007,1,44227,58531,.75561666,BENCH
+Participating-state avg,Food/Hospitality,2007,5,23986,41175,.58253795,BENCH
+Participating-state avg,Food/Hospitality,2007,10,15594,32274,.48317531,BENCH
+Participating-state avg,Food/Hospitality,2010,1,55279,73181,.75537366,BENCH
+Participating-state avg,Food/Hospitality,2010,5,28192,49376,.57096565,BENCH
+Participating-state avg,Food/Hospitality,2010,10,16405,33633,.48776498,BENCH
+Participating-state avg,Food/Hospitality,2013,1,58550,77978,.75085282,BENCH
+Participating-state avg,Food/Hospitality,2013,5,28117,48758,.57666433,BENCH
+Participating-state avg,Food/Hospitality,2016,1,63540,84153,.75505328,BENCH
+Participating-state avg,Food/Hospitality,2016,5,27176,47070,.57735288,BENCH
+Participating-state avg,Food/Hospitality,2019,1,53410,71199,.75015098,BENCH
+Participating-state avg,Health Care,2004,1,106562,134928,.78976935,BENCH
+Participating-state avg,Health Care,2004,5,112394,156220,.71945971,BENCH
+Participating-state avg,Health Care,2004,10,112099,165910,.6756615,BENCH
+Participating-state avg,Health Care,2007,1,131030,163132,.80321455,BENCH
+Participating-state avg,Health Care,2007,5,146127,201811,.72407848,BENCH
+Participating-state avg,Health Care,2007,10,141995,209981,.67622787,BENCH
+Participating-state avg,Health Care,2010,1,167036,206078,.81054747,BENCH
+Participating-state avg,Health Care,2010,5,185946,256444,.72509396,BENCH
+Participating-state avg,Health Care,2010,10,173647,256033,.67822117,BENCH
+Participating-state avg,Health Care,2013,1,207635,257400,.8066628,BENCH
+Participating-state avg,Health Care,2013,5,220571,305621,.72171414,BENCH
+Participating-state avg,Health Care,2016,1,234347,291991,.80258298,BENCH
+Participating-state avg,Health Care,2016,5,230909,321552,.71810782,BENCH
+Participating-state avg,Health Care,2019,1,227918,284249,.80182517,BENCH
+Participating-state avg,Information,2004,1,24381,33621,.72517174,BENCH
+Participating-state avg,Information,2004,5,20584,32385,.63560289,BENCH
+Participating-state avg,Information,2004,10,18230,31824,.57283813,BENCH
+Participating-state avg,Information,2007,1,21009,29402,.71454322,BENCH
+Participating-state avg,Information,2007,5,21818,35348,.61723435,BENCH
+Participating-state avg,Information,2007,10,20441,37013,.55226541,BENCH
+Participating-state avg,Information,2010,1,25147,36045,.69765574,BENCH
+Participating-state avg,Information,2010,5,28285,47658,.59349954,BENCH
+Participating-state avg,Information,2010,10,27708,49862,.55569369,BENCH
+Participating-state avg,Information,2013,1,28260,42492,.66506636,BENCH
+Participating-state avg,Information,2013,5,30773,54232,.56743252,BENCH
+Participating-state avg,Information,2016,1,29113,45995,.63296008,BENCH
+Participating-state avg,Information,2016,5,34222,59211,.57796693,BENCH
+Participating-state avg,Information,2019,1,26278,41372,.6351639,BENCH
+Participating-state avg,Management,2004,1,12233,16680,.73339331,BENCH
+Participating-state avg,Management,2004,5,14864,20796,.71475285,BENCH
+Participating-state avg,Management,2004,10,17505,25066,.69835633,BENCH
+Participating-state avg,Management,2007,1,14002,18397,.76110238,BENCH
+Participating-state avg,Management,2007,5,20217,27322,.73995316,BENCH
+Participating-state avg,Management,2007,10,21878,30459,.71827704,BENCH
+Participating-state avg,Management,2010,1,18637,24268,.76796603,BENCH
+Participating-state avg,Management,2010,5,25339,34175,.7414484,BENCH
+Participating-state avg,Management,2010,10,26547,36845,.72050482,BENCH
+Participating-state avg,Management,2013,1,22061,29112,.75779748,BENCH
+Participating-state avg,Management,2013,5,28433,38873,.73143315,BENCH
+Participating-state avg,Management,2016,1,24235,32250,.75147289,BENCH
+Participating-state avg,Management,2016,5,29282,40441,.72406715,BENCH
+Participating-state avg,Management,2019,1,21779,28597,.76158339,BENCH
+Participating-state avg,Manufacturing,2004,1,40271,62124,.6482358,BENCH
+Participating-state avg,Manufacturing,2004,5,40390,65829,.61355937,BENCH
+Participating-state avg,Manufacturing,2004,10,41505,68832,.60298991,BENCH
+Participating-state avg,Manufacturing,2007,1,38151,59753,.6384784,BENCH
+Participating-state avg,Manufacturing,2007,5,46631,74968,.62201208,BENCH
+Participating-state avg,Manufacturing,2007,10,47535,78575,.60496342,BENCH
+Participating-state avg,Manufacturing,2010,1,51184,78475,.65223318,BENCH
+Participating-state avg,Manufacturing,2010,5,61803,97822,.6317904,BENCH
+Participating-state avg,Manufacturing,2010,10,58994,96142,.61361319,BENCH
+Participating-state avg,Manufacturing,2013,1,59331,91616,.64760524,BENCH
+Participating-state avg,Manufacturing,2013,5,68074,108948,.62483019,BENCH
+Participating-state avg,Manufacturing,2016,1,67084,104541,.64170039,BENCH
+Participating-state avg,Manufacturing,2016,5,72117,115839,.62256235,BENCH
+Participating-state avg,Manufacturing,2019,1,62089,95237,.65194201,BENCH
+Participating-state avg,Mining,2004,1,2913,3984,.73117471,BENCH
+Participating-state avg,Mining,2004,5,4184,5411,.77323967,BENCH
+Participating-state avg,Mining,2004,10,5020,6312,.7953105,BENCH
+Participating-state avg,Mining,2007,1,3632,5010,.72495008,BENCH
+Participating-state avg,Mining,2007,5,5680,7396,.76798272,BENCH
+Participating-state avg,Mining,2007,10,4595,5979,.76852316,BENCH
+Participating-state avg,Mining,2010,1,5639,7864,.7170651,BENCH
+Participating-state avg,Mining,2010,5,6256,8277,.75582939,BENCH
+Participating-state avg,Mining,2010,10,4580,6034,.75903213,BENCH
+Participating-state avg,Mining,2013,1,5301,7516,.70529538,BENCH
+Participating-state avg,Mining,2013,5,4898,6724,.72843546,BENCH
+Participating-state avg,Mining,2016,1,4143,6106,.67851293,BENCH
+Participating-state avg,Mining,2016,5,3572,5022,.71127039,BENCH
+Participating-state avg,Mining,2019,1,2175,2970,.73232323,BENCH
+Participating-state avg,Other Services,2004,1,13397,18412,.72762328,BENCH
+Participating-state avg,Other Services,2004,5,11916,18398,.64767909,BENCH
+Participating-state avg,Other Services,2004,10,10995,18190,.60445297,BENCH
+Participating-state avg,Other Services,2007,1,14387,19471,.73889375,BENCH
+Participating-state avg,Other Services,2007,5,14331,22125,.6477288,BENCH
+Participating-state avg,Other Services,2007,10,13274,21772,.60968214,BENCH
+Participating-state avg,Other Services,2010,1,17331,23444,.73925096,BENCH
+Participating-state avg,Other Services,2010,5,17397,26950,.64552873,BENCH
+Participating-state avg,Other Services,2010,10,15684,25224,.6217888,BENCH
+Participating-state avg,Other Services,2013,1,18956,25794,.73489958,BENCH
+Participating-state avg,Other Services,2013,5,18664,28796,.64814556,BENCH
+Participating-state avg,Other Services,2016,1,20981,28048,.74803907,BENCH
+Participating-state avg,Other Services,2016,5,19995,29987,.66678894,BENCH
+Participating-state avg,Other Services,2019,1,19404,25626,.7571997,BENCH
+Participating-state avg,Professional Services,2004,1,83775,121990,.68673664,BENCH
+Participating-state avg,Professional Services,2004,5,80556,130956,.61513793,BENCH
+Participating-state avg,Professional Services,2004,10,75840,132066,.57425833,BENCH
+Participating-state avg,Professional Services,2007,1,84390,121219,.69617802,BENCH
+Participating-state avg,Professional Services,2007,5,92965,150462,.61786366,BENCH
+Participating-state avg,Professional Services,2007,10,87982,152683,.57623965,BENCH
+Participating-state avg,Professional Services,2010,1,100027,145108,.68932796,BENCH
+Participating-state avg,Professional Services,2010,5,118388,193874,.61064404,BENCH
+Participating-state avg,Professional Services,2010,10,113536,194680,.58319294,BENCH
+Participating-state avg,Professional Services,2013,1,125253,182424,.68660372,BENCH
+Participating-state avg,Professional Services,2013,5,136479,222769,.61264807,BENCH
+Participating-state avg,Professional Services,2016,1,145926,214310,.68091083,BENCH
+Participating-state avg,Professional Services,2016,5,159081,258086,.61638755,BENCH
+Participating-state avg,Professional Services,2019,1,151470,216249,.70044255,BENCH
+Participating-state avg,Public Admin,2004,1,33125,43369,.76379442,BENCH
+Participating-state avg,Public Admin,2004,5,44560,60719,.73387241,BENCH
+Participating-state avg,Public Admin,2004,10,46227,65293,.70799321,BENCH
+Participating-state avg,Public Admin,2007,1,33941,44759,.75830561,BENCH
+Participating-state avg,Public Admin,2007,5,48135,65807,.73145711,BENCH
+Participating-state avg,Public Admin,2007,10,54042,76381,.70753199,BENCH
+Participating-state avg,Public Admin,2010,1,35993,47648,.75539374,BENCH
+Participating-state avg,Public Admin,2010,5,58120,78561,.73980731,BENCH
+Participating-state avg,Public Admin,2010,10,62805,87985,.71381485,BENCH
+Participating-state avg,Public Admin,2013,1,44469,57984,.76691848,BENCH
+Participating-state avg,Public Admin,2013,5,66561,89343,.74500519,BENCH
+Participating-state avg,Public Admin,2016,1,48358,62585,.77267718,BENCH
+Participating-state avg,Public Admin,2016,5,66046,89854,.73503685,BENCH
+Participating-state avg,Public Admin,2019,1,44162,57797,.76408809,BENCH
+Participating-state avg,Real Estate,2004,1,13190,16319,.80826032,BENCH
+Participating-state avg,Real Estate,2004,5,9564,13020,.73456222,BENCH
+Participating-state avg,Real Estate,2004,10,8620,12446,.69259202,BENCH
+Participating-state avg,Real Estate,2007,1,11549,14186,.81411248,BENCH
+Participating-state avg,Real Estate,2007,5,10894,14646,.74382085,BENCH
+Participating-state avg,Real Estate,2007,10,10378,14751,.70354551,BENCH
+Participating-state avg,Real Estate,2010,1,13384,16706,.80114931,BENCH
+Participating-state avg,Real Estate,2010,5,13462,18536,.72626239,BENCH
+Participating-state avg,Real Estate,2010,10,12601,18013,.69955033,BENCH
+Participating-state avg,Real Estate,2013,1,15309,19252,.7951901,BENCH
+Participating-state avg,Real Estate,2013,5,15874,21920,.72417885,BENCH
+Participating-state avg,Real Estate,2016,1,16950,21508,.78807884,BENCH
+Participating-state avg,Real Estate,2016,5,16356,22614,.72326875,BENCH
+Participating-state avg,Real Estate,2019,1,15573,19672,.79163277,BENCH
+Participating-state avg,Retail,2004,1,62175,82013,.75811154,BENCH
+Participating-state avg,Retail,2004,5,34302,55554,.61745328,BENCH
+Participating-state avg,Retail,2004,10,27142,48786,.55634815,BENCH
+Participating-state avg,Retail,2007,1,65849,85883,.76672918,BENCH
+Participating-state avg,Retail,2007,5,43710,68886,.63452661,BENCH
+Participating-state avg,Retail,2007,10,31835,56090,.56756997,BENCH
+Participating-state avg,Retail,2010,1,80804,105292,.76742774,BENCH
+Participating-state avg,Retail,2010,5,50920,81806,.62244821,BENCH
+Participating-state avg,Retail,2010,10,36663,64873,.56515038,BENCH
+Participating-state avg,Retail,2013,1,82045,108457,.75647491,BENCH
+Participating-state avg,Retail,2013,5,49602,80801,.61387855,BENCH
+Participating-state avg,Retail,2016,1,80574,106979,.75317585,BENCH
+Participating-state avg,Retail,2016,5,49089,78822,.62278301,BENCH
+Participating-state avg,Retail,2019,1,79611,103554,.76878732,BENCH
+Participating-state avg,Transportation,2004,1,11761,16206,.72571886,BENCH
+Participating-state avg,Transportation,2004,5,10761,16353,.6580444,BENCH
+Participating-state avg,Transportation,2004,10,10783,16932,.63684148,BENCH
+Participating-state avg,Transportation,2007,1,11083,15416,.7189284,BENCH
+Participating-state avg,Transportation,2007,5,12224,18404,.66420341,BENCH
+Participating-state avg,Transportation,2007,10,12853,20302,.63309032,BENCH
+Participating-state avg,Transportation,2010,1,14480,20727,.69860566,BENCH
+Participating-state avg,Transportation,2010,5,16721,25607,.65298551,BENCH
+Participating-state avg,Transportation,2010,10,17626,27797,.63409722,BENCH
+Participating-state avg,Transportation,2013,1,17678,25181,.70203727,BENCH
+Participating-state avg,Transportation,2013,5,19894,30674,.64856231,BENCH
+Participating-state avg,Transportation,2016,1,20692,29673,.69733429,BENCH
+Participating-state avg,Transportation,2016,5,23428,35926,.65211827,BENCH
+Participating-state avg,Transportation,2019,1,25157,34254,.73442519,BENCH
+Participating-state avg,Utilities,2004,1,2387,2883,.82795697,BENCH
+Participating-state avg,Utilities,2004,5,3743,4380,.85456622,BENCH
+Participating-state avg,Utilities,2004,10,4386,5254,.83479255,BENCH
+Participating-state avg,Utilities,2007,1,2967,3560,.83342695,BENCH
+Participating-state avg,Utilities,2007,5,4404,5283,.83361727,BENCH
+Participating-state avg,Utilities,2007,10,5173,6160,.8397727,BENCH
+Participating-state avg,Utilities,2010,1,3140,3869,.81157923,BENCH
+Participating-state avg,Utilities,2010,5,5389,6406,.84124261,BENCH
+Participating-state avg,Utilities,2010,10,6075,7121,.85311049,BENCH
+Participating-state avg,Utilities,2013,1,3905,4681,.83422345,BENCH
+Participating-state avg,Utilities,2013,5,5904,6941,.85059792,BENCH
+Participating-state avg,Utilities,2016,1,4057,4918,.82492882,BENCH
+Participating-state avg,Utilities,2016,5,6053,7211,.83941203,BENCH
+Participating-state avg,Utilities,2019,1,3633,4323,.8403886,BENCH
+Participating-state avg,Wholesale,2004,1,25418,36280,.70060641,BENCH
+Participating-state avg,Wholesale,2004,5,27229,41042,.66344231,BENCH
+Participating-state avg,Wholesale,2004,10,28551,44674,.63909656,BENCH
+Participating-state avg,Wholesale,2007,1,24493,34719,.70546389,BENCH
+Participating-state avg,Wholesale,2007,5,30649,46604,.65764743,BENCH
+Participating-state avg,Wholesale,2007,10,31560,49090,.64290076,BENCH
+Participating-state avg,Wholesale,2010,1,31425,44744,.7023288,BENCH
+Participating-state avg,Wholesale,2010,5,39076,58937,.66301304,BENCH
+Participating-state avg,Wholesale,2010,10,38637,59582,.64846766,BENCH
+Participating-state avg,Wholesale,2013,1,35731,51762,.69029403,BENCH
+Participating-state avg,Wholesale,2013,5,39822,61257,.6500808,BENCH
+Participating-state avg,Wholesale,2016,1,36101,53508,.67468417,BENCH
+Participating-state avg,Wholesale,2016,5,42247,65315,.64681923,BENCH
+Participating-state avg,Wholesale,2019,1,33855,48771,.69416249,BENCH
