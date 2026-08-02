@@ -3,15 +3,24 @@ Standard audit for PSEO Talent Stickiness Dashboard.
 Compares bundled CSVs against raw LEHD PSEO files for 10 spot-check cells.
 """
 
+import os
 import pandas as pd
 import sys
 from pathlib import Path
 
 # ============================================================
-# Configuration — adjust paths if your files are elsewhere
+# Configuration — override with environment variables if your
+# raw PSEO files live somewhere other than the default.
+#
+#   PSEO_RAW_BASE   directory holding the raw pseof_*.csv files
+#   PSEO_DATA_DIR   directory holding the bundled dashboard CSVs
 # ============================================================
-DROPBOX_BASE = Path("/Users/johnfredericks/ASU Dropbox/John Fredericks/PSEO Explorer")
-DASHBOARD_DATA = Path.home() / "Code" / "PSEO_Dashboard" / "data"
+DROPBOX_BASE = Path(
+    os.environ.get("PSEO_RAW_BASE", Path.home() / "Dropbox" / "PSEO Explorer")
+)
+DASHBOARD_DATA = Path(
+    os.environ.get("PSEO_DATA_DIR", Path(__file__).parent / "data")
+)
 
 RAW_AZ = DROPBOX_BASE / "pseof_az.csv"
 RAW_TX = DROPBOX_BASE / "OR, UT, CO, TX" / "pseof_tx.csv"

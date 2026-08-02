@@ -1,0 +1,2521 @@
+institution_cat,industry_cat,grad_cohort,horizon,emp_instate_,emp_n_,SI_by_cohort,state
+Eastern Oregon,Admin/Waste,2004,1,31,53,.58490568,OR
+Eastern Oregon,Admin/Waste,2004,5,16,48,.33333334,OR
+Eastern Oregon,Admin/Waste,2004,10,11,24,.45833334,OR
+Eastern Oregon,Admin/Waste,2007,1,18,38,.47368422,OR
+Eastern Oregon,Admin/Waste,2007,5,13,32,.40625,OR
+Eastern Oregon,Admin/Waste,2007,10,16,28,.5714286,OR
+Eastern Oregon,Admin/Waste,2010,1,33,57,.57894737,OR
+Eastern Oregon,Admin/Waste,2010,5,19,39,.48717949,OR
+Eastern Oregon,Admin/Waste,2010,10,18,50,.36000001,OR
+Eastern Oregon,Admin/Waste,2013,1,28,54,.51851851,OR
+Eastern Oregon,Admin/Waste,2013,5,30,63,.47619048,OR
+Eastern Oregon,Admin/Waste,2013,10,,,,OR
+Eastern Oregon,Admin/Waste,2016,1,27,46,.5869565,OR
+Eastern Oregon,Admin/Waste,2016,5,28,52,.53846157,OR
+Eastern Oregon,Admin/Waste,2016,10,,,,OR
+Eastern Oregon,Admin/Waste,2019,1,22,51,.43137255,OR
+Eastern Oregon,Admin/Waste,2019,5,,,,OR
+Eastern Oregon,Admin/Waste,2019,10,,,,OR
+Eastern Oregon,Agriculture,2004,1,9,12,.75,OR
+Eastern Oregon,Agriculture,2004,5,10,18,.55555558,OR
+Eastern Oregon,Agriculture,2004,10,13,15,.86666667,OR
+Eastern Oregon,Agriculture,2007,1,14,19,.7368421,OR
+Eastern Oregon,Agriculture,2007,5,16,24,.66666669,OR
+Eastern Oregon,Agriculture,2007,10,11,23,.47826087,OR
+Eastern Oregon,Agriculture,2010,1,19,32,.59375,OR
+Eastern Oregon,Agriculture,2010,5,12,16,.75,OR
+Eastern Oregon,Agriculture,2010,10,15,17,.88235295,OR
+Eastern Oregon,Agriculture,2013,1,17,24,.70833331,OR
+Eastern Oregon,Agriculture,2013,5,12,17,.70588237,OR
+Eastern Oregon,Agriculture,2013,10,,,,OR
+Eastern Oregon,Agriculture,2016,1,7,11,.63636363,OR
+Eastern Oregon,Agriculture,2016,5,16,23,.69565219,OR
+Eastern Oregon,Agriculture,2016,10,,,,OR
+Eastern Oregon,Agriculture,2019,1,10,17,.58823532,OR
+Eastern Oregon,Agriculture,2019,5,,,,OR
+Eastern Oregon,Agriculture,2019,10,,,,OR
+Eastern Oregon,Arts/Entertainment,2004,1,9,13,.69230771,OR
+Eastern Oregon,Arts/Entertainment,2004,5,5,9,.55555558,OR
+Eastern Oregon,Arts/Entertainment,2004,10,6,11,.54545456,OR
+Eastern Oregon,Arts/Entertainment,2007,1,4,13,.30769232,OR
+Eastern Oregon,Arts/Entertainment,2007,5,6,14,.42857143,OR
+Eastern Oregon,Arts/Entertainment,2007,10,2,14,.14285715,OR
+Eastern Oregon,Arts/Entertainment,2010,1,9,17,.52941179,OR
+Eastern Oregon,Arts/Entertainment,2010,5,6,24,.25,OR
+Eastern Oregon,Arts/Entertainment,2010,10,7,16,.4375,OR
+Eastern Oregon,Arts/Entertainment,2013,1,14,24,.58333331,OR
+Eastern Oregon,Arts/Entertainment,2013,5,5,9,.55555558,OR
+Eastern Oregon,Arts/Entertainment,2013,10,,,,OR
+Eastern Oregon,Arts/Entertainment,2016,1,7,9,.77777779,OR
+Eastern Oregon,Arts/Entertainment,2016,5,7,16,.4375,OR
+Eastern Oregon,Arts/Entertainment,2016,10,,,,OR
+Eastern Oregon,Arts/Entertainment,2019,1,6,19,.31578946,OR
+Eastern Oregon,Arts/Entertainment,2019,5,,,,OR
+Eastern Oregon,Arts/Entertainment,2019,10,,,,OR
+Eastern Oregon,Construction,2004,1,18,30,.60000002,OR
+Eastern Oregon,Construction,2004,5,21,44,.47727272,OR
+Eastern Oregon,Construction,2004,10,19,27,.7037037,OR
+Eastern Oregon,Construction,2007,1,30,38,.78947371,OR
+Eastern Oregon,Construction,2007,5,21,35,.60000002,OR
+Eastern Oregon,Construction,2007,10,34,55,.61818182,OR
+Eastern Oregon,Construction,2010,1,29,47,.61702126,OR
+Eastern Oregon,Construction,2010,5,26,50,.51999998,OR
+Eastern Oregon,Construction,2010,10,34,55,.61818182,OR
+Eastern Oregon,Construction,2013,1,36,57,.63157892,OR
+Eastern Oregon,Construction,2013,5,28,55,.5090909,OR
+Eastern Oregon,Construction,2013,10,,,,OR
+Eastern Oregon,Construction,2016,1,39,46,.84782606,OR
+Eastern Oregon,Construction,2016,5,26,44,.59090906,OR
+Eastern Oregon,Construction,2016,10,,,,OR
+Eastern Oregon,Construction,2019,1,19,50,.38,OR
+Eastern Oregon,Construction,2019,5,,,,OR
+Eastern Oregon,Construction,2019,10,,,,OR
+Eastern Oregon,Education,2004,1,218,329,.66261399,OR
+Eastern Oregon,Education,2004,5,243,378,.64285713,OR
+Eastern Oregon,Education,2004,10,236,354,.66666669,OR
+Eastern Oregon,Education,2007,1,169,261,.64750957,OR
+Eastern Oregon,Education,2007,5,225,348,.64655173,OR
+Eastern Oregon,Education,2007,10,233,360,.64722222,OR
+Eastern Oregon,Education,2010,1,216,319,.67711598,OR
+Eastern Oregon,Education,2010,5,260,394,.65989846,OR
+Eastern Oregon,Education,2010,10,265,391,.67774934,OR
+Eastern Oregon,Education,2013,1,195,284,.6866197,OR
+Eastern Oregon,Education,2013,5,248,292,.84931505,OR
+Eastern Oregon,Education,2013,10,,,,OR
+Eastern Oregon,Education,2016,1,197,284,.69366199,OR
+Eastern Oregon,Education,2016,5,181,295,.61355931,OR
+Eastern Oregon,Education,2016,10,,,,OR
+Eastern Oregon,Education,2019,1,219,301,.72757477,OR
+Eastern Oregon,Education,2019,5,,,,OR
+Eastern Oregon,Education,2019,10,,,,OR
+Eastern Oregon,Finance,2004,1,35,58,.60344827,OR
+Eastern Oregon,Finance,2004,5,30,49,.6122449,OR
+Eastern Oregon,Finance,2004,10,25,46,.54347825,OR
+Eastern Oregon,Finance,2007,1,51,71,.71830988,OR
+Eastern Oregon,Finance,2007,5,39,78,.5,OR
+Eastern Oregon,Finance,2007,10,27,52,.51923078,OR
+Eastern Oregon,Finance,2010,1,49,78,.62820512,OR
+Eastern Oregon,Finance,2010,5,55,100,.55000001,OR
+Eastern Oregon,Finance,2010,10,38,65,.58461541,OR
+Eastern Oregon,Finance,2013,1,42,67,.62686568,OR
+Eastern Oregon,Finance,2013,5,33,61,.54098362,OR
+Eastern Oregon,Finance,2013,10,,,,OR
+Eastern Oregon,Finance,2016,1,48,54,.8888889,OR
+Eastern Oregon,Finance,2016,5,39,55,.70909089,OR
+Eastern Oregon,Finance,2016,10,,,,OR
+Eastern Oregon,Finance,2019,1,24,49,.48979592,OR
+Eastern Oregon,Finance,2019,5,,,,OR
+Eastern Oregon,Finance,2019,10,,,,OR
+Eastern Oregon,Food/Hospitality,2004,1,14,18,.77777779,OR
+Eastern Oregon,Food/Hospitality,2004,5,8,17,.47058824,OR
+Eastern Oregon,Food/Hospitality,2004,10,7,11,.63636363,OR
+Eastern Oregon,Food/Hospitality,2007,1,33,43,.76744187,OR
+Eastern Oregon,Food/Hospitality,2007,5,9,25,.36000001,OR
+Eastern Oregon,Food/Hospitality,2007,10,8,27,.2962963,OR
+Eastern Oregon,Food/Hospitality,2010,1,33,50,.66000003,OR
+Eastern Oregon,Food/Hospitality,2010,5,16,39,.41025642,OR
+Eastern Oregon,Food/Hospitality,2010,10,10,27,.37037036,OR
+Eastern Oregon,Food/Hospitality,2013,1,35,60,.58333331,OR
+Eastern Oregon,Food/Hospitality,2013,5,23,30,.76666665,OR
+Eastern Oregon,Food/Hospitality,2013,10,,,,OR
+Eastern Oregon,Food/Hospitality,2016,1,35,43,.81395346,OR
+Eastern Oregon,Food/Hospitality,2016,5,18,34,.52941179,OR
+Eastern Oregon,Food/Hospitality,2016,10,,,,OR
+Eastern Oregon,Food/Hospitality,2019,1,31,48,.64583331,OR
+Eastern Oregon,Food/Hospitality,2019,5,,,,OR
+Eastern Oregon,Food/Hospitality,2019,10,,,,OR
+Eastern Oregon,Health Care,2004,1,73,111,.65765768,OR
+Eastern Oregon,Health Care,2004,5,89,165,.53939396,OR
+Eastern Oregon,Health Care,2004,10,87,148,.58783782,OR
+Eastern Oregon,Health Care,2007,1,98,176,.55681819,OR
+Eastern Oregon,Health Care,2007,5,128,200,.63999999,OR
+Eastern Oregon,Health Care,2007,10,113,194,.58247423,OR
+Eastern Oregon,Health Care,2010,1,110,193,.5699482,OR
+Eastern Oregon,Health Care,2010,5,126,208,.60576922,OR
+Eastern Oregon,Health Care,2010,10,130,196,.66326529,OR
+Eastern Oregon,Health Care,2013,1,185,292,.63356167,OR
+Eastern Oregon,Health Care,2013,5,145,228,.63596493,OR
+Eastern Oregon,Health Care,2013,10,,,,OR
+Eastern Oregon,Health Care,2016,1,141,197,.71573603,OR
+Eastern Oregon,Health Care,2016,5,156,234,.66666669,OR
+Eastern Oregon,Health Care,2016,10,,,,OR
+Eastern Oregon,Health Care,2019,1,159,258,.61627907,OR
+Eastern Oregon,Health Care,2019,5,,,,OR
+Eastern Oregon,Health Care,2019,10,,,,OR
+Eastern Oregon,Information,2004,1,11,20,.55000001,OR
+Eastern Oregon,Information,2004,5,13,18,.72222221,OR
+Eastern Oregon,Information,2004,10,13,20,.64999998,OR
+Eastern Oregon,Information,2007,1,9,16,.5625,OR
+Eastern Oregon,Information,2007,5,9,14,.64285713,OR
+Eastern Oregon,Information,2007,10,12,27,.44444445,OR
+Eastern Oregon,Information,2010,1,23,37,.62162161,OR
+Eastern Oregon,Information,2010,5,15,44,.34090909,OR
+Eastern Oregon,Information,2010,10,16,23,.69565219,OR
+Eastern Oregon,Information,2013,1,15,22,.68181819,OR
+Eastern Oregon,Information,2013,5,17,20,.85000002,OR
+Eastern Oregon,Information,2013,10,,,,OR
+Eastern Oregon,Information,2016,1,12,14,.85714287,OR
+Eastern Oregon,Information,2016,5,9,20,.44999999,OR
+Eastern Oregon,Information,2016,10,,,,OR
+Eastern Oregon,Information,2019,1,10,19,.52631581,OR
+Eastern Oregon,Information,2019,5,,,,OR
+Eastern Oregon,Information,2019,10,,,,OR
+Eastern Oregon,Management,2004,1,17,21,.80952382,OR
+Eastern Oregon,Management,2004,5,14,15,.93333334,OR
+Eastern Oregon,Management,2004,10,20,23,.86956519,OR
+Eastern Oregon,Management,2007,1,18,28,.64285713,OR
+Eastern Oregon,Management,2007,5,23,37,.62162161,OR
+Eastern Oregon,Management,2007,10,20,37,.54054052,OR
+Eastern Oregon,Management,2010,1,24,33,.72727275,OR
+Eastern Oregon,Management,2010,5,29,39,.74358976,OR
+Eastern Oregon,Management,2010,10,17,25,.68000001,OR
+Eastern Oregon,Management,2013,1,27,44,.61363637,OR
+Eastern Oregon,Management,2013,5,19,23,.82608694,OR
+Eastern Oregon,Management,2013,10,,,,OR
+Eastern Oregon,Management,2016,1,11,18,.6111111,OR
+Eastern Oregon,Management,2016,5,17,25,.68000001,OR
+Eastern Oregon,Management,2016,10,,,,OR
+Eastern Oregon,Management,2019,1,20,32,.625,OR
+Eastern Oregon,Management,2019,5,,,,OR
+Eastern Oregon,Management,2019,10,,,,OR
+Eastern Oregon,Manufacturing,2004,1,40,55,.72727275,OR
+Eastern Oregon,Manufacturing,2004,5,23,52,.44230768,OR
+Eastern Oregon,Manufacturing,2004,10,28,54,.51851851,OR
+Eastern Oregon,Manufacturing,2007,1,38,56,.6785714,OR
+Eastern Oregon,Manufacturing,2007,5,42,70,.60000002,OR
+Eastern Oregon,Manufacturing,2007,10,37,60,.61666667,OR
+Eastern Oregon,Manufacturing,2010,1,42,79,.5316456,OR
+Eastern Oregon,Manufacturing,2010,5,51,85,.60000002,OR
+Eastern Oregon,Manufacturing,2010,10,38,75,.50666666,OR
+Eastern Oregon,Manufacturing,2013,1,66,92,.71739131,OR
+Eastern Oregon,Manufacturing,2013,5,54,91,.59340662,OR
+Eastern Oregon,Manufacturing,2013,10,,,,OR
+Eastern Oregon,Manufacturing,2016,1,39,59,.66101694,OR
+Eastern Oregon,Manufacturing,2016,5,27,69,.39130434,OR
+Eastern Oregon,Manufacturing,2016,10,,,,OR
+Eastern Oregon,Manufacturing,2019,1,29,52,.55769229,OR
+Eastern Oregon,Manufacturing,2019,5,,,,OR
+Eastern Oregon,Manufacturing,2019,10,,,,OR
+Eastern Oregon,Mining,2004,1,0,0,,OR
+Eastern Oregon,Mining,2004,5,2,5,.40000001,OR
+Eastern Oregon,Mining,2004,10,1,1,1,OR
+Eastern Oregon,Mining,2007,1,0,0,,OR
+Eastern Oregon,Mining,2007,5,0,0,,OR
+Eastern Oregon,Mining,2007,10,1,4,.25,OR
+Eastern Oregon,Mining,2010,1,0,2,0,OR
+Eastern Oregon,Mining,2010,5,1,4,.25,OR
+Eastern Oregon,Mining,2010,10,0,0,,OR
+Eastern Oregon,Mining,2013,1,1,1,1,OR
+Eastern Oregon,Mining,2013,5,0,0,,OR
+Eastern Oregon,Mining,2013,10,,,,OR
+Eastern Oregon,Mining,2016,1,0,0,,OR
+Eastern Oregon,Mining,2016,5,0,0,,OR
+Eastern Oregon,Mining,2016,10,,,,OR
+Eastern Oregon,Mining,2019,1,0,0,,OR
+Eastern Oregon,Mining,2019,5,,,,OR
+Eastern Oregon,Mining,2019,10,,,,OR
+Eastern Oregon,Other Services,2004,1,16,26,.61538464,OR
+Eastern Oregon,Other Services,2004,5,10,18,.55555558,OR
+Eastern Oregon,Other Services,2004,10,9,19,.47368422,OR
+Eastern Oregon,Other Services,2007,1,13,19,.68421054,OR
+Eastern Oregon,Other Services,2007,5,11,21,.52380955,OR
+Eastern Oregon,Other Services,2007,10,16,28,.5714286,OR
+Eastern Oregon,Other Services,2010,1,21,29,.7241379,OR
+Eastern Oregon,Other Services,2010,5,17,32,.53125,OR
+Eastern Oregon,Other Services,2010,10,14,26,.53846157,OR
+Eastern Oregon,Other Services,2013,1,18,25,.72000003,OR
+Eastern Oregon,Other Services,2013,5,16,25,.63999999,OR
+Eastern Oregon,Other Services,2013,10,,,,OR
+Eastern Oregon,Other Services,2016,1,13,17,.7647059,OR
+Eastern Oregon,Other Services,2016,5,13,19,.68421054,OR
+Eastern Oregon,Other Services,2016,10,,,,OR
+Eastern Oregon,Other Services,2019,1,12,25,.47999999,OR
+Eastern Oregon,Other Services,2019,5,,,,OR
+Eastern Oregon,Other Services,2019,10,,,,OR
+Eastern Oregon,Professional Services,2004,1,28,50,.56,OR
+Eastern Oregon,Professional Services,2004,5,35,59,.59322035,OR
+Eastern Oregon,Professional Services,2004,10,37,58,.63793105,OR
+Eastern Oregon,Professional Services,2007,1,34,62,.54838711,OR
+Eastern Oregon,Professional Services,2007,5,31,60,.51666665,OR
+Eastern Oregon,Professional Services,2007,10,34,66,.5151515,OR
+Eastern Oregon,Professional Services,2010,1,34,73,.46575344,OR
+Eastern Oregon,Professional Services,2010,5,28,70,.40000001,OR
+Eastern Oregon,Professional Services,2010,10,33,70,.47142857,OR
+Eastern Oregon,Professional Services,2013,1,57,93,.61290324,OR
+Eastern Oregon,Professional Services,2013,5,59,104,.56730771,OR
+Eastern Oregon,Professional Services,2013,10,,,,OR
+Eastern Oregon,Professional Services,2016,1,44,62,.7096774,OR
+Eastern Oregon,Professional Services,2016,5,41,67,.61194032,OR
+Eastern Oregon,Professional Services,2016,10,,,,OR
+Eastern Oregon,Professional Services,2019,1,41,89,.46067417,OR
+Eastern Oregon,Professional Services,2019,5,,,,OR
+Eastern Oregon,Professional Services,2019,10,,,,OR
+Eastern Oregon,Public Admin,2004,1,68,103,.66019416,OR
+Eastern Oregon,Public Admin,2004,5,88,148,.5945946,OR
+Eastern Oregon,Public Admin,2004,10,78,116,.67241377,OR
+Eastern Oregon,Public Admin,2007,1,71,92,.77173913,OR
+Eastern Oregon,Public Admin,2007,5,72,122,.59016395,OR
+Eastern Oregon,Public Admin,2007,10,70,162,.43209878,OR
+Eastern Oregon,Public Admin,2010,1,94,158,.59493673,OR
+Eastern Oregon,Public Admin,2010,5,112,183,.61202186,OR
+Eastern Oregon,Public Admin,2010,10,109,193,.56476682,OR
+Eastern Oregon,Public Admin,2013,1,107,166,.64457834,OR
+Eastern Oregon,Public Admin,2013,5,121,182,.66483516,OR
+Eastern Oregon,Public Admin,2013,10,,,,OR
+Eastern Oregon,Public Admin,2016,1,104,163,.63803679,OR
+Eastern Oregon,Public Admin,2016,5,119,211,.56398106,OR
+Eastern Oregon,Public Admin,2016,10,,,,OR
+Eastern Oregon,Public Admin,2019,1,105,198,.530303,OR
+Eastern Oregon,Public Admin,2019,5,,,,OR
+Eastern Oregon,Public Admin,2019,10,,,,OR
+Eastern Oregon,Real Estate,2004,1,0,5,0,OR
+Eastern Oregon,Real Estate,2004,5,9,10,.89999998,OR
+Eastern Oregon,Real Estate,2004,10,4,7,.5714286,OR
+Eastern Oregon,Real Estate,2007,1,6,11,.54545456,OR
+Eastern Oregon,Real Estate,2007,5,7,13,.53846157,OR
+Eastern Oregon,Real Estate,2007,10,5,10,.5,OR
+Eastern Oregon,Real Estate,2010,1,13,28,.4642857,OR
+Eastern Oregon,Real Estate,2010,5,9,17,.52941179,OR
+Eastern Oregon,Real Estate,2010,10,10,17,.58823532,OR
+Eastern Oregon,Real Estate,2013,1,10,19,.52631581,OR
+Eastern Oregon,Real Estate,2013,5,9,10,.89999998,OR
+Eastern Oregon,Real Estate,2013,10,,,,OR
+Eastern Oregon,Real Estate,2016,1,10,16,.625,OR
+Eastern Oregon,Real Estate,2016,5,6,14,.42857143,OR
+Eastern Oregon,Real Estate,2016,10,,,,OR
+Eastern Oregon,Real Estate,2019,1,9,14,.64285713,OR
+Eastern Oregon,Real Estate,2019,5,,,,OR
+Eastern Oregon,Real Estate,2019,10,,,,OR
+Eastern Oregon,Retail,2004,1,40,78,.51282054,OR
+Eastern Oregon,Retail,2004,5,21,56,.375,OR
+Eastern Oregon,Retail,2004,10,23,42,.54761904,OR
+Eastern Oregon,Retail,2007,1,53,103,.51456308,OR
+Eastern Oregon,Retail,2007,5,36,80,.44999999,OR
+Eastern Oregon,Retail,2007,10,16,56,.2857143,OR
+Eastern Oregon,Retail,2010,1,67,126,.53174603,OR
+Eastern Oregon,Retail,2010,5,45,90,.5,OR
+Eastern Oregon,Retail,2010,10,37,76,.4868421,OR
+Eastern Oregon,Retail,2013,1,60,101,.59405941,OR
+Eastern Oregon,Retail,2013,5,44,69,.63768119,OR
+Eastern Oregon,Retail,2013,10,,,,OR
+Eastern Oregon,Retail,2016,1,41,65,.63076925,OR
+Eastern Oregon,Retail,2016,5,39,73,.53424656,OR
+Eastern Oregon,Retail,2016,10,,,,OR
+Eastern Oregon,Retail,2019,1,59,102,.57843137,OR
+Eastern Oregon,Retail,2019,5,,,,OR
+Eastern Oregon,Retail,2019,10,,,,OR
+Eastern Oregon,Transportation,2004,1,18,27,.66666669,OR
+Eastern Oregon,Transportation,2004,5,14,25,.56,OR
+Eastern Oregon,Transportation,2004,10,21,29,.7241379,OR
+Eastern Oregon,Transportation,2007,1,17,28,.60714287,OR
+Eastern Oregon,Transportation,2007,5,17,28,.60714287,OR
+Eastern Oregon,Transportation,2007,10,17,37,.45945945,OR
+Eastern Oregon,Transportation,2010,1,19,33,.57575756,OR
+Eastern Oregon,Transportation,2010,5,20,35,.5714286,OR
+Eastern Oregon,Transportation,2010,10,19,41,.46341464,OR
+Eastern Oregon,Transportation,2013,1,20,35,.5714286,OR
+Eastern Oregon,Transportation,2013,5,17,24,.70833331,OR
+Eastern Oregon,Transportation,2013,10,,,,OR
+Eastern Oregon,Transportation,2016,1,21,25,.83999997,OR
+Eastern Oregon,Transportation,2016,5,14,26,.53846157,OR
+Eastern Oregon,Transportation,2016,10,,,,OR
+Eastern Oregon,Transportation,2019,1,13,19,.68421054,OR
+Eastern Oregon,Transportation,2019,5,,,,OR
+Eastern Oregon,Transportation,2019,10,,,,OR
+Eastern Oregon,Utilities,2004,1,11,12,.91666669,OR
+Eastern Oregon,Utilities,2004,5,10,12,.83333331,OR
+Eastern Oregon,Utilities,2004,10,5,7,.71428573,OR
+Eastern Oregon,Utilities,2007,1,8,10,.80000001,OR
+Eastern Oregon,Utilities,2007,5,7,8,.875,OR
+Eastern Oregon,Utilities,2007,10,8,9,.8888889,OR
+Eastern Oregon,Utilities,2010,1,5,6,.83333331,OR
+Eastern Oregon,Utilities,2010,5,7,10,.69999999,OR
+Eastern Oregon,Utilities,2010,10,1,2,.5,OR
+Eastern Oregon,Utilities,2013,1,10,11,.90909094,OR
+Eastern Oregon,Utilities,2013,5,10,11,.90909094,OR
+Eastern Oregon,Utilities,2013,10,,,,OR
+Eastern Oregon,Utilities,2016,1,2,2,1,OR
+Eastern Oregon,Utilities,2016,5,9,13,.69230771,OR
+Eastern Oregon,Utilities,2016,10,,,,OR
+Eastern Oregon,Utilities,2019,1,4,5,.80000001,OR
+Eastern Oregon,Utilities,2019,5,,,,OR
+Eastern Oregon,Utilities,2019,10,,,,OR
+Eastern Oregon,Wholesale,2004,1,15,32,.46875,OR
+Eastern Oregon,Wholesale,2004,5,20,28,.71428573,OR
+Eastern Oregon,Wholesale,2004,10,14,25,.56,OR
+Eastern Oregon,Wholesale,2007,1,20,43,.46511629,OR
+Eastern Oregon,Wholesale,2007,5,27,39,.69230771,OR
+Eastern Oregon,Wholesale,2007,10,26,44,.59090906,OR
+Eastern Oregon,Wholesale,2010,1,25,48,.52083331,OR
+Eastern Oregon,Wholesale,2010,5,21,53,.39622641,OR
+Eastern Oregon,Wholesale,2010,10,22,48,.45833334,OR
+Eastern Oregon,Wholesale,2013,1,27,53,.50943398,OR
+Eastern Oregon,Wholesale,2013,5,26,41,.63414633,OR
+Eastern Oregon,Wholesale,2013,10,,,,OR
+Eastern Oregon,Wholesale,2016,1,20,36,.55555558,OR
+Eastern Oregon,Wholesale,2016,5,27,49,.55102038,OR
+Eastern Oregon,Wholesale,2016,10,,,,OR
+Eastern Oregon,Wholesale,2019,1,22,44,.5,OR
+Eastern Oregon,Wholesale,2019,5,,,,OR
+Eastern Oregon,Wholesale,2019,10,,,,OR
+Oregon State,Admin/Waste,2004,1,316,412,.7669903,OR
+Oregon State,Admin/Waste,2004,5,152,233,.6523605,OR
+Oregon State,Admin/Waste,2004,10,133,204,.65196079,OR
+Oregon State,Admin/Waste,2007,1,248,317,.78233439,OR
+Oregon State,Admin/Waste,2007,5,167,261,.63984674,OR
+Oregon State,Admin/Waste,2007,10,131,203,.64532018,OR
+Oregon State,Admin/Waste,2010,1,312,408,.7647059,OR
+Oregon State,Admin/Waste,2010,5,243,366,.66393441,OR
+Oregon State,Admin/Waste,2010,10,161,268,.60074627,OR
+Oregon State,Admin/Waste,2013,1,419,564,.74290782,OR
+Oregon State,Admin/Waste,2013,5,266,410,.64878047,OR
+Oregon State,Admin/Waste,2013,10,,,,OR
+Oregon State,Admin/Waste,2016,1,470,688,.68313956,OR
+Oregon State,Admin/Waste,2016,5,255,478,.53347278,OR
+Oregon State,Admin/Waste,2016,10,,,,OR
+Oregon State,Admin/Waste,2019,1,508,779,.65211809,OR
+Oregon State,Admin/Waste,2019,5,,,,OR
+Oregon State,Admin/Waste,2019,10,,,,OR
+Oregon State,Agriculture,2004,1,151,173,.87283236,OR
+Oregon State,Agriculture,2004,5,129,156,.82692307,OR
+Oregon State,Agriculture,2004,10,115,133,.86466163,OR
+Oregon State,Agriculture,2007,1,125,158,.79113925,OR
+Oregon State,Agriculture,2007,5,115,143,.80419582,OR
+Oregon State,Agriculture,2007,10,124,140,.88571429,OR
+Oregon State,Agriculture,2010,1,173,207,.83574879,OR
+Oregon State,Agriculture,2010,5,152,176,.86363637,OR
+Oregon State,Agriculture,2010,10,156,191,.81675392,OR
+Oregon State,Agriculture,2013,1,205,245,.83673471,OR
+Oregon State,Agriculture,2013,5,193,230,.83913046,OR
+Oregon State,Agriculture,2013,10,,,,OR
+Oregon State,Agriculture,2016,1,230,264,.87121212,OR
+Oregon State,Agriculture,2016,5,232,270,.85925925,OR
+Oregon State,Agriculture,2016,10,,,,OR
+Oregon State,Agriculture,2019,1,218,270,.80740738,OR
+Oregon State,Agriculture,2019,5,,,,OR
+Oregon State,Agriculture,2019,10,,,,OR
+Oregon State,Arts/Entertainment,2004,1,110,158,.69620252,OR
+Oregon State,Arts/Entertainment,2004,5,61,115,.53043479,OR
+Oregon State,Arts/Entertainment,2004,10,47,72,.65277779,OR
+Oregon State,Arts/Entertainment,2007,1,98,130,.75384617,OR
+Oregon State,Arts/Entertainment,2007,5,81,122,.66393441,OR
+Oregon State,Arts/Entertainment,2007,10,74,101,.73267329,OR
+Oregon State,Arts/Entertainment,2010,1,85,118,.720339,OR
+Oregon State,Arts/Entertainment,2010,5,88,130,.6769231,OR
+Oregon State,Arts/Entertainment,2010,10,60,91,.65934068,OR
+Oregon State,Arts/Entertainment,2013,1,121,177,.6836158,OR
+Oregon State,Arts/Entertainment,2013,5,98,167,.58682632,OR
+Oregon State,Arts/Entertainment,2013,10,,,,OR
+Oregon State,Arts/Entertainment,2016,1,157,239,.65690374,OR
+Oregon State,Arts/Entertainment,2016,5,89,154,.57792211,OR
+Oregon State,Arts/Entertainment,2016,10,,,,OR
+Oregon State,Arts/Entertainment,2019,1,105,170,.61764705,OR
+Oregon State,Arts/Entertainment,2019,5,,,,OR
+Oregon State,Arts/Entertainment,2019,10,,,,OR
+Oregon State,Construction,2004,1,244,361,.67590028,OR
+Oregon State,Construction,2004,5,205,314,.65286624,OR
+Oregon State,Construction,2004,10,196,294,.66666669,OR
+Oregon State,Construction,2007,1,224,316,.70886075,OR
+Oregon State,Construction,2007,5,229,322,.71118015,OR
+Oregon State,Construction,2007,10,218,308,.70779222,OR
+Oregon State,Construction,2010,1,291,388,.75,OR
+Oregon State,Construction,2010,5,300,451,.66518849,OR
+Oregon State,Construction,2010,10,322,448,.71875,OR
+Oregon State,Construction,2013,1,282,407,.69287467,OR
+Oregon State,Construction,2013,5,349,474,.73628694,OR
+Oregon State,Construction,2013,10,,,,OR
+Oregon State,Construction,2016,1,374,566,.66077739,OR
+Oregon State,Construction,2016,5,408,592,.6891892,OR
+Oregon State,Construction,2016,10,,,,OR
+Oregon State,Construction,2019,1,412,617,.66774714,OR
+Oregon State,Construction,2019,5,,,,OR
+Oregon State,Construction,2019,10,,,,OR
+Oregon State,Education,2004,1,489,657,.74429226,OR
+Oregon State,Education,2004,5,760,1065,.713615,OR
+Oregon State,Education,2004,10,752,1070,.70280373,OR
+Oregon State,Education,2007,1,439,615,.71382111,OR
+Oregon State,Education,2007,5,659,960,.68645835,OR
+Oregon State,Education,2007,10,736,1001,.73526472,OR
+Oregon State,Education,2010,1,428,592,.72297299,OR
+Oregon State,Education,2010,5,782,1131,.69142354,OR
+Oregon State,Education,2010,10,803,1156,.6946367,OR
+Oregon State,Education,2013,1,615,798,.77067667,OR
+Oregon State,Education,2013,5,903,1316,.68617022,OR
+Oregon State,Education,2013,10,,,,OR
+Oregon State,Education,2016,1,713,969,.7358101,OR
+Oregon State,Education,2016,5,897,1357,.66101694,OR
+Oregon State,Education,2016,10,,,,OR
+Oregon State,Education,2019,1,738,1132,.65194345,OR
+Oregon State,Education,2019,5,,,,OR
+Oregon State,Education,2019,10,,,,OR
+Oregon State,Finance,2004,1,283,362,.78176796,OR
+Oregon State,Finance,2004,5,262,353,.74220961,OR
+Oregon State,Finance,2004,10,244,330,.73939395,OR
+Oregon State,Finance,2007,1,238,304,.78289473,OR
+Oregon State,Finance,2007,5,256,340,.75294119,OR
+Oregon State,Finance,2007,10,234,309,.75728154,OR
+Oregon State,Finance,2010,1,221,287,.77003485,OR
+Oregon State,Finance,2010,5,262,362,.72375691,OR
+Oregon State,Finance,2010,10,260,383,.67885119,OR
+Oregon State,Finance,2013,1,256,367,.69754767,OR
+Oregon State,Finance,2013,5,281,435,.64597702,OR
+Oregon State,Finance,2013,10,,,,OR
+Oregon State,Finance,2016,1,304,492,.61788619,OR
+Oregon State,Finance,2016,5,319,585,.54529917,OR
+Oregon State,Finance,2016,10,,,,OR
+Oregon State,Finance,2019,1,234,459,.50980395,OR
+Oregon State,Finance,2019,5,,,,OR
+Oregon State,Finance,2019,10,,,,OR
+Oregon State,Food/Hospitality,2004,1,233,333,.6996997,OR
+Oregon State,Food/Hospitality,2004,5,110,195,.56410259,OR
+Oregon State,Food/Hospitality,2004,10,82,151,.54304636,OR
+Oregon State,Food/Hospitality,2007,1,250,313,.79872203,OR
+Oregon State,Food/Hospitality,2007,5,131,204,.64215684,OR
+Oregon State,Food/Hospitality,2007,10,84,158,.5316456,OR
+Oregon State,Food/Hospitality,2010,1,278,360,.77222222,OR
+Oregon State,Food/Hospitality,2010,5,157,294,.53401363,OR
+Oregon State,Food/Hospitality,2010,10,88,156,.56410259,OR
+Oregon State,Food/Hospitality,2013,1,323,421,.76722091,OR
+Oregon State,Food/Hospitality,2013,5,164,257,.63813227,OR
+Oregon State,Food/Hospitality,2013,10,,,,OR
+Oregon State,Food/Hospitality,2016,1,361,500,.722,OR
+Oregon State,Food/Hospitality,2016,5,179,303,.5907591,OR
+Oregon State,Food/Hospitality,2016,10,,,,OR
+Oregon State,Food/Hospitality,2019,1,312,482,.64730293,OR
+Oregon State,Food/Hospitality,2019,5,,,,OR
+Oregon State,Food/Hospitality,2019,10,,,,OR
+Oregon State,Health Care,2004,1,565,728,.77609891,OR
+Oregon State,Health Care,2004,5,606,910,.66593409,OR
+Oregon State,Health Care,2004,10,681,1049,.64918971,OR
+Oregon State,Health Care,2007,1,608,755,.80529803,OR
+Oregon State,Health Care,2007,5,664,978,.6789366,OR
+Oregon State,Health Care,2007,10,733,1098,.66757739,OR
+Oregon State,Health Care,2010,1,693,829,.83594692,OR
+Oregon State,Health Care,2010,5,792,1130,.70088494,OR
+Oregon State,Health Care,2010,10,817,1203,.6791355,OR
+Oregon State,Health Care,2013,1,970,1191,.81444162,OR
+Oregon State,Health Care,2013,5,1012,1445,.70034599,OR
+Oregon State,Health Care,2013,10,,,,OR
+Oregon State,Health Care,2016,1,1113,1451,.76705718,OR
+Oregon State,Health Care,2016,5,1047,1617,.64749539,OR
+Oregon State,Health Care,2016,10,,,,OR
+Oregon State,Health Care,2019,1,1063,1417,.75017643,OR
+Oregon State,Health Care,2019,5,,,,OR
+Oregon State,Health Care,2019,10,,,,OR
+Oregon State,Information,2004,1,172,226,.76106197,OR
+Oregon State,Information,2004,5,145,234,.61965811,OR
+Oregon State,Information,2004,10,130,206,.63106793,OR
+Oregon State,Information,2007,1,119,149,.79865772,OR
+Oregon State,Information,2007,5,141,210,.67142856,OR
+Oregon State,Information,2007,10,109,199,.54773867,OR
+Oregon State,Information,2010,1,123,163,.75460124,OR
+Oregon State,Information,2010,5,178,260,.68461537,OR
+Oregon State,Information,2010,10,178,306,.58169937,OR
+Oregon State,Information,2013,1,161,260,.61923075,OR
+Oregon State,Information,2013,5,216,410,.52682924,OR
+Oregon State,Information,2013,10,,,,OR
+Oregon State,Information,2016,1,174,378,.46031746,OR
+Oregon State,Information,2016,5,226,555,.40720722,OR
+Oregon State,Information,2016,10,,,,OR
+Oregon State,Information,2019,1,170,449,.37861916,OR
+Oregon State,Information,2019,5,,,,OR
+Oregon State,Information,2019,10,,,,OR
+Oregon State,Management,2004,1,131,156,.83974361,OR
+Oregon State,Management,2004,5,165,206,.80097085,OR
+Oregon State,Management,2004,10,238,273,.87179488,OR
+Oregon State,Management,2007,1,133,154,.86363637,OR
+Oregon State,Management,2007,5,235,278,.84532374,OR
+Oregon State,Management,2007,10,300,331,.90634441,OR
+Oregon State,Management,2010,1,162,194,.83505154,OR
+Oregon State,Management,2010,5,315,353,.89235127,OR
+Oregon State,Management,2010,10,343,400,.85750002,OR
+Oregon State,Management,2013,1,219,250,.87599999,OR
+Oregon State,Management,2013,5,341,413,.82566583,OR
+Oregon State,Management,2013,10,,,,OR
+Oregon State,Management,2016,1,243,312,.77884614,OR
+Oregon State,Management,2016,5,324,438,.73972601,OR
+Oregon State,Management,2016,10,,,,OR
+Oregon State,Management,2019,1,235,330,.71212119,OR
+Oregon State,Management,2019,5,,,,OR
+Oregon State,Management,2019,10,,,,OR
+Oregon State,Manufacturing,2004,1,552,780,.70769233,OR
+Oregon State,Manufacturing,2004,5,537,840,.63928574,OR
+Oregon State,Manufacturing,2004,10,539,850,.63411766,OR
+Oregon State,Manufacturing,2007,1,426,607,.70181221,OR
+Oregon State,Manufacturing,2007,5,545,794,.68639797,OR
+Oregon State,Manufacturing,2007,10,511,724,.70580113,OR
+Oregon State,Manufacturing,2010,1,557,806,.69106698,OR
+Oregon State,Manufacturing,2010,5,626,928,.67456895,OR
+Oregon State,Manufacturing,2010,10,572,850,.67294115,OR
+Oregon State,Manufacturing,2013,1,811,1148,.70644599,OR
+Oregon State,Manufacturing,2013,5,844,1258,.67090619,OR
+Oregon State,Manufacturing,2013,10,,,,OR
+Oregon State,Manufacturing,2016,1,806,1257,.64120924,OR
+Oregon State,Manufacturing,2016,5,807,1329,.60722345,OR
+Oregon State,Manufacturing,2016,10,,,,OR
+Oregon State,Manufacturing,2019,1,849,1358,.62518412,OR
+Oregon State,Manufacturing,2019,5,,,,OR
+Oregon State,Manufacturing,2019,10,,,,OR
+Oregon State,Mining,2004,1,1,2,.5,OR
+Oregon State,Mining,2004,5,1,4,.25,OR
+Oregon State,Mining,2004,10,0,3,0,OR
+Oregon State,Mining,2007,1,0,6,0,OR
+Oregon State,Mining,2007,5,3,9,.33333334,OR
+Oregon State,Mining,2007,10,1,3,.33333334,OR
+Oregon State,Mining,2010,1,0,0,,OR
+Oregon State,Mining,2010,5,1,2,.5,OR
+Oregon State,Mining,2010,10,1,3,.33333334,OR
+Oregon State,Mining,2013,1,1,3,.33333334,OR
+Oregon State,Mining,2013,5,2,3,.66666669,OR
+Oregon State,Mining,2013,10,,,,OR
+Oregon State,Mining,2016,1,0,2,0,OR
+Oregon State,Mining,2016,5,0,0,,OR
+Oregon State,Mining,2016,10,,,,OR
+Oregon State,Mining,2019,1,1,4,.25,OR
+Oregon State,Mining,2019,5,,,,OR
+Oregon State,Mining,2019,10,,,,OR
+Oregon State,Other Services,2004,1,99,126,.78571427,OR
+Oregon State,Other Services,2004,5,97,143,.67832166,OR
+Oregon State,Other Services,2004,10,92,128,.71875,OR
+Oregon State,Other Services,2007,1,84,104,.80769229,OR
+Oregon State,Other Services,2007,5,86,105,.81904763,OR
+Oregon State,Other Services,2007,10,95,118,.80508476,OR
+Oregon State,Other Services,2010,1,109,133,.81954885,OR
+Oregon State,Other Services,2010,5,117,173,.67630059,OR
+Oregon State,Other Services,2010,10,113,163,.69325155,OR
+Oregon State,Other Services,2013,1,128,184,.69565219,OR
+Oregon State,Other Services,2013,5,128,196,.65306121,OR
+Oregon State,Other Services,2013,10,,,,OR
+Oregon State,Other Services,2016,1,184,248,.74193549,OR
+Oregon State,Other Services,2016,5,195,275,.70909089,OR
+Oregon State,Other Services,2016,10,,,,OR
+Oregon State,Other Services,2019,1,182,247,.7368421,OR
+Oregon State,Other Services,2019,5,,,,OR
+Oregon State,Other Services,2019,10,,,,OR
+Oregon State,Professional Services,2004,1,578,830,.69638556,OR
+Oregon State,Professional Services,2004,5,560,915,.61202186,OR
+Oregon State,Professional Services,2004,10,568,919,.61806309,OR
+Oregon State,Professional Services,2007,1,534,732,.72950822,OR
+Oregon State,Professional Services,2007,5,590,918,.64270151,OR
+Oregon State,Professional Services,2007,10,565,864,.65393519,OR
+Oregon State,Professional Services,2010,1,599,806,.74317616,OR
+Oregon State,Professional Services,2010,5,744,1128,.65957445,OR
+Oregon State,Professional Services,2010,10,654,1132,.57773852,OR
+Oregon State,Professional Services,2013,1,791,1214,.65156507,OR
+Oregon State,Professional Services,2013,5,871,1465,.59453923,OR
+Oregon State,Professional Services,2013,10,,,,OR
+Oregon State,Professional Services,2016,1,985,1676,.58770883,OR
+Oregon State,Professional Services,2016,5,1027,2016,.50942463,OR
+Oregon State,Professional Services,2016,10,,,,OR
+Oregon State,Professional Services,2019,1,1158,2146,.5396086,OR
+Oregon State,Professional Services,2019,5,,,,OR
+Oregon State,Professional Services,2019,10,,,,OR
+Oregon State,Public Admin,2004,1,293,423,.69267142,OR
+Oregon State,Public Admin,2004,5,393,555,.70810813,OR
+Oregon State,Public Admin,2004,10,384,551,.69691467,OR
+Oregon State,Public Admin,2007,1,285,400,.71249998,OR
+Oregon State,Public Admin,2007,5,329,468,.70299143,OR
+Oregon State,Public Admin,2007,10,374,538,.6951673,OR
+Oregon State,Public Admin,2010,1,215,342,.62865496,OR
+Oregon State,Public Admin,2010,5,344,544,.63235295,OR
+Oregon State,Public Admin,2010,10,406,642,.63239872,OR
+Oregon State,Public Admin,2013,1,280,445,.62921351,OR
+Oregon State,Public Admin,2013,5,411,655,.62748092,OR
+Oregon State,Public Admin,2013,10,,,,OR
+Oregon State,Public Admin,2016,1,306,539,.56771797,OR
+Oregon State,Public Admin,2016,5,451,808,.55816829,OR
+Oregon State,Public Admin,2016,10,,,,OR
+Oregon State,Public Admin,2019,1,301,575,.52347827,OR
+Oregon State,Public Admin,2019,5,,,,OR
+Oregon State,Public Admin,2019,10,,,,OR
+Oregon State,Real Estate,2004,1,80,99,.80808079,OR
+Oregon State,Real Estate,2004,5,49,64,.765625,OR
+Oregon State,Real Estate,2004,10,44,60,.73333335,OR
+Oregon State,Real Estate,2007,1,71,76,.93421054,OR
+Oregon State,Real Estate,2007,5,39,56,.6964286,OR
+Oregon State,Real Estate,2007,10,47,61,.77049178,OR
+Oregon State,Real Estate,2010,1,45,61,.73770493,OR
+Oregon State,Real Estate,2010,5,77,98,.78571427,OR
+Oregon State,Real Estate,2010,10,61,86,.70930231,OR
+Oregon State,Real Estate,2013,1,91,119,.7647059,OR
+Oregon State,Real Estate,2013,5,94,130,.72307694,OR
+Oregon State,Real Estate,2013,10,,,,OR
+Oregon State,Real Estate,2016,1,69,113,.61061949,OR
+Oregon State,Real Estate,2016,5,85,141,.60283691,OR
+Oregon State,Real Estate,2016,10,,,,OR
+Oregon State,Real Estate,2019,1,95,143,.66433567,OR
+Oregon State,Real Estate,2019,5,,,,OR
+Oregon State,Real Estate,2019,10,,,,OR
+Oregon State,Retail,2004,1,520,719,.72322673,OR
+Oregon State,Retail,2004,5,304,495,.6141414,OR
+Oregon State,Retail,2004,10,240,423,.5673759,OR
+Oregon State,Retail,2007,1,465,599,.77629381,OR
+Oregon State,Retail,2007,5,327,499,.65531063,OR
+Oregon State,Retail,2007,10,218,385,.56623375,OR
+Oregon State,Retail,2010,1,526,692,.76011562,OR
+Oregon State,Retail,2010,5,342,549,.62295079,OR
+Oregon State,Retail,2010,10,220,394,.55837566,OR
+Oregon State,Retail,2013,1,532,724,.73480666,OR
+Oregon State,Retail,2013,5,374,607,.61614496,OR
+Oregon State,Retail,2013,10,,,,OR
+Oregon State,Retail,2016,1,538,820,.65609753,OR
+Oregon State,Retail,2016,5,332,607,.54695225,OR
+Oregon State,Retail,2016,10,,,,OR
+Oregon State,Retail,2019,1,504,826,.61016947,OR
+Oregon State,Retail,2019,5,,,,OR
+Oregon State,Retail,2019,10,,,,OR
+Oregon State,Transportation,2004,1,73,94,.77659577,OR
+Oregon State,Transportation,2004,5,67,95,.70526314,OR
+Oregon State,Transportation,2004,10,61,87,.7011494,OR
+Oregon State,Transportation,2007,1,55,81,.67901236,OR
+Oregon State,Transportation,2007,5,51,77,.66233766,OR
+Oregon State,Transportation,2007,10,51,84,.60714287,OR
+Oregon State,Transportation,2010,1,43,64,.671875,OR
+Oregon State,Transportation,2010,5,56,91,.61538464,OR
+Oregon State,Transportation,2010,10,75,116,.64655173,OR
+Oregon State,Transportation,2013,1,62,85,.72941178,OR
+Oregon State,Transportation,2013,5,94,154,.61038959,OR
+Oregon State,Transportation,2013,10,,,,OR
+Oregon State,Transportation,2016,1,111,165,.67272729,OR
+Oregon State,Transportation,2016,5,119,205,.58048779,OR
+Oregon State,Transportation,2016,10,,,,OR
+Oregon State,Transportation,2019,1,144,203,.70935959,OR
+Oregon State,Transportation,2019,5,,,,OR
+Oregon State,Transportation,2019,10,,,,OR
+Oregon State,Utilities,2004,1,9,16,.5625,OR
+Oregon State,Utilities,2004,5,20,34,.58823532,OR
+Oregon State,Utilities,2004,10,28,39,.71794873,OR
+Oregon State,Utilities,2007,1,11,20,.55000001,OR
+Oregon State,Utilities,2007,5,20,31,.64516127,OR
+Oregon State,Utilities,2007,10,34,50,.68000001,OR
+Oregon State,Utilities,2010,1,11,15,.73333335,OR
+Oregon State,Utilities,2010,5,14,28,.5,OR
+Oregon State,Utilities,2010,10,26,32,.8125,OR
+Oregon State,Utilities,2013,1,16,26,.61538464,OR
+Oregon State,Utilities,2013,5,28,40,.69999999,OR
+Oregon State,Utilities,2013,10,,,,OR
+Oregon State,Utilities,2016,1,16,32,.5,OR
+Oregon State,Utilities,2016,5,30,50,.60000002,OR
+Oregon State,Utilities,2016,10,,,,OR
+Oregon State,Utilities,2019,1,22,36,.6111111,OR
+Oregon State,Utilities,2019,5,,,,OR
+Oregon State,Utilities,2019,10,,,,OR
+Oregon State,Wholesale,2004,1,206,282,.73049647,OR
+Oregon State,Wholesale,2004,5,231,341,.67741936,OR
+Oregon State,Wholesale,2004,10,208,309,.67313915,OR
+Oregon State,Wholesale,2007,1,199,259,.76833975,OR
+Oregon State,Wholesale,2007,5,213,307,.69381106,OR
+Oregon State,Wholesale,2007,10,204,292,.69863015,OR
+Oregon State,Wholesale,2010,1,191,263,.72623575,OR
+Oregon State,Wholesale,2010,5,256,357,.71708685,OR
+Oregon State,Wholesale,2010,10,238,361,.65927976,OR
+Oregon State,Wholesale,2013,1,235,333,.7057057,OR
+Oregon State,Wholesale,2013,5,301,459,.6557734,OR
+Oregon State,Wholesale,2013,10,,,,OR
+Oregon State,Wholesale,2016,1,286,449,.63697106,OR
+Oregon State,Wholesale,2016,5,339,533,.63602251,OR
+Oregon State,Wholesale,2016,10,,,,OR
+Oregon State,Wholesale,2019,1,295,489,.60327196,OR
+Oregon State,Wholesale,2019,5,,,,OR
+Oregon State,Wholesale,2019,10,,,,OR
+Oregon Tech,Admin/Waste,2004,1,28,41,.68292683,OR
+Oregon Tech,Admin/Waste,2004,5,15,26,.57692307,OR
+Oregon Tech,Admin/Waste,2004,10,10,24,.41666666,OR
+Oregon Tech,Admin/Waste,2007,1,16,35,.45714286,OR
+Oregon Tech,Admin/Waste,2007,5,14,31,.45161289,OR
+Oregon Tech,Admin/Waste,2007,10,7,22,.31818181,OR
+Oregon Tech,Admin/Waste,2010,1,31,35,.88571429,OR
+Oregon Tech,Admin/Waste,2010,5,18,36,.5,OR
+Oregon Tech,Admin/Waste,2010,10,12,32,.375,OR
+Oregon Tech,Admin/Waste,2013,1,39,53,.73584908,OR
+Oregon Tech,Admin/Waste,2013,5,16,36,.44444445,OR
+Oregon Tech,Admin/Waste,2013,10,,,,OR
+Oregon Tech,Admin/Waste,2016,1,48,71,.67605633,OR
+Oregon Tech,Admin/Waste,2016,5,34,75,.45333335,OR
+Oregon Tech,Admin/Waste,2016,10,,,,OR
+Oregon Tech,Admin/Waste,2019,1,49,81,.60493827,OR
+Oregon Tech,Admin/Waste,2019,5,,,,OR
+Oregon Tech,Admin/Waste,2019,10,,,,OR
+Oregon Tech,Agriculture,2004,1,2,2,1,OR
+Oregon Tech,Agriculture,2004,5,2,2,1,OR
+Oregon Tech,Agriculture,2004,10,0,1,0,OR
+Oregon Tech,Agriculture,2007,1,9,9,1,OR
+Oregon Tech,Agriculture,2007,5,2,4,.5,OR
+Oregon Tech,Agriculture,2007,10,2,4,.5,OR
+Oregon Tech,Agriculture,2010,1,2,2,1,OR
+Oregon Tech,Agriculture,2010,5,2,2,1,OR
+Oregon Tech,Agriculture,2010,10,5,9,.55555558,OR
+Oregon Tech,Agriculture,2013,1,1,1,1,OR
+Oregon Tech,Agriculture,2013,5,0,0,,OR
+Oregon Tech,Agriculture,2013,10,,,,OR
+Oregon Tech,Agriculture,2016,1,2,5,.40000001,OR
+Oregon Tech,Agriculture,2016,5,6,6,1,OR
+Oregon Tech,Agriculture,2016,10,,,,OR
+Oregon Tech,Agriculture,2019,1,3,4,.75,OR
+Oregon Tech,Agriculture,2019,5,,,,OR
+Oregon Tech,Agriculture,2019,10,,,,OR
+Oregon Tech,Arts/Entertainment,2004,1,4,5,.80000001,OR
+Oregon Tech,Arts/Entertainment,2004,5,2,3,.66666669,OR
+Oregon Tech,Arts/Entertainment,2004,10,4,9,.44444445,OR
+Oregon Tech,Arts/Entertainment,2007,1,3,6,.5,OR
+Oregon Tech,Arts/Entertainment,2007,5,4,5,.80000001,OR
+Oregon Tech,Arts/Entertainment,2007,10,4,11,.36363637,OR
+Oregon Tech,Arts/Entertainment,2010,1,2,3,.66666669,OR
+Oregon Tech,Arts/Entertainment,2010,5,4,9,.44444445,OR
+Oregon Tech,Arts/Entertainment,2010,10,4,8,.5,OR
+Oregon Tech,Arts/Entertainment,2013,1,2,3,.66666669,OR
+Oregon Tech,Arts/Entertainment,2013,5,3,5,.60000002,OR
+Oregon Tech,Arts/Entertainment,2013,10,,,,OR
+Oregon Tech,Arts/Entertainment,2016,1,7,11,.63636363,OR
+Oregon Tech,Arts/Entertainment,2016,5,3,11,.27272728,OR
+Oregon Tech,Arts/Entertainment,2016,10,,,,OR
+Oregon Tech,Arts/Entertainment,2019,1,2,6,.33333334,OR
+Oregon Tech,Arts/Entertainment,2019,5,,,,OR
+Oregon Tech,Arts/Entertainment,2019,10,,,,OR
+Oregon Tech,Construction,2004,1,4,14,.2857143,OR
+Oregon Tech,Construction,2004,5,10,22,.45454547,OR
+Oregon Tech,Construction,2004,10,10,25,.40000001,OR
+Oregon Tech,Construction,2007,1,14,24,.58333331,OR
+Oregon Tech,Construction,2007,5,19,33,.57575756,OR
+Oregon Tech,Construction,2007,10,18,35,.51428574,OR
+Oregon Tech,Construction,2010,1,18,27,.66666669,OR
+Oregon Tech,Construction,2010,5,24,29,.82758623,OR
+Oregon Tech,Construction,2010,10,26,42,.61904764,OR
+Oregon Tech,Construction,2013,1,17,24,.70833331,OR
+Oregon Tech,Construction,2013,5,19,28,.6785714,OR
+Oregon Tech,Construction,2013,10,,,,OR
+Oregon Tech,Construction,2016,1,23,41,.56097561,OR
+Oregon Tech,Construction,2016,5,39,59,.66101694,OR
+Oregon Tech,Construction,2016,10,,,,OR
+Oregon Tech,Construction,2019,1,26,42,.61904764,OR
+Oregon Tech,Construction,2019,5,,,,OR
+Oregon Tech,Construction,2019,10,,,,OR
+Oregon Tech,Education,2004,1,46,69,.66666669,OR
+Oregon Tech,Education,2004,5,57,85,.67058825,OR
+Oregon Tech,Education,2004,10,62,91,.6813187,OR
+Oregon Tech,Education,2007,1,37,71,.52112675,OR
+Oregon Tech,Education,2007,5,44,88,.5,OR
+Oregon Tech,Education,2007,10,43,86,.5,OR
+Oregon Tech,Education,2010,1,43,67,.64179105,OR
+Oregon Tech,Education,2010,5,42,83,.50602412,OR
+Oregon Tech,Education,2010,10,48,96,.5,OR
+Oregon Tech,Education,2013,1,44,78,.56410259,OR
+Oregon Tech,Education,2013,5,44,79,.55696201,OR
+Oregon Tech,Education,2013,10,,,,OR
+Oregon Tech,Education,2016,1,50,82,.60975611,OR
+Oregon Tech,Education,2016,5,58,124,.46774194,OR
+Oregon Tech,Education,2016,10,,,,OR
+Oregon Tech,Education,2019,1,50,98,.51020408,OR
+Oregon Tech,Education,2019,5,,,,OR
+Oregon Tech,Education,2019,10,,,,OR
+Oregon Tech,Finance,2004,1,11,21,.52380955,OR
+Oregon Tech,Finance,2004,5,19,21,.90476191,OR
+Oregon Tech,Finance,2004,10,16,35,.45714286,OR
+Oregon Tech,Finance,2007,1,9,14,.64285713,OR
+Oregon Tech,Finance,2007,5,16,20,.80000001,OR
+Oregon Tech,Finance,2007,10,15,27,.55555558,OR
+Oregon Tech,Finance,2010,1,9,13,.69230771,OR
+Oregon Tech,Finance,2010,5,6,12,.5,OR
+Oregon Tech,Finance,2010,10,12,22,.54545456,OR
+Oregon Tech,Finance,2013,1,21,28,.75,OR
+Oregon Tech,Finance,2013,5,22,26,.84615386,OR
+Oregon Tech,Finance,2013,10,,,,OR
+Oregon Tech,Finance,2016,1,15,22,.68181819,OR
+Oregon Tech,Finance,2016,5,29,35,.82857144,OR
+Oregon Tech,Finance,2016,10,,,,OR
+Oregon Tech,Finance,2019,1,21,41,.51219511,OR
+Oregon Tech,Finance,2019,5,,,,OR
+Oregon Tech,Finance,2019,10,,,,OR
+Oregon Tech,Food/Hospitality,2004,1,7,13,.53846157,OR
+Oregon Tech,Food/Hospitality,2004,5,5,10,.5,OR
+Oregon Tech,Food/Hospitality,2004,10,1,13,.07692308,OR
+Oregon Tech,Food/Hospitality,2007,1,2,10,.2,OR
+Oregon Tech,Food/Hospitality,2007,5,4,13,.30769232,OR
+Oregon Tech,Food/Hospitality,2007,10,6,18,.33333334,OR
+Oregon Tech,Food/Hospitality,2010,1,8,11,.72727275,OR
+Oregon Tech,Food/Hospitality,2010,5,8,13,.61538464,OR
+Oregon Tech,Food/Hospitality,2010,10,8,19,.42105263,OR
+Oregon Tech,Food/Hospitality,2013,1,7,11,.63636363,OR
+Oregon Tech,Food/Hospitality,2013,5,5,20,.25,OR
+Oregon Tech,Food/Hospitality,2013,10,,,,OR
+Oregon Tech,Food/Hospitality,2016,1,14,20,.69999999,OR
+Oregon Tech,Food/Hospitality,2016,5,6,26,.23076923,OR
+Oregon Tech,Food/Hospitality,2016,10,,,,OR
+Oregon Tech,Food/Hospitality,2019,1,11,28,.39285713,OR
+Oregon Tech,Food/Hospitality,2019,5,,,,OR
+Oregon Tech,Food/Hospitality,2019,10,,,,OR
+Oregon Tech,Health Care,2004,1,253,397,.63727957,OR
+Oregon Tech,Health Care,2004,5,241,389,.61953729,OR
+Oregon Tech,Health Care,2004,10,243,401,.60598505,OR
+Oregon Tech,Health Care,2007,1,324,541,.59889096,OR
+Oregon Tech,Health Care,2007,5,317,540,.58703703,OR
+Oregon Tech,Health Care,2007,10,277,482,.57468879,OR
+Oregon Tech,Health Care,2010,1,354,609,.58128077,OR
+Oregon Tech,Health Care,2010,5,364,630,.5777778,OR
+Oregon Tech,Health Care,2010,10,315,565,.55752212,OR
+Oregon Tech,Health Care,2013,1,455,733,.62073672,OR
+Oregon Tech,Health Care,2013,5,429,697,.61549497,OR
+Oregon Tech,Health Care,2013,10,,,,OR
+Oregon Tech,Health Care,2016,1,498,806,.61786598,OR
+Oregon Tech,Health Care,2016,5,436,750,.58133334,OR
+Oregon Tech,Health Care,2016,10,,,,OR
+Oregon Tech,Health Care,2019,1,450,821,.54811203,OR
+Oregon Tech,Health Care,2019,5,,,,OR
+Oregon Tech,Health Care,2019,10,,,,OR
+Oregon Tech,Information,2004,1,22,29,.75862068,OR
+Oregon Tech,Information,2004,5,17,26,.65384614,OR
+Oregon Tech,Information,2004,10,24,46,.52173913,OR
+Oregon Tech,Information,2007,1,21,30,.69999999,OR
+Oregon Tech,Information,2007,5,29,37,.78378379,OR
+Oregon Tech,Information,2007,10,27,34,.79411763,OR
+Oregon Tech,Information,2010,1,15,20,.75,OR
+Oregon Tech,Information,2010,5,21,31,.67741936,OR
+Oregon Tech,Information,2010,10,19,38,.5,OR
+Oregon Tech,Information,2013,1,21,24,.875,OR
+Oregon Tech,Information,2013,5,20,30,.66666669,OR
+Oregon Tech,Information,2013,10,,,,OR
+Oregon Tech,Information,2016,1,44,45,.97777778,OR
+Oregon Tech,Information,2016,5,31,49,.63265306,OR
+Oregon Tech,Information,2016,10,,,,OR
+Oregon Tech,Information,2019,1,22,38,.57894737,OR
+Oregon Tech,Information,2019,5,,,,OR
+Oregon Tech,Information,2019,10,,,,OR
+Oregon Tech,Management,2004,1,26,27,.96296299,OR
+Oregon Tech,Management,2004,5,22,26,.84615386,OR
+Oregon Tech,Management,2004,10,24,32,.75,OR
+Oregon Tech,Management,2007,1,20,24,.83333331,OR
+Oregon Tech,Management,2007,5,25,36,.69444442,OR
+Oregon Tech,Management,2007,10,26,34,.7647059,OR
+Oregon Tech,Management,2010,1,27,30,.89999998,OR
+Oregon Tech,Management,2010,5,38,39,.97435898,OR
+Oregon Tech,Management,2010,10,37,42,.88095236,OR
+Oregon Tech,Management,2013,1,23,26,.88461536,OR
+Oregon Tech,Management,2013,5,29,35,.82857144,OR
+Oregon Tech,Management,2013,10,,,,OR
+Oregon Tech,Management,2016,1,26,32,.8125,OR
+Oregon Tech,Management,2016,5,28,37,.75675678,OR
+Oregon Tech,Management,2016,10,,,,OR
+Oregon Tech,Management,2019,1,26,38,.68421054,OR
+Oregon Tech,Management,2019,5,,,,OR
+Oregon Tech,Management,2019,10,,,,OR
+Oregon Tech,Manufacturing,2004,1,135,269,.50185871,OR
+Oregon Tech,Manufacturing,2004,5,118,233,.50643778,OR
+Oregon Tech,Manufacturing,2004,10,114,224,.5089286,OR
+Oregon Tech,Manufacturing,2007,1,103,201,.51243782,OR
+Oregon Tech,Manufacturing,2007,5,115,213,.53990608,OR
+Oregon Tech,Manufacturing,2007,10,107,226,.47345132,OR
+Oregon Tech,Manufacturing,2010,1,126,212,.59433961,OR
+Oregon Tech,Manufacturing,2010,5,120,192,.625,OR
+Oregon Tech,Manufacturing,2010,10,102,182,.56043959,OR
+Oregon Tech,Manufacturing,2013,1,124,193,.64248705,OR
+Oregon Tech,Manufacturing,2013,5,118,195,.60512823,OR
+Oregon Tech,Manufacturing,2013,10,,,,OR
+Oregon Tech,Manufacturing,2016,1,175,288,.6076389,OR
+Oregon Tech,Manufacturing,2016,5,171,282,.60638297,OR
+Oregon Tech,Manufacturing,2016,10,,,,OR
+Oregon Tech,Manufacturing,2019,1,157,263,.59695816,OR
+Oregon Tech,Manufacturing,2019,5,,,,OR
+Oregon Tech,Manufacturing,2019,10,,,,OR
+Oregon Tech,Mining,2004,1,0,0,,OR
+Oregon Tech,Mining,2004,5,0,0,,OR
+Oregon Tech,Mining,2004,10,0,0,,OR
+Oregon Tech,Mining,2007,1,0,0,,OR
+Oregon Tech,Mining,2007,5,2,2,1,OR
+Oregon Tech,Mining,2007,10,1,3,.33333334,OR
+Oregon Tech,Mining,2010,1,0,0,,OR
+Oregon Tech,Mining,2010,5,0,0,,OR
+Oregon Tech,Mining,2010,10,0,1,0,OR
+Oregon Tech,Mining,2013,1,0,0,,OR
+Oregon Tech,Mining,2013,5,0,1,0,OR
+Oregon Tech,Mining,2013,10,,,,OR
+Oregon Tech,Mining,2016,1,0,0,,OR
+Oregon Tech,Mining,2016,5,0,0,,OR
+Oregon Tech,Mining,2016,10,,,,OR
+Oregon Tech,Mining,2019,1,1,1,1,OR
+Oregon Tech,Mining,2019,5,,,,OR
+Oregon Tech,Mining,2019,10,,,,OR
+Oregon Tech,Other Services,2004,1,4,4,1,OR
+Oregon Tech,Other Services,2004,5,8,10,.80000001,OR
+Oregon Tech,Other Services,2004,10,2,5,.40000001,OR
+Oregon Tech,Other Services,2007,1,0,2,0,OR
+Oregon Tech,Other Services,2007,5,6,10,.60000002,OR
+Oregon Tech,Other Services,2007,10,6,11,.54545456,OR
+Oregon Tech,Other Services,2010,1,3,3,1,OR
+Oregon Tech,Other Services,2010,5,5,8,.625,OR
+Oregon Tech,Other Services,2010,10,8,18,.44444445,OR
+Oregon Tech,Other Services,2013,1,2,3,.66666669,OR
+Oregon Tech,Other Services,2013,5,3,8,.375,OR
+Oregon Tech,Other Services,2013,10,,,,OR
+Oregon Tech,Other Services,2016,1,15,17,.88235295,OR
+Oregon Tech,Other Services,2016,5,21,25,.83999997,OR
+Oregon Tech,Other Services,2016,10,,,,OR
+Oregon Tech,Other Services,2019,1,12,19,.63157892,OR
+Oregon Tech,Other Services,2019,5,,,,OR
+Oregon Tech,Other Services,2019,10,,,,OR
+Oregon Tech,Professional Services,2004,1,72,111,.64864862,OR
+Oregon Tech,Professional Services,2004,5,63,126,.5,OR
+Oregon Tech,Professional Services,2004,10,59,120,.49166667,OR
+Oregon Tech,Professional Services,2007,1,57,97,.58762884,OR
+Oregon Tech,Professional Services,2007,5,53,94,.56382978,OR
+Oregon Tech,Professional Services,2007,10,43,78,.55128205,OR
+Oregon Tech,Professional Services,2010,1,97,128,.7578125,OR
+Oregon Tech,Professional Services,2010,5,112,157,.71337581,OR
+Oregon Tech,Professional Services,2010,10,100,164,.60975611,OR
+Oregon Tech,Professional Services,2013,1,114,168,.6785714,OR
+Oregon Tech,Professional Services,2013,5,102,155,.65806454,OR
+Oregon Tech,Professional Services,2013,10,,,,OR
+Oregon Tech,Professional Services,2016,1,137,206,.66504854,OR
+Oregon Tech,Professional Services,2016,5,121,195,.62051284,OR
+Oregon Tech,Professional Services,2016,10,,,,OR
+Oregon Tech,Professional Services,2019,1,132,222,.5945946,OR
+Oregon Tech,Professional Services,2019,5,,,,OR
+Oregon Tech,Professional Services,2019,10,,,,OR
+Oregon Tech,Public Admin,2004,1,26,44,.59090906,OR
+Oregon Tech,Public Admin,2004,5,37,58,.63793105,OR
+Oregon Tech,Public Admin,2004,10,32,67,.47761193,OR
+Oregon Tech,Public Admin,2007,1,23,52,.44230768,OR
+Oregon Tech,Public Admin,2007,5,19,46,.41304347,OR
+Oregon Tech,Public Admin,2007,10,28,53,.52830189,OR
+Oregon Tech,Public Admin,2010,1,13,29,.44827586,OR
+Oregon Tech,Public Admin,2010,5,30,58,.51724136,OR
+Oregon Tech,Public Admin,2010,10,39,77,.50649351,OR
+Oregon Tech,Public Admin,2013,1,21,31,.67741936,OR
+Oregon Tech,Public Admin,2013,5,30,48,.625,OR
+Oregon Tech,Public Admin,2013,10,,,,OR
+Oregon Tech,Public Admin,2016,1,26,50,.51999998,OR
+Oregon Tech,Public Admin,2016,5,39,70,.55714285,OR
+Oregon Tech,Public Admin,2016,10,,,,OR
+Oregon Tech,Public Admin,2019,1,28,57,.49122807,OR
+Oregon Tech,Public Admin,2019,5,,,,OR
+Oregon Tech,Public Admin,2019,10,,,,OR
+Oregon Tech,Real Estate,2004,1,1,5,.2,OR
+Oregon Tech,Real Estate,2004,5,2,2,1,OR
+Oregon Tech,Real Estate,2004,10,2,6,.33333334,OR
+Oregon Tech,Real Estate,2007,1,2,2,1,OR
+Oregon Tech,Real Estate,2007,5,1,5,.2,OR
+Oregon Tech,Real Estate,2007,10,6,12,.5,OR
+Oregon Tech,Real Estate,2010,1,1,2,.5,OR
+Oregon Tech,Real Estate,2010,5,3,4,.75,OR
+Oregon Tech,Real Estate,2010,10,3,11,.27272728,OR
+Oregon Tech,Real Estate,2013,1,0,1,0,OR
+Oregon Tech,Real Estate,2013,5,8,10,.80000001,OR
+Oregon Tech,Real Estate,2013,10,,,,OR
+Oregon Tech,Real Estate,2016,1,2,2,1,OR
+Oregon Tech,Real Estate,2016,5,6,11,.54545456,OR
+Oregon Tech,Real Estate,2016,10,,,,OR
+Oregon Tech,Real Estate,2019,1,2,12,.16666667,OR
+Oregon Tech,Real Estate,2019,5,,,,OR
+Oregon Tech,Real Estate,2019,10,,,,OR
+Oregon Tech,Retail,2004,1,18,27,.66666669,OR
+Oregon Tech,Retail,2004,5,21,28,.75,OR
+Oregon Tech,Retail,2004,10,7,30,.23333333,OR
+Oregon Tech,Retail,2007,1,12,23,.52173913,OR
+Oregon Tech,Retail,2007,5,13,28,.4642857,OR
+Oregon Tech,Retail,2007,10,19,43,.44186047,OR
+Oregon Tech,Retail,2010,1,19,30,.63333333,OR
+Oregon Tech,Retail,2010,5,14,29,.48275861,OR
+Oregon Tech,Retail,2010,10,12,33,.36363637,OR
+Oregon Tech,Retail,2013,1,11,19,.57894737,OR
+Oregon Tech,Retail,2013,5,9,24,.375,OR
+Oregon Tech,Retail,2013,10,,,,OR
+Oregon Tech,Retail,2016,1,22,39,.56410259,OR
+Oregon Tech,Retail,2016,5,16,44,.36363637,OR
+Oregon Tech,Retail,2016,10,,,,OR
+Oregon Tech,Retail,2019,1,20,33,.60606062,OR
+Oregon Tech,Retail,2019,5,,,,OR
+Oregon Tech,Retail,2019,10,,,,OR
+Oregon Tech,Transportation,2004,1,1,1,1,OR
+Oregon Tech,Transportation,2004,5,7,7,1,OR
+Oregon Tech,Transportation,2004,10,8,8,1,OR
+Oregon Tech,Transportation,2007,1,6,8,.75,OR
+Oregon Tech,Transportation,2007,5,2,8,.25,OR
+Oregon Tech,Transportation,2007,10,13,22,.59090906,OR
+Oregon Tech,Transportation,2010,1,2,10,.2,OR
+Oregon Tech,Transportation,2010,5,2,4,.5,OR
+Oregon Tech,Transportation,2010,10,8,20,.40000001,OR
+Oregon Tech,Transportation,2013,1,0,0,,OR
+Oregon Tech,Transportation,2013,5,4,5,.80000001,OR
+Oregon Tech,Transportation,2013,10,,,,OR
+Oregon Tech,Transportation,2016,1,7,8,.875,OR
+Oregon Tech,Transportation,2016,5,10,16,.625,OR
+Oregon Tech,Transportation,2016,10,,,,OR
+Oregon Tech,Transportation,2019,1,8,17,.47058824,OR
+Oregon Tech,Transportation,2019,5,,,,OR
+Oregon Tech,Transportation,2019,10,,,,OR
+Oregon Tech,Utilities,2004,1,0,0,,OR
+Oregon Tech,Utilities,2004,5,0,4,0,OR
+Oregon Tech,Utilities,2004,10,1,6,.16666667,OR
+Oregon Tech,Utilities,2007,1,1,3,.33333334,OR
+Oregon Tech,Utilities,2007,5,3,3,1,OR
+Oregon Tech,Utilities,2007,10,3,5,.60000002,OR
+Oregon Tech,Utilities,2010,1,3,4,.75,OR
+Oregon Tech,Utilities,2010,5,7,8,.875,OR
+Oregon Tech,Utilities,2010,10,10,19,.52631581,OR
+Oregon Tech,Utilities,2013,1,4,4,1,OR
+Oregon Tech,Utilities,2013,5,6,16,.375,OR
+Oregon Tech,Utilities,2013,10,,,,OR
+Oregon Tech,Utilities,2016,1,8,14,.5714286,OR
+Oregon Tech,Utilities,2016,5,10,18,.55555558,OR
+Oregon Tech,Utilities,2016,10,,,,OR
+Oregon Tech,Utilities,2019,1,2,6,.33333334,OR
+Oregon Tech,Utilities,2019,5,,,,OR
+Oregon Tech,Utilities,2019,10,,,,OR
+Oregon Tech,Wholesale,2004,1,17,25,.68000001,OR
+Oregon Tech,Wholesale,2004,5,18,27,.66666669,OR
+Oregon Tech,Wholesale,2004,10,20,33,.60606062,OR
+Oregon Tech,Wholesale,2007,1,8,17,.47058824,OR
+Oregon Tech,Wholesale,2007,5,9,21,.42857143,OR
+Oregon Tech,Wholesale,2007,10,13,27,.48148149,OR
+Oregon Tech,Wholesale,2010,1,13,14,.9285714,OR
+Oregon Tech,Wholesale,2010,5,17,27,.62962961,OR
+Oregon Tech,Wholesale,2010,10,20,43,.46511629,OR
+Oregon Tech,Wholesale,2013,1,18,22,.81818181,OR
+Oregon Tech,Wholesale,2013,5,22,33,.66666669,OR
+Oregon Tech,Wholesale,2013,10,,,,OR
+Oregon Tech,Wholesale,2016,1,29,35,.82857144,OR
+Oregon Tech,Wholesale,2016,5,31,43,.72093022,OR
+Oregon Tech,Wholesale,2016,10,,,,OR
+Oregon Tech,Wholesale,2019,1,24,35,.6857143,OR
+Oregon Tech,Wholesale,2019,5,,,,OR
+Oregon Tech,Wholesale,2019,10,,,,OR
+Portland State,Admin/Waste,2004,1,378,460,.82173914,OR
+Portland State,Admin/Waste,2004,5,196,298,.65771812,OR
+Portland State,Admin/Waste,2004,10,190,303,.62706268,OR
+Portland State,Admin/Waste,2007,1,334,392,.85204083,OR
+Portland State,Admin/Waste,2007,5,260,346,.75144511,OR
+Portland State,Admin/Waste,2007,10,214,356,.60112357,OR
+Portland State,Admin/Waste,2010,1,476,574,.82926828,OR
+Portland State,Admin/Waste,2010,5,342,468,.73076922,OR
+Portland State,Admin/Waste,2010,10,245,405,.60493827,OR
+Portland State,Admin/Waste,2013,1,583,721,.80859917,OR
+Portland State,Admin/Waste,2013,5,361,487,.74127311,OR
+Portland State,Admin/Waste,2013,10,,,,OR
+Portland State,Admin/Waste,2016,1,643,763,.84272605,OR
+Portland State,Admin/Waste,2016,5,363,542,.66974169,OR
+Portland State,Admin/Waste,2016,10,,,,OR
+Portland State,Admin/Waste,2019,1,584,715,.81678319,OR
+Portland State,Admin/Waste,2019,5,,,,OR
+Portland State,Admin/Waste,2019,10,,,,OR
+Portland State,Agriculture,2004,1,15,22,.68181819,OR
+Portland State,Agriculture,2004,5,14,25,.56,OR
+Portland State,Agriculture,2004,10,12,26,.46153846,OR
+Portland State,Agriculture,2007,1,12,17,.70588237,OR
+Portland State,Agriculture,2007,5,12,28,.42857143,OR
+Portland State,Agriculture,2007,10,15,23,.65217394,OR
+Portland State,Agriculture,2010,1,13,21,.61904764,OR
+Portland State,Agriculture,2010,5,17,18,.94444442,OR
+Portland State,Agriculture,2010,10,26,35,.74285716,OR
+Portland State,Agriculture,2013,1,28,40,.69999999,OR
+Portland State,Agriculture,2013,5,29,35,.82857144,OR
+Portland State,Agriculture,2013,10,,,,OR
+Portland State,Agriculture,2016,1,32,50,.63999999,OR
+Portland State,Agriculture,2016,5,30,38,.78947371,OR
+Portland State,Agriculture,2016,10,,,,OR
+Portland State,Agriculture,2019,1,33,38,.86842108,OR
+Portland State,Agriculture,2019,5,,,,OR
+Portland State,Agriculture,2019,10,,,,OR
+Portland State,Arts/Entertainment,2004,1,94,106,.88679248,OR
+Portland State,Arts/Entertainment,2004,5,61,77,.79220778,OR
+Portland State,Arts/Entertainment,2004,10,63,85,.74117649,OR
+Portland State,Arts/Entertainment,2007,1,88,102,.86274511,OR
+Portland State,Arts/Entertainment,2007,5,77,105,.73333335,OR
+Portland State,Arts/Entertainment,2007,10,62,88,.70454544,OR
+Portland State,Arts/Entertainment,2010,1,114,147,.77551019,OR
+Portland State,Arts/Entertainment,2010,5,95,125,.75999999,OR
+Portland State,Arts/Entertainment,2010,10,54,85,.63529414,OR
+Portland State,Arts/Entertainment,2013,1,146,173,.84393066,OR
+Portland State,Arts/Entertainment,2013,5,93,123,.75609756,OR
+Portland State,Arts/Entertainment,2013,10,,,,OR
+Portland State,Arts/Entertainment,2016,1,172,197,.87309647,OR
+Portland State,Arts/Entertainment,2016,5,92,111,.82882881,OR
+Portland State,Arts/Entertainment,2016,10,,,,OR
+Portland State,Arts/Entertainment,2019,1,85,115,.73913044,OR
+Portland State,Arts/Entertainment,2019,5,,,,OR
+Portland State,Arts/Entertainment,2019,10,,,,OR
+Portland State,Construction,2004,1,98,152,.64473683,OR
+Portland State,Construction,2004,5,117,165,.70909089,OR
+Portland State,Construction,2004,10,143,204,.70098037,OR
+Portland State,Construction,2007,1,98,141,.69503546,OR
+Portland State,Construction,2007,5,111,161,.68944097,OR
+Portland State,Construction,2007,10,136,198,.68686867,OR
+Portland State,Construction,2010,1,103,148,.69594592,OR
+Portland State,Construction,2010,5,140,189,.74074072,OR
+Portland State,Construction,2010,10,160,250,.63999999,OR
+Portland State,Construction,2013,1,145,207,.70048308,OR
+Portland State,Construction,2013,5,196,257,.7626459,OR
+Portland State,Construction,2013,10,,,,OR
+Portland State,Construction,2016,1,179,241,.7427386,OR
+Portland State,Construction,2016,5,229,310,.73870969,OR
+Portland State,Construction,2016,10,,,,OR
+Portland State,Construction,2019,1,164,216,.75925928,OR
+Portland State,Construction,2019,5,,,,OR
+Portland State,Construction,2019,10,,,,OR
+Portland State,Education,2004,1,567,664,.85391569,OR
+Portland State,Education,2004,5,792,1036,.76447874,OR
+Portland State,Education,2004,10,838,1167,.71808052,OR
+Portland State,Education,2007,1,528,647,.81607419,OR
+Portland State,Education,2007,5,772,1081,.71415359,OR
+Portland State,Education,2007,10,839,1237,.67825383,OR
+Portland State,Education,2010,1,506,624,.81089741,OR
+Portland State,Education,2010,5,859,1236,.69498384,OR
+Portland State,Education,2010,10,885,1330,.66541356,OR
+Portland State,Education,2013,1,609,795,.76603776,OR
+Portland State,Education,2013,5,940,1333,.70517629,OR
+Portland State,Education,2013,10,,,,OR
+Portland State,Education,2016,1,739,902,.81929046,OR
+Portland State,Education,2016,5,969,1323,.73242629,OR
+Portland State,Education,2016,10,,,,OR
+Portland State,Education,2019,1,749,945,.79259259,OR
+Portland State,Education,2019,5,,,,OR
+Portland State,Education,2019,10,,,,OR
+Portland State,Finance,2004,1,442,523,.8451243,OR
+Portland State,Finance,2004,5,370,486,.7613169,OR
+Portland State,Finance,2004,10,345,479,.72025055,OR
+Portland State,Finance,2007,1,368,414,.8888889,OR
+Portland State,Finance,2007,5,401,480,.83541667,OR
+Portland State,Finance,2007,10,333,441,.75510204,OR
+Portland State,Finance,2010,1,388,455,.85274726,OR
+Portland State,Finance,2010,5,400,531,.75329566,OR
+Portland State,Finance,2010,10,364,533,.68292683,OR
+Portland State,Finance,2013,1,385,462,.83333331,OR
+Portland State,Finance,2013,5,402,521,.77159309,OR
+Portland State,Finance,2013,10,,,,OR
+Portland State,Finance,2016,1,326,423,.77068555,OR
+Portland State,Finance,2016,5,351,493,.71196753,OR
+Portland State,Finance,2016,10,,,,OR
+Portland State,Finance,2019,1,335,441,.75963718,OR
+Portland State,Finance,2019,5,,,,OR
+Portland State,Finance,2019,10,,,,OR
+Portland State,Food/Hospitality,2004,1,405,497,.81488931,OR
+Portland State,Food/Hospitality,2004,5,195,303,.64356434,OR
+Portland State,Food/Hospitality,2004,10,122,225,.5422222,OR
+Portland State,Food/Hospitality,2007,1,475,555,.85585588,OR
+Portland State,Food/Hospitality,2007,5,227,347,.65417868,OR
+Portland State,Food/Hospitality,2007,10,167,281,.59430605,OR
+Portland State,Food/Hospitality,2010,1,586,714,.8207283,OR
+Portland State,Food/Hospitality,2010,5,338,477,.7085954,OR
+Portland State,Food/Hospitality,2010,10,140,251,.55776894,OR
+Portland State,Food/Hospitality,2013,1,638,808,.78960395,OR
+Portland State,Food/Hospitality,2013,5,266,404,.65841585,OR
+Portland State,Food/Hospitality,2013,10,,,,OR
+Portland State,Food/Hospitality,2016,1,733,882,.83106577,OR
+Portland State,Food/Hospitality,2016,5,280,422,.6635071,OR
+Portland State,Food/Hospitality,2016,10,,,,OR
+Portland State,Food/Hospitality,2019,1,498,629,.79173291,OR
+Portland State,Food/Hospitality,2019,5,,,,OR
+Portland State,Food/Hospitality,2019,10,,,,OR
+Portland State,Health Care,2004,1,618,763,.80996066,OR
+Portland State,Health Care,2004,5,650,904,.71902657,OR
+Portland State,Health Care,2004,10,705,1045,.67464113,OR
+Portland State,Health Care,2007,1,721,846,.85224587,OR
+Portland State,Health Care,2007,5,809,1106,.73146474,OR
+Portland State,Health Care,2007,10,840,1229,.68348253,OR
+Portland State,Health Care,2010,1,930,1167,.79691517,OR
+Portland State,Health Care,2010,5,1071,1469,.72906739,OR
+Portland State,Health Care,2010,10,989,1415,.69893992,OR
+Portland State,Health Care,2013,1,1166,1388,.84005761,OR
+Portland State,Health Care,2013,5,1194,1633,.73116964,OR
+Portland State,Health Care,2013,10,,,,OR
+Portland State,Health Care,2016,1,1321,1538,.8589077,OR
+Portland State,Health Care,2016,5,1201,1640,.73231709,OR
+Portland State,Health Care,2016,10,,,,OR
+Portland State,Health Care,2019,1,1470,1758,.83617747,OR
+Portland State,Health Care,2019,5,,,,OR
+Portland State,Health Care,2019,10,,,,OR
+Portland State,Information,2004,1,215,253,.84980237,OR
+Portland State,Information,2004,5,195,258,.75581396,OR
+Portland State,Information,2004,10,148,234,.63247865,OR
+Portland State,Information,2007,1,161,203,.79310346,OR
+Portland State,Information,2007,5,178,229,.77729255,OR
+Portland State,Information,2007,10,193,264,.73106062,OR
+Portland State,Information,2010,1,156,215,.72558141,OR
+Portland State,Information,2010,5,261,354,.73728812,OR
+Portland State,Information,2010,10,239,371,.64420485,OR
+Portland State,Information,2013,1,214,265,.80754715,OR
+Portland State,Information,2013,5,248,339,.73156345,OR
+Portland State,Information,2013,10,,,,OR
+Portland State,Information,2016,1,238,287,.82926828,OR
+Portland State,Information,2016,5,305,440,.69318181,OR
+Portland State,Information,2016,10,,,,OR
+Portland State,Information,2019,1,234,291,.8041237,OR
+Portland State,Information,2019,5,,,,OR
+Portland State,Information,2019,10,,,,OR
+Portland State,Management,2004,1,189,207,.9130435,OR
+Portland State,Management,2004,5,213,246,.86585367,OR
+Portland State,Management,2004,10,289,325,.88923079,OR
+Portland State,Management,2007,1,191,208,.91826922,OR
+Portland State,Management,2007,5,277,302,.91721857,OR
+Portland State,Management,2007,10,306,353,.8668555,OR
+Portland State,Management,2010,1,226,244,.92622954,OR
+Portland State,Management,2010,5,376,421,.89311165,OR
+Portland State,Management,2010,10,334,395,.84556961,OR
+Portland State,Management,2013,1,275,295,.93220341,OR
+Portland State,Management,2013,5,397,428,.9275701,OR
+Portland State,Management,2013,10,,,,OR
+Portland State,Management,2016,1,344,371,.92722374,OR
+Portland State,Management,2016,5,408,461,.88503253,OR
+Portland State,Management,2016,10,,,,OR
+Portland State,Management,2019,1,265,291,.91065294,OR
+Portland State,Management,2019,5,,,,OR
+Portland State,Management,2019,10,,,,OR
+Portland State,Manufacturing,2004,1,482,587,.82112437,OR
+Portland State,Manufacturing,2004,5,454,607,.74794072,OR
+Portland State,Manufacturing,2004,10,469,648,.72376543,OR
+Portland State,Manufacturing,2007,1,350,426,.82159626,OR
+Portland State,Manufacturing,2007,5,386,557,.69299823,OR
+Portland State,Manufacturing,2007,10,384,536,.71641791,OR
+Portland State,Manufacturing,2010,1,441,549,.80327868,OR
+Portland State,Manufacturing,2010,5,529,712,.7429775,OR
+Portland State,Manufacturing,2010,10,487,716,.68016762,OR
+Portland State,Manufacturing,2013,1,566,707,.80056578,OR
+Portland State,Manufacturing,2013,5,622,794,.78337532,OR
+Portland State,Manufacturing,2013,10,,,,OR
+Portland State,Manufacturing,2016,1,595,718,.82869083,OR
+Portland State,Manufacturing,2016,5,596,786,.75826973,OR
+Portland State,Manufacturing,2016,10,,,,OR
+Portland State,Manufacturing,2019,1,609,763,.79816514,OR
+Portland State,Manufacturing,2019,5,,,,OR
+Portland State,Manufacturing,2019,10,,,,OR
+Portland State,Mining,2004,1,0,0,,OR
+Portland State,Mining,2004,5,1,5,.2,OR
+Portland State,Mining,2004,10,0,0,,OR
+Portland State,Mining,2007,1,0,2,0,OR
+Portland State,Mining,2007,5,0,3,0,OR
+Portland State,Mining,2007,10,0,0,,OR
+Portland State,Mining,2010,1,2,2,1,OR
+Portland State,Mining,2010,5,1,2,.5,OR
+Portland State,Mining,2010,10,0,6,0,OR
+Portland State,Mining,2013,1,1,1,1,OR
+Portland State,Mining,2013,5,1,1,1,OR
+Portland State,Mining,2013,10,,,,OR
+Portland State,Mining,2016,1,2,2,1,OR
+Portland State,Mining,2016,5,2,2,1,OR
+Portland State,Mining,2016,10,,,,OR
+Portland State,Mining,2019,1,0,0,,OR
+Portland State,Mining,2019,5,,,,OR
+Portland State,Mining,2019,10,,,,OR
+Portland State,Other Services,2004,1,119,136,.875,OR
+Portland State,Other Services,2004,5,93,121,.76859504,OR
+Portland State,Other Services,2004,10,92,132,.69696969,OR
+Portland State,Other Services,2007,1,136,162,.83950615,OR
+Portland State,Other Services,2007,5,124,185,.67027026,OR
+Portland State,Other Services,2007,10,111,186,.59677422,OR
+Portland State,Other Services,2010,1,179,219,.81735158,OR
+Portland State,Other Services,2010,5,170,239,.71129709,OR
+Portland State,Other Services,2010,10,154,204,.75490195,OR
+Portland State,Other Services,2013,1,203,256,.79296875,OR
+Portland State,Other Services,2013,5,194,254,.76377952,OR
+Portland State,Other Services,2013,10,,,,OR
+Portland State,Other Services,2016,1,236,269,.87732345,OR
+Portland State,Other Services,2016,5,181,248,.72983873,OR
+Portland State,Other Services,2016,10,,,,OR
+Portland State,Other Services,2019,1,231,269,.85873604,OR
+Portland State,Other Services,2019,5,,,,OR
+Portland State,Other Services,2019,10,,,,OR
+Portland State,Professional Services,2004,1,624,776,.8041237,OR
+Portland State,Professional Services,2004,5,496,728,.6813187,OR
+Portland State,Professional Services,2004,10,504,812,.62068963,OR
+Portland State,Professional Services,2007,1,554,703,.78805119,OR
+Portland State,Professional Services,2007,5,605,901,.67147613,OR
+Portland State,Professional Services,2007,10,602,904,.6659292,OR
+Portland State,Professional Services,2010,1,611,814,.75061423,OR
+Portland State,Professional Services,2010,5,758,1113,.68104225,OR
+Portland State,Professional Services,2010,10,675,1067,.63261479,OR
+Portland State,Professional Services,2013,1,871,1091,.79835016,OR
+Portland State,Professional Services,2013,5,883,1222,.72258592,OR
+Portland State,Professional Services,2013,10,,,,OR
+Portland State,Professional Services,2016,1,1001,1258,.79570746,OR
+Portland State,Professional Services,2016,5,964,1429,.67459762,OR
+Portland State,Professional Services,2016,10,,,,OR
+Portland State,Professional Services,2019,1,1035,1347,.76837415,OR
+Portland State,Professional Services,2019,5,,,,OR
+Portland State,Professional Services,2019,10,,,,OR
+Portland State,Public Admin,2004,1,276,342,.80701756,OR
+Portland State,Public Admin,2004,5,333,440,.75681818,OR
+Portland State,Public Admin,2004,10,353,481,.73388773,OR
+Portland State,Public Admin,2007,1,279,374,.74598932,OR
+Portland State,Public Admin,2007,5,354,502,.70517927,OR
+Portland State,Public Admin,2007,10,423,614,.68892509,OR
+Portland State,Public Admin,2010,1,265,356,.74438202,OR
+Portland State,Public Admin,2010,5,440,640,.6875,OR
+Portland State,Public Admin,2010,10,496,717,.69177127,OR
+Portland State,Public Admin,2013,1,302,407,.74201477,OR
+Portland State,Public Admin,2013,5,490,665,.7368421,OR
+Portland State,Public Admin,2013,10,,,,OR
+Portland State,Public Admin,2016,1,326,416,.78365386,OR
+Portland State,Public Admin,2016,5,489,659,.74203336,OR
+Portland State,Public Admin,2016,10,,,,OR
+Portland State,Public Admin,2019,1,337,443,.76072234,OR
+Portland State,Public Admin,2019,5,,,,OR
+Portland State,Public Admin,2019,10,,,,OR
+Portland State,Real Estate,2004,1,79,89,.88764048,OR
+Portland State,Real Estate,2004,5,67,87,.77011496,OR
+Portland State,Real Estate,2004,10,48,65,.73846155,OR
+Portland State,Real Estate,2007,1,91,99,.9191919,OR
+Portland State,Real Estate,2007,5,88,111,.7927928,OR
+Portland State,Real Estate,2007,10,96,117,.82051283,OR
+Portland State,Real Estate,2010,1,95,105,.90476191,OR
+Portland State,Real Estate,2010,5,106,129,.8217054,OR
+Portland State,Real Estate,2010,10,79,106,.74528301,OR
+Portland State,Real Estate,2013,1,113,146,.77397263,OR
+Portland State,Real Estate,2013,5,132,152,.86842108,OR
+Portland State,Real Estate,2013,10,,,,OR
+Portland State,Real Estate,2016,1,160,183,.87431693,OR
+Portland State,Real Estate,2016,5,125,172,.72674417,OR
+Portland State,Real Estate,2016,10,,,,OR
+Portland State,Real Estate,2019,1,134,167,.80239522,OR
+Portland State,Real Estate,2019,5,,,,OR
+Portland State,Real Estate,2019,10,,,,OR
+Portland State,Retail,2004,1,518,633,.81832546,OR
+Portland State,Retail,2004,5,278,408,.68137252,OR
+Portland State,Retail,2004,10,215,360,.59722221,OR
+Portland State,Retail,2007,1,577,712,.81039327,OR
+Portland State,Retail,2007,5,344,547,.62888485,OR
+Portland State,Retail,2007,10,268,433,.61893767,OR
+Portland State,Retail,2010,1,703,851,.82608694,OR
+Portland State,Retail,2010,5,420,632,.66455698,OR
+Portland State,Retail,2010,10,284,486,.58436215,OR
+Portland State,Retail,2013,1,666,849,.78445232,OR
+Portland State,Retail,2013,5,399,613,.6508972,OR
+Portland State,Retail,2013,10,,,,OR
+Portland State,Retail,2016,1,691,862,.80162412,OR
+Portland State,Retail,2016,5,417,620,.67258066,OR
+Portland State,Retail,2016,10,,,,OR
+Portland State,Retail,2019,1,706,877,.80501711,OR
+Portland State,Retail,2019,5,,,,OR
+Portland State,Retail,2019,10,,,,OR
+Portland State,Transportation,2004,1,138,171,.80701756,OR
+Portland State,Transportation,2004,5,113,161,.70186335,OR
+Portland State,Transportation,2004,10,113,167,.67664671,OR
+Portland State,Transportation,2007,1,104,127,.81889766,OR
+Portland State,Transportation,2007,5,107,144,.74305558,OR
+Portland State,Transportation,2007,10,110,165,.66666669,OR
+Portland State,Transportation,2010,1,128,164,.78048778,OR
+Portland State,Transportation,2010,5,127,175,.72571427,OR
+Portland State,Transportation,2010,10,160,231,.69264072,OR
+Portland State,Transportation,2013,1,138,192,.71875,OR
+Portland State,Transportation,2013,5,169,218,.77522933,OR
+Portland State,Transportation,2013,10,,,,OR
+Portland State,Transportation,2016,1,203,238,.85294116,OR
+Portland State,Transportation,2016,5,221,283,.78091872,OR
+Portland State,Transportation,2016,10,,,,OR
+Portland State,Transportation,2019,1,254,308,.82467532,OR
+Portland State,Transportation,2019,5,,,,OR
+Portland State,Transportation,2019,10,,,,OR
+Portland State,Utilities,2004,1,26,30,.86666667,OR
+Portland State,Utilities,2004,5,35,45,.77777779,OR
+Portland State,Utilities,2004,10,47,65,.72307694,OR
+Portland State,Utilities,2007,1,23,38,.60526317,OR
+Portland State,Utilities,2007,5,38,50,.75999999,OR
+Portland State,Utilities,2007,10,41,63,.65079367,OR
+Portland State,Utilities,2010,1,21,29,.7241379,OR
+Portland State,Utilities,2010,5,27,42,.64285713,OR
+Portland State,Utilities,2010,10,47,69,.68115944,OR
+Portland State,Utilities,2013,1,18,28,.64285713,OR
+Portland State,Utilities,2013,5,30,46,.65217394,OR
+Portland State,Utilities,2013,10,,,,OR
+Portland State,Utilities,2016,1,22,27,.81481481,OR
+Portland State,Utilities,2016,5,32,44,.72727275,OR
+Portland State,Utilities,2016,10,,,,OR
+Portland State,Utilities,2019,1,28,36,.77777779,OR
+Portland State,Utilities,2019,5,,,,OR
+Portland State,Utilities,2019,10,,,,OR
+Portland State,Wholesale,2004,1,252,310,.81290323,OR
+Portland State,Wholesale,2004,5,252,326,.77300614,OR
+Portland State,Wholesale,2004,10,197,274,.71897811,OR
+Portland State,Wholesale,2007,1,217,256,.84765625,OR
+Portland State,Wholesale,2007,5,227,301,.75415283,OR
+Portland State,Wholesale,2007,10,178,253,.70355731,OR
+Portland State,Wholesale,2010,1,230,300,.76666665,OR
+Portland State,Wholesale,2010,5,227,311,.72990352,OR
+Portland State,Wholesale,2010,10,235,357,.65826333,OR
+Portland State,Wholesale,2013,1,253,308,.8214286,OR
+Portland State,Wholesale,2013,5,268,350,.76571429,OR
+Portland State,Wholesale,2013,10,,,,OR
+Portland State,Wholesale,2016,1,271,324,.83641976,OR
+Portland State,Wholesale,2016,5,282,370,.76216215,OR
+Portland State,Wholesale,2016,10,,,,OR
+Portland State,Wholesale,2019,1,273,347,.78674352,OR
+Portland State,Wholesale,2019,5,,,,OR
+Portland State,Wholesale,2019,10,,,,OR
+Southern Oregon,Admin/Waste,2004,1,51,77,.66233766,OR
+Southern Oregon,Admin/Waste,2004,5,37,59,.62711865,OR
+Southern Oregon,Admin/Waste,2004,10,24,48,.5,OR
+Southern Oregon,Admin/Waste,2007,1,32,54,.5925926,OR
+Southern Oregon,Admin/Waste,2007,5,25,54,.46296296,OR
+Southern Oregon,Admin/Waste,2007,10,35,59,.59322035,OR
+Southern Oregon,Admin/Waste,2010,1,33,62,.53225809,OR
+Southern Oregon,Admin/Waste,2010,5,36,65,.55384618,OR
+Southern Oregon,Admin/Waste,2010,10,35,66,.530303,OR
+Southern Oregon,Admin/Waste,2013,1,47,82,.57317072,OR
+Southern Oregon,Admin/Waste,2013,5,37,63,.58730161,OR
+Southern Oregon,Admin/Waste,2013,10,,,,OR
+Southern Oregon,Admin/Waste,2016,1,44,70,.62857145,OR
+Southern Oregon,Admin/Waste,2016,5,28,49,.5714286,OR
+Southern Oregon,Admin/Waste,2016,10,,,,OR
+Southern Oregon,Admin/Waste,2019,1,46,76,.60526317,OR
+Southern Oregon,Admin/Waste,2019,5,,,,OR
+Southern Oregon,Admin/Waste,2019,10,,,,OR
+Southern Oregon,Agriculture,2004,1,11,15,.73333335,OR
+Southern Oregon,Agriculture,2004,5,9,11,.81818181,OR
+Southern Oregon,Agriculture,2004,10,3,7,.42857143,OR
+Southern Oregon,Agriculture,2007,1,7,14,.5,OR
+Southern Oregon,Agriculture,2007,5,4,5,.80000001,OR
+Southern Oregon,Agriculture,2007,10,5,9,.55555558,OR
+Southern Oregon,Agriculture,2010,1,7,8,.875,OR
+Southern Oregon,Agriculture,2010,5,8,9,.8888889,OR
+Southern Oregon,Agriculture,2010,10,11,13,.84615386,OR
+Southern Oregon,Agriculture,2013,1,8,10,.80000001,OR
+Southern Oregon,Agriculture,2013,5,8,19,.42105263,OR
+Southern Oregon,Agriculture,2013,10,,,,OR
+Southern Oregon,Agriculture,2016,1,11,13,.84615386,OR
+Southern Oregon,Agriculture,2016,5,18,23,.78260869,OR
+Southern Oregon,Agriculture,2016,10,,,,OR
+Southern Oregon,Agriculture,2019,1,15,16,.9375,OR
+Southern Oregon,Agriculture,2019,5,,,,OR
+Southern Oregon,Agriculture,2019,10,,,,OR
+Southern Oregon,Arts/Entertainment,2004,1,24,39,.61538464,OR
+Southern Oregon,Arts/Entertainment,2004,5,5,11,.45454547,OR
+Southern Oregon,Arts/Entertainment,2004,10,12,18,.66666669,OR
+Southern Oregon,Arts/Entertainment,2007,1,16,20,.80000001,OR
+Southern Oregon,Arts/Entertainment,2007,5,21,35,.60000002,OR
+Southern Oregon,Arts/Entertainment,2007,10,13,24,.54166669,OR
+Southern Oregon,Arts/Entertainment,2010,1,20,28,.71428573,OR
+Southern Oregon,Arts/Entertainment,2010,5,11,24,.45833334,OR
+Southern Oregon,Arts/Entertainment,2010,10,13,25,.51999998,OR
+Southern Oregon,Arts/Entertainment,2013,1,39,49,.79591835,OR
+Southern Oregon,Arts/Entertainment,2013,5,25,43,.58139533,OR
+Southern Oregon,Arts/Entertainment,2013,10,,,,OR
+Southern Oregon,Arts/Entertainment,2016,1,27,38,.71052629,OR
+Southern Oregon,Arts/Entertainment,2016,5,19,46,.41304347,OR
+Southern Oregon,Arts/Entertainment,2016,10,,,,OR
+Southern Oregon,Arts/Entertainment,2019,1,20,28,.71428573,OR
+Southern Oregon,Arts/Entertainment,2019,5,,,,OR
+Southern Oregon,Arts/Entertainment,2019,10,,,,OR
+Southern Oregon,Construction,2004,1,23,38,.60526317,OR
+Southern Oregon,Construction,2004,5,19,32,.59375,OR
+Southern Oregon,Construction,2004,10,21,37,.56756759,OR
+Southern Oregon,Construction,2007,1,12,14,.85714287,OR
+Southern Oregon,Construction,2007,5,19,34,.55882353,OR
+Southern Oregon,Construction,2007,10,17,24,.70833331,OR
+Southern Oregon,Construction,2010,1,17,23,.73913044,OR
+Southern Oregon,Construction,2010,5,35,55,.63636363,OR
+Southern Oregon,Construction,2010,10,31,62,.5,OR
+Southern Oregon,Construction,2013,1,17,31,.54838711,OR
+Southern Oregon,Construction,2013,5,29,45,.64444447,OR
+Southern Oregon,Construction,2013,10,,,,OR
+Southern Oregon,Construction,2016,1,21,33,.63636363,OR
+Southern Oregon,Construction,2016,5,25,50,.5,OR
+Southern Oregon,Construction,2016,10,,,,OR
+Southern Oregon,Construction,2019,1,23,35,.65714288,OR
+Southern Oregon,Construction,2019,5,,,,OR
+Southern Oregon,Construction,2019,10,,,,OR
+Southern Oregon,Education,2004,1,119,170,.69999999,OR
+Southern Oregon,Education,2004,5,171,232,.73706895,OR
+Southern Oregon,Education,2004,10,180,291,.61855668,OR
+Southern Oregon,Education,2007,1,71,136,.52205884,OR
+Southern Oregon,Education,2007,5,141,218,.64678901,OR
+Southern Oregon,Education,2007,10,176,309,.5695793,OR
+Southern Oregon,Education,2010,1,78,128,.609375,OR
+Southern Oregon,Education,2010,5,179,279,.64157706,OR
+Southern Oregon,Education,2010,10,211,349,.60458452,OR
+Southern Oregon,Education,2013,1,117,194,.60309279,OR
+Southern Oregon,Education,2013,5,225,382,.58900523,OR
+Southern Oregon,Education,2013,10,,,,OR
+Southern Oregon,Education,2016,1,124,210,.59047621,OR
+Southern Oregon,Education,2016,5,242,398,.60804021,OR
+Southern Oregon,Education,2016,10,,,,OR
+Southern Oregon,Education,2019,1,175,259,.67567569,OR
+Southern Oregon,Education,2019,5,,,,OR
+Southern Oregon,Education,2019,10,,,,OR
+Southern Oregon,Finance,2004,1,67,90,.74444443,OR
+Southern Oregon,Finance,2004,5,39,57,.68421054,OR
+Southern Oregon,Finance,2004,10,49,66,.74242425,OR
+Southern Oregon,Finance,2007,1,54,67,.80597013,OR
+Southern Oregon,Finance,2007,5,46,63,.73015875,OR
+Southern Oregon,Finance,2007,10,42,72,.58333331,OR
+Southern Oregon,Finance,2010,1,26,42,.61904764,OR
+Southern Oregon,Finance,2010,5,38,57,.66666669,OR
+Southern Oregon,Finance,2010,10,45,64,.703125,OR
+Southern Oregon,Finance,2013,1,26,42,.61904764,OR
+Southern Oregon,Finance,2013,5,40,61,.6557377,OR
+Southern Oregon,Finance,2013,10,,,,OR
+Southern Oregon,Finance,2016,1,40,61,.6557377,OR
+Southern Oregon,Finance,2016,5,46,66,.69696969,OR
+Southern Oregon,Finance,2016,10,,,,OR
+Southern Oregon,Finance,2019,1,27,40,.67500001,OR
+Southern Oregon,Finance,2019,5,,,,OR
+Southern Oregon,Finance,2019,10,,,,OR
+Southern Oregon,Food/Hospitality,2004,1,102,134,.76119405,OR
+Southern Oregon,Food/Hospitality,2004,5,47,96,.48958334,OR
+Southern Oregon,Food/Hospitality,2004,10,27,74,.36486486,OR
+Southern Oregon,Food/Hospitality,2007,1,79,117,.67521369,OR
+Southern Oregon,Food/Hospitality,2007,5,47,85,.5529412,OR
+Southern Oregon,Food/Hospitality,2007,10,27,71,.38028169,OR
+Southern Oregon,Food/Hospitality,2010,1,94,133,.7067669,OR
+Southern Oregon,Food/Hospitality,2010,5,57,95,.60000002,OR
+Southern Oregon,Food/Hospitality,2010,10,31,74,.41891891,OR
+Southern Oregon,Food/Hospitality,2013,1,97,149,.6510067,OR
+Southern Oregon,Food/Hospitality,2013,5,44,92,.47826087,OR
+Southern Oregon,Food/Hospitality,2013,10,,,,OR
+Southern Oregon,Food/Hospitality,2016,1,102,150,.68000001,OR
+Southern Oregon,Food/Hospitality,2016,5,38,90,.42222223,OR
+Southern Oregon,Food/Hospitality,2016,10,,,,OR
+Southern Oregon,Food/Hospitality,2019,1,111,168,.66071427,OR
+Southern Oregon,Food/Hospitality,2019,5,,,,OR
+Southern Oregon,Food/Hospitality,2019,10,,,,OR
+Southern Oregon,Health Care,2004,1,127,160,.79374999,OR
+Southern Oregon,Health Care,2004,5,145,210,.69047618,OR
+Southern Oregon,Health Care,2004,10,160,263,.608365,OR
+Southern Oregon,Health Care,2007,1,135,174,.7758621,OR
+Southern Oregon,Health Care,2007,5,164,266,.61654133,OR
+Southern Oregon,Health Care,2007,10,168,281,.59786475,OR
+Southern Oregon,Health Care,2010,1,154,198,.77777779,OR
+Southern Oregon,Health Care,2010,5,188,285,.65964913,OR
+Southern Oregon,Health Care,2010,10,195,305,.63934427,OR
+Southern Oregon,Health Care,2013,1,225,320,.703125,OR
+Southern Oregon,Health Care,2013,5,240,356,.67415732,OR
+Southern Oregon,Health Care,2013,10,,,,OR
+Southern Oregon,Health Care,2016,1,238,304,.78289473,OR
+Southern Oregon,Health Care,2016,5,266,387,.68733853,OR
+Southern Oregon,Health Care,2016,10,,,,OR
+Southern Oregon,Health Care,2019,1,260,359,.72423398,OR
+Southern Oregon,Health Care,2019,5,,,,OR
+Southern Oregon,Health Care,2019,10,,,,OR
+Southern Oregon,Information,2004,1,34,47,.72340423,OR
+Southern Oregon,Information,2004,5,32,44,.72727275,OR
+Southern Oregon,Information,2004,10,16,32,.5,OR
+Southern Oregon,Information,2007,1,36,47,.76595747,OR
+Southern Oregon,Information,2007,5,22,44,.5,OR
+Southern Oregon,Information,2007,10,12,27,.44444445,OR
+Southern Oregon,Information,2010,1,21,34,.61764705,OR
+Southern Oregon,Information,2010,5,22,38,.57894737,OR
+Southern Oregon,Information,2010,10,31,49,.63265306,OR
+Southern Oregon,Information,2013,1,25,48,.52083331,OR
+Southern Oregon,Information,2013,5,19,48,.39583334,OR
+Southern Oregon,Information,2013,10,,,,OR
+Southern Oregon,Information,2016,1,28,49,.5714286,OR
+Southern Oregon,Information,2016,5,33,49,.67346936,OR
+Southern Oregon,Information,2016,10,,,,OR
+Southern Oregon,Information,2019,1,25,42,.59523809,OR
+Southern Oregon,Information,2019,5,,,,OR
+Southern Oregon,Information,2019,10,,,,OR
+Southern Oregon,Management,2004,1,22,30,.73333335,OR
+Southern Oregon,Management,2004,5,21,26,.80769229,OR
+Southern Oregon,Management,2004,10,23,32,.71875,OR
+Southern Oregon,Management,2007,1,27,31,.87096775,OR
+Southern Oregon,Management,2007,5,20,31,.64516127,OR
+Southern Oregon,Management,2007,10,23,30,.76666665,OR
+Southern Oregon,Management,2010,1,24,28,.85714287,OR
+Southern Oregon,Management,2010,5,21,27,.77777779,OR
+Southern Oregon,Management,2010,10,22,29,.75862068,OR
+Southern Oregon,Management,2013,1,28,33,.84848487,OR
+Southern Oregon,Management,2013,5,27,38,.71052629,OR
+Southern Oregon,Management,2013,10,,,,OR
+Southern Oregon,Management,2016,1,25,30,.83333331,OR
+Southern Oregon,Management,2016,5,33,40,.82499999,OR
+Southern Oregon,Management,2016,10,,,,OR
+Southern Oregon,Management,2019,1,42,48,.875,OR
+Southern Oregon,Management,2019,5,,,,OR
+Southern Oregon,Management,2019,10,,,,OR
+Southern Oregon,Manufacturing,2004,1,59,79,.74683547,OR
+Southern Oregon,Manufacturing,2004,5,51,75,.68000001,OR
+Southern Oregon,Manufacturing,2004,10,64,110,.58181816,OR
+Southern Oregon,Manufacturing,2007,1,37,49,.75510204,OR
+Southern Oregon,Manufacturing,2007,5,42,69,.60869563,OR
+Southern Oregon,Manufacturing,2007,10,34,61,.55737704,OR
+Southern Oregon,Manufacturing,2010,1,44,82,.53658539,OR
+Southern Oregon,Manufacturing,2010,5,44,70,.62857145,OR
+Southern Oregon,Manufacturing,2010,10,59,80,.73750001,OR
+Southern Oregon,Manufacturing,2013,1,58,99,.58585858,OR
+Southern Oregon,Manufacturing,2013,5,55,87,.63218391,OR
+Southern Oregon,Manufacturing,2013,10,,,,OR
+Southern Oregon,Manufacturing,2016,1,53,93,.56989247,OR
+Southern Oregon,Manufacturing,2016,5,41,75,.54666668,OR
+Southern Oregon,Manufacturing,2016,10,,,,OR
+Southern Oregon,Manufacturing,2019,1,35,60,.58333331,OR
+Southern Oregon,Manufacturing,2019,5,,,,OR
+Southern Oregon,Manufacturing,2019,10,,,,OR
+Southern Oregon,Mining,2004,1,1,1,1,OR
+Southern Oregon,Mining,2004,5,0,2,0,OR
+Southern Oregon,Mining,2004,10,0,0,,OR
+Southern Oregon,Mining,2007,1,1,4,.25,OR
+Southern Oregon,Mining,2007,5,1,2,.5,OR
+Southern Oregon,Mining,2007,10,0,1,0,OR
+Southern Oregon,Mining,2010,1,0,2,0,OR
+Southern Oregon,Mining,2010,5,0,0,,OR
+Southern Oregon,Mining,2010,10,0,1,0,OR
+Southern Oregon,Mining,2013,1,0,1,0,OR
+Southern Oregon,Mining,2013,5,0,1,0,OR
+Southern Oregon,Mining,2013,10,,,,OR
+Southern Oregon,Mining,2016,1,0,0,,OR
+Southern Oregon,Mining,2016,5,0,3,0,OR
+Southern Oregon,Mining,2016,10,,,,OR
+Southern Oregon,Mining,2019,1,0,0,,OR
+Southern Oregon,Mining,2019,5,,,,OR
+Southern Oregon,Mining,2019,10,,,,OR
+Southern Oregon,Other Services,2004,1,19,23,.82608694,OR
+Southern Oregon,Other Services,2004,5,14,27,.51851851,OR
+Southern Oregon,Other Services,2004,10,17,38,.44736841,OR
+Southern Oregon,Other Services,2007,1,15,21,.71428573,OR
+Southern Oregon,Other Services,2007,5,17,33,.5151515,OR
+Southern Oregon,Other Services,2007,10,13,30,.43333334,OR
+Southern Oregon,Other Services,2010,1,13,19,.68421054,OR
+Southern Oregon,Other Services,2010,5,21,35,.60000002,OR
+Southern Oregon,Other Services,2010,10,28,40,.69999999,OR
+Southern Oregon,Other Services,2013,1,24,38,.63157892,OR
+Southern Oregon,Other Services,2013,5,22,36,.6111111,OR
+Southern Oregon,Other Services,2013,10,,,,OR
+Southern Oregon,Other Services,2016,1,24,36,.66666669,OR
+Southern Oregon,Other Services,2016,5,23,37,.62162161,OR
+Southern Oregon,Other Services,2016,10,,,,OR
+Southern Oregon,Other Services,2019,1,15,25,.60000002,OR
+Southern Oregon,Other Services,2019,5,,,,OR
+Southern Oregon,Other Services,2019,10,,,,OR
+Southern Oregon,Professional Services,2004,1,77,116,.66379309,OR
+Southern Oregon,Professional Services,2004,5,65,92,.70652175,OR
+Southern Oregon,Professional Services,2004,10,59,113,.52212387,OR
+Southern Oregon,Professional Services,2007,1,58,88,.65909094,OR
+Southern Oregon,Professional Services,2007,5,58,104,.55769229,OR
+Southern Oregon,Professional Services,2007,10,43,92,.46739131,OR
+Southern Oregon,Professional Services,2010,1,60,93,.64516127,OR
+Southern Oregon,Professional Services,2010,5,70,120,.58333331,OR
+Southern Oregon,Professional Services,2010,10,65,125,.51999998,OR
+Southern Oregon,Professional Services,2013,1,83,128,.6484375,OR
+Southern Oregon,Professional Services,2013,5,63,127,.49606299,OR
+Southern Oregon,Professional Services,2013,10,,,,OR
+Southern Oregon,Professional Services,2016,1,88,136,.64705884,OR
+Southern Oregon,Professional Services,2016,5,84,169,.49704143,OR
+Southern Oregon,Professional Services,2016,10,,,,OR
+Southern Oregon,Professional Services,2019,1,78,128,.609375,OR
+Southern Oregon,Professional Services,2019,5,,,,OR
+Southern Oregon,Professional Services,2019,10,,,,OR
+Southern Oregon,Public Admin,2004,1,97,120,.80833334,OR
+Southern Oregon,Public Admin,2004,5,123,163,.75460124,OR
+Southern Oregon,Public Admin,2004,10,113,166,.68072289,OR
+Southern Oregon,Public Admin,2007,1,72,104,.69230771,OR
+Southern Oregon,Public Admin,2007,5,85,142,.59859157,OR
+Southern Oregon,Public Admin,2007,10,82,155,.52903223,OR
+Southern Oregon,Public Admin,2010,1,56,88,.63636363,OR
+Southern Oregon,Public Admin,2010,5,75,119,.63025212,OR
+Southern Oregon,Public Admin,2010,10,81,137,.59124088,OR
+Southern Oregon,Public Admin,2013,1,83,131,.63358778,OR
+Southern Oregon,Public Admin,2013,5,89,160,.55624998,OR
+Southern Oregon,Public Admin,2013,10,,,,OR
+Southern Oregon,Public Admin,2016,1,81,125,.648,OR
+Southern Oregon,Public Admin,2016,5,102,196,.52040815,OR
+Southern Oregon,Public Admin,2016,10,,,,OR
+Southern Oregon,Public Admin,2019,1,73,111,.65765768,OR
+Southern Oregon,Public Admin,2019,5,,,,OR
+Southern Oregon,Public Admin,2019,10,,,,OR
+Southern Oregon,Real Estate,2004,1,9,14,.64285713,OR
+Southern Oregon,Real Estate,2004,5,9,14,.64285713,OR
+Southern Oregon,Real Estate,2004,10,15,17,.88235295,OR
+Southern Oregon,Real Estate,2007,1,11,17,.64705884,OR
+Southern Oregon,Real Estate,2007,5,13,19,.68421054,OR
+Southern Oregon,Real Estate,2007,10,17,22,.77272725,OR
+Southern Oregon,Real Estate,2010,1,9,9,1,OR
+Southern Oregon,Real Estate,2010,5,8,9,.8888889,OR
+Southern Oregon,Real Estate,2010,10,10,16,.625,OR
+Southern Oregon,Real Estate,2013,1,12,17,.70588237,OR
+Southern Oregon,Real Estate,2013,5,24,30,.80000001,OR
+Southern Oregon,Real Estate,2013,10,,,,OR
+Southern Oregon,Real Estate,2016,1,17,22,.77272725,OR
+Southern Oregon,Real Estate,2016,5,20,31,.64516127,OR
+Southern Oregon,Real Estate,2016,10,,,,OR
+Southern Oregon,Real Estate,2019,1,20,25,.80000001,OR
+Southern Oregon,Real Estate,2019,5,,,,OR
+Southern Oregon,Real Estate,2019,10,,,,OR
+Southern Oregon,Retail,2004,1,145,176,.82386363,OR
+Southern Oregon,Retail,2004,5,76,120,.63333333,OR
+Southern Oregon,Retail,2004,10,62,125,.49599999,OR
+Southern Oregon,Retail,2007,1,78,127,.61417323,OR
+Southern Oregon,Retail,2007,5,70,120,.58333331,OR
+Southern Oregon,Retail,2007,10,44,103,.42718446,OR
+Southern Oregon,Retail,2010,1,112,167,.67065871,OR
+Southern Oregon,Retail,2010,5,59,123,.47967479,OR
+Southern Oregon,Retail,2010,10,55,129,.42635658,OR
+Southern Oregon,Retail,2013,1,124,195,.63589746,OR
+Southern Oregon,Retail,2013,5,75,131,.57251906,OR
+Southern Oregon,Retail,2013,10,,,,OR
+Southern Oregon,Retail,2016,1,128,181,.70718235,OR
+Southern Oregon,Retail,2016,5,79,149,.53020132,OR
+Southern Oregon,Retail,2016,10,,,,OR
+Southern Oregon,Retail,2019,1,133,193,.68911916,OR
+Southern Oregon,Retail,2019,5,,,,OR
+Southern Oregon,Retail,2019,10,,,,OR
+Southern Oregon,Transportation,2004,1,9,19,.47368422,OR
+Southern Oregon,Transportation,2004,5,12,17,.70588237,OR
+Southern Oregon,Transportation,2004,10,23,34,.67647058,OR
+Southern Oregon,Transportation,2007,1,7,11,.63636363,OR
+Southern Oregon,Transportation,2007,5,14,22,.63636363,OR
+Southern Oregon,Transportation,2007,10,24,32,.75,OR
+Southern Oregon,Transportation,2010,1,3,22,.13636364,OR
+Southern Oregon,Transportation,2010,5,14,23,.60869563,OR
+Southern Oregon,Transportation,2010,10,26,40,.64999998,OR
+Southern Oregon,Transportation,2013,1,17,31,.54838711,OR
+Southern Oregon,Transportation,2013,5,16,27,.5925926,OR
+Southern Oregon,Transportation,2013,10,,,,OR
+Southern Oregon,Transportation,2016,1,10,20,.5,OR
+Southern Oregon,Transportation,2016,5,20,33,.60606062,OR
+Southern Oregon,Transportation,2016,10,,,,OR
+Southern Oregon,Transportation,2019,1,16,25,.63999999,OR
+Southern Oregon,Transportation,2019,5,,,,OR
+Southern Oregon,Transportation,2019,10,,,,OR
+Southern Oregon,Utilities,2004,1,0,0,,OR
+Southern Oregon,Utilities,2004,5,0,0,,OR
+Southern Oregon,Utilities,2004,10,3,3,1,OR
+Southern Oregon,Utilities,2007,1,2,2,1,OR
+Southern Oregon,Utilities,2007,5,1,2,.5,OR
+Southern Oregon,Utilities,2007,10,2,4,.5,OR
+Southern Oregon,Utilities,2010,1,0,0,,OR
+Southern Oregon,Utilities,2010,5,0,0,,OR
+Southern Oregon,Utilities,2010,10,0,1,0,OR
+Southern Oregon,Utilities,2013,1,2,3,.66666669,OR
+Southern Oregon,Utilities,2013,5,1,4,.25,OR
+Southern Oregon,Utilities,2013,10,,,,OR
+Southern Oregon,Utilities,2016,1,0,0,,OR
+Southern Oregon,Utilities,2016,5,0,1,0,OR
+Southern Oregon,Utilities,2016,10,,,,OR
+Southern Oregon,Utilities,2019,1,3,3,1,OR
+Southern Oregon,Utilities,2019,5,,,,OR
+Southern Oregon,Utilities,2019,10,,,,OR
+Southern Oregon,Wholesale,2004,1,34,40,.85000002,OR
+Southern Oregon,Wholesale,2004,5,37,54,.68518519,OR
+Southern Oregon,Wholesale,2004,10,41,61,.67213112,OR
+Southern Oregon,Wholesale,2007,1,18,36,.5,OR
+Southern Oregon,Wholesale,2007,5,22,34,.64705884,OR
+Southern Oregon,Wholesale,2007,10,27,40,.67500001,OR
+Southern Oregon,Wholesale,2010,1,21,29,.7241379,OR
+Southern Oregon,Wholesale,2010,5,27,42,.64285713,OR
+Southern Oregon,Wholesale,2010,10,30,55,.54545456,OR
+Southern Oregon,Wholesale,2013,1,19,41,.46341464,OR
+Southern Oregon,Wholesale,2013,5,30,59,.50847459,OR
+Southern Oregon,Wholesale,2013,10,,,,OR
+Southern Oregon,Wholesale,2016,1,20,33,.60606062,OR
+Southern Oregon,Wholesale,2016,5,23,46,.5,OR
+Southern Oregon,Wholesale,2016,10,,,,OR
+Southern Oregon,Wholesale,2019,1,16,37,.43243244,OR
+Southern Oregon,Wholesale,2019,5,,,,OR
+Southern Oregon,Wholesale,2019,10,,,,OR
+University of Oregon,Admin/Waste,2004,1,317,493,.64300203,OR
+University of Oregon,Admin/Waste,2004,5,192,332,.57831323,OR
+University of Oregon,Admin/Waste,2004,10,184,327,.56269115,OR
+University of Oregon,Admin/Waste,2007,1,247,359,.68802226,OR
+University of Oregon,Admin/Waste,2007,5,232,383,.60574412,OR
+University of Oregon,Admin/Waste,2007,10,178,330,.53939396,OR
+University of Oregon,Admin/Waste,2010,1,351,555,.63243246,OR
+University of Oregon,Admin/Waste,2010,5,298,475,.62736845,OR
+University of Oregon,Admin/Waste,2010,10,211,427,.49414518,OR
+University of Oregon,Admin/Waste,2013,1,416,693,.60028863,OR
+University of Oregon,Admin/Waste,2013,5,271,568,.47711268,OR
+University of Oregon,Admin/Waste,2013,10,,,,OR
+University of Oregon,Admin/Waste,2016,1,328,674,.48664689,OR
+University of Oregon,Admin/Waste,2016,5,244,524,.46564886,OR
+University of Oregon,Admin/Waste,2016,10,,,,OR
+University of Oregon,Admin/Waste,2019,1,331,577,.57365686,OR
+University of Oregon,Admin/Waste,2019,5,,,,OR
+University of Oregon,Admin/Waste,2019,10,,,,OR
+University of Oregon,Agriculture,2004,1,41,56,.73214287,OR
+University of Oregon,Agriculture,2004,5,26,38,.68421054,OR
+University of Oregon,Agriculture,2004,10,24,37,.64864862,OR
+University of Oregon,Agriculture,2007,1,23,36,.6388889,OR
+University of Oregon,Agriculture,2007,5,46,60,.76666665,OR
+University of Oregon,Agriculture,2007,10,41,52,.78846157,OR
+University of Oregon,Agriculture,2010,1,30,41,.73170733,OR
+University of Oregon,Agriculture,2010,5,48,54,.8888889,OR
+University of Oregon,Agriculture,2010,10,42,66,.63636363,OR
+University of Oregon,Agriculture,2013,1,37,59,.62711865,OR
+University of Oregon,Agriculture,2013,5,55,67,.82089549,OR
+University of Oregon,Agriculture,2013,10,,,,OR
+University of Oregon,Agriculture,2016,1,35,47,.74468082,OR
+University of Oregon,Agriculture,2016,5,41,57,.71929824,OR
+University of Oregon,Agriculture,2016,10,,,,OR
+University of Oregon,Agriculture,2019,1,40,50,.80000001,OR
+University of Oregon,Agriculture,2019,5,,,,OR
+University of Oregon,Agriculture,2019,10,,,,OR
+University of Oregon,Arts/Entertainment,2004,1,107,170,.62941176,OR
+University of Oregon,Arts/Entertainment,2004,5,53,98,.54081631,OR
+University of Oregon,Arts/Entertainment,2004,10,68,129,.5271318,OR
+University of Oregon,Arts/Entertainment,2007,1,89,164,.54268295,OR
+University of Oregon,Arts/Entertainment,2007,5,88,147,.59863943,OR
+University of Oregon,Arts/Entertainment,2007,10,66,126,.52380955,OR
+University of Oregon,Arts/Entertainment,2010,1,115,195,.58974361,OR
+University of Oregon,Arts/Entertainment,2010,5,102,201,.50746268,OR
+University of Oregon,Arts/Entertainment,2010,10,75,143,.52447551,OR
+University of Oregon,Arts/Entertainment,2013,1,128,265,.48301888,OR
+University of Oregon,Arts/Entertainment,2013,5,95,224,.42410713,OR
+University of Oregon,Arts/Entertainment,2013,10,,,,OR
+University of Oregon,Arts/Entertainment,2016,1,110,234,.47008547,OR
+University of Oregon,Arts/Entertainment,2016,5,78,206,.37864077,OR
+University of Oregon,Arts/Entertainment,2016,10,,,,OR
+University of Oregon,Arts/Entertainment,2019,1,90,229,.39301309,OR
+University of Oregon,Arts/Entertainment,2019,5,,,,OR
+University of Oregon,Arts/Entertainment,2019,10,,,,OR
+University of Oregon,Construction,2004,1,130,189,.68783069,OR
+University of Oregon,Construction,2004,5,99,143,.69230771,OR
+University of Oregon,Construction,2004,10,117,173,.67630059,OR
+University of Oregon,Construction,2007,1,80,131,.61068702,OR
+University of Oregon,Construction,2007,5,90,137,.65693432,OR
+University of Oregon,Construction,2007,10,93,153,.60784316,OR
+University of Oregon,Construction,2010,1,78,125,.62400001,OR
+University of Oregon,Construction,2010,5,121,179,.67597765,OR
+University of Oregon,Construction,2010,10,132,223,.59192824,OR
+University of Oregon,Construction,2013,1,85,185,.45945945,OR
+University of Oregon,Construction,2013,5,105,217,.48387095,OR
+University of Oregon,Construction,2013,10,,,,OR
+University of Oregon,Construction,2016,1,92,167,.55089819,OR
+University of Oregon,Construction,2016,5,120,238,.50420171,OR
+University of Oregon,Construction,2016,10,,,,OR
+University of Oregon,Construction,2019,1,94,161,.58385092,OR
+University of Oregon,Construction,2019,5,,,,OR
+University of Oregon,Construction,2019,10,,,,OR
+University of Oregon,Education,2004,1,497,750,.66266668,OR
+University of Oregon,Education,2004,5,951,1385,.68664259,OR
+University of Oregon,Education,2004,10,999,1586,.62988651,OR
+University of Oregon,Education,2007,1,420,692,.6069364,OR
+University of Oregon,Education,2007,5,789,1283,.6149649,OR
+University of Oregon,Education,2007,10,863,1455,.59312713,OR
+University of Oregon,Education,2010,1,362,635,.57007873,OR
+University of Oregon,Education,2010,5,709,1227,.5778321,OR
+University of Oregon,Education,2010,10,763,1363,.55979455,OR
+University of Oregon,Education,2013,1,419,707,.59264499,OR
+University of Oregon,Education,2013,5,766,1382,.55426919,OR
+University of Oregon,Education,2013,10,,,,OR
+University of Oregon,Education,2016,1,468,725,.64551723,OR
+University of Oregon,Education,2016,5,692,1253,.55227453,OR
+University of Oregon,Education,2016,10,,,,OR
+University of Oregon,Education,2019,1,496,824,.60194176,OR
+University of Oregon,Education,2019,5,,,,OR
+University of Oregon,Education,2019,10,,,,OR
+University of Oregon,Finance,2004,1,401,565,.7097345,OR
+University of Oregon,Finance,2004,5,401,573,.69982547,OR
+University of Oregon,Finance,2004,10,359,565,.63539821,OR
+University of Oregon,Finance,2007,1,310,420,.73809522,OR
+University of Oregon,Finance,2007,5,330,508,.64960629,OR
+University of Oregon,Finance,2007,10,281,477,.58909851,OR
+University of Oregon,Finance,2010,1,285,431,.66125292,OR
+University of Oregon,Finance,2010,5,304,542,.56088561,OR
+University of Oregon,Finance,2010,10,305,565,.539823,OR
+University of Oregon,Finance,2013,1,279,531,.52542371,OR
+University of Oregon,Finance,2013,5,301,592,.50844592,OR
+University of Oregon,Finance,2013,10,,,,OR
+University of Oregon,Finance,2016,1,258,482,.53526974,OR
+University of Oregon,Finance,2016,5,289,625,.46239999,OR
+University of Oregon,Finance,2016,10,,,,OR
+University of Oregon,Finance,2019,1,215,491,.43788189,OR
+University of Oregon,Finance,2019,5,,,,OR
+University of Oregon,Finance,2019,10,,,,OR
+University of Oregon,Food/Hospitality,2004,1,427,645,.6620155,OR
+University of Oregon,Food/Hospitality,2004,5,188,376,.5,OR
+University of Oregon,Food/Hospitality,2004,10,149,304,.49013159,OR
+University of Oregon,Food/Hospitality,2007,1,401,566,.70848054,OR
+University of Oregon,Food/Hospitality,2007,5,244,437,.55835241,OR
+University of Oregon,Food/Hospitality,2007,10,163,329,.49544072,OR
+University of Oregon,Food/Hospitality,2010,1,362,569,.63620389,OR
+University of Oregon,Food/Hospitality,2010,5,235,452,.51991153,OR
+University of Oregon,Food/Hospitality,2010,10,145,314,.46178344,OR
+University of Oregon,Food/Hospitality,2013,1,429,654,.6559633,OR
+University of Oregon,Food/Hospitality,2013,5,210,402,.52238804,OR
+University of Oregon,Food/Hospitality,2013,10,,,,OR
+University of Oregon,Food/Hospitality,2016,1,422,636,.66352201,OR
+University of Oregon,Food/Hospitality,2016,5,168,378,.44444445,OR
+University of Oregon,Food/Hospitality,2016,10,,,,OR
+University of Oregon,Food/Hospitality,2019,1,337,568,.59330988,OR
+University of Oregon,Food/Hospitality,2019,5,,,,OR
+University of Oregon,Food/Hospitality,2019,10,,,,OR
+University of Oregon,Health Care,2004,1,554,752,.73670214,OR
+University of Oregon,Health Care,2004,5,601,896,.6707589,OR
+University of Oregon,Health Care,2004,10,641,1048,.61164123,OR
+University of Oregon,Health Care,2007,1,592,778,.76092547,OR
+University of Oregon,Health Care,2007,5,713,1073,.66449207,OR
+University of Oregon,Health Care,2007,10,773,1278,.60485131,OR
+University of Oregon,Health Care,2010,1,527,710,.74225354,OR
+University of Oregon,Health Care,2010,5,663,1093,.60658735,OR
+University of Oregon,Health Care,2010,10,688,1207,.57000828,OR
+University of Oregon,Health Care,2013,1,746,1051,.70980018,OR
+University of Oregon,Health Care,2013,5,773,1237,.62489897,OR
+University of Oregon,Health Care,2013,10,,,,OR
+University of Oregon,Health Care,2016,1,821,1141,.71954423,OR
+University of Oregon,Health Care,2016,5,720,1268,.56782335,OR
+University of Oregon,Health Care,2016,10,,,,OR
+University of Oregon,Health Care,2019,1,805,1196,.67307693,OR
+University of Oregon,Health Care,2019,5,,,,OR
+University of Oregon,Health Care,2019,10,,,,OR
+University of Oregon,Information,2004,1,289,423,.68321514,OR
+University of Oregon,Information,2004,5,247,425,.58117646,OR
+University of Oregon,Information,2004,10,229,433,.52886838,OR
+University of Oregon,Information,2007,1,217,309,.70226538,OR
+University of Oregon,Information,2007,5,216,403,.53598017,OR
+University of Oregon,Information,2007,10,199,427,.46604216,OR
+University of Oregon,Information,2010,1,200,358,.5586592,OR
+University of Oregon,Information,2010,5,239,563,.42451155,OR
+University of Oregon,Information,2010,10,289,656,.44054878,OR
+University of Oregon,Information,2013,1,226,453,.49889624,OR
+University of Oregon,Information,2013,5,254,718,.35376045,OR
+University of Oregon,Information,2013,10,,,,OR
+University of Oregon,Information,2016,1,178,413,.43099272,OR
+University of Oregon,Information,2016,5,217,695,.31223023,OR
+University of Oregon,Information,2016,10,,,,OR
+University of Oregon,Information,2019,1,154,416,.37019232,OR
+University of Oregon,Information,2019,5,,,,OR
+University of Oregon,Information,2019,10,,,,OR
+University of Oregon,Management,2004,1,121,138,.87681162,OR
+University of Oregon,Management,2004,5,138,176,.78409094,OR
+University of Oregon,Management,2004,10,233,283,.82332158,OR
+University of Oregon,Management,2007,1,117,141,.82978725,OR
+University of Oregon,Management,2007,5,197,245,.80408162,OR
+University of Oregon,Management,2007,10,341,410,.8317073,OR
+University of Oregon,Management,2010,1,133,167,.79640716,OR
+University of Oregon,Management,2010,5,283,338,.83727813,OR
+University of Oregon,Management,2010,10,322,412,.78155339,OR
+University of Oregon,Management,2013,1,174,229,.75982535,OR
+University of Oregon,Management,2013,5,294,400,.73500001,OR
+University of Oregon,Management,2013,10,,,,OR
+University of Oregon,Management,2016,1,173,224,.7723214,OR
+University of Oregon,Management,2016,5,239,334,.71556884,OR
+University of Oregon,Management,2016,10,,,,OR
+University of Oregon,Management,2019,1,126,180,.69999999,OR
+University of Oregon,Management,2019,5,,,,OR
+University of Oregon,Management,2019,10,,,,OR
+University of Oregon,Manufacturing,2004,1,275,387,.7105943,OR
+University of Oregon,Manufacturing,2004,5,246,364,.67582417,OR
+University of Oregon,Manufacturing,2004,10,265,444,.59684682,OR
+University of Oregon,Manufacturing,2007,1,210,317,.66246057,OR
+University of Oregon,Manufacturing,2007,5,245,395,.62025315,OR
+University of Oregon,Manufacturing,2007,10,252,444,.56756759,OR
+University of Oregon,Manufacturing,2010,1,240,368,.65217394,OR
+University of Oregon,Manufacturing,2010,5,296,463,.63930887,OR
+University of Oregon,Manufacturing,2010,10,265,485,.54639173,OR
+University of Oregon,Manufacturing,2013,1,264,424,.6226415,OR
+University of Oregon,Manufacturing,2013,5,330,576,.57291669,OR
+University of Oregon,Manufacturing,2013,10,,,,OR
+University of Oregon,Manufacturing,2016,1,241,385,.625974,OR
+University of Oregon,Manufacturing,2016,5,223,465,.47956988,OR
+University of Oregon,Manufacturing,2016,10,,,,OR
+University of Oregon,Manufacturing,2019,1,238,404,.58910888,OR
+University of Oregon,Manufacturing,2019,5,,,,OR
+University of Oregon,Manufacturing,2019,10,,,,OR
+University of Oregon,Mining,2004,1,2,4,.5,OR
+University of Oregon,Mining,2004,5,0,0,,OR
+University of Oregon,Mining,2004,10,0,2,0,OR
+University of Oregon,Mining,2007,1,1,3,.33333334,OR
+University of Oregon,Mining,2007,5,0,0,,OR
+University of Oregon,Mining,2007,10,0,0,,OR
+University of Oregon,Mining,2010,1,0,2,0,OR
+University of Oregon,Mining,2010,5,0,2,0,OR
+University of Oregon,Mining,2010,10,0,5,0,OR
+University of Oregon,Mining,2013,1,0,4,0,OR
+University of Oregon,Mining,2013,5,2,2,1,OR
+University of Oregon,Mining,2013,10,,,,OR
+University of Oregon,Mining,2016,1,0,0,,OR
+University of Oregon,Mining,2016,5,0,1,0,OR
+University of Oregon,Mining,2016,10,,,,OR
+University of Oregon,Mining,2019,1,0,1,0,OR
+University of Oregon,Mining,2019,5,,,,OR
+University of Oregon,Mining,2019,10,,,,OR
+University of Oregon,Other Services,2004,1,114,172,.66279072,OR
+University of Oregon,Other Services,2004,5,116,190,.61052632,OR
+University of Oregon,Other Services,2004,10,129,234,.55128205,OR
+University of Oregon,Other Services,2007,1,103,173,.59537572,OR
+University of Oregon,Other Services,2007,5,115,194,.59278351,OR
+University of Oregon,Other Services,2007,10,136,225,.60444444,OR
+University of Oregon,Other Services,2010,1,99,169,.5857988,OR
+University of Oregon,Other Services,2010,5,123,232,.53017241,OR
+University of Oregon,Other Services,2010,10,108,213,.50704223,OR
+University of Oregon,Other Services,2013,1,134,225,.59555554,OR
+University of Oregon,Other Services,2013,5,127,254,.5,OR
+University of Oregon,Other Services,2013,10,,,,OR
+University of Oregon,Other Services,2016,1,141,234,.6025641,OR
+University of Oregon,Other Services,2016,5,129,248,.52016127,OR
+University of Oregon,Other Services,2016,10,,,,OR
+University of Oregon,Other Services,2019,1,120,204,.58823532,OR
+University of Oregon,Other Services,2019,5,,,,OR
+University of Oregon,Other Services,2019,10,,,,OR
+University of Oregon,Professional Services,2004,1,715,1162,.61531842,OR
+University of Oregon,Professional Services,2004,5,608,1135,.5356828,OR
+University of Oregon,Professional Services,2004,10,579,1201,.48209825,OR
+University of Oregon,Professional Services,2007,1,574,977,.58751279,OR
+University of Oregon,Professional Services,2007,5,659,1280,.51484376,OR
+University of Oregon,Professional Services,2007,10,643,1274,.5047096,OR
+University of Oregon,Professional Services,2010,1,521,1082,.48151571,OR
+University of Oregon,Professional Services,2010,5,713,1499,.47565043,OR
+University of Oregon,Professional Services,2010,10,724,1597,.45335004,OR
+University of Oregon,Professional Services,2013,1,661,1536,.43033853,OR
+University of Oregon,Professional Services,2013,5,700,1834,.38167939,OR
+University of Oregon,Professional Services,2013,10,,,,OR
+University of Oregon,Professional Services,2016,1,631,1634,.3861689,OR
+University of Oregon,Professional Services,2016,5,770,2071,.37180105,OR
+University of Oregon,Professional Services,2016,10,,,,OR
+University of Oregon,Professional Services,2019,1,634,1633,.38824251,OR
+University of Oregon,Professional Services,2019,5,,,,OR
+University of Oregon,Professional Services,2019,10,,,,OR
+University of Oregon,Public Admin,2004,1,178,241,.73858923,OR
+University of Oregon,Public Admin,2004,5,240,355,.67605633,OR
+University of Oregon,Public Admin,2004,10,285,463,.61555076,OR
+University of Oregon,Public Admin,2007,1,187,257,.72762644,OR
+University of Oregon,Public Admin,2007,5,226,362,.62430942,OR
+University of Oregon,Public Admin,2007,10,307,488,.62909836,OR
+University of Oregon,Public Admin,2010,1,102,169,.60355031,OR
+University of Oregon,Public Admin,2010,5,196,322,.60869563,OR
+University of Oregon,Public Admin,2010,10,299,500,.59799999,OR
+University of Oregon,Public Admin,2013,1,126,186,.67741936,OR
+University of Oregon,Public Admin,2013,5,226,390,.5794872,OR
+University of Oregon,Public Admin,2013,10,,,,OR
+University of Oregon,Public Admin,2016,1,129,229,.56331879,OR
+University of Oregon,Public Admin,2016,5,237,423,.56028366,OR
+University of Oregon,Public Admin,2016,10,,,,OR
+University of Oregon,Public Admin,2019,1,120,197,.60913706,OR
+University of Oregon,Public Admin,2019,5,,,,OR
+University of Oregon,Public Admin,2019,10,,,,OR
+University of Oregon,Real Estate,2004,1,120,168,.71428573,OR
+University of Oregon,Real Estate,2004,5,80,126,.63492066,OR
+University of Oregon,Real Estate,2004,10,74,117,.63247865,OR
+University of Oregon,Real Estate,2007,1,88,131,.67175573,OR
+University of Oregon,Real Estate,2007,5,77,120,.64166665,OR
+University of Oregon,Real Estate,2007,10,90,126,.71428573,OR
+University of Oregon,Real Estate,2010,1,76,123,.61788619,OR
+University of Oregon,Real Estate,2010,5,78,148,.52702701,OR
+University of Oregon,Real Estate,2010,10,91,151,.60264903,OR
+University of Oregon,Real Estate,2013,1,108,189,.5714286,OR
+University of Oregon,Real Estate,2013,5,96,211,.45497629,OR
+University of Oregon,Real Estate,2013,10,,,,OR
+University of Oregon,Real Estate,2016,1,120,195,.61538464,OR
+University of Oregon,Real Estate,2016,5,100,192,.52083331,OR
+University of Oregon,Real Estate,2016,10,,,,OR
+University of Oregon,Real Estate,2019,1,117,191,.61256546,OR
+University of Oregon,Real Estate,2019,5,,,,OR
+University of Oregon,Real Estate,2019,10,,,,OR
+University of Oregon,Retail,2004,1,651,846,.76950353,OR
+University of Oregon,Retail,2004,5,317,519,.61078995,OR
+University of Oregon,Retail,2004,10,224,431,.51972157,OR
+University of Oregon,Retail,2007,1,590,773,.76326001,OR
+University of Oregon,Retail,2007,5,347,575,.60347825,OR
+University of Oregon,Retail,2007,10,233,481,.48440748,OR
+University of Oregon,Retail,2010,1,630,876,.71917808,OR
+University of Oregon,Retail,2010,5,351,621,.56521738,OR
+University of Oregon,Retail,2010,10,247,498,.49598393,OR
+University of Oregon,Retail,2013,1,561,894,.62751681,OR
+University of Oregon,Retail,2013,5,304,655,.46412215,OR
+University of Oregon,Retail,2013,10,,,,OR
+University of Oregon,Retail,2016,1,483,721,.66990292,OR
+University of Oregon,Retail,2016,5,292,535,.54579437,OR
+University of Oregon,Retail,2016,10,,,,OR
+University of Oregon,Retail,2019,1,438,728,.60164833,OR
+University of Oregon,Retail,2019,5,,,,OR
+University of Oregon,Retail,2019,10,,,,OR
+University of Oregon,Transportation,2004,1,47,63,.74603176,OR
+University of Oregon,Transportation,2004,5,62,103,.60194176,OR
+University of Oregon,Transportation,2004,10,72,109,.66055048,OR
+University of Oregon,Transportation,2007,1,37,70,.52857143,OR
+University of Oregon,Transportation,2007,5,41,81,.50617284,OR
+University of Oregon,Transportation,2007,10,63,100,.63,OR
+University of Oregon,Transportation,2010,1,37,73,.50684929,OR
+University of Oregon,Transportation,2010,5,53,106,.5,OR
+University of Oregon,Transportation,2010,10,90,183,.49180329,OR
+University of Oregon,Transportation,2013,1,50,91,.54945058,OR
+University of Oregon,Transportation,2013,5,77,157,.49044585,OR
+University of Oregon,Transportation,2013,10,,,,OR
+University of Oregon,Transportation,2016,1,63,108,.58333331,OR
+University of Oregon,Transportation,2016,5,86,169,.50887573,OR
+University of Oregon,Transportation,2016,10,,,,OR
+University of Oregon,Transportation,2019,1,108,160,.67500001,OR
+University of Oregon,Transportation,2019,5,,,,OR
+University of Oregon,Transportation,2019,10,,,,OR
+University of Oregon,Utilities,2004,1,6,6,1,OR
+University of Oregon,Utilities,2004,5,8,11,.72727275,OR
+University of Oregon,Utilities,2004,10,14,19,.7368421,OR
+University of Oregon,Utilities,2007,1,0,3,0,OR
+University of Oregon,Utilities,2007,5,12,15,.80000001,OR
+University of Oregon,Utilities,2007,10,17,21,.80952382,OR
+University of Oregon,Utilities,2010,1,2,2,1,OR
+University of Oregon,Utilities,2010,5,8,16,.5,OR
+University of Oregon,Utilities,2010,10,20,29,.68965518,OR
+University of Oregon,Utilities,2013,1,1,3,.33333334,OR
+University of Oregon,Utilities,2013,5,7,19,.36842105,OR
+University of Oregon,Utilities,2013,10,,,,OR
+University of Oregon,Utilities,2016,1,2,2,1,OR
+University of Oregon,Utilities,2016,5,14,22,.63636363,OR
+University of Oregon,Utilities,2016,10,,,,OR
+University of Oregon,Utilities,2019,1,4,6,.66666669,OR
+University of Oregon,Utilities,2019,5,,,,OR
+University of Oregon,Utilities,2019,10,,,,OR
+University of Oregon,Wholesale,2004,1,195,313,.62300318,OR
+University of Oregon,Wholesale,2004,5,220,329,.66869301,OR
+University of Oregon,Wholesale,2004,10,200,357,.56022412,OR
+University of Oregon,Wholesale,2007,1,198,289,.68512112,OR
+University of Oregon,Wholesale,2007,5,259,389,.66580975,OR
+University of Oregon,Wholesale,2007,10,221,340,.64999998,OR
+University of Oregon,Wholesale,2010,1,203,361,.56232685,OR
+University of Oregon,Wholesale,2010,5,240,395,.60759491,OR
+University of Oregon,Wholesale,2010,10,220,388,.56701028,OR
+University of Oregon,Wholesale,2013,1,222,392,.56632656,OR
+University of Oregon,Wholesale,2013,5,216,428,.50467288,OR
+University of Oregon,Wholesale,2013,10,,,,OR
+University of Oregon,Wholesale,2016,1,147,290,.50689656,OR
+University of Oregon,Wholesale,2016,5,160,357,.44817927,OR
+University of Oregon,Wholesale,2016,10,,,,OR
+University of Oregon,Wholesale,2019,1,146,285,.5122807,OR
+University of Oregon,Wholesale,2019,5,,,,OR
+University of Oregon,Wholesale,2019,10,,,,OR
+Western Oregon,Admin/Waste,2004,1,100,137,.729927,OR
+Western Oregon,Admin/Waste,2004,5,40,60,.66666669,OR
+Western Oregon,Admin/Waste,2004,10,41,61,.67213112,OR
+Western Oregon,Admin/Waste,2007,1,77,98,.78571427,OR
+Western Oregon,Admin/Waste,2007,5,39,57,.68421054,OR
+Western Oregon,Admin/Waste,2007,10,43,56,.76785713,OR
+Western Oregon,Admin/Waste,2010,1,63,99,.63636363,OR
+Western Oregon,Admin/Waste,2010,5,49,65,.75384617,OR
+Western Oregon,Admin/Waste,2010,10,37,65,.56923079,OR
+Western Oregon,Admin/Waste,2013,1,86,106,.81132078,OR
+Western Oregon,Admin/Waste,2013,5,61,88,.69318181,OR
+Western Oregon,Admin/Waste,2013,10,,,,OR
+Western Oregon,Admin/Waste,2016,1,110,135,.81481481,OR
+Western Oregon,Admin/Waste,2016,5,61,81,.75308645,OR
+Western Oregon,Admin/Waste,2016,10,,,,OR
+Western Oregon,Admin/Waste,2019,1,104,127,.81889766,OR
+Western Oregon,Admin/Waste,2019,5,,,,OR
+Western Oregon,Admin/Waste,2019,10,,,,OR
+Western Oregon,Agriculture,2004,1,18,20,.89999998,OR
+Western Oregon,Agriculture,2004,5,11,13,.84615386,OR
+Western Oregon,Agriculture,2004,10,12,15,.80000001,OR
+Western Oregon,Agriculture,2007,1,7,11,.63636363,OR
+Western Oregon,Agriculture,2007,5,10,12,.83333331,OR
+Western Oregon,Agriculture,2007,10,14,18,.77777779,OR
+Western Oregon,Agriculture,2010,1,11,13,.84615386,OR
+Western Oregon,Agriculture,2010,5,13,15,.86666667,OR
+Western Oregon,Agriculture,2010,10,14,17,.82352942,OR
+Western Oregon,Agriculture,2013,1,14,17,.82352942,OR
+Western Oregon,Agriculture,2013,5,6,12,.5,OR
+Western Oregon,Agriculture,2013,10,,,,OR
+Western Oregon,Agriculture,2016,1,17,19,.89473683,OR
+Western Oregon,Agriculture,2016,5,13,17,.7647059,OR
+Western Oregon,Agriculture,2016,10,,,,OR
+Western Oregon,Agriculture,2019,1,5,7,.71428573,OR
+Western Oregon,Agriculture,2019,5,,,,OR
+Western Oregon,Agriculture,2019,10,,,,OR
+Western Oregon,Arts/Entertainment,2004,1,27,42,.64285713,OR
+Western Oregon,Arts/Entertainment,2004,5,15,22,.68181819,OR
+Western Oregon,Arts/Entertainment,2004,10,14,22,.63636363,OR
+Western Oregon,Arts/Entertainment,2007,1,19,24,.79166669,OR
+Western Oregon,Arts/Entertainment,2007,5,21,24,.875,OR
+Western Oregon,Arts/Entertainment,2007,10,12,20,.60000002,OR
+Western Oregon,Arts/Entertainment,2010,1,34,42,.80952382,OR
+Western Oregon,Arts/Entertainment,2010,5,24,27,.8888889,OR
+Western Oregon,Arts/Entertainment,2010,10,11,14,.78571427,OR
+Western Oregon,Arts/Entertainment,2013,1,42,49,.85714287,OR
+Western Oregon,Arts/Entertainment,2013,5,23,35,.65714288,OR
+Western Oregon,Arts/Entertainment,2013,10,,,,OR
+Western Oregon,Arts/Entertainment,2016,1,35,44,.79545456,OR
+Western Oregon,Arts/Entertainment,2016,5,24,28,.85714287,OR
+Western Oregon,Arts/Entertainment,2016,10,,,,OR
+Western Oregon,Arts/Entertainment,2019,1,27,43,.62790698,OR
+Western Oregon,Arts/Entertainment,2019,5,,,,OR
+Western Oregon,Arts/Entertainment,2019,10,,,,OR
+Western Oregon,Construction,2004,1,38,53,.71698111,OR
+Western Oregon,Construction,2004,5,26,32,.8125,OR
+Western Oregon,Construction,2004,10,38,55,.69090909,OR
+Western Oregon,Construction,2007,1,25,36,.69444442,OR
+Western Oregon,Construction,2007,5,38,46,.82608694,OR
+Western Oregon,Construction,2007,10,42,54,.77777779,OR
+Western Oregon,Construction,2010,1,20,32,.625,OR
+Western Oregon,Construction,2010,5,26,39,.66666669,OR
+Western Oregon,Construction,2010,10,47,73,.6438356,OR
+Western Oregon,Construction,2013,1,36,66,.54545456,OR
+Western Oregon,Construction,2013,5,35,50,.69999999,OR
+Western Oregon,Construction,2013,10,,,,OR
+Western Oregon,Construction,2016,1,40,57,.70175439,OR
+Western Oregon,Construction,2016,5,66,82,.80487806,OR
+Western Oregon,Construction,2016,10,,,,OR
+Western Oregon,Construction,2019,1,44,69,.63768119,OR
+Western Oregon,Construction,2019,5,,,,OR
+Western Oregon,Construction,2019,10,,,,OR
+Western Oregon,Education,2004,1,450,551,.81669694,OR
+Western Oregon,Education,2004,5,553,682,.81085044,OR
+Western Oregon,Education,2004,10,529,670,.78955221,OR
+Western Oregon,Education,2007,1,261,356,.73314607,OR
+Western Oregon,Education,2007,5,399,499,.79959917,OR
+Western Oregon,Education,2007,10,403,524,.76908398,OR
+Western Oregon,Education,2010,1,197,282,.69858158,OR
+Western Oregon,Education,2010,5,373,502,.74302787,OR
+Western Oregon,Education,2010,10,369,466,.7918455,OR
+Western Oregon,Education,2013,1,274,381,.71916008,OR
+Western Oregon,Education,2013,5,380,481,.79002076,OR
+Western Oregon,Education,2013,10,,,,OR
+Western Oregon,Education,2016,1,337,421,.80047506,OR
+Western Oregon,Education,2016,5,408,512,.796875,OR
+Western Oregon,Education,2016,10,,,,OR
+Western Oregon,Education,2019,1,441,531,.83050847,OR
+Western Oregon,Education,2019,5,,,,OR
+Western Oregon,Education,2019,10,,,,OR
+Western Oregon,Finance,2004,1,103,128,.8046875,OR
+Western Oregon,Finance,2004,5,65,80,.8125,OR
+Western Oregon,Finance,2004,10,73,100,.73000002,OR
+Western Oregon,Finance,2007,1,51,69,.73913044,OR
+Western Oregon,Finance,2007,5,70,91,.76923078,OR
+Western Oregon,Finance,2007,10,57,86,.66279072,OR
+Western Oregon,Finance,2010,1,65,91,.71428573,OR
+Western Oregon,Finance,2010,5,61,85,.71764708,OR
+Western Oregon,Finance,2010,10,61,79,.77215189,OR
+Western Oregon,Finance,2013,1,72,101,.71287131,OR
+Western Oregon,Finance,2013,5,75,99,.75757575,OR
+Western Oregon,Finance,2013,10,,,,OR
+Western Oregon,Finance,2016,1,50,78,.64102566,OR
+Western Oregon,Finance,2016,5,53,75,.70666665,OR
+Western Oregon,Finance,2016,10,,,,OR
+Western Oregon,Finance,2019,1,66,85,.7764706,OR
+Western Oregon,Finance,2019,5,,,,OR
+Western Oregon,Finance,2019,10,,,,OR
+Western Oregon,Food/Hospitality,2004,1,88,110,.80000001,OR
+Western Oregon,Food/Hospitality,2004,5,34,56,.60714287,OR
+Western Oregon,Food/Hospitality,2004,10,26,49,.53061223,OR
+Western Oregon,Food/Hospitality,2007,1,65,90,.72222221,OR
+Western Oregon,Food/Hospitality,2007,5,41,65,.63076925,OR
+Western Oregon,Food/Hospitality,2007,10,23,66,.34848484,OR
+Western Oregon,Food/Hospitality,2010,1,100,134,.74626863,OR
+Western Oregon,Food/Hospitality,2010,5,50,69,.72463769,OR
+Western Oregon,Food/Hospitality,2010,10,26,45,.5777778,OR
+Western Oregon,Food/Hospitality,2013,1,100,131,.76335877,OR
+Western Oregon,Food/Hospitality,2013,5,33,78,.42307693,OR
+Western Oregon,Food/Hospitality,2013,10,,,,OR
+Western Oregon,Food/Hospitality,2016,1,109,137,.79562044,OR
+Western Oregon,Food/Hospitality,2016,5,37,62,.59677422,OR
+Western Oregon,Food/Hospitality,2016,10,,,,OR
+Western Oregon,Food/Hospitality,2019,1,94,115,.81739128,OR
+Western Oregon,Food/Hospitality,2019,5,,,,OR
+Western Oregon,Food/Hospitality,2019,10,,,,OR
+Western Oregon,Health Care,2004,1,185,240,.77083331,OR
+Western Oregon,Health Care,2004,5,180,261,.68965518,OR
+Western Oregon,Health Care,2004,10,195,268,.72761196,OR
+Western Oregon,Health Care,2007,1,174,225,.77333331,OR
+Western Oregon,Health Care,2007,5,200,228,.87719297,OR
+Western Oregon,Health Care,2007,10,214,318,.67295599,OR
+Western Oregon,Health Care,2010,1,239,299,.79933113,OR
+Western Oregon,Health Care,2010,5,285,359,.79387188,OR
+Western Oregon,Health Care,2010,10,268,353,.75920677,OR
+Western Oregon,Health Care,2013,1,345,402,.85820895,OR
+Western Oregon,Health Care,2013,5,320,397,.80604535,OR
+Western Oregon,Health Care,2013,10,,,,OR
+Western Oregon,Health Care,2016,1,340,424,.8018868,OR
+Western Oregon,Health Care,2016,5,326,427,.76346606,OR
+Western Oregon,Health Care,2016,10,,,,OR
+Western Oregon,Health Care,2019,1,366,439,.833713,OR
+Western Oregon,Health Care,2019,5,,,,OR
+Western Oregon,Health Care,2019,10,,,,OR
+Western Oregon,Information,2004,1,23,36,.6388889,OR
+Western Oregon,Information,2004,5,17,30,.56666666,OR
+Western Oregon,Information,2004,10,19,37,.51351351,OR
+Western Oregon,Information,2007,1,22,35,.62857145,OR
+Western Oregon,Information,2007,5,19,25,.75999999,OR
+Western Oregon,Information,2007,10,20,41,.48780489,OR
+Western Oregon,Information,2010,1,8,17,.47058824,OR
+Western Oregon,Information,2010,5,28,41,.68292683,OR
+Western Oregon,Information,2010,10,31,45,.68888891,OR
+Western Oregon,Information,2013,1,35,49,.71428573,OR
+Western Oregon,Information,2013,5,36,44,.81818181,OR
+Western Oregon,Information,2013,10,,,,OR
+Western Oregon,Information,2016,1,30,40,.75,OR
+Western Oregon,Information,2016,5,35,46,.76086956,OR
+Western Oregon,Information,2016,10,,,,OR
+Western Oregon,Information,2019,1,41,49,.83673471,OR
+Western Oregon,Information,2019,5,,,,OR
+Western Oregon,Information,2019,10,,,,OR
+Western Oregon,Management,2004,1,21,25,.83999997,OR
+Western Oregon,Management,2004,5,19,23,.82608694,OR
+Western Oregon,Management,2004,10,24,29,.82758623,OR
+Western Oregon,Management,2007,1,27,33,.81818181,OR
+Western Oregon,Management,2007,5,33,35,.94285715,OR
+Western Oregon,Management,2007,10,36,45,.80000001,OR
+Western Oregon,Management,2010,1,37,41,.902439,OR
+Western Oregon,Management,2010,5,46,50,.92000002,OR
+Western Oregon,Management,2010,10,34,41,.82926828,OR
+Western Oregon,Management,2013,1,32,40,.80000001,OR
+Western Oregon,Management,2013,5,46,58,.79310346,OR
+Western Oregon,Management,2013,10,,,,OR
+Western Oregon,Management,2016,1,26,35,.74285716,OR
+Western Oregon,Management,2016,5,26,32,.8125,OR
+Western Oregon,Management,2016,10,,,,OR
+Western Oregon,Management,2019,1,29,30,.96666664,OR
+Western Oregon,Management,2019,5,,,,OR
+Western Oregon,Management,2019,10,,,,OR
+Western Oregon,Manufacturing,2004,1,36,70,.51428574,OR
+Western Oregon,Manufacturing,2004,5,41,70,.58571428,OR
+Western Oregon,Manufacturing,2004,10,51,90,.56666666,OR
+Western Oregon,Manufacturing,2007,1,41,74,.55405408,OR
+Western Oregon,Manufacturing,2007,5,54,87,.62068963,OR
+Western Oregon,Manufacturing,2007,10,47,95,.49473685,OR
+Western Oregon,Manufacturing,2010,1,38,59,.64406782,OR
+Western Oregon,Manufacturing,2010,5,64,99,.64646465,OR
+Western Oregon,Manufacturing,2010,10,68,106,.64150941,OR
+Western Oregon,Manufacturing,2013,1,63,79,.79746836,OR
+Western Oregon,Manufacturing,2013,5,78,121,.64462811,OR
+Western Oregon,Manufacturing,2013,10,,,,OR
+Western Oregon,Manufacturing,2016,1,57,96,.59375,OR
+Western Oregon,Manufacturing,2016,5,54,85,.63529414,OR
+Western Oregon,Manufacturing,2016,10,,,,OR
+Western Oregon,Manufacturing,2019,1,73,106,.68867922,OR
+Western Oregon,Manufacturing,2019,5,,,,OR
+Western Oregon,Manufacturing,2019,10,,,,OR
+Western Oregon,Mining,2004,1,1,1,1,OR
+Western Oregon,Mining,2004,5,0,0,,OR
+Western Oregon,Mining,2004,10,0,1,0,OR
+Western Oregon,Mining,2007,1,0,1,0,OR
+Western Oregon,Mining,2007,5,0,0,,OR
+Western Oregon,Mining,2007,10,0,0,,OR
+Western Oregon,Mining,2010,1,1,1,1,OR
+Western Oregon,Mining,2010,5,0,0,,OR
+Western Oregon,Mining,2010,10,1,1,1,OR
+Western Oregon,Mining,2013,1,0,0,,OR
+Western Oregon,Mining,2013,5,0,1,0,OR
+Western Oregon,Mining,2013,10,,,,OR
+Western Oregon,Mining,2016,1,1,2,.5,OR
+Western Oregon,Mining,2016,5,0,0,,OR
+Western Oregon,Mining,2016,10,,,,OR
+Western Oregon,Mining,2019,1,1,3,.33333334,OR
+Western Oregon,Mining,2019,5,,,,OR
+Western Oregon,Mining,2019,10,,,,OR
+Western Oregon,Other Services,2004,1,21,31,.67741936,OR
+Western Oregon,Other Services,2004,5,18,28,.64285713,OR
+Western Oregon,Other Services,2004,10,25,40,.625,OR
+Western Oregon,Other Services,2007,1,13,24,.54166669,OR
+Western Oregon,Other Services,2007,5,20,26,.76923078,OR
+Western Oregon,Other Services,2007,10,18,32,.5625,OR
+Western Oregon,Other Services,2010,1,37,52,.71153843,OR
+Western Oregon,Other Services,2010,5,29,33,.87878788,OR
+Western Oregon,Other Services,2010,10,29,33,.87878788,OR
+Western Oregon,Other Services,2013,1,37,54,.68518519,OR
+Western Oregon,Other Services,2013,5,26,37,.7027027,OR
+Western Oregon,Other Services,2013,10,,,,OR
+Western Oregon,Other Services,2016,1,41,50,.81999999,OR
+Western Oregon,Other Services,2016,5,31,46,.67391306,OR
+Western Oregon,Other Services,2016,10,,,,OR
+Western Oregon,Other Services,2019,1,27,41,.65853661,OR
+Western Oregon,Other Services,2019,5,,,,OR
+Western Oregon,Other Services,2019,10,,,,OR
+Western Oregon,Professional Services,2004,1,62,94,.65957445,OR
+Western Oregon,Professional Services,2004,5,64,91,.70329672,OR
+Western Oregon,Professional Services,2004,10,57,81,.7037037,OR
+Western Oregon,Professional Services,2007,1,62,93,.66666669,OR
+Western Oregon,Professional Services,2007,5,85,113,.75221241,OR
+Western Oregon,Professional Services,2007,10,65,115,.56521738,OR
+Western Oregon,Professional Services,2010,1,59,91,.64835167,OR
+Western Oregon,Professional Services,2010,5,68,108,.62962961,OR
+Western Oregon,Professional Services,2010,10,80,117,.6837607,OR
+Western Oregon,Professional Services,2013,1,67,97,.69072163,OR
+Western Oregon,Professional Services,2013,5,81,125,.648,OR
+Western Oregon,Professional Services,2013,10,,,,OR
+Western Oregon,Professional Services,2016,1,69,98,.70408165,OR
+Western Oregon,Professional Services,2016,5,85,144,.59027779,OR
+Western Oregon,Professional Services,2016,10,,,,OR
+Western Oregon,Professional Services,2019,1,72,131,.5496183,OR
+Western Oregon,Professional Services,2019,5,,,,OR
+Western Oregon,Professional Services,2019,10,,,,OR
+Western Oregon,Public Admin,2004,1,178,239,.74476987,OR
+Western Oregon,Public Admin,2004,5,227,268,.8470149,OR
+Western Oregon,Public Admin,2004,10,215,278,.77338129,OR
+Western Oregon,Public Admin,2007,1,160,197,.81218272,OR
+Western Oregon,Public Admin,2007,5,175,223,.78475338,OR
+Western Oregon,Public Admin,2007,10,193,253,.76284587,OR
+Western Oregon,Public Admin,2010,1,114,147,.77551019,OR
+Western Oregon,Public Admin,2010,5,194,251,.77290839,OR
+Western Oregon,Public Admin,2010,10,215,260,.82692307,OR
+Western Oregon,Public Admin,2013,1,170,210,.80952382,OR
+Western Oregon,Public Admin,2013,5,257,308,.83441556,OR
+Western Oregon,Public Admin,2013,10,,,,OR
+Western Oregon,Public Admin,2016,1,176,233,.75536484,OR
+Western Oregon,Public Admin,2016,5,278,326,.85276073,OR
+Western Oregon,Public Admin,2016,10,,,,OR
+Western Oregon,Public Admin,2019,1,173,202,.85643566,OR
+Western Oregon,Public Admin,2019,5,,,,OR
+Western Oregon,Public Admin,2019,10,,,,OR
+Western Oregon,Real Estate,2004,1,22,32,.6875,OR
+Western Oregon,Real Estate,2004,5,17,25,.68000001,OR
+Western Oregon,Real Estate,2004,10,9,12,.75,OR
+Western Oregon,Real Estate,2007,1,12,23,.52173913,OR
+Western Oregon,Real Estate,2007,5,15,20,.75,OR
+Western Oregon,Real Estate,2007,10,13,23,.56521738,OR
+Western Oregon,Real Estate,2010,1,10,12,.83333331,OR
+Western Oregon,Real Estate,2010,5,15,22,.68181819,OR
+Western Oregon,Real Estate,2010,10,13,15,.86666667,OR
+Western Oregon,Real Estate,2013,1,10,24,.41666666,OR
+Western Oregon,Real Estate,2013,5,23,25,.92000002,OR
+Western Oregon,Real Estate,2013,10,,,,OR
+Western Oregon,Real Estate,2016,1,20,26,.76923078,OR
+Western Oregon,Real Estate,2016,5,18,23,.78260869,OR
+Western Oregon,Real Estate,2016,10,,,,OR
+Western Oregon,Real Estate,2019,1,12,19,.63157892,OR
+Western Oregon,Real Estate,2019,5,,,,OR
+Western Oregon,Real Estate,2019,10,,,,OR
+Western Oregon,Retail,2004,1,140,179,.78212291,OR
+Western Oregon,Retail,2004,5,67,103,.65048546,OR
+Western Oregon,Retail,2004,10,54,90,.60000002,OR
+Western Oregon,Retail,2007,1,142,183,.77595627,OR
+Western Oregon,Retail,2007,5,92,126,.73015875,OR
+Western Oregon,Retail,2007,10,56,99,.56565654,OR
+Western Oregon,Retail,2010,1,153,196,.78061223,OR
+Western Oregon,Retail,2010,5,85,143,.59440559,OR
+Western Oregon,Retail,2010,10,50,91,.54945058,OR
+Western Oregon,Retail,2013,1,169,216,.7824074,OR
+Western Oregon,Retail,2013,5,94,151,.62251657,OR
+Western Oregon,Retail,2013,10,,,,OR
+Western Oregon,Retail,2016,1,133,184,.72282606,OR
+Western Oregon,Retail,2016,5,69,115,.60000002,OR
+Western Oregon,Retail,2016,10,,,,OR
+Western Oregon,Retail,2019,1,152,197,.7715736,OR
+Western Oregon,Retail,2019,5,,,,OR
+Western Oregon,Retail,2019,10,,,,OR
+Western Oregon,Transportation,2004,1,27,44,.61363637,OR
+Western Oregon,Transportation,2004,5,35,41,.85365856,OR
+Western Oregon,Transportation,2004,10,36,48,.75,OR
+Western Oregon,Transportation,2007,1,18,25,.72000003,OR
+Western Oregon,Transportation,2007,5,29,39,.74358976,OR
+Western Oregon,Transportation,2007,10,42,63,.66666669,OR
+Western Oregon,Transportation,2010,1,20,25,.80000001,OR
+Western Oregon,Transportation,2010,5,24,36,.66666669,OR
+Western Oregon,Transportation,2010,10,28,37,.75675678,OR
+Western Oregon,Transportation,2013,1,26,39,.66666669,OR
+Western Oregon,Transportation,2013,5,33,53,.6226415,OR
+Western Oregon,Transportation,2013,10,,,,OR
+Western Oregon,Transportation,2016,1,46,57,.80701756,OR
+Western Oregon,Transportation,2016,5,39,49,.79591835,OR
+Western Oregon,Transportation,2016,10,,,,OR
+Western Oregon,Transportation,2019,1,49,67,.73134327,OR
+Western Oregon,Transportation,2019,5,,,,OR
+Western Oregon,Transportation,2019,10,,,,OR
+Western Oregon,Utilities,2004,1,0,2,0,OR
+Western Oregon,Utilities,2004,5,1,3,.33333334,OR
+Western Oregon,Utilities,2004,10,1,1,1,OR
+Western Oregon,Utilities,2007,1,1,2,.5,OR
+Western Oregon,Utilities,2007,5,1,2,.5,OR
+Western Oregon,Utilities,2007,10,3,4,.75,OR
+Western Oregon,Utilities,2010,1,2,3,.66666669,OR
+Western Oregon,Utilities,2010,5,4,4,1,OR
+Western Oregon,Utilities,2010,10,0,6,0,OR
+Western Oregon,Utilities,2013,1,0,0,,OR
+Western Oregon,Utilities,2013,5,2,6,.33333334,OR
+Western Oregon,Utilities,2013,10,,,,OR
+Western Oregon,Utilities,2016,1,2,3,.66666669,OR
+Western Oregon,Utilities,2016,5,8,9,.8888889,OR
+Western Oregon,Utilities,2016,10,,,,OR
+Western Oregon,Utilities,2019,1,4,5,.80000001,OR
+Western Oregon,Utilities,2019,5,,,,OR
+Western Oregon,Utilities,2019,10,,,,OR
+Western Oregon,Wholesale,2004,1,37,53,.6981132,OR
+Western Oregon,Wholesale,2004,5,32,44,.72727275,OR
+Western Oregon,Wholesale,2004,10,38,55,.69090909,OR
+Western Oregon,Wholesale,2007,1,21,28,.75,OR
+Western Oregon,Wholesale,2007,5,25,37,.67567569,OR
+Western Oregon,Wholesale,2007,10,36,53,.67924529,OR
+Western Oregon,Wholesale,2010,1,35,51,.68627453,OR
+Western Oregon,Wholesale,2010,5,37,51,.72549021,OR
+Western Oregon,Wholesale,2010,10,30,45,.66666669,OR
+Western Oregon,Wholesale,2013,1,29,46,.63043481,OR
+Western Oregon,Wholesale,2013,5,24,35,.6857143,OR
+Western Oregon,Wholesale,2013,10,,,,OR
+Western Oregon,Wholesale,2016,1,33,47,.70212764,OR
+Western Oregon,Wholesale,2016,5,30,46,.65217394,OR
+Western Oregon,Wholesale,2016,10,,,,OR
+Western Oregon,Wholesale,2019,1,39,54,.72222221,OR
+Western Oregon,Wholesale,2019,5,,,,OR
+Western Oregon,Wholesale,2019,10,,,,OR

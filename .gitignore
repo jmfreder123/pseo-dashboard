@@ -1,5 +1,19 @@
 venv/
+.venv/
 __pycache__/
 *.pyc
 .DS_Store
 .env
+
+# Raw PSEO downloads: large, and regenerable via build_state_data.py
+pseof_*.csv
+pseof_*.csv.gz
+pseoe_*.csv
+pseoe_*.csv.gz
+
+# Stata intermediates
+*.dta
+*.gph
+
+# Streamlit local secrets — must never be published
+.streamlit/secrets.toml

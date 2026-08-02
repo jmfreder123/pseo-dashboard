@@ -25,25 +25,28 @@ st.caption("Bachelor's degree graduate retention across institutions, industries
 # ============================================================
 DATA_DIR = Path(__file__).parent / "data"
 
-@st.cache_data
-def load_tsi():
-    az = pd.read_csv(DATA_DIR / "az_tsi.csv")
-    tx = pd.read_csv(DATA_DIR / "tx_tsi.csv")
-    co = pd.read_csv(DATA_DIR / "co_tsi.csv")
-    df = pd.concat([az, tx, co], ignore_index=True)
+def _load_glob(pattern):
+    """Concatenate every state file matching pattern.
+
+    States register by dropping their CSVs in data/ -- no code change needed
+    to add one. Build them with build_state_data.py.
+    """
+    paths = sorted(DATA_DIR.glob(pattern))
+    if not paths:
+        st.error(f"No data files matching {pattern!r} in {DATA_DIR}")
+        st.stop()
+    df = pd.concat([pd.read_csv(p) for p in paths], ignore_index=True)
     df["grad_cohort"] = df["grad_cohort"].astype(str)
     df["horizon"] = df["horizon"].astype(int)
     return df
 
 @st.cache_data
+def load_tsi():
+    return _load_glob("*_tsi.csv")
+
+@st.cache_data
 def load_flows():
-    az = pd.read_csv(DATA_DIR / "az_regional_flows.csv")
-    tx = pd.read_csv(DATA_DIR / "tx_regional_flows.csv")
-    co = pd.read_csv(DATA_DIR / "co_regional_flows.csv")
-    df = pd.concat([az, tx, co], ignore_index=True)
-    df["grad_cohort"] = df["grad_cohort"].astype(str)
-    df["horizon"] = df["horizon"].astype(int)
-    return df
+    return _load_glob("*_regional_flows.csv")
 
 tsi = load_tsi()
 flows = load_flows()
@@ -57,7 +60,8 @@ st.sidebar.header("Filters")
 DEFAULT_INSTITUTIONS = [
     "ASU", "NAU", "UA",
     "UT Austin", "Texas A&M", "Sam Houston State",
-    "CU Boulder", "Colorado State"
+    "CU Boulder", "Colorado State",
+    "University of Oregon", "Oregon State", "Portland State"
 ]
 
 # State
@@ -162,8 +166,8 @@ with tab0:
         of a university's graduates who remain employed in that same state at one, five,
         and ten years after graduation. Built on the U.S. Census Bureau's Postsecondary
         Employment Outcomes (PSEO) data, it covers bachelor's degree graduates from public
-        universities in Arizona, Texas, and Colorado, spanning graduation cohorts from 2004
-        to 2019 and twenty industries defined by two-digit NAICS codes.
+        universities in Arizona, Texas, Colorado, and Oregon, spanning graduation cohorts
+        from 2004 to 2019 and twenty industries defined by two-digit NAICS codes.
 
         The TSI is purely descriptive. It documents where graduates work; it does not explain why
         graduates stay or leave.
@@ -324,9 +328,13 @@ with tab3:
                 "Pacific":             "#f9cb9c",
             }
             # Soft state-themed institution palettes
-            AZ_INST_COLOR = "#a4506b"   # muted maroon (ASU)
-            TX_INST_COLOR = "#c47b3a"   # muted burnt-orange (Texas)
-            CO_INST_COLOR = "#5a8b8e"   # muted teal (Colorado mountains)
+            STATE_INST_COLORS = {
+                "AZ": "#a4506b",   # muted maroon (ASU)
+                "TX": "#c47b3a",   # muted burnt-orange (Texas)
+                "CO": "#5a8b8e",   # muted teal (Colorado mountains)
+                "OR": "#4f7a52",   # muted evergreen (Oregon)
+            }
+            DEFAULT_INST_COLOR = "#888888"
 
             states_with_data = sorted(agg["state"].unique())
 
@@ -342,14 +350,7 @@ with tab3:
                     regions = state_agg["region_cat"].unique().tolist()
 
                     # Single muted color for all institutions in a state
-                    if state_code == "AZ":
-                        inst_color = AZ_INST_COLOR
-                    elif state_code == "TX":
-                        inst_color = TX_INST_COLOR
-                    elif state_code == "CO":
-                        inst_color = CO_INST_COLOR
-                    else:
-                        inst_color = "#888888"
+                    inst_color = STATE_INST_COLORS.get(state_code, DEFAULT_INST_COLOR)
                     inst_colors = [inst_color] * len(institutions)
                     region_colors = [REGION_COLORS.get(r, "#dddddd") for r in regions]
                     node_colors = inst_colors + region_colors
