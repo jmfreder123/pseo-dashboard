@@ -66,6 +66,13 @@ SHORT_LABELS = {
     "00321900": "Southern Oregon",
     "00322300": "University of Oregon",
     "00320900": "Western Oregon",
+    # Montana
+    "00253200": "Montana State",
+    "00253600": "University of Montana",
+    "00253000": "MSU Billings",
+    "00253100": "Montana Tech",
+    "00253300": "MSU Northern",
+    "00253700": "U Montana Western",
     # Utah
     "00367500": "University of Utah",
     "00367700": "Utah State",

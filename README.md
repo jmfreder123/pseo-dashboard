@@ -1,7 +1,7 @@
 # PSEO Talent Stickiness Dashboard
 
 Interactive dashboard for exploring graduate retention patterns at public
-universities in Arizona, Texas, Colorado, Oregon, and Utah.
+universities in Arizona, Texas, Colorado, Oregon, Utah, and Montana.
 
 ## Setup
 
@@ -32,6 +32,7 @@ Two CSVs per state in `data/`, named `{st}_tsi.csv` and `{st}_regional_flows.csv
 | CO | 12 | 2004–2019 | `total_observed >= 320` |
 | OR | 7 | 2004–2019 | all four-year publics (no threshold — see Notes) |
 | UT | 6 | 2010–2019 | `total_observed >= 100` (drops Snow College) |
+| MT | 6 | 2004–2019 | all four-year publics (no threshold) |
 
 Source: U.S. Census Bureau Postsecondary Employment Outcomes (PSEO),
 2004–2019 graduation cohorts, bachelor's degrees, all CIP codes.

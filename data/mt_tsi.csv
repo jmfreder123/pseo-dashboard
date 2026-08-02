@@ -1,0 +1,2161 @@
+institution_cat,industry_cat,grad_cohort,horizon,emp_instate_,emp_n_,SI_by_cohort,state
+MSU Billings,Admin/Waste,2004,1,11,28,.39285713,MT
+MSU Billings,Admin/Waste,2004,5,17,39,.43589744,MT
+MSU Billings,Admin/Waste,2004,10,6,23,.26086956,MT
+MSU Billings,Admin/Waste,2007,1,31,51,.60784316,MT
+MSU Billings,Admin/Waste,2007,5,17,30,.56666666,MT
+MSU Billings,Admin/Waste,2007,10,13,29,.44827586,MT
+MSU Billings,Admin/Waste,2010,1,29,42,.69047618,MT
+MSU Billings,Admin/Waste,2010,5,17,27,.62962961,MT
+MSU Billings,Admin/Waste,2010,10,15,35,.42857143,MT
+MSU Billings,Admin/Waste,2013,1,20,43,.46511629,MT
+MSU Billings,Admin/Waste,2013,5,19,31,.61290324,MT
+MSU Billings,Admin/Waste,2013,10,,,,MT
+MSU Billings,Admin/Waste,2016,1,30,48,.625,MT
+MSU Billings,Admin/Waste,2016,5,26,49,.53061223,MT
+MSU Billings,Admin/Waste,2016,10,,,,MT
+MSU Billings,Admin/Waste,2019,1,22,44,.5,MT
+MSU Billings,Admin/Waste,2019,5,,,,MT
+MSU Billings,Admin/Waste,2019,10,,,,MT
+MSU Billings,Agriculture,2004,1,3,6,.5,MT
+MSU Billings,Agriculture,2004,5,3,7,.42857143,MT
+MSU Billings,Agriculture,2004,10,1,5,.2,MT
+MSU Billings,Agriculture,2007,1,1,1,1,MT
+MSU Billings,Agriculture,2007,5,2,6,.33333334,MT
+MSU Billings,Agriculture,2007,10,4,7,.5714286,MT
+MSU Billings,Agriculture,2010,1,5,6,.83333331,MT
+MSU Billings,Agriculture,2010,5,0,0,,MT
+MSU Billings,Agriculture,2010,10,1,2,.5,MT
+MSU Billings,Agriculture,2013,1,1,2,.5,MT
+MSU Billings,Agriculture,2013,5,2,9,.22222222,MT
+MSU Billings,Agriculture,2013,10,,,,MT
+MSU Billings,Agriculture,2016,1,0,4,0,MT
+MSU Billings,Agriculture,2016,5,0,3,0,MT
+MSU Billings,Agriculture,2016,10,,,,MT
+MSU Billings,Agriculture,2019,1,1,1,1,MT
+MSU Billings,Agriculture,2019,5,,,,MT
+MSU Billings,Agriculture,2019,10,,,,MT
+MSU Billings,Arts/Entertainment,2004,1,5,12,.41666666,MT
+MSU Billings,Arts/Entertainment,2004,5,2,6,.33333334,MT
+MSU Billings,Arts/Entertainment,2004,10,6,8,.75,MT
+MSU Billings,Arts/Entertainment,2007,1,12,13,.92307693,MT
+MSU Billings,Arts/Entertainment,2007,5,10,12,.83333331,MT
+MSU Billings,Arts/Entertainment,2007,10,11,11,1,MT
+MSU Billings,Arts/Entertainment,2010,1,5,12,.41666666,MT
+MSU Billings,Arts/Entertainment,2010,5,2,3,.66666669,MT
+MSU Billings,Arts/Entertainment,2010,10,6,9,.66666669,MT
+MSU Billings,Arts/Entertainment,2013,1,8,14,.5714286,MT
+MSU Billings,Arts/Entertainment,2013,5,6,8,.75,MT
+MSU Billings,Arts/Entertainment,2013,10,,,,MT
+MSU Billings,Arts/Entertainment,2016,1,5,13,.38461539,MT
+MSU Billings,Arts/Entertainment,2016,5,7,10,.69999999,MT
+MSU Billings,Arts/Entertainment,2016,10,,,,MT
+MSU Billings,Arts/Entertainment,2019,1,9,12,.75,MT
+MSU Billings,Arts/Entertainment,2019,5,,,,MT
+MSU Billings,Arts/Entertainment,2019,10,,,,MT
+MSU Billings,Construction,2004,1,5,8,.625,MT
+MSU Billings,Construction,2004,5,13,19,.68421054,MT
+MSU Billings,Construction,2004,10,12,14,.85714287,MT
+MSU Billings,Construction,2007,1,9,13,.69230771,MT
+MSU Billings,Construction,2007,5,10,26,.38461539,MT
+MSU Billings,Construction,2007,10,18,29,.62068963,MT
+MSU Billings,Construction,2010,1,9,16,.5625,MT
+MSU Billings,Construction,2010,5,10,10,1,MT
+MSU Billings,Construction,2010,10,12,21,.5714286,MT
+MSU Billings,Construction,2013,1,19,25,.75999999,MT
+MSU Billings,Construction,2013,5,21,36,.58333331,MT
+MSU Billings,Construction,2013,10,,,,MT
+MSU Billings,Construction,2016,1,12,22,.54545456,MT
+MSU Billings,Construction,2016,5,20,37,.54054052,MT
+MSU Billings,Construction,2016,10,,,,MT
+MSU Billings,Construction,2019,1,19,38,.5,MT
+MSU Billings,Construction,2019,5,,,,MT
+MSU Billings,Construction,2019,10,,,,MT
+MSU Billings,Education,2004,1,176,277,.63537908,MT
+MSU Billings,Education,2004,5,181,298,.60738254,MT
+MSU Billings,Education,2004,10,182,287,.63414633,MT
+MSU Billings,Education,2007,1,199,321,.61993772,MT
+MSU Billings,Education,2007,5,215,349,.61604583,MT
+MSU Billings,Education,2007,10,203,303,.669967,MT
+MSU Billings,Education,2010,1,175,238,.7352941,MT
+MSU Billings,Education,2010,5,201,269,.74721187,MT
+MSU Billings,Education,2010,10,203,271,.7490775,MT
+MSU Billings,Education,2013,1,183,260,.70384616,MT
+MSU Billings,Education,2013,5,193,274,.70437956,MT
+MSU Billings,Education,2013,10,,,,MT
+MSU Billings,Education,2016,1,199,267,.74531835,MT
+MSU Billings,Education,2016,5,192,245,.78367347,MT
+MSU Billings,Education,2016,10,,,,MT
+MSU Billings,Education,2019,1,140,192,.72916669,MT
+MSU Billings,Education,2019,5,,,,MT
+MSU Billings,Education,2019,10,,,,MT
+MSU Billings,Finance,2004,1,77,90,.85555553,MT
+MSU Billings,Finance,2004,5,62,83,.74698794,MT
+MSU Billings,Finance,2004,10,53,63,.84126985,MT
+MSU Billings,Finance,2007,1,56,73,.76712328,MT
+MSU Billings,Finance,2007,5,55,88,.625,MT
+MSU Billings,Finance,2007,10,49,74,.66216218,MT
+MSU Billings,Finance,2010,1,56,79,.70886075,MT
+MSU Billings,Finance,2010,5,62,69,.89855075,MT
+MSU Billings,Finance,2010,10,65,90,.72222221,MT
+MSU Billings,Finance,2013,1,56,76,.7368421,MT
+MSU Billings,Finance,2013,5,51,72,.70833331,MT
+MSU Billings,Finance,2013,10,,,,MT
+MSU Billings,Finance,2016,1,51,69,.73913044,MT
+MSU Billings,Finance,2016,5,55,87,.63218391,MT
+MSU Billings,Finance,2016,10,,,,MT
+MSU Billings,Finance,2019,1,73,88,.82954544,MT
+MSU Billings,Finance,2019,5,,,,MT
+MSU Billings,Finance,2019,10,,,,MT
+MSU Billings,Food/Hospitality,2004,1,41,74,.55405408,MT
+MSU Billings,Food/Hospitality,2004,5,17,52,.32692307,MT
+MSU Billings,Food/Hospitality,2004,10,20,29,.68965518,MT
+MSU Billings,Food/Hospitality,2007,1,42,69,.60869563,MT
+MSU Billings,Food/Hospitality,2007,5,24,51,.47058824,MT
+MSU Billings,Food/Hospitality,2007,10,24,35,.6857143,MT
+MSU Billings,Food/Hospitality,2010,1,59,83,.71084338,MT
+MSU Billings,Food/Hospitality,2010,5,31,36,.8611111,MT
+MSU Billings,Food/Hospitality,2010,10,23,56,.4107143,MT
+MSU Billings,Food/Hospitality,2013,1,55,88,.625,MT
+MSU Billings,Food/Hospitality,2013,5,21,56,.375,MT
+MSU Billings,Food/Hospitality,2013,10,,,,MT
+MSU Billings,Food/Hospitality,2016,1,58,90,.64444447,MT
+MSU Billings,Food/Hospitality,2016,5,21,42,.5,MT
+MSU Billings,Food/Hospitality,2016,10,,,,MT
+MSU Billings,Food/Hospitality,2019,1,31,51,.60784316,MT
+MSU Billings,Food/Hospitality,2019,5,,,,MT
+MSU Billings,Food/Hospitality,2019,10,,,,MT
+MSU Billings,Health Care,2004,1,132,181,.72928178,MT
+MSU Billings,Health Care,2004,5,122,214,.57009345,MT
+MSU Billings,Health Care,2004,10,115,211,.54502368,MT
+MSU Billings,Health Care,2007,1,177,276,.64130437,MT
+MSU Billings,Health Care,2007,5,127,226,.56194693,MT
+MSU Billings,Health Care,2007,10,134,201,.66666669,MT
+MSU Billings,Health Care,2010,1,157,232,.67672414,MT
+MSU Billings,Health Care,2010,5,163,251,.64940238,MT
+MSU Billings,Health Care,2010,10,109,179,.60893857,MT
+MSU Billings,Health Care,2013,1,189,262,.72137403,MT
+MSU Billings,Health Care,2013,5,149,233,.639485,MT
+MSU Billings,Health Care,2013,10,,,,MT
+MSU Billings,Health Care,2016,1,200,288,.69444442,MT
+MSU Billings,Health Care,2016,5,181,259,.69884169,MT
+MSU Billings,Health Care,2016,10,,,,MT
+MSU Billings,Health Care,2019,1,212,319,.66457683,MT
+MSU Billings,Health Care,2019,5,,,,MT
+MSU Billings,Health Care,2019,10,,,,MT
+MSU Billings,Information,2004,1,16,28,.5714286,MT
+MSU Billings,Information,2004,5,16,21,.76190478,MT
+MSU Billings,Information,2004,10,16,25,.63999999,MT
+MSU Billings,Information,2007,1,26,37,.7027027,MT
+MSU Billings,Information,2007,5,18,29,.62068963,MT
+MSU Billings,Information,2007,10,19,26,.73076922,MT
+MSU Billings,Information,2010,1,20,33,.60606062,MT
+MSU Billings,Information,2010,5,7,8,.875,MT
+MSU Billings,Information,2010,10,2,12,.16666667,MT
+MSU Billings,Information,2013,1,9,25,.36000001,MT
+MSU Billings,Information,2013,5,5,9,.55555558,MT
+MSU Billings,Information,2013,10,,,,MT
+MSU Billings,Information,2016,1,11,16,.6875,MT
+MSU Billings,Information,2016,5,6,13,.46153846,MT
+MSU Billings,Information,2016,10,,,,MT
+MSU Billings,Information,2019,1,10,19,.52631581,MT
+MSU Billings,Information,2019,5,,,,MT
+MSU Billings,Information,2019,10,,,,MT
+MSU Billings,Management,2004,1,0,7,0,MT
+MSU Billings,Management,2004,5,0,0,,MT
+MSU Billings,Management,2004,10,1,2,.5,MT
+MSU Billings,Management,2007,1,0,4,0,MT
+MSU Billings,Management,2007,5,7,8,.875,MT
+MSU Billings,Management,2007,10,3,7,.42857143,MT
+MSU Billings,Management,2010,1,5,10,.5,MT
+MSU Billings,Management,2010,5,1,5,.2,MT
+MSU Billings,Management,2010,10,4,4,1,MT
+MSU Billings,Management,2013,1,3,3,1,MT
+MSU Billings,Management,2013,5,7,8,.875,MT
+MSU Billings,Management,2013,10,,,,MT
+MSU Billings,Management,2016,1,3,4,.75,MT
+MSU Billings,Management,2016,5,1,2,.5,MT
+MSU Billings,Management,2016,10,,,,MT
+MSU Billings,Management,2019,1,2,3,.66666669,MT
+MSU Billings,Management,2019,5,,,,MT
+MSU Billings,Management,2019,10,,,,MT
+MSU Billings,Manufacturing,2004,1,10,23,.43478259,MT
+MSU Billings,Manufacturing,2004,5,12,29,.41379312,MT
+MSU Billings,Manufacturing,2004,10,9,36,.25,MT
+MSU Billings,Manufacturing,2007,1,8,17,.47058824,MT
+MSU Billings,Manufacturing,2007,5,13,29,.44827586,MT
+MSU Billings,Manufacturing,2007,10,11,27,.4074074,MT
+MSU Billings,Manufacturing,2010,1,7,20,.34999999,MT
+MSU Billings,Manufacturing,2010,5,14,19,.7368421,MT
+MSU Billings,Manufacturing,2010,10,12,17,.70588237,MT
+MSU Billings,Manufacturing,2013,1,8,29,.27586207,MT
+MSU Billings,Manufacturing,2013,5,12,19,.63157892,MT
+MSU Billings,Manufacturing,2013,10,,,,MT
+MSU Billings,Manufacturing,2016,1,7,26,.26923078,MT
+MSU Billings,Manufacturing,2016,5,8,14,.5714286,MT
+MSU Billings,Manufacturing,2016,10,,,,MT
+MSU Billings,Manufacturing,2019,1,7,30,.23333333,MT
+MSU Billings,Manufacturing,2019,5,,,,MT
+MSU Billings,Manufacturing,2019,10,,,,MT
+MSU Billings,Mining,2004,1,5,5,1,MT
+MSU Billings,Mining,2004,5,2,10,.2,MT
+MSU Billings,Mining,2004,10,2,4,.5,MT
+MSU Billings,Mining,2007,1,4,8,.5,MT
+MSU Billings,Mining,2007,5,1,6,.16666667,MT
+MSU Billings,Mining,2007,10,5,8,.625,MT
+MSU Billings,Mining,2010,1,1,2,.5,MT
+MSU Billings,Mining,2010,5,2,2,1,MT
+MSU Billings,Mining,2010,10,0,0,,MT
+MSU Billings,Mining,2013,1,7,9,.77777779,MT
+MSU Billings,Mining,2013,5,5,6,.83333331,MT
+MSU Billings,Mining,2013,10,,,,MT
+MSU Billings,Mining,2016,1,1,3,.33333334,MT
+MSU Billings,Mining,2016,5,9,15,.60000002,MT
+MSU Billings,Mining,2016,10,,,,MT
+MSU Billings,Mining,2019,1,2,3,.66666669,MT
+MSU Billings,Mining,2019,5,,,,MT
+MSU Billings,Mining,2019,10,,,,MT
+MSU Billings,Other Services,2004,1,19,21,.90476191,MT
+MSU Billings,Other Services,2004,5,16,20,.80000001,MT
+MSU Billings,Other Services,2004,10,24,29,.82758623,MT
+MSU Billings,Other Services,2007,1,28,41,.68292683,MT
+MSU Billings,Other Services,2007,5,19,33,.57575756,MT
+MSU Billings,Other Services,2007,10,21,23,.9130435,MT
+MSU Billings,Other Services,2010,1,27,28,.96428573,MT
+MSU Billings,Other Services,2010,5,16,18,.8888889,MT
+MSU Billings,Other Services,2010,10,5,11,.45454547,MT
+MSU Billings,Other Services,2013,1,19,26,.73076922,MT
+MSU Billings,Other Services,2013,5,20,37,.54054052,MT
+MSU Billings,Other Services,2013,10,,,,MT
+MSU Billings,Other Services,2016,1,22,29,.75862068,MT
+MSU Billings,Other Services,2016,5,12,25,.47999999,MT
+MSU Billings,Other Services,2016,10,,,,MT
+MSU Billings,Other Services,2019,1,24,38,.63157892,MT
+MSU Billings,Other Services,2019,5,,,,MT
+MSU Billings,Other Services,2019,10,,,,MT
+MSU Billings,Professional Services,2004,1,61,84,.72619045,MT
+MSU Billings,Professional Services,2004,5,49,95,.51578945,MT
+MSU Billings,Professional Services,2004,10,52,76,.68421054,MT
+MSU Billings,Professional Services,2007,1,58,102,.56862748,MT
+MSU Billings,Professional Services,2007,5,46,101,.45544556,MT
+MSU Billings,Professional Services,2007,10,36,64,.5625,MT
+MSU Billings,Professional Services,2010,1,59,90,.65555555,MT
+MSU Billings,Professional Services,2010,5,61,73,.83561641,MT
+MSU Billings,Professional Services,2010,10,39,66,.59090906,MT
+MSU Billings,Professional Services,2013,1,55,91,.60439563,MT
+MSU Billings,Professional Services,2013,5,43,82,.52439022,MT
+MSU Billings,Professional Services,2013,10,,,,MT
+MSU Billings,Professional Services,2016,1,59,93,.63440859,MT
+MSU Billings,Professional Services,2016,5,60,84,.71428573,MT
+MSU Billings,Professional Services,2016,10,,,,MT
+MSU Billings,Professional Services,2019,1,46,68,.67647058,MT
+MSU Billings,Professional Services,2019,5,,,,MT
+MSU Billings,Professional Services,2019,10,,,,MT
+MSU Billings,Public Admin,2004,1,59,82,.71951222,MT
+MSU Billings,Public Admin,2004,5,65,85,.7647059,MT
+MSU Billings,Public Admin,2004,10,70,89,.78651685,MT
+MSU Billings,Public Admin,2007,1,59,93,.63440859,MT
+MSU Billings,Public Admin,2007,5,70,115,.60869563,MT
+MSU Billings,Public Admin,2007,10,91,123,.73983741,MT
+MSU Billings,Public Admin,2010,1,41,67,.61194032,MT
+MSU Billings,Public Admin,2010,5,75,86,.87209302,MT
+MSU Billings,Public Admin,2010,10,77,111,.6936937,MT
+MSU Billings,Public Admin,2013,1,62,91,.6813187,MT
+MSU Billings,Public Admin,2013,5,101,155,.65161288,MT
+MSU Billings,Public Admin,2013,10,,,,MT
+MSU Billings,Public Admin,2016,1,60,90,.66666669,MT
+MSU Billings,Public Admin,2016,5,75,106,.70754719,MT
+MSU Billings,Public Admin,2016,10,,,,MT
+MSU Billings,Public Admin,2019,1,70,105,.66666669,MT
+MSU Billings,Public Admin,2019,5,,,,MT
+MSU Billings,Public Admin,2019,10,,,,MT
+MSU Billings,Real Estate,2004,1,7,10,.69999999,MT
+MSU Billings,Real Estate,2004,5,9,14,.64285713,MT
+MSU Billings,Real Estate,2004,10,7,7,1,MT
+MSU Billings,Real Estate,2007,1,5,6,.83333331,MT
+MSU Billings,Real Estate,2007,5,10,18,.55555558,MT
+MSU Billings,Real Estate,2007,10,7,7,1,MT
+MSU Billings,Real Estate,2010,1,11,14,.78571427,MT
+MSU Billings,Real Estate,2010,5,4,4,1,MT
+MSU Billings,Real Estate,2010,10,4,8,.5,MT
+MSU Billings,Real Estate,2013,1,9,13,.69230771,MT
+MSU Billings,Real Estate,2013,5,14,19,.7368421,MT
+MSU Billings,Real Estate,2013,10,,,,MT
+MSU Billings,Real Estate,2016,1,14,16,.875,MT
+MSU Billings,Real Estate,2016,5,10,11,.90909094,MT
+MSU Billings,Real Estate,2016,10,,,,MT
+MSU Billings,Real Estate,2019,1,5,7,.71428573,MT
+MSU Billings,Real Estate,2019,5,,,,MT
+MSU Billings,Real Estate,2019,10,,,,MT
+MSU Billings,Retail,2004,1,75,94,.79787236,MT
+MSU Billings,Retail,2004,5,51,100,.50999999,MT
+MSU Billings,Retail,2004,10,30,63,.47619048,MT
+MSU Billings,Retail,2007,1,71,122,.58196723,MT
+MSU Billings,Retail,2007,5,53,93,.56989247,MT
+MSU Billings,Retail,2007,10,44,79,.55696201,MT
+MSU Billings,Retail,2010,1,62,99,.62626261,MT
+MSU Billings,Retail,2010,5,43,52,.82692307,MT
+MSU Billings,Retail,2010,10,37,74,.5,MT
+MSU Billings,Retail,2013,1,60,102,.58823532,MT
+MSU Billings,Retail,2013,5,35,77,.45454547,MT
+MSU Billings,Retail,2013,10,,,,MT
+MSU Billings,Retail,2016,1,48,77,.62337661,MT
+MSU Billings,Retail,2016,5,39,90,.43333334,MT
+MSU Billings,Retail,2016,10,,,,MT
+MSU Billings,Retail,2019,1,48,87,.55172414,MT
+MSU Billings,Retail,2019,5,,,,MT
+MSU Billings,Retail,2019,10,,,,MT
+MSU Billings,Transportation,2004,1,6,11,.54545456,MT
+MSU Billings,Transportation,2004,5,5,13,.38461539,MT
+MSU Billings,Transportation,2004,10,10,13,.76923078,MT
+MSU Billings,Transportation,2007,1,6,8,.75,MT
+MSU Billings,Transportation,2007,5,8,14,.5714286,MT
+MSU Billings,Transportation,2007,10,5,12,.41666666,MT
+MSU Billings,Transportation,2010,1,13,16,.8125,MT
+MSU Billings,Transportation,2010,5,12,15,.80000001,MT
+MSU Billings,Transportation,2010,10,9,14,.64285713,MT
+MSU Billings,Transportation,2013,1,11,21,.52380955,MT
+MSU Billings,Transportation,2013,5,16,21,.76190478,MT
+MSU Billings,Transportation,2013,10,,,,MT
+MSU Billings,Transportation,2016,1,10,16,.625,MT
+MSU Billings,Transportation,2016,5,10,13,.76923078,MT
+MSU Billings,Transportation,2016,10,,,,MT
+MSU Billings,Transportation,2019,1,10,19,.52631581,MT
+MSU Billings,Transportation,2019,5,,,,MT
+MSU Billings,Transportation,2019,10,,,,MT
+MSU Billings,Utilities,2004,1,2,3,.66666669,MT
+MSU Billings,Utilities,2004,5,5,5,1,MT
+MSU Billings,Utilities,2004,10,6,6,1,MT
+MSU Billings,Utilities,2007,1,2,3,.66666669,MT
+MSU Billings,Utilities,2007,5,9,11,.81818181,MT
+MSU Billings,Utilities,2007,10,4,4,1,MT
+MSU Billings,Utilities,2010,1,0,0,,MT
+MSU Billings,Utilities,2010,5,0,0,,MT
+MSU Billings,Utilities,2010,10,0,2,0,MT
+MSU Billings,Utilities,2013,1,0,1,0,MT
+MSU Billings,Utilities,2013,5,5,6,.83333331,MT
+MSU Billings,Utilities,2013,10,,,,MT
+MSU Billings,Utilities,2016,1,0,0,,MT
+MSU Billings,Utilities,2016,5,5,7,.71428573,MT
+MSU Billings,Utilities,2016,10,,,,MT
+MSU Billings,Utilities,2019,1,2,3,.66666669,MT
+MSU Billings,Utilities,2019,5,,,,MT
+MSU Billings,Utilities,2019,10,,,,MT
+MSU Billings,Wholesale,2004,1,14,15,.93333334,MT
+MSU Billings,Wholesale,2004,5,16,34,.47058824,MT
+MSU Billings,Wholesale,2004,10,14,24,.58333331,MT
+MSU Billings,Wholesale,2007,1,18,23,.78260869,MT
+MSU Billings,Wholesale,2007,5,18,34,.52941179,MT
+MSU Billings,Wholesale,2007,10,16,23,.69565219,MT
+MSU Billings,Wholesale,2010,1,20,29,.68965518,MT
+MSU Billings,Wholesale,2010,5,14,15,.93333334,MT
+MSU Billings,Wholesale,2010,10,17,23,.73913044,MT
+MSU Billings,Wholesale,2013,1,18,27,.66666669,MT
+MSU Billings,Wholesale,2013,5,18,37,.48648649,MT
+MSU Billings,Wholesale,2013,10,,,,MT
+MSU Billings,Wholesale,2016,1,16,21,.76190478,MT
+MSU Billings,Wholesale,2016,5,18,32,.5625,MT
+MSU Billings,Wholesale,2016,10,,,,MT
+MSU Billings,Wholesale,2019,1,13,23,.56521738,MT
+MSU Billings,Wholesale,2019,5,,,,MT
+MSU Billings,Wholesale,2019,10,,,,MT
+MSU Northern,Admin/Waste,2004,1,2,15,.13333334,MT
+MSU Northern,Admin/Waste,2004,5,4,22,.18181819,MT
+MSU Northern,Admin/Waste,2004,10,2,15,.13333334,MT
+MSU Northern,Admin/Waste,2007,1,0,5,0,MT
+MSU Northern,Admin/Waste,2007,5,3,18,.16666667,MT
+MSU Northern,Admin/Waste,2007,10,3,17,.17647059,MT
+MSU Northern,Admin/Waste,2010,1,3,15,.2,MT
+MSU Northern,Admin/Waste,2010,5,3,11,.27272728,MT
+MSU Northern,Admin/Waste,2010,10,5,11,.45454547,MT
+MSU Northern,Admin/Waste,2013,1,4,13,.30769232,MT
+MSU Northern,Admin/Waste,2013,5,5,24,.20833333,MT
+MSU Northern,Admin/Waste,2013,10,,,,MT
+MSU Northern,Admin/Waste,2016,1,3,12,.25,MT
+MSU Northern,Admin/Waste,2016,5,7,17,.41176471,MT
+MSU Northern,Admin/Waste,2016,10,,,,MT
+MSU Northern,Admin/Waste,2019,1,2,20,.1,MT
+MSU Northern,Admin/Waste,2019,5,,,,MT
+MSU Northern,Admin/Waste,2019,10,,,,MT
+MSU Northern,Agriculture,2004,1,1,1,1,MT
+MSU Northern,Agriculture,2004,5,4,4,1,MT
+MSU Northern,Agriculture,2004,10,1,3,.33333334,MT
+MSU Northern,Agriculture,2007,1,0,1,0,MT
+MSU Northern,Agriculture,2007,5,0,7,0,MT
+MSU Northern,Agriculture,2007,10,1,6,.16666667,MT
+MSU Northern,Agriculture,2010,1,0,2,0,MT
+MSU Northern,Agriculture,2010,5,0,1,0,MT
+MSU Northern,Agriculture,2010,10,1,1,1,MT
+MSU Northern,Agriculture,2013,1,1,2,.5,MT
+MSU Northern,Agriculture,2013,5,0,2,0,MT
+MSU Northern,Agriculture,2013,10,,,,MT
+MSU Northern,Agriculture,2016,1,1,1,1,MT
+MSU Northern,Agriculture,2016,5,0,1,0,MT
+MSU Northern,Agriculture,2016,10,,,,MT
+MSU Northern,Agriculture,2019,1,2,5,.40000001,MT
+MSU Northern,Agriculture,2019,5,,,,MT
+MSU Northern,Agriculture,2019,10,,,,MT
+MSU Northern,Arts/Entertainment,2004,1,2,9,.22222222,MT
+MSU Northern,Arts/Entertainment,2004,5,7,12,.58333331,MT
+MSU Northern,Arts/Entertainment,2004,10,3,6,.5,MT
+MSU Northern,Arts/Entertainment,2007,1,0,3,0,MT
+MSU Northern,Arts/Entertainment,2007,5,2,2,1,MT
+MSU Northern,Arts/Entertainment,2007,10,0,0,,MT
+MSU Northern,Arts/Entertainment,2010,1,3,8,.375,MT
+MSU Northern,Arts/Entertainment,2010,5,1,2,.5,MT
+MSU Northern,Arts/Entertainment,2010,10,0,0,,MT
+MSU Northern,Arts/Entertainment,2013,1,5,5,1,MT
+MSU Northern,Arts/Entertainment,2013,5,1,4,.25,MT
+MSU Northern,Arts/Entertainment,2013,10,,,,MT
+MSU Northern,Arts/Entertainment,2016,1,1,2,.5,MT
+MSU Northern,Arts/Entertainment,2016,5,2,7,.2857143,MT
+MSU Northern,Arts/Entertainment,2016,10,,,,MT
+MSU Northern,Arts/Entertainment,2019,1,5,6,.83333331,MT
+MSU Northern,Arts/Entertainment,2019,5,,,,MT
+MSU Northern,Arts/Entertainment,2019,10,,,,MT
+MSU Northern,Construction,2004,1,8,24,.33333334,MT
+MSU Northern,Construction,2004,5,12,21,.5714286,MT
+MSU Northern,Construction,2004,10,12,30,.40000001,MT
+MSU Northern,Construction,2007,1,4,5,.80000001,MT
+MSU Northern,Construction,2007,5,6,21,.2857143,MT
+MSU Northern,Construction,2007,10,10,14,.71428573,MT
+MSU Northern,Construction,2010,1,8,17,.47058824,MT
+MSU Northern,Construction,2010,5,7,22,.31818181,MT
+MSU Northern,Construction,2010,10,10,30,.33333334,MT
+MSU Northern,Construction,2013,1,4,17,.23529412,MT
+MSU Northern,Construction,2013,5,3,9,.33333334,MT
+MSU Northern,Construction,2013,10,,,,MT
+MSU Northern,Construction,2016,1,4,21,.19047619,MT
+MSU Northern,Construction,2016,5,10,23,.43478259,MT
+MSU Northern,Construction,2016,10,,,,MT
+MSU Northern,Construction,2019,1,11,27,.4074074,MT
+MSU Northern,Construction,2019,5,,,,MT
+MSU Northern,Construction,2019,10,,,,MT
+MSU Northern,Education,2004,1,113,128,.8828125,MT
+MSU Northern,Education,2004,5,113,163,.69325155,MT
+MSU Northern,Education,2004,10,90,134,.67164177,MT
+MSU Northern,Education,2007,1,102,128,.796875,MT
+MSU Northern,Education,2007,5,105,123,.85365856,MT
+MSU Northern,Education,2007,10,97,117,.82905984,MT
+MSU Northern,Education,2010,1,30,39,.76923078,MT
+MSU Northern,Education,2010,5,69,90,.76666665,MT
+MSU Northern,Education,2010,10,64,89,.71910113,MT
+MSU Northern,Education,2013,1,56,62,.90322578,MT
+MSU Northern,Education,2013,5,74,83,.89156628,MT
+MSU Northern,Education,2013,10,,,,MT
+MSU Northern,Education,2016,1,45,55,.81818181,MT
+MSU Northern,Education,2016,5,45,65,.69230771,MT
+MSU Northern,Education,2016,10,,,,MT
+MSU Northern,Education,2019,1,16,26,.61538464,MT
+MSU Northern,Education,2019,5,,,,MT
+MSU Northern,Education,2019,10,,,,MT
+MSU Northern,Finance,2004,1,11,18,.6111111,MT
+MSU Northern,Finance,2004,5,13,18,.72222221,MT
+MSU Northern,Finance,2004,10,13,34,.38235295,MT
+MSU Northern,Finance,2007,1,7,8,.875,MT
+MSU Northern,Finance,2007,5,8,9,.8888889,MT
+MSU Northern,Finance,2007,10,6,13,.46153846,MT
+MSU Northern,Finance,2010,1,9,20,.44999999,MT
+MSU Northern,Finance,2010,5,9,24,.375,MT
+MSU Northern,Finance,2010,10,5,12,.41666666,MT
+MSU Northern,Finance,2013,1,12,20,.60000002,MT
+MSU Northern,Finance,2013,5,10,15,.66666669,MT
+MSU Northern,Finance,2013,10,,,,MT
+MSU Northern,Finance,2016,1,7,8,.875,MT
+MSU Northern,Finance,2016,5,10,18,.55555558,MT
+MSU Northern,Finance,2016,10,,,,MT
+MSU Northern,Finance,2019,1,13,24,.54166669,MT
+MSU Northern,Finance,2019,5,,,,MT
+MSU Northern,Finance,2019,10,,,,MT
+MSU Northern,Food/Hospitality,2004,1,11,20,.55000001,MT
+MSU Northern,Food/Hospitality,2004,5,6,19,.31578946,MT
+MSU Northern,Food/Hospitality,2004,10,5,19,.2631579,MT
+MSU Northern,Food/Hospitality,2007,1,10,16,.625,MT
+MSU Northern,Food/Hospitality,2007,5,1,12,.083333336,MT
+MSU Northern,Food/Hospitality,2007,10,4,12,.33333334,MT
+MSU Northern,Food/Hospitality,2010,1,0,9,0,MT
+MSU Northern,Food/Hospitality,2010,5,3,23,.13043478,MT
+MSU Northern,Food/Hospitality,2010,10,0,3,0,MT
+MSU Northern,Food/Hospitality,2013,1,2,14,.14285715,MT
+MSU Northern,Food/Hospitality,2013,5,1,3,.33333334,MT
+MSU Northern,Food/Hospitality,2013,10,,,,MT
+MSU Northern,Food/Hospitality,2016,1,3,14,.21428572,MT
+MSU Northern,Food/Hospitality,2016,5,5,15,.33333334,MT
+MSU Northern,Food/Hospitality,2016,10,,,,MT
+MSU Northern,Food/Hospitality,2019,1,5,12,.41666666,MT
+MSU Northern,Food/Hospitality,2019,5,,,,MT
+MSU Northern,Food/Hospitality,2019,10,,,,MT
+MSU Northern,Health Care,2004,1,47,63,.74603176,MT
+MSU Northern,Health Care,2004,5,48,90,.53333336,MT
+MSU Northern,Health Care,2004,10,40,89,.44943821,MT
+MSU Northern,Health Care,2007,1,49,65,.75384617,MT
+MSU Northern,Health Care,2007,5,25,51,.49019608,MT
+MSU Northern,Health Care,2007,10,31,49,.63265306,MT
+MSU Northern,Health Care,2010,1,47,70,.67142856,MT
+MSU Northern,Health Care,2010,5,38,64,.59375,MT
+MSU Northern,Health Care,2010,10,42,48,.875,MT
+MSU Northern,Health Care,2013,1,74,85,.87058824,MT
+MSU Northern,Health Care,2013,5,62,93,.66666669,MT
+MSU Northern,Health Care,2013,10,,,,MT
+MSU Northern,Health Care,2016,1,56,78,.71794873,MT
+MSU Northern,Health Care,2016,5,64,89,.71910113,MT
+MSU Northern,Health Care,2016,10,,,,MT
+MSU Northern,Health Care,2019,1,47,80,.58749998,MT
+MSU Northern,Health Care,2019,5,,,,MT
+MSU Northern,Health Care,2019,10,,,,MT
+MSU Northern,Information,2004,1,7,7,1,MT
+MSU Northern,Information,2004,5,8,12,.66666669,MT
+MSU Northern,Information,2004,10,6,18,.33333334,MT
+MSU Northern,Information,2007,1,1,2,.5,MT
+MSU Northern,Information,2007,5,4,6,.66666669,MT
+MSU Northern,Information,2007,10,0,3,0,MT
+MSU Northern,Information,2010,1,2,4,.5,MT
+MSU Northern,Information,2010,5,6,13,.46153846,MT
+MSU Northern,Information,2010,10,6,11,.54545456,MT
+MSU Northern,Information,2013,1,5,16,.3125,MT
+MSU Northern,Information,2013,5,2,4,.5,MT
+MSU Northern,Information,2013,10,,,,MT
+MSU Northern,Information,2016,1,2,6,.33333334,MT
+MSU Northern,Information,2016,5,1,6,.16666667,MT
+MSU Northern,Information,2016,10,,,,MT
+MSU Northern,Information,2019,1,0,4,0,MT
+MSU Northern,Information,2019,5,,,,MT
+MSU Northern,Information,2019,10,,,,MT
+MSU Northern,Management,2004,1,1,1,1,MT
+MSU Northern,Management,2004,5,0,2,0,MT
+MSU Northern,Management,2004,10,2,4,.5,MT
+MSU Northern,Management,2007,1,0,0,,MT
+MSU Northern,Management,2007,5,1,2,.5,MT
+MSU Northern,Management,2007,10,0,1,0,MT
+MSU Northern,Management,2010,1,1,1,1,MT
+MSU Northern,Management,2010,5,0,2,0,MT
+MSU Northern,Management,2010,10,0,0,,MT
+MSU Northern,Management,2013,1,0,0,,MT
+MSU Northern,Management,2013,5,0,1,0,MT
+MSU Northern,Management,2013,10,,,,MT
+MSU Northern,Management,2016,1,0,3,0,MT
+MSU Northern,Management,2016,5,0,2,0,MT
+MSU Northern,Management,2016,10,,,,MT
+MSU Northern,Management,2019,1,0,1,0,MT
+MSU Northern,Management,2019,5,,,,MT
+MSU Northern,Management,2019,10,,,,MT
+MSU Northern,Manufacturing,2004,1,2,14,.14285715,MT
+MSU Northern,Manufacturing,2004,5,7,17,.41176471,MT
+MSU Northern,Manufacturing,2004,10,9,25,.36000001,MT
+MSU Northern,Manufacturing,2007,1,2,3,.66666669,MT
+MSU Northern,Manufacturing,2007,5,7,22,.31818181,MT
+MSU Northern,Manufacturing,2007,10,8,21,.38095239,MT
+MSU Northern,Manufacturing,2010,1,1,15,.06666667,MT
+MSU Northern,Manufacturing,2010,5,3,18,.16666667,MT
+MSU Northern,Manufacturing,2010,10,0,7,0,MT
+MSU Northern,Manufacturing,2013,1,2,6,.33333334,MT
+MSU Northern,Manufacturing,2013,5,4,18,.22222222,MT
+MSU Northern,Manufacturing,2013,10,,,,MT
+MSU Northern,Manufacturing,2016,1,1,17,.05882353,MT
+MSU Northern,Manufacturing,2016,5,2,8,.25,MT
+MSU Northern,Manufacturing,2016,10,,,,MT
+MSU Northern,Manufacturing,2019,1,1,11,.090909094,MT
+MSU Northern,Manufacturing,2019,5,,,,MT
+MSU Northern,Manufacturing,2019,10,,,,MT
+MSU Northern,Mining,2004,1,1,6,.16666667,MT
+MSU Northern,Mining,2004,5,3,7,.42857143,MT
+MSU Northern,Mining,2004,10,4,7,.5714286,MT
+MSU Northern,Mining,2007,1,1,1,1,MT
+MSU Northern,Mining,2007,5,4,6,.66666669,MT
+MSU Northern,Mining,2007,10,1,4,.25,MT
+MSU Northern,Mining,2010,1,3,15,.2,MT
+MSU Northern,Mining,2010,5,1,4,.25,MT
+MSU Northern,Mining,2010,10,2,5,.40000001,MT
+MSU Northern,Mining,2013,1,1,1,1,MT
+MSU Northern,Mining,2013,5,4,4,1,MT
+MSU Northern,Mining,2013,10,,,,MT
+MSU Northern,Mining,2016,1,0,8,0,MT
+MSU Northern,Mining,2016,5,3,6,.5,MT
+MSU Northern,Mining,2016,10,,,,MT
+MSU Northern,Mining,2019,1,5,5,1,MT
+MSU Northern,Mining,2019,5,,,,MT
+MSU Northern,Mining,2019,10,,,,MT
+MSU Northern,Other Services,2004,1,8,23,.34782609,MT
+MSU Northern,Other Services,2004,5,9,20,.44999999,MT
+MSU Northern,Other Services,2004,10,10,33,.30303031,MT
+MSU Northern,Other Services,2007,1,3,9,.33333334,MT
+MSU Northern,Other Services,2007,5,5,20,.25,MT
+MSU Northern,Other Services,2007,10,6,8,.75,MT
+MSU Northern,Other Services,2010,1,2,19,.10526316,MT
+MSU Northern,Other Services,2010,5,2,19,.10526316,MT
+MSU Northern,Other Services,2010,10,0,12,0,MT
+MSU Northern,Other Services,2013,1,7,17,.41176471,MT
+MSU Northern,Other Services,2013,5,4,8,.5,MT
+MSU Northern,Other Services,2013,10,,,,MT
+MSU Northern,Other Services,2016,1,7,22,.31818181,MT
+MSU Northern,Other Services,2016,5,5,19,.2631579,MT
+MSU Northern,Other Services,2016,10,,,,MT
+MSU Northern,Other Services,2019,1,5,24,.20833333,MT
+MSU Northern,Other Services,2019,5,,,,MT
+MSU Northern,Other Services,2019,10,,,,MT
+MSU Northern,Professional Services,2004,1,23,31,.74193549,MT
+MSU Northern,Professional Services,2004,5,17,23,.73913044,MT
+MSU Northern,Professional Services,2004,10,13,21,.61904764,MT
+MSU Northern,Professional Services,2007,1,10,10,1,MT
+MSU Northern,Professional Services,2007,5,9,22,.40909091,MT
+MSU Northern,Professional Services,2007,10,4,5,.80000001,MT
+MSU Northern,Professional Services,2010,1,7,13,.53846157,MT
+MSU Northern,Professional Services,2010,5,8,15,.53333336,MT
+MSU Northern,Professional Services,2010,10,8,14,.5714286,MT
+MSU Northern,Professional Services,2013,1,9,23,.39130434,MT
+MSU Northern,Professional Services,2013,5,7,8,.875,MT
+MSU Northern,Professional Services,2013,10,,,,MT
+MSU Northern,Professional Services,2016,1,0,2,0,MT
+MSU Northern,Professional Services,2016,5,7,9,.77777779,MT
+MSU Northern,Professional Services,2016,10,,,,MT
+MSU Northern,Professional Services,2019,1,7,24,.29166666,MT
+MSU Northern,Professional Services,2019,5,,,,MT
+MSU Northern,Professional Services,2019,10,,,,MT
+MSU Northern,Public Admin,2004,1,25,36,.69444442,MT
+MSU Northern,Public Admin,2004,5,32,43,.74418604,MT
+MSU Northern,Public Admin,2004,10,36,63,.5714286,MT
+MSU Northern,Public Admin,2007,1,9,16,.5625,MT
+MSU Northern,Public Admin,2007,5,17,36,.47222221,MT
+MSU Northern,Public Admin,2007,10,20,35,.5714286,MT
+MSU Northern,Public Admin,2010,1,7,20,.34999999,MT
+MSU Northern,Public Admin,2010,5,12,21,.5714286,MT
+MSU Northern,Public Admin,2010,10,15,20,.75,MT
+MSU Northern,Public Admin,2013,1,11,27,.4074074,MT
+MSU Northern,Public Admin,2013,5,20,29,.68965518,MT
+MSU Northern,Public Admin,2013,10,,,,MT
+MSU Northern,Public Admin,2016,1,31,47,.65957445,MT
+MSU Northern,Public Admin,2016,5,35,58,.60344827,MT
+MSU Northern,Public Admin,2016,10,,,,MT
+MSU Northern,Public Admin,2019,1,22,50,.44,MT
+MSU Northern,Public Admin,2019,5,,,,MT
+MSU Northern,Public Admin,2019,10,,,,MT
+MSU Northern,Real Estate,2004,1,1,2,.5,MT
+MSU Northern,Real Estate,2004,5,6,11,.54545456,MT
+MSU Northern,Real Estate,2004,10,0,3,0,MT
+MSU Northern,Real Estate,2007,1,0,0,,MT
+MSU Northern,Real Estate,2007,5,1,6,.16666667,MT
+MSU Northern,Real Estate,2007,10,0,0,,MT
+MSU Northern,Real Estate,2010,1,2,6,.33333334,MT
+MSU Northern,Real Estate,2010,5,3,9,.33333334,MT
+MSU Northern,Real Estate,2010,10,1,5,.2,MT
+MSU Northern,Real Estate,2013,1,0,3,0,MT
+MSU Northern,Real Estate,2013,5,0,2,0,MT
+MSU Northern,Real Estate,2013,10,,,,MT
+MSU Northern,Real Estate,2016,1,0,1,0,MT
+MSU Northern,Real Estate,2016,5,1,2,.5,MT
+MSU Northern,Real Estate,2016,10,,,,MT
+MSU Northern,Real Estate,2019,1,2,10,.2,MT
+MSU Northern,Real Estate,2019,5,,,,MT
+MSU Northern,Real Estate,2019,10,,,,MT
+MSU Northern,Retail,2004,1,17,41,.41463414,MT
+MSU Northern,Retail,2004,5,9,31,.29032257,MT
+MSU Northern,Retail,2004,10,7,23,.30434781,MT
+MSU Northern,Retail,2007,1,18,25,.72000003,MT
+MSU Northern,Retail,2007,5,6,33,.18181819,MT
+MSU Northern,Retail,2007,10,5,32,.15625,MT
+MSU Northern,Retail,2010,1,12,31,.38709676,MT
+MSU Northern,Retail,2010,5,12,43,.27906978,MT
+MSU Northern,Retail,2010,10,4,22,.18181819,MT
+MSU Northern,Retail,2013,1,13,40,.32499999,MT
+MSU Northern,Retail,2013,5,6,14,.42857143,MT
+MSU Northern,Retail,2013,10,,,,MT
+MSU Northern,Retail,2016,1,11,35,.31428573,MT
+MSU Northern,Retail,2016,5,7,31,.22580644,MT
+MSU Northern,Retail,2016,10,,,,MT
+MSU Northern,Retail,2019,1,13,27,.48148149,MT
+MSU Northern,Retail,2019,5,,,,MT
+MSU Northern,Retail,2019,10,,,,MT
+MSU Northern,Transportation,2004,1,2,9,.22222222,MT
+MSU Northern,Transportation,2004,5,5,11,.45454547,MT
+MSU Northern,Transportation,2004,10,5,22,.22727273,MT
+MSU Northern,Transportation,2007,1,4,7,.5714286,MT
+MSU Northern,Transportation,2007,5,5,10,.5,MT
+MSU Northern,Transportation,2007,10,5,15,.33333334,MT
+MSU Northern,Transportation,2010,1,2,11,.18181819,MT
+MSU Northern,Transportation,2010,5,2,9,.22222222,MT
+MSU Northern,Transportation,2010,10,2,12,.16666667,MT
+MSU Northern,Transportation,2013,1,0,3,0,MT
+MSU Northern,Transportation,2013,5,5,13,.38461539,MT
+MSU Northern,Transportation,2013,10,,,,MT
+MSU Northern,Transportation,2016,1,2,19,.10526316,MT
+MSU Northern,Transportation,2016,5,5,9,.55555558,MT
+MSU Northern,Transportation,2016,10,,,,MT
+MSU Northern,Transportation,2019,1,1,11,.090909094,MT
+MSU Northern,Transportation,2019,5,,,,MT
+MSU Northern,Transportation,2019,10,,,,MT
+MSU Northern,Utilities,2004,1,1,4,.25,MT
+MSU Northern,Utilities,2004,5,3,5,.60000002,MT
+MSU Northern,Utilities,2004,10,1,7,.14285715,MT
+MSU Northern,Utilities,2007,1,0,0,,MT
+MSU Northern,Utilities,2007,5,0,0,,MT
+MSU Northern,Utilities,2007,10,0,1,0,MT
+MSU Northern,Utilities,2010,1,0,3,0,MT
+MSU Northern,Utilities,2010,5,2,4,.5,MT
+MSU Northern,Utilities,2010,10,0,0,,MT
+MSU Northern,Utilities,2013,1,0,3,0,MT
+MSU Northern,Utilities,2013,5,0,3,0,MT
+MSU Northern,Utilities,2013,10,,,,MT
+MSU Northern,Utilities,2016,1,1,1,1,MT
+MSU Northern,Utilities,2016,5,0,0,,MT
+MSU Northern,Utilities,2016,10,,,,MT
+MSU Northern,Utilities,2019,1,1,2,.5,MT
+MSU Northern,Utilities,2019,5,,,,MT
+MSU Northern,Utilities,2019,10,,,,MT
+MSU Northern,Wholesale,2004,1,16,44,.36363637,MT
+MSU Northern,Wholesale,2004,5,15,35,.42857143,MT
+MSU Northern,Wholesale,2004,10,18,48,.375,MT
+MSU Northern,Wholesale,2007,1,17,31,.54838711,MT
+MSU Northern,Wholesale,2007,5,17,41,.41463414,MT
+MSU Northern,Wholesale,2007,10,13,32,.40625,MT
+MSU Northern,Wholesale,2010,1,9,39,.23076923,MT
+MSU Northern,Wholesale,2010,5,18,38,.47368422,MT
+MSU Northern,Wholesale,2010,10,9,26,.34615386,MT
+MSU Northern,Wholesale,2013,1,26,38,.68421054,MT
+MSU Northern,Wholesale,2013,5,12,28,.42857143,MT
+MSU Northern,Wholesale,2013,10,,,,MT
+MSU Northern,Wholesale,2016,1,19,41,.46341464,MT
+MSU Northern,Wholesale,2016,5,18,46,.39130434,MT
+MSU Northern,Wholesale,2016,10,,,,MT
+MSU Northern,Wholesale,2019,1,28,43,.6511628,MT
+MSU Northern,Wholesale,2019,5,,,,MT
+MSU Northern,Wholesale,2019,10,,,,MT
+Montana State,Admin/Waste,2004,1,77,131,.58778626,MT
+Montana State,Admin/Waste,2004,5,53,108,.49074075,MT
+Montana State,Admin/Waste,2004,10,39,100,.38999999,MT
+Montana State,Admin/Waste,2007,1,84,134,.62686568,MT
+Montana State,Admin/Waste,2007,5,37,98,.37755102,MT
+Montana State,Admin/Waste,2007,10,39,114,.34210527,MT
+Montana State,Admin/Waste,2010,1,78,144,.54166669,MT
+Montana State,Admin/Waste,2010,5,33,89,.37078652,MT
+Montana State,Admin/Waste,2010,10,56,153,.36601308,MT
+Montana State,Admin/Waste,2013,1,75,135,.55555558,MT
+Montana State,Admin/Waste,2013,5,56,131,.42748091,MT
+Montana State,Admin/Waste,2013,10,,,,MT
+Montana State,Admin/Waste,2016,1,82,152,.53947371,MT
+Montana State,Admin/Waste,2016,5,88,210,.41904762,MT
+Montana State,Admin/Waste,2016,10,,,,MT
+Montana State,Admin/Waste,2019,1,134,230,.5826087,MT
+Montana State,Admin/Waste,2019,5,,,,MT
+Montana State,Admin/Waste,2019,10,,,,MT
+Montana State,Agriculture,2004,1,16,20,.80000001,MT
+Montana State,Agriculture,2004,5,12,19,.63157892,MT
+Montana State,Agriculture,2004,10,12,25,.47999999,MT
+Montana State,Agriculture,2007,1,11,13,.84615386,MT
+Montana State,Agriculture,2007,5,14,19,.7368421,MT
+Montana State,Agriculture,2007,10,16,22,.72727275,MT
+Montana State,Agriculture,2010,1,12,21,.5714286,MT
+Montana State,Agriculture,2010,5,18,27,.66666669,MT
+Montana State,Agriculture,2010,10,17,22,.77272725,MT
+Montana State,Agriculture,2013,1,25,31,.80645162,MT
+Montana State,Agriculture,2013,5,22,38,.57894737,MT
+Montana State,Agriculture,2013,10,,,,MT
+Montana State,Agriculture,2016,1,21,28,.75,MT
+Montana State,Agriculture,2016,5,24,28,.85714287,MT
+Montana State,Agriculture,2016,10,,,,MT
+Montana State,Agriculture,2019,1,30,39,.76923078,MT
+Montana State,Agriculture,2019,5,,,,MT
+Montana State,Agriculture,2019,10,,,,MT
+Montana State,Arts/Entertainment,2004,1,47,70,.67142856,MT
+Montana State,Arts/Entertainment,2004,5,29,51,.56862748,MT
+Montana State,Arts/Entertainment,2004,10,21,40,.52499998,MT
+Montana State,Arts/Entertainment,2007,1,57,71,.80281693,MT
+Montana State,Arts/Entertainment,2007,5,25,51,.49019608,MT
+Montana State,Arts/Entertainment,2007,10,25,50,.5,MT
+Montana State,Arts/Entertainment,2010,1,46,66,.69696969,MT
+Montana State,Arts/Entertainment,2010,5,36,57,.63157892,MT
+Montana State,Arts/Entertainment,2010,10,33,49,.67346936,MT
+Montana State,Arts/Entertainment,2013,1,71,83,.85542166,MT
+Montana State,Arts/Entertainment,2013,5,52,70,.74285716,MT
+Montana State,Arts/Entertainment,2013,10,,,,MT
+Montana State,Arts/Entertainment,2016,1,67,87,.77011496,MT
+Montana State,Arts/Entertainment,2016,5,37,56,.66071427,MT
+Montana State,Arts/Entertainment,2016,10,,,,MT
+Montana State,Arts/Entertainment,2019,1,62,86,.72093022,MT
+Montana State,Arts/Entertainment,2019,5,,,,MT
+Montana State,Arts/Entertainment,2019,10,,,,MT
+Montana State,Construction,2004,1,152,292,.52054793,MT
+Montana State,Construction,2004,5,99,201,.49253732,MT
+Montana State,Construction,2004,10,101,191,.52879584,MT
+Montana State,Construction,2007,1,115,211,.54502368,MT
+Montana State,Construction,2007,5,82,209,.3923445,MT
+Montana State,Construction,2007,10,104,210,.4952381,MT
+Montana State,Construction,2010,1,120,230,.52173913,MT
+Montana State,Construction,2010,5,127,222,.57207209,MT
+Montana State,Construction,2010,10,151,255,.59215689,MT
+Montana State,Construction,2013,1,147,258,.56976742,MT
+Montana State,Construction,2013,5,154,257,.59922177,MT
+Montana State,Construction,2013,10,,,,MT
+Montana State,Construction,2016,1,150,290,.51724136,MT
+Montana State,Construction,2016,5,180,325,.55384618,MT
+Montana State,Construction,2016,10,,,,MT
+Montana State,Construction,2019,1,206,365,.56438357,MT
+Montana State,Construction,2019,5,,,,MT
+Montana State,Construction,2019,10,,,,MT
+Montana State,Education,2004,1,357,544,.65625,MT
+Montana State,Education,2004,5,287,543,.52854514,MT
+Montana State,Education,2004,10,288,564,.5106383,MT
+Montana State,Education,2007,1,296,466,.63519311,MT
+Montana State,Education,2007,5,297,544,.5459559,MT
+Montana State,Education,2007,10,304,607,.50082374,MT
+Montana State,Education,2010,1,252,376,.67021275,MT
+Montana State,Education,2010,5,317,486,.6522634,MT
+Montana State,Education,2010,10,309,555,.55675673,MT
+Montana State,Education,2013,1,394,544,.72426468,MT
+Montana State,Education,2013,5,378,606,.62376237,MT
+Montana State,Education,2013,10,,,,MT
+Montana State,Education,2016,1,417,580,.71896553,MT
+Montana State,Education,2016,5,395,672,.58779764,MT
+Montana State,Education,2016,10,,,,MT
+Montana State,Education,2019,1,466,657,.7092846,MT
+Montana State,Education,2019,5,,,,MT
+Montana State,Education,2019,10,,,,MT
+Montana State,Finance,2004,1,86,125,.68800002,MT
+Montana State,Finance,2004,5,91,143,.63636363,MT
+Montana State,Finance,2004,10,84,128,.65625,MT
+Montana State,Finance,2007,1,104,147,.70748299,MT
+Montana State,Finance,2007,5,90,138,.65217394,MT
+Montana State,Finance,2007,10,82,150,.54666668,MT
+Montana State,Finance,2010,1,96,152,.63157892,MT
+Montana State,Finance,2010,5,87,136,.6397059,MT
+Montana State,Finance,2010,10,91,146,.62328768,MT
+Montana State,Finance,2013,1,95,131,.72519082,MT
+Montana State,Finance,2013,5,99,154,.64285713,MT
+Montana State,Finance,2013,10,,,,MT
+Montana State,Finance,2016,1,104,140,.74285716,MT
+Montana State,Finance,2016,5,115,187,.61497325,MT
+Montana State,Finance,2016,10,,,,MT
+Montana State,Finance,2019,1,150,237,.63291138,MT
+Montana State,Finance,2019,5,,,,MT
+Montana State,Finance,2019,10,,,,MT
+Montana State,Food/Hospitality,2004,1,136,191,.71204191,MT
+Montana State,Food/Hospitality,2004,5,62,128,.484375,MT
+Montana State,Food/Hospitality,2004,10,45,121,.37190083,MT
+Montana State,Food/Hospitality,2007,1,171,259,.66023165,MT
+Montana State,Food/Hospitality,2007,5,83,166,.5,MT
+Montana State,Food/Hospitality,2007,10,52,149,.3489933,MT
+Montana State,Food/Hospitality,2010,1,193,270,.71481484,MT
+Montana State,Food/Hospitality,2010,5,74,161,.45962733,MT
+Montana State,Food/Hospitality,2010,10,59,135,.43703705,MT
+Montana State,Food/Hospitality,2013,1,212,285,.74385965,MT
+Montana State,Food/Hospitality,2013,5,96,183,.52459013,MT
+Montana State,Food/Hospitality,2013,10,,,,MT
+Montana State,Food/Hospitality,2016,1,254,359,.7075209,MT
+Montana State,Food/Hospitality,2016,5,116,199,.58291459,MT
+Montana State,Food/Hospitality,2016,10,,,,MT
+Montana State,Food/Hospitality,2019,1,282,379,.74406332,MT
+Montana State,Food/Hospitality,2019,5,,,,MT
+Montana State,Food/Hospitality,2019,10,,,,MT
+Montana State,Health Care,2004,1,415,615,.67479676,MT
+Montana State,Health Care,2004,5,417,679,.61413842,MT
+Montana State,Health Care,2004,10,392,683,.57393849,MT
+Montana State,Health Care,2007,1,551,772,.71373057,MT
+Montana State,Health Care,2007,5,534,833,.64105642,MT
+Montana State,Health Care,2007,10,540,877,.61573547,MT
+Montana State,Health Care,2010,1,585,780,.75,MT
+Montana State,Health Care,2010,5,526,792,.66414142,MT
+Montana State,Health Care,2010,10,514,860,.59767443,MT
+Montana State,Health Care,2013,1,792,1004,.78884465,MT
+Montana State,Health Care,2013,5,669,1009,.66303271,MT
+Montana State,Health Care,2013,10,,,,MT
+Montana State,Health Care,2016,1,753,1054,.71442127,MT
+Montana State,Health Care,2016,5,666,1070,.62242991,MT
+Montana State,Health Care,2016,10,,,,MT
+Montana State,Health Care,2019,1,871,1197,.72765249,MT
+Montana State,Health Care,2019,5,,,,MT
+Montana State,Health Care,2019,10,,,,MT
+Montana State,Information,2004,1,37,57,.64912283,MT
+Montana State,Information,2004,5,23,68,.33823529,MT
+Montana State,Information,2004,10,26,73,.3561644,MT
+Montana State,Information,2007,1,29,59,.49152541,MT
+Montana State,Information,2007,5,23,75,.30666667,MT
+Montana State,Information,2007,10,28,88,.31818181,MT
+Montana State,Information,2010,1,22,47,.46808511,MT
+Montana State,Information,2010,5,14,55,.25454545,MT
+Montana State,Information,2010,10,31,91,.34065935,MT
+Montana State,Information,2013,1,32,53,.60377359,MT
+Montana State,Information,2013,5,37,87,.42528737,MT
+Montana State,Information,2013,10,,,,MT
+Montana State,Information,2016,1,41,65,.63076925,MT
+Montana State,Information,2016,5,40,101,.39603961,MT
+Montana State,Information,2016,10,,,,MT
+Montana State,Information,2019,1,46,69,.66666669,MT
+Montana State,Information,2019,5,,,,MT
+Montana State,Information,2019,10,,,,MT
+Montana State,Management,2004,1,3,9,.33333334,MT
+Montana State,Management,2004,5,3,9,.33333334,MT
+Montana State,Management,2004,10,9,17,.52941179,MT
+Montana State,Management,2007,1,4,6,.66666669,MT
+Montana State,Management,2007,5,5,10,.5,MT
+Montana State,Management,2007,10,8,26,.30769232,MT
+Montana State,Management,2010,1,3,8,.375,MT
+Montana State,Management,2010,5,7,16,.4375,MT
+Montana State,Management,2010,10,3,12,.25,MT
+Montana State,Management,2013,1,4,7,.5714286,MT
+Montana State,Management,2013,5,3,12,.25,MT
+Montana State,Management,2013,10,,,,MT
+Montana State,Management,2016,1,5,10,.5,MT
+Montana State,Management,2016,5,1,14,.071428575,MT
+Montana State,Management,2016,10,,,,MT
+Montana State,Management,2019,1,4,11,.36363637,MT
+Montana State,Management,2019,5,,,,MT
+Montana State,Management,2019,10,,,,MT
+Montana State,Manufacturing,2004,1,100,244,.40983605,MT
+Montana State,Manufacturing,2004,5,77,274,.28102189,MT
+Montana State,Manufacturing,2004,10,79,253,.31225297,MT
+Montana State,Manufacturing,2007,1,84,227,.37004405,MT
+Montana State,Manufacturing,2007,5,121,313,.38658148,MT
+Montana State,Manufacturing,2007,10,101,302,.33443707,MT
+Montana State,Manufacturing,2010,1,99,274,.36131388,MT
+Montana State,Manufacturing,2010,5,128,321,.39875388,MT
+Montana State,Manufacturing,2010,10,112,341,.32844576,MT
+Montana State,Manufacturing,2013,1,129,339,.38053098,MT
+Montana State,Manufacturing,2013,5,127,374,.33957219,MT
+Montana State,Manufacturing,2013,10,,,,MT
+Montana State,Manufacturing,2016,1,186,428,.43457943,MT
+Montana State,Manufacturing,2016,5,170,475,.35789475,MT
+Montana State,Manufacturing,2016,10,,,,MT
+Montana State,Manufacturing,2019,1,204,479,.42588726,MT
+Montana State,Manufacturing,2019,5,,,,MT
+Montana State,Manufacturing,2019,10,,,,MT
+Montana State,Mining,2004,1,9,22,.40909091,MT
+Montana State,Mining,2004,5,14,33,.42424244,MT
+Montana State,Mining,2004,10,9,22,.40909091,MT
+Montana State,Mining,2007,1,6,28,.21428572,MT
+Montana State,Mining,2007,5,16,40,.40000001,MT
+Montana State,Mining,2007,10,22,30,.73333335,MT
+Montana State,Mining,2010,1,13,52,.25,MT
+Montana State,Mining,2010,5,12,31,.38709676,MT
+Montana State,Mining,2010,10,9,22,.40909091,MT
+Montana State,Mining,2013,1,5,21,.23809524,MT
+Montana State,Mining,2013,5,9,22,.40909091,MT
+Montana State,Mining,2013,10,,,,MT
+Montana State,Mining,2016,1,10,20,.5,MT
+Montana State,Mining,2016,5,13,21,.61904764,MT
+Montana State,Mining,2016,10,,,,MT
+Montana State,Mining,2019,1,17,25,.68000001,MT
+Montana State,Mining,2019,5,,,,MT
+Montana State,Mining,2019,10,,,,MT
+Montana State,Other Services,2004,1,33,50,.66000003,MT
+Montana State,Other Services,2004,5,22,45,.48888889,MT
+Montana State,Other Services,2004,10,18,41,.43902439,MT
+Montana State,Other Services,2007,1,28,48,.58333331,MT
+Montana State,Other Services,2007,5,38,56,.6785714,MT
+Montana State,Other Services,2007,10,28,60,.46666667,MT
+Montana State,Other Services,2010,1,56,82,.68292683,MT
+Montana State,Other Services,2010,5,44,57,.7719298,MT
+Montana State,Other Services,2010,10,47,80,.58749998,MT
+Montana State,Other Services,2013,1,39,57,.68421054,MT
+Montana State,Other Services,2013,5,50,82,.60975611,MT
+Montana State,Other Services,2013,10,,,,MT
+Montana State,Other Services,2016,1,80,105,.76190478,MT
+Montana State,Other Services,2016,5,56,94,.59574467,MT
+Montana State,Other Services,2016,10,,,,MT
+Montana State,Other Services,2019,1,86,115,.7478261,MT
+Montana State,Other Services,2019,5,,,,MT
+Montana State,Other Services,2019,10,,,,MT
+Montana State,Professional Services,2004,1,313,512,.61132812,MT
+Montana State,Professional Services,2004,5,303,596,.50838923,MT
+Montana State,Professional Services,2004,10,308,587,.52470189,MT
+Montana State,Professional Services,2007,1,269,459,.58605665,MT
+Montana State,Professional Services,2007,5,294,640,.45937499,MT
+Montana State,Professional Services,2007,10,320,713,.44880787,MT
+Montana State,Professional Services,2010,1,266,447,.59507829,MT
+Montana State,Professional Services,2010,5,321,639,.50234741,MT
+Montana State,Professional Services,2010,10,321,655,.49007633,MT
+Montana State,Professional Services,2013,1,364,593,.613828,MT
+Montana State,Professional Services,2013,5,361,710,.50845069,MT
+Montana State,Professional Services,2013,10,,,,MT
+Montana State,Professional Services,2016,1,390,726,.53719008,MT
+Montana State,Professional Services,2016,5,414,868,.47695851,MT
+Montana State,Professional Services,2016,10,,,,MT
+Montana State,Professional Services,2019,1,512,888,.57657659,MT
+Montana State,Professional Services,2019,5,,,,MT
+Montana State,Professional Services,2019,10,,,,MT
+Montana State,Public Admin,2004,1,106,176,.60227275,MT
+Montana State,Public Admin,2004,5,130,215,.60465115,MT
+Montana State,Public Admin,2004,10,132,212,.6226415,MT
+Montana State,Public Admin,2007,1,105,171,.61403507,MT
+Montana State,Public Admin,2007,5,159,258,.61627907,MT
+Montana State,Public Admin,2007,10,175,307,.5700326,MT
+Montana State,Public Admin,2010,1,105,193,.54404145,MT
+Montana State,Public Admin,2010,5,136,208,.65384614,MT
+Montana State,Public Admin,2010,10,140,246,.56910568,MT
+Montana State,Public Admin,2013,1,160,218,.73394495,MT
+Montana State,Public Admin,2013,5,208,307,.67752445,MT
+Montana State,Public Admin,2013,10,,,,MT
+Montana State,Public Admin,2016,1,137,221,.61990952,MT
+Montana State,Public Admin,2016,5,185,310,.59677422,MT
+Montana State,Public Admin,2016,10,,,,MT
+Montana State,Public Admin,2019,1,161,256,.62890625,MT
+Montana State,Public Admin,2019,5,,,,MT
+Montana State,Public Admin,2019,10,,,,MT
+Montana State,Real Estate,2004,1,19,26,.73076922,MT
+Montana State,Real Estate,2004,5,13,26,.5,MT
+Montana State,Real Estate,2004,10,10,16,.625,MT
+Montana State,Real Estate,2007,1,23,29,.79310346,MT
+Montana State,Real Estate,2007,5,6,10,.60000002,MT
+Montana State,Real Estate,2007,10,21,35,.60000002,MT
+Montana State,Real Estate,2010,1,22,29,.75862068,MT
+Montana State,Real Estate,2010,5,13,22,.59090906,MT
+Montana State,Real Estate,2010,10,22,33,.66666669,MT
+Montana State,Real Estate,2013,1,13,19,.68421054,MT
+Montana State,Real Estate,2013,5,7,15,.46666667,MT
+Montana State,Real Estate,2013,10,,,,MT
+Montana State,Real Estate,2016,1,25,36,.69444442,MT
+Montana State,Real Estate,2016,5,20,33,.60606062,MT
+Montana State,Real Estate,2016,10,,,,MT
+Montana State,Real Estate,2019,1,34,50,.68000001,MT
+Montana State,Real Estate,2019,5,,,,MT
+Montana State,Real Estate,2019,10,,,,MT
+Montana State,Retail,2004,1,181,267,.67790264,MT
+Montana State,Retail,2004,5,94,210,.44761905,MT
+Montana State,Retail,2004,10,79,157,.50318474,MT
+Montana State,Retail,2007,1,206,294,.70068026,MT
+Montana State,Retail,2007,5,131,237,.5527426,MT
+Montana State,Retail,2007,10,87,210,.41428572,MT
+Montana State,Retail,2010,1,205,300,.68333334,MT
+Montana State,Retail,2010,5,117,238,.49159664,MT
+Montana State,Retail,2010,10,102,199,.51256281,MT
+Montana State,Retail,2013,1,247,331,.74622357,MT
+Montana State,Retail,2013,5,132,239,.55230123,MT
+Montana State,Retail,2013,10,,,,MT
+Montana State,Retail,2016,1,251,366,.68579233,MT
+Montana State,Retail,2016,5,137,243,.56378603,MT
+Montana State,Retail,2016,10,,,,MT
+Montana State,Retail,2019,1,268,380,.70526314,MT
+Montana State,Retail,2019,5,,,,MT
+Montana State,Retail,2019,10,,,,MT
+Montana State,Transportation,2004,1,14,28,.5,MT
+Montana State,Transportation,2004,5,17,43,.39534885,MT
+Montana State,Transportation,2004,10,12,30,.40000001,MT
+Montana State,Transportation,2007,1,21,33,.63636363,MT
+Montana State,Transportation,2007,5,22,50,.44,MT
+Montana State,Transportation,2007,10,20,59,.33898306,MT
+Montana State,Transportation,2010,1,18,42,.42857143,MT
+Montana State,Transportation,2010,5,11,27,.4074074,MT
+Montana State,Transportation,2010,10,17,39,.43589744,MT
+Montana State,Transportation,2013,1,20,37,.54054052,MT
+Montana State,Transportation,2013,5,29,51,.56862748,MT
+Montana State,Transportation,2013,10,,,,MT
+Montana State,Transportation,2016,1,27,46,.5869565,MT
+Montana State,Transportation,2016,5,23,54,.42592594,MT
+Montana State,Transportation,2016,10,,,,MT
+Montana State,Transportation,2019,1,34,65,.52307695,MT
+Montana State,Transportation,2019,5,,,,MT
+Montana State,Transportation,2019,10,,,,MT
+Montana State,Utilities,2004,1,1,3,.33333334,MT
+Montana State,Utilities,2004,5,11,12,.91666669,MT
+Montana State,Utilities,2004,10,12,13,.92307693,MT
+Montana State,Utilities,2007,1,2,2,1,MT
+Montana State,Utilities,2007,5,8,11,.72727275,MT
+Montana State,Utilities,2007,10,16,19,.84210527,MT
+Montana State,Utilities,2010,1,1,3,.33333334,MT
+Montana State,Utilities,2010,5,10,11,.90909094,MT
+Montana State,Utilities,2010,10,18,21,.85714287,MT
+Montana State,Utilities,2013,1,6,9,.66666669,MT
+Montana State,Utilities,2013,5,14,15,.93333334,MT
+Montana State,Utilities,2013,10,,,,MT
+Montana State,Utilities,2016,1,3,4,.75,MT
+Montana State,Utilities,2016,5,12,15,.80000001,MT
+Montana State,Utilities,2016,10,,,,MT
+Montana State,Utilities,2019,1,14,19,.7368421,MT
+Montana State,Utilities,2019,5,,,,MT
+Montana State,Utilities,2019,10,,,,MT
+Montana State,Wholesale,2004,1,35,66,.530303,MT
+Montana State,Wholesale,2004,5,47,99,.47474748,MT
+Montana State,Wholesale,2004,10,52,101,.51485151,MT
+Montana State,Wholesale,2007,1,42,76,.55263156,MT
+Montana State,Wholesale,2007,5,42,104,.40384614,MT
+Montana State,Wholesale,2007,10,63,125,.50400001,MT
+Montana State,Wholesale,2010,1,45,84,.53571427,MT
+Montana State,Wholesale,2010,5,50,94,.53191489,MT
+Montana State,Wholesale,2010,10,59,114,.51754385,MT
+Montana State,Wholesale,2013,1,49,94,.52127659,MT
+Montana State,Wholesale,2013,5,67,150,.44666666,MT
+Montana State,Wholesale,2013,10,,,,MT
+Montana State,Wholesale,2016,1,54,100,.54000002,MT
+Montana State,Wholesale,2016,5,67,131,.51145041,MT
+Montana State,Wholesale,2016,10,,,,MT
+Montana State,Wholesale,2019,1,66,128,.515625,MT
+Montana State,Wholesale,2019,5,,,,MT
+Montana State,Wholesale,2019,10,,,,MT
+Montana Tech,Admin/Waste,2004,1,6,10,.60000002,MT
+Montana Tech,Admin/Waste,2004,5,13,28,.4642857,MT
+Montana Tech,Admin/Waste,2004,10,4,15,.26666668,MT
+Montana Tech,Admin/Waste,2007,1,7,10,.69999999,MT
+Montana Tech,Admin/Waste,2007,5,6,21,.2857143,MT
+Montana Tech,Admin/Waste,2007,10,0,10,0,MT
+Montana Tech,Admin/Waste,2010,1,11,18,.6111111,MT
+Montana Tech,Admin/Waste,2010,5,3,13,.23076923,MT
+Montana Tech,Admin/Waste,2010,10,6,18,.33333334,MT
+Montana Tech,Admin/Waste,2013,1,7,19,.36842105,MT
+Montana Tech,Admin/Waste,2013,5,6,16,.375,MT
+Montana Tech,Admin/Waste,2013,10,,,,MT
+Montana Tech,Admin/Waste,2016,1,14,23,.60869563,MT
+Montana Tech,Admin/Waste,2016,5,11,17,.64705884,MT
+Montana Tech,Admin/Waste,2016,10,,,,MT
+Montana Tech,Admin/Waste,2019,1,9,15,.60000002,MT
+Montana Tech,Admin/Waste,2019,5,,,,MT
+Montana Tech,Admin/Waste,2019,10,,,,MT
+Montana Tech,Agriculture,2004,1,1,2,.5,MT
+Montana Tech,Agriculture,2004,5,2,6,.33333334,MT
+Montana Tech,Agriculture,2004,10,0,3,0,MT
+Montana Tech,Agriculture,2007,1,2,3,.66666669,MT
+Montana Tech,Agriculture,2007,5,1,1,1,MT
+Montana Tech,Agriculture,2007,10,0,0,,MT
+Montana Tech,Agriculture,2010,1,0,0,,MT
+Montana Tech,Agriculture,2010,5,0,0,,MT
+Montana Tech,Agriculture,2010,10,1,5,.2,MT
+Montana Tech,Agriculture,2013,1,3,4,.75,MT
+Montana Tech,Agriculture,2013,5,4,7,.5714286,MT
+Montana Tech,Agriculture,2013,10,,,,MT
+Montana Tech,Agriculture,2016,1,3,6,.5,MT
+Montana Tech,Agriculture,2016,5,1,3,.33333334,MT
+Montana Tech,Agriculture,2016,10,,,,MT
+Montana Tech,Agriculture,2019,1,1,1,1,MT
+Montana Tech,Agriculture,2019,5,,,,MT
+Montana Tech,Agriculture,2019,10,,,,MT
+Montana Tech,Arts/Entertainment,2004,1,0,0,,MT
+Montana Tech,Arts/Entertainment,2004,5,2,2,1,MT
+Montana Tech,Arts/Entertainment,2004,10,2,3,.66666669,MT
+Montana Tech,Arts/Entertainment,2007,1,1,1,1,MT
+Montana Tech,Arts/Entertainment,2007,5,2,3,.66666669,MT
+Montana Tech,Arts/Entertainment,2007,10,2,2,1,MT
+Montana Tech,Arts/Entertainment,2010,1,1,2,.5,MT
+Montana Tech,Arts/Entertainment,2010,5,2,4,.5,MT
+Montana Tech,Arts/Entertainment,2010,10,2,2,1,MT
+Montana Tech,Arts/Entertainment,2013,1,0,2,0,MT
+Montana Tech,Arts/Entertainment,2013,5,0,0,,MT
+Montana Tech,Arts/Entertainment,2013,10,,,,MT
+Montana Tech,Arts/Entertainment,2016,1,2,7,.2857143,MT
+Montana Tech,Arts/Entertainment,2016,5,1,2,.5,MT
+Montana Tech,Arts/Entertainment,2016,10,,,,MT
+Montana Tech,Arts/Entertainment,2019,1,0,0,,MT
+Montana Tech,Arts/Entertainment,2019,5,,,,MT
+Montana Tech,Arts/Entertainment,2019,10,,,,MT
+Montana Tech,Construction,2004,1,17,49,.34693879,MT
+Montana Tech,Construction,2004,5,20,48,.41666666,MT
+Montana Tech,Construction,2004,10,21,51,.41176471,MT
+Montana Tech,Construction,2007,1,12,35,.34285715,MT
+Montana Tech,Construction,2007,5,12,34,.35294119,MT
+Montana Tech,Construction,2007,10,11,31,.3548387,MT
+Montana Tech,Construction,2010,1,18,46,.39130434,MT
+Montana Tech,Construction,2010,5,22,39,.56410259,MT
+Montana Tech,Construction,2010,10,27,50,.54000002,MT
+Montana Tech,Construction,2013,1,30,67,.44776121,MT
+Montana Tech,Construction,2013,5,22,51,.43137255,MT
+Montana Tech,Construction,2013,10,,,,MT
+Montana Tech,Construction,2016,1,43,100,.43000001,MT
+Montana Tech,Construction,2016,5,41,88,.46590909,MT
+Montana Tech,Construction,2016,10,,,,MT
+Montana Tech,Construction,2019,1,58,114,.50877196,MT
+Montana Tech,Construction,2019,5,,,,MT
+Montana Tech,Construction,2019,10,,,,MT
+Montana Tech,Education,2004,1,7,9,.77777779,MT
+Montana Tech,Education,2004,5,16,47,.34042552,MT
+Montana Tech,Education,2004,10,26,50,.51999998,MT
+Montana Tech,Education,2007,1,18,22,.81818181,MT
+Montana Tech,Education,2007,5,20,32,.625,MT
+Montana Tech,Education,2007,10,14,23,.60869563,MT
+Montana Tech,Education,2010,1,7,20,.34999999,MT
+Montana Tech,Education,2010,5,5,10,.5,MT
+Montana Tech,Education,2010,10,10,18,.55555558,MT
+Montana Tech,Education,2013,1,6,33,.18181819,MT
+Montana Tech,Education,2013,5,8,31,.25806451,MT
+Montana Tech,Education,2013,10,,,,MT
+Montana Tech,Education,2016,1,12,31,.38709676,MT
+Montana Tech,Education,2016,5,16,54,.2962963,MT
+Montana Tech,Education,2016,10,,,,MT
+Montana Tech,Education,2019,1,5,16,.3125,MT
+Montana Tech,Education,2019,5,,,,MT
+Montana Tech,Education,2019,10,,,,MT
+Montana Tech,Finance,2004,1,2,3,.66666669,MT
+Montana Tech,Finance,2004,5,8,21,.38095239,MT
+Montana Tech,Finance,2004,10,12,26,.46153846,MT
+Montana Tech,Finance,2007,1,5,11,.45454547,MT
+Montana Tech,Finance,2007,5,7,19,.36842105,MT
+Montana Tech,Finance,2007,10,3,4,.75,MT
+Montana Tech,Finance,2010,1,8,19,.42105263,MT
+Montana Tech,Finance,2010,5,8,12,.66666669,MT
+Montana Tech,Finance,2010,10,6,13,.46153846,MT
+Montana Tech,Finance,2013,1,6,16,.375,MT
+Montana Tech,Finance,2013,5,9,13,.69230771,MT
+Montana Tech,Finance,2013,10,,,,MT
+Montana Tech,Finance,2016,1,15,21,.71428573,MT
+Montana Tech,Finance,2016,5,26,38,.68421054,MT
+Montana Tech,Finance,2016,10,,,,MT
+Montana Tech,Finance,2019,1,4,10,.40000001,MT
+Montana Tech,Finance,2019,5,,,,MT
+Montana Tech,Finance,2019,10,,,,MT
+Montana Tech,Food/Hospitality,2004,1,2,5,.40000001,MT
+Montana Tech,Food/Hospitality,2004,5,6,17,.35294119,MT
+Montana Tech,Food/Hospitality,2004,10,2,9,.22222222,MT
+Montana Tech,Food/Hospitality,2007,1,4,13,.30769232,MT
+Montana Tech,Food/Hospitality,2007,5,5,13,.38461539,MT
+Montana Tech,Food/Hospitality,2007,10,2,6,.33333334,MT
+Montana Tech,Food/Hospitality,2010,1,7,14,.5,MT
+Montana Tech,Food/Hospitality,2010,5,3,6,.5,MT
+Montana Tech,Food/Hospitality,2010,10,2,6,.33333334,MT
+Montana Tech,Food/Hospitality,2013,1,4,11,.36363637,MT
+Montana Tech,Food/Hospitality,2013,5,4,11,.36363637,MT
+Montana Tech,Food/Hospitality,2013,10,,,,MT
+Montana Tech,Food/Hospitality,2016,1,6,7,.85714287,MT
+Montana Tech,Food/Hospitality,2016,5,6,8,.75,MT
+Montana Tech,Food/Hospitality,2016,10,,,,MT
+Montana Tech,Food/Hospitality,2019,1,8,15,.53333336,MT
+Montana Tech,Food/Hospitality,2019,5,,,,MT
+Montana Tech,Food/Hospitality,2019,10,,,,MT
+Montana Tech,Health Care,2004,1,52,68,.7647059,MT
+Montana Tech,Health Care,2004,5,51,105,.48571429,MT
+Montana Tech,Health Care,2004,10,72,110,.65454543,MT
+Montana Tech,Health Care,2007,1,39,60,.64999998,MT
+Montana Tech,Health Care,2007,5,38,73,.52054793,MT
+Montana Tech,Health Care,2007,10,42,72,.58333331,MT
+Montana Tech,Health Care,2010,1,37,71,.52112675,MT
+Montana Tech,Health Care,2010,5,40,62,.64516127,MT
+Montana Tech,Health Care,2010,10,46,79,.58227849,MT
+Montana Tech,Health Care,2013,1,71,115,.61739129,MT
+Montana Tech,Health Care,2013,5,56,92,.60869563,MT
+Montana Tech,Health Care,2013,10,,,,MT
+Montana Tech,Health Care,2016,1,93,125,.74400002,MT
+Montana Tech,Health Care,2016,5,91,140,.64999998,MT
+Montana Tech,Health Care,2016,10,,,,MT
+Montana Tech,Health Care,2019,1,106,151,.70198673,MT
+Montana Tech,Health Care,2019,5,,,,MT
+Montana Tech,Health Care,2019,10,,,,MT
+Montana Tech,Information,2004,1,0,0,,MT
+Montana Tech,Information,2004,5,6,17,.35294119,MT
+Montana Tech,Information,2004,10,3,5,.60000002,MT
+Montana Tech,Information,2007,1,1,2,.5,MT
+Montana Tech,Information,2007,5,1,6,.16666667,MT
+Montana Tech,Information,2007,10,2,3,.66666669,MT
+Montana Tech,Information,2010,1,3,5,.60000002,MT
+Montana Tech,Information,2010,5,5,7,.71428573,MT
+Montana Tech,Information,2010,10,1,3,.33333334,MT
+Montana Tech,Information,2013,1,0,2,0,MT
+Montana Tech,Information,2013,5,3,7,.42857143,MT
+Montana Tech,Information,2013,10,,,,MT
+Montana Tech,Information,2016,1,4,4,1,MT
+Montana Tech,Information,2016,5,3,7,.42857143,MT
+Montana Tech,Information,2016,10,,,,MT
+Montana Tech,Information,2019,1,2,6,.33333334,MT
+Montana Tech,Information,2019,5,,,,MT
+Montana Tech,Information,2019,10,,,,MT
+Montana Tech,Management,2004,1,0,8,0,MT
+Montana Tech,Management,2004,5,3,5,.60000002,MT
+Montana Tech,Management,2004,10,1,14,.071428575,MT
+Montana Tech,Management,2007,1,0,4,0,MT
+Montana Tech,Management,2007,5,0,9,0,MT
+Montana Tech,Management,2007,10,1,21,.047619049,MT
+Montana Tech,Management,2010,1,0,18,0,MT
+Montana Tech,Management,2010,5,0,13,0,MT
+Montana Tech,Management,2010,10,0,17,0,MT
+Montana Tech,Management,2013,1,0,7,0,MT
+Montana Tech,Management,2013,5,1,14,.071428575,MT
+Montana Tech,Management,2013,10,,,,MT
+Montana Tech,Management,2016,1,1,8,.125,MT
+Montana Tech,Management,2016,5,1,11,.090909094,MT
+Montana Tech,Management,2016,10,,,,MT
+Montana Tech,Management,2019,1,1,3,.33333334,MT
+Montana Tech,Management,2019,5,,,,MT
+Montana Tech,Management,2019,10,,,,MT
+Montana Tech,Manufacturing,2004,1,6,53,.11320755,MT
+Montana Tech,Manufacturing,2004,5,16,71,.22535211,MT
+Montana Tech,Manufacturing,2004,10,20,67,.29850745,MT
+Montana Tech,Manufacturing,2007,1,5,43,.11627907,MT
+Montana Tech,Manufacturing,2007,5,4,43,.093023255,MT
+Montana Tech,Manufacturing,2007,10,4,48,.083333336,MT
+Montana Tech,Manufacturing,2010,1,7,44,.15909091,MT
+Montana Tech,Manufacturing,2010,5,13,47,.27659574,MT
+Montana Tech,Manufacturing,2010,10,22,60,.36666667,MT
+Montana Tech,Manufacturing,2013,1,16,62,.25806451,MT
+Montana Tech,Manufacturing,2013,5,25,70,.35714287,MT
+Montana Tech,Manufacturing,2013,10,,,,MT
+Montana Tech,Manufacturing,2016,1,34,90,.37777779,MT
+Montana Tech,Manufacturing,2016,5,37,105,.35238096,MT
+Montana Tech,Manufacturing,2016,10,,,,MT
+Montana Tech,Manufacturing,2019,1,17,75,.22666667,MT
+Montana Tech,Manufacturing,2019,5,,,,MT
+Montana Tech,Manufacturing,2019,10,,,,MT
+Montana Tech,Mining,2004,1,16,110,.14545454,MT
+Montana Tech,Mining,2004,5,14,88,.15909091,MT
+Montana Tech,Mining,2004,10,18,84,.21428572,MT
+Montana Tech,Mining,2007,1,9,106,.084905662,MT
+Montana Tech,Mining,2007,5,18,111,.16216215,MT
+Montana Tech,Mining,2007,10,8,78,.1025641,MT
+Montana Tech,Mining,2010,1,16,150,.10666667,MT
+Montana Tech,Mining,2010,5,28,120,.23333333,MT
+Montana Tech,Mining,2010,10,23,80,.28749999,MT
+Montana Tech,Mining,2013,1,23,126,.18253969,MT
+Montana Tech,Mining,2013,5,21,108,.19444445,MT
+Montana Tech,Mining,2013,10,,,,MT
+Montana Tech,Mining,2016,1,22,141,.15602838,MT
+Montana Tech,Mining,2016,5,16,98,.1632653,MT
+Montana Tech,Mining,2016,10,,,,MT
+Montana Tech,Mining,2019,1,20,63,.31746033,MT
+Montana Tech,Mining,2019,5,,,,MT
+Montana Tech,Mining,2019,10,,,,MT
+Montana Tech,Other Services,2004,1,0,0,,MT
+Montana Tech,Other Services,2004,5,5,7,.71428573,MT
+Montana Tech,Other Services,2004,10,6,6,1,MT
+Montana Tech,Other Services,2007,1,2,3,.66666669,MT
+Montana Tech,Other Services,2007,5,5,8,.625,MT
+Montana Tech,Other Services,2007,10,1,2,.5,MT
+Montana Tech,Other Services,2010,1,2,5,.40000001,MT
+Montana Tech,Other Services,2010,5,0,4,0,MT
+Montana Tech,Other Services,2010,10,2,2,1,MT
+Montana Tech,Other Services,2013,1,1,1,1,MT
+Montana Tech,Other Services,2013,5,1,1,1,MT
+Montana Tech,Other Services,2013,10,,,,MT
+Montana Tech,Other Services,2016,1,3,3,1,MT
+Montana Tech,Other Services,2016,5,3,8,.375,MT
+Montana Tech,Other Services,2016,10,,,,MT
+Montana Tech,Other Services,2019,1,3,5,.60000002,MT
+Montana Tech,Other Services,2019,5,,,,MT
+Montana Tech,Other Services,2019,10,,,,MT
+Montana Tech,Professional Services,2004,1,31,56,.5535714,MT
+Montana Tech,Professional Services,2004,5,55,117,.47008547,MT
+Montana Tech,Professional Services,2004,10,53,104,.50961536,MT
+Montana Tech,Professional Services,2007,1,50,73,.68493152,MT
+Montana Tech,Professional Services,2007,5,57,105,.54285717,MT
+Montana Tech,Professional Services,2007,10,45,85,.52941179,MT
+Montana Tech,Professional Services,2010,1,54,113,.4778761,MT
+Montana Tech,Professional Services,2010,5,59,108,.5462963,MT
+Montana Tech,Professional Services,2010,10,56,103,.54368931,MT
+Montana Tech,Professional Services,2013,1,50,84,.59523809,MT
+Montana Tech,Professional Services,2013,5,69,123,.56097561,MT
+Montana Tech,Professional Services,2013,10,,,,MT
+Montana Tech,Professional Services,2016,1,98,148,.66216218,MT
+Montana Tech,Professional Services,2016,5,97,177,.54802263,MT
+Montana Tech,Professional Services,2016,10,,,,MT
+Montana Tech,Professional Services,2019,1,86,146,.58904111,MT
+Montana Tech,Professional Services,2019,5,,,,MT
+Montana Tech,Professional Services,2019,10,,,,MT
+Montana Tech,Public Admin,2004,1,21,37,.56756759,MT
+Montana Tech,Public Admin,2004,5,40,78,.51282054,MT
+Montana Tech,Public Admin,2004,10,37,72,.5138889,MT
+Montana Tech,Public Admin,2007,1,21,27,.77777779,MT
+Montana Tech,Public Admin,2007,5,34,54,.62962961,MT
+Montana Tech,Public Admin,2007,10,29,43,.67441863,MT
+Montana Tech,Public Admin,2010,1,22,39,.56410259,MT
+Montana Tech,Public Admin,2010,5,31,40,.77499998,MT
+Montana Tech,Public Admin,2010,10,33,49,.67346936,MT
+Montana Tech,Public Admin,2013,1,32,51,.627451,MT
+Montana Tech,Public Admin,2013,5,41,62,.66129035,MT
+Montana Tech,Public Admin,2013,10,,,,MT
+Montana Tech,Public Admin,2016,1,16,35,.45714286,MT
+Montana Tech,Public Admin,2016,5,45,81,.55555558,MT
+Montana Tech,Public Admin,2016,10,,,,MT
+Montana Tech,Public Admin,2019,1,29,43,.67441863,MT
+Montana Tech,Public Admin,2019,5,,,,MT
+Montana Tech,Public Admin,2019,10,,,,MT
+Montana Tech,Real Estate,2004,1,2,2,1,MT
+Montana Tech,Real Estate,2004,5,0,3,0,MT
+Montana Tech,Real Estate,2004,10,0,1,0,MT
+Montana Tech,Real Estate,2007,1,0,0,,MT
+Montana Tech,Real Estate,2007,5,4,7,.5714286,MT
+Montana Tech,Real Estate,2007,10,1,4,.25,MT
+Montana Tech,Real Estate,2010,1,0,1,0,MT
+Montana Tech,Real Estate,2010,5,1,1,1,MT
+Montana Tech,Real Estate,2010,10,1,7,.14285715,MT
+Montana Tech,Real Estate,2013,1,0,3,0,MT
+Montana Tech,Real Estate,2013,5,1,2,.5,MT
+Montana Tech,Real Estate,2013,10,,,,MT
+Montana Tech,Real Estate,2016,1,0,0,,MT
+Montana Tech,Real Estate,2016,5,1,6,.16666667,MT
+Montana Tech,Real Estate,2016,10,,,,MT
+Montana Tech,Real Estate,2019,1,2,7,.2857143,MT
+Montana Tech,Real Estate,2019,5,,,,MT
+Montana Tech,Real Estate,2019,10,,,,MT
+Montana Tech,Retail,2004,1,11,12,.91666669,MT
+Montana Tech,Retail,2004,5,8,18,.44444445,MT
+Montana Tech,Retail,2004,10,12,32,.375,MT
+Montana Tech,Retail,2007,1,9,30,.30000001,MT
+Montana Tech,Retail,2007,5,9,30,.30000001,MT
+Montana Tech,Retail,2007,10,2,7,.2857143,MT
+Montana Tech,Retail,2010,1,10,20,.5,MT
+Montana Tech,Retail,2010,5,11,18,.6111111,MT
+Montana Tech,Retail,2010,10,15,22,.68181819,MT
+Montana Tech,Retail,2013,1,15,39,.38461539,MT
+Montana Tech,Retail,2013,5,7,20,.34999999,MT
+Montana Tech,Retail,2013,10,,,,MT
+Montana Tech,Retail,2016,1,15,22,.68181819,MT
+Montana Tech,Retail,2016,5,15,34,.44117647,MT
+Montana Tech,Retail,2016,10,,,,MT
+Montana Tech,Retail,2019,1,11,20,.55000001,MT
+Montana Tech,Retail,2019,5,,,,MT
+Montana Tech,Retail,2019,10,,,,MT
+Montana Tech,Transportation,2004,1,2,3,.66666669,MT
+Montana Tech,Transportation,2004,5,5,9,.55555558,MT
+Montana Tech,Transportation,2004,10,4,6,.66666669,MT
+Montana Tech,Transportation,2007,1,4,5,.80000001,MT
+Montana Tech,Transportation,2007,5,1,5,.2,MT
+Montana Tech,Transportation,2007,10,3,5,.60000002,MT
+Montana Tech,Transportation,2010,1,4,8,.5,MT
+Montana Tech,Transportation,2010,5,2,2,1,MT
+Montana Tech,Transportation,2010,10,0,5,0,MT
+Montana Tech,Transportation,2013,1,3,11,.27272728,MT
+Montana Tech,Transportation,2013,5,5,6,.83333331,MT
+Montana Tech,Transportation,2013,10,,,,MT
+Montana Tech,Transportation,2016,1,4,6,.66666669,MT
+Montana Tech,Transportation,2016,5,8,18,.44444445,MT
+Montana Tech,Transportation,2016,10,,,,MT
+Montana Tech,Transportation,2019,1,9,11,.81818181,MT
+Montana Tech,Transportation,2019,5,,,,MT
+Montana Tech,Transportation,2019,10,,,,MT
+Montana Tech,Utilities,2004,1,3,3,1,MT
+Montana Tech,Utilities,2004,5,10,11,.90909094,MT
+Montana Tech,Utilities,2004,10,14,22,.63636363,MT
+Montana Tech,Utilities,2007,1,5,7,.71428573,MT
+Montana Tech,Utilities,2007,5,9,13,.69230771,MT
+Montana Tech,Utilities,2007,10,15,23,.65217394,MT
+Montana Tech,Utilities,2010,1,11,14,.78571427,MT
+Montana Tech,Utilities,2010,5,21,22,.95454544,MT
+Montana Tech,Utilities,2010,10,36,38,.94736844,MT
+Montana Tech,Utilities,2013,1,10,16,.625,MT
+Montana Tech,Utilities,2013,5,20,23,.86956519,MT
+Montana Tech,Utilities,2013,10,,,,MT
+Montana Tech,Utilities,2016,1,21,23,.9130435,MT
+Montana Tech,Utilities,2016,5,27,35,.77142859,MT
+Montana Tech,Utilities,2016,10,,,,MT
+Montana Tech,Utilities,2019,1,8,11,.72727275,MT
+Montana Tech,Utilities,2019,5,,,,MT
+Montana Tech,Utilities,2019,10,,,,MT
+Montana Tech,Wholesale,2004,1,1,7,.14285715,MT
+Montana Tech,Wholesale,2004,5,3,9,.33333334,MT
+Montana Tech,Wholesale,2004,10,8,24,.33333334,MT
+Montana Tech,Wholesale,2007,1,4,15,.26666668,MT
+Montana Tech,Wholesale,2007,5,5,16,.3125,MT
+Montana Tech,Wholesale,2007,10,3,15,.2,MT
+Montana Tech,Wholesale,2010,1,1,19,.052631579,MT
+Montana Tech,Wholesale,2010,5,4,18,.22222222,MT
+Montana Tech,Wholesale,2010,10,5,16,.3125,MT
+Montana Tech,Wholesale,2013,1,3,23,.13043478,MT
+Montana Tech,Wholesale,2013,5,7,16,.4375,MT
+Montana Tech,Wholesale,2013,10,,,,MT
+Montana Tech,Wholesale,2016,1,5,27,.18518518,MT
+Montana Tech,Wholesale,2016,5,14,45,.31111112,MT
+Montana Tech,Wholesale,2016,10,,,,MT
+Montana Tech,Wholesale,2019,1,8,17,.47058824,MT
+Montana Tech,Wholesale,2019,5,,,,MT
+Montana Tech,Wholesale,2019,10,,,,MT
+U Montana Western,Admin/Waste,2004,1,5,5,1,MT
+U Montana Western,Admin/Waste,2004,5,5,9,.55555558,MT
+U Montana Western,Admin/Waste,2004,10,8,9,.8888889,MT
+U Montana Western,Admin/Waste,2007,1,6,14,.42857143,MT
+U Montana Western,Admin/Waste,2007,5,6,14,.42857143,MT
+U Montana Western,Admin/Waste,2007,10,2,13,.15384616,MT
+U Montana Western,Admin/Waste,2010,1,7,13,.53846157,MT
+U Montana Western,Admin/Waste,2010,5,8,22,.36363637,MT
+U Montana Western,Admin/Waste,2010,10,7,16,.4375,MT
+U Montana Western,Admin/Waste,2013,1,3,14,.21428572,MT
+U Montana Western,Admin/Waste,2013,5,1,10,.1,MT
+U Montana Western,Admin/Waste,2013,10,,,,MT
+U Montana Western,Admin/Waste,2016,1,6,14,.42857143,MT
+U Montana Western,Admin/Waste,2016,5,12,18,.66666669,MT
+U Montana Western,Admin/Waste,2016,10,,,,MT
+U Montana Western,Admin/Waste,2019,1,4,8,.5,MT
+U Montana Western,Admin/Waste,2019,5,,,,MT
+U Montana Western,Admin/Waste,2019,10,,,,MT
+U Montana Western,Agriculture,2004,1,4,7,.5714286,MT
+U Montana Western,Agriculture,2004,5,2,4,.5,MT
+U Montana Western,Agriculture,2004,10,5,5,1,MT
+U Montana Western,Agriculture,2007,1,4,5,.80000001,MT
+U Montana Western,Agriculture,2007,5,2,2,1,MT
+U Montana Western,Agriculture,2007,10,4,6,.66666669,MT
+U Montana Western,Agriculture,2010,1,2,3,.66666669,MT
+U Montana Western,Agriculture,2010,5,6,10,.60000002,MT
+U Montana Western,Agriculture,2010,10,5,7,.71428573,MT
+U Montana Western,Agriculture,2013,1,2,2,1,MT
+U Montana Western,Agriculture,2013,5,0,6,0,MT
+U Montana Western,Agriculture,2013,10,,,,MT
+U Montana Western,Agriculture,2016,1,8,8,1,MT
+U Montana Western,Agriculture,2016,5,9,10,.89999998,MT
+U Montana Western,Agriculture,2016,10,,,,MT
+U Montana Western,Agriculture,2019,1,4,7,.5714286,MT
+U Montana Western,Agriculture,2019,5,,,,MT
+U Montana Western,Agriculture,2019,10,,,,MT
+U Montana Western,Arts/Entertainment,2004,1,1,1,1,MT
+U Montana Western,Arts/Entertainment,2004,5,3,3,1,MT
+U Montana Western,Arts/Entertainment,2004,10,1,2,.5,MT
+U Montana Western,Arts/Entertainment,2007,1,3,6,.5,MT
+U Montana Western,Arts/Entertainment,2007,5,2,2,1,MT
+U Montana Western,Arts/Entertainment,2007,10,5,5,1,MT
+U Montana Western,Arts/Entertainment,2010,1,0,2,0,MT
+U Montana Western,Arts/Entertainment,2010,5,3,4,.75,MT
+U Montana Western,Arts/Entertainment,2010,10,1,3,.33333334,MT
+U Montana Western,Arts/Entertainment,2013,1,3,7,.42857143,MT
+U Montana Western,Arts/Entertainment,2013,5,5,10,.5,MT
+U Montana Western,Arts/Entertainment,2013,10,,,,MT
+U Montana Western,Arts/Entertainment,2016,1,3,4,.75,MT
+U Montana Western,Arts/Entertainment,2016,5,2,3,.66666669,MT
+U Montana Western,Arts/Entertainment,2016,10,,,,MT
+U Montana Western,Arts/Entertainment,2019,1,1,3,.33333334,MT
+U Montana Western,Arts/Entertainment,2019,5,,,,MT
+U Montana Western,Arts/Entertainment,2019,10,,,,MT
+U Montana Western,Construction,2004,1,11,17,.64705884,MT
+U Montana Western,Construction,2004,5,2,17,.11764706,MT
+U Montana Western,Construction,2004,10,4,13,.30769232,MT
+U Montana Western,Construction,2007,1,8,26,.30769232,MT
+U Montana Western,Construction,2007,5,8,20,.40000001,MT
+U Montana Western,Construction,2007,10,3,21,.14285715,MT
+U Montana Western,Construction,2010,1,14,26,.53846157,MT
+U Montana Western,Construction,2010,5,17,30,.56666666,MT
+U Montana Western,Construction,2010,10,16,28,.5714286,MT
+U Montana Western,Construction,2013,1,9,24,.375,MT
+U Montana Western,Construction,2013,5,4,16,.25,MT
+U Montana Western,Construction,2013,10,,,,MT
+U Montana Western,Construction,2016,1,12,15,.80000001,MT
+U Montana Western,Construction,2016,5,12,28,.42857143,MT
+U Montana Western,Construction,2016,10,,,,MT
+U Montana Western,Construction,2019,1,12,27,.44444445,MT
+U Montana Western,Construction,2019,5,,,,MT
+U Montana Western,Construction,2019,10,,,,MT
+U Montana Western,Education,2004,1,118,165,.71515149,MT
+U Montana Western,Education,2004,5,117,176,.66477275,MT
+U Montana Western,Education,2004,10,117,165,.70909089,MT
+U Montana Western,Education,2007,1,95,163,.58282208,MT
+U Montana Western,Education,2007,5,82,133,.61654133,MT
+U Montana Western,Education,2007,10,89,151,.58940399,MT
+U Montana Western,Education,2010,1,101,148,.68243241,MT
+U Montana Western,Education,2010,5,121,175,.69142854,MT
+U Montana Western,Education,2010,10,117,162,.72222221,MT
+U Montana Western,Education,2013,1,128,184,.69565219,MT
+U Montana Western,Education,2013,5,133,203,.65517241,MT
+U Montana Western,Education,2013,10,,,,MT
+U Montana Western,Education,2016,1,137,194,.70618558,MT
+U Montana Western,Education,2016,5,127,187,.67914438,MT
+U Montana Western,Education,2016,10,,,,MT
+U Montana Western,Education,2019,1,191,225,.84888887,MT
+U Montana Western,Education,2019,5,,,,MT
+U Montana Western,Education,2019,10,,,,MT
+U Montana Western,Finance,2004,1,16,16,1,MT
+U Montana Western,Finance,2004,5,14,18,.77777779,MT
+U Montana Western,Finance,2004,10,12,17,.70588237,MT
+U Montana Western,Finance,2007,1,13,31,.41935483,MT
+U Montana Western,Finance,2007,5,11,11,1,MT
+U Montana Western,Finance,2007,10,9,12,.75,MT
+U Montana Western,Finance,2010,1,13,16,.8125,MT
+U Montana Western,Finance,2010,5,8,22,.36363637,MT
+U Montana Western,Finance,2010,10,11,18,.6111111,MT
+U Montana Western,Finance,2013,1,7,18,.3888889,MT
+U Montana Western,Finance,2013,5,8,29,.27586207,MT
+U Montana Western,Finance,2013,10,,,,MT
+U Montana Western,Finance,2016,1,10,13,.76923078,MT
+U Montana Western,Finance,2016,5,12,27,.44444445,MT
+U Montana Western,Finance,2016,10,,,,MT
+U Montana Western,Finance,2019,1,9,16,.5625,MT
+U Montana Western,Finance,2019,5,,,,MT
+U Montana Western,Finance,2019,10,,,,MT
+U Montana Western,Food/Hospitality,2004,1,11,12,.91666669,MT
+U Montana Western,Food/Hospitality,2004,5,5,16,.3125,MT
+U Montana Western,Food/Hospitality,2004,10,4,9,.44444445,MT
+U Montana Western,Food/Hospitality,2007,1,9,24,.375,MT
+U Montana Western,Food/Hospitality,2007,5,3,4,.75,MT
+U Montana Western,Food/Hospitality,2007,10,4,16,.25,MT
+U Montana Western,Food/Hospitality,2010,1,22,34,.64705884,MT
+U Montana Western,Food/Hospitality,2010,5,9,37,.24324325,MT
+U Montana Western,Food/Hospitality,2010,10,10,21,.47619048,MT
+U Montana Western,Food/Hospitality,2013,1,12,24,.5,MT
+U Montana Western,Food/Hospitality,2013,5,3,16,.1875,MT
+U Montana Western,Food/Hospitality,2013,10,,,,MT
+U Montana Western,Food/Hospitality,2016,1,16,33,.4848485,MT
+U Montana Western,Food/Hospitality,2016,5,8,25,.31999999,MT
+U Montana Western,Food/Hospitality,2016,10,,,,MT
+U Montana Western,Food/Hospitality,2019,1,25,32,.78125,MT
+U Montana Western,Food/Hospitality,2019,5,,,,MT
+U Montana Western,Food/Hospitality,2019,10,,,,MT
+U Montana Western,Health Care,2004,1,24,32,.75,MT
+U Montana Western,Health Care,2004,5,32,48,.66666669,MT
+U Montana Western,Health Care,2004,10,35,46,.76086956,MT
+U Montana Western,Health Care,2007,1,31,65,.47692308,MT
+U Montana Western,Health Care,2007,5,39,73,.53424656,MT
+U Montana Western,Health Care,2007,10,25,55,.45454547,MT
+U Montana Western,Health Care,2010,1,59,105,.56190479,MT
+U Montana Western,Health Care,2010,5,49,91,.53846157,MT
+U Montana Western,Health Care,2010,10,48,83,.57831323,MT
+U Montana Western,Health Care,2013,1,41,82,.5,MT
+U Montana Western,Health Care,2013,5,48,74,.64864862,MT
+U Montana Western,Health Care,2013,10,,,,MT
+U Montana Western,Health Care,2016,1,49,68,.72058821,MT
+U Montana Western,Health Care,2016,5,37,78,.47435898,MT
+U Montana Western,Health Care,2016,10,,,,MT
+U Montana Western,Health Care,2019,1,54,97,.556701,MT
+U Montana Western,Health Care,2019,5,,,,MT
+U Montana Western,Health Care,2019,10,,,,MT
+U Montana Western,Information,2004,1,0,0,,MT
+U Montana Western,Information,2004,5,3,3,1,MT
+U Montana Western,Information,2004,10,0,2,0,MT
+U Montana Western,Information,2007,1,0,0,,MT
+U Montana Western,Information,2007,5,0,4,0,MT
+U Montana Western,Information,2007,10,0,1,0,MT
+U Montana Western,Information,2010,1,1,4,.25,MT
+U Montana Western,Information,2010,5,0,2,0,MT
+U Montana Western,Information,2010,10,1,2,.5,MT
+U Montana Western,Information,2013,1,0,4,0,MT
+U Montana Western,Information,2013,5,3,5,.60000002,MT
+U Montana Western,Information,2013,10,,,,MT
+U Montana Western,Information,2016,1,2,6,.33333334,MT
+U Montana Western,Information,2016,5,1,10,.1,MT
+U Montana Western,Information,2016,10,,,,MT
+U Montana Western,Information,2019,1,1,5,.2,MT
+U Montana Western,Information,2019,5,,,,MT
+U Montana Western,Information,2019,10,,,,MT
+U Montana Western,Management,2004,1,0,0,,MT
+U Montana Western,Management,2004,5,0,0,,MT
+U Montana Western,Management,2004,10,0,1,0,MT
+U Montana Western,Management,2007,1,1,1,1,MT
+U Montana Western,Management,2007,5,1,5,.2,MT
+U Montana Western,Management,2007,10,2,6,.33333334,MT
+U Montana Western,Management,2010,1,2,5,.40000001,MT
+U Montana Western,Management,2010,5,0,1,0,MT
+U Montana Western,Management,2010,10,0,10,0,MT
+U Montana Western,Management,2013,1,0,7,0,MT
+U Montana Western,Management,2013,5,0,3,0,MT
+U Montana Western,Management,2013,10,,,,MT
+U Montana Western,Management,2016,1,0,4,0,MT
+U Montana Western,Management,2016,5,1,5,.2,MT
+U Montana Western,Management,2016,10,,,,MT
+U Montana Western,Management,2019,1,0,3,0,MT
+U Montana Western,Management,2019,5,,,,MT
+U Montana Western,Management,2019,10,,,,MT
+U Montana Western,Manufacturing,2004,1,3,6,.5,MT
+U Montana Western,Manufacturing,2004,5,6,17,.35294119,MT
+U Montana Western,Manufacturing,2004,10,6,14,.42857143,MT
+U Montana Western,Manufacturing,2007,1,3,16,.1875,MT
+U Montana Western,Manufacturing,2007,5,0,4,0,MT
+U Montana Western,Manufacturing,2007,10,4,13,.30769232,MT
+U Montana Western,Manufacturing,2010,1,4,9,.44444445,MT
+U Montana Western,Manufacturing,2010,5,4,18,.22222222,MT
+U Montana Western,Manufacturing,2010,10,4,18,.22222222,MT
+U Montana Western,Manufacturing,2013,1,6,22,.27272728,MT
+U Montana Western,Manufacturing,2013,5,12,31,.38709676,MT
+U Montana Western,Manufacturing,2013,10,,,,MT
+U Montana Western,Manufacturing,2016,1,7,20,.34999999,MT
+U Montana Western,Manufacturing,2016,5,3,15,.2,MT
+U Montana Western,Manufacturing,2016,10,,,,MT
+U Montana Western,Manufacturing,2019,1,1,14,.071428575,MT
+U Montana Western,Manufacturing,2019,5,,,,MT
+U Montana Western,Manufacturing,2019,10,,,,MT
+U Montana Western,Mining,2004,1,0,0,,MT
+U Montana Western,Mining,2004,5,4,4,1,MT
+U Montana Western,Mining,2004,10,4,4,1,MT
+U Montana Western,Mining,2007,1,0,0,,MT
+U Montana Western,Mining,2007,5,1,1,1,MT
+U Montana Western,Mining,2007,10,0,0,,MT
+U Montana Western,Mining,2010,1,5,5,1,MT
+U Montana Western,Mining,2010,5,2,2,1,MT
+U Montana Western,Mining,2010,10,0,0,,MT
+U Montana Western,Mining,2013,1,0,0,,MT
+U Montana Western,Mining,2013,5,5,7,.71428573,MT
+U Montana Western,Mining,2013,10,,,,MT
+U Montana Western,Mining,2016,1,1,2,.5,MT
+U Montana Western,Mining,2016,5,0,0,,MT
+U Montana Western,Mining,2016,10,,,,MT
+U Montana Western,Mining,2019,1,1,3,.33333334,MT
+U Montana Western,Mining,2019,5,,,,MT
+U Montana Western,Mining,2019,10,,,,MT
+U Montana Western,Other Services,2004,1,4,8,.5,MT
+U Montana Western,Other Services,2004,5,4,7,.5714286,MT
+U Montana Western,Other Services,2004,10,3,6,.5,MT
+U Montana Western,Other Services,2007,1,8,9,.8888889,MT
+U Montana Western,Other Services,2007,5,9,10,.89999998,MT
+U Montana Western,Other Services,2007,10,5,6,.83333331,MT
+U Montana Western,Other Services,2010,1,7,9,.77777779,MT
+U Montana Western,Other Services,2010,5,7,17,.41176471,MT
+U Montana Western,Other Services,2010,10,11,20,.55000001,MT
+U Montana Western,Other Services,2013,1,7,13,.53846157,MT
+U Montana Western,Other Services,2013,5,4,9,.44444445,MT
+U Montana Western,Other Services,2013,10,,,,MT
+U Montana Western,Other Services,2016,1,16,26,.61538464,MT
+U Montana Western,Other Services,2016,5,9,12,.75,MT
+U Montana Western,Other Services,2016,10,,,,MT
+U Montana Western,Other Services,2019,1,7,9,.77777779,MT
+U Montana Western,Other Services,2019,5,,,,MT
+U Montana Western,Other Services,2019,10,,,,MT
+U Montana Western,Professional Services,2004,1,5,6,.83333331,MT
+U Montana Western,Professional Services,2004,5,10,15,.66666669,MT
+U Montana Western,Professional Services,2004,10,7,15,.46666667,MT
+U Montana Western,Professional Services,2007,1,6,13,.46153846,MT
+U Montana Western,Professional Services,2007,5,4,9,.44444445,MT
+U Montana Western,Professional Services,2007,10,6,16,.375,MT
+U Montana Western,Professional Services,2010,1,2,7,.2857143,MT
+U Montana Western,Professional Services,2010,5,6,10,.60000002,MT
+U Montana Western,Professional Services,2010,10,10,24,.41666666,MT
+U Montana Western,Professional Services,2013,1,9,15,.60000002,MT
+U Montana Western,Professional Services,2013,5,8,20,.40000001,MT
+U Montana Western,Professional Services,2013,10,,,,MT
+U Montana Western,Professional Services,2016,1,9,13,.69230771,MT
+U Montana Western,Professional Services,2016,5,8,17,.47058824,MT
+U Montana Western,Professional Services,2016,10,,,,MT
+U Montana Western,Professional Services,2019,1,6,15,.40000001,MT
+U Montana Western,Professional Services,2019,5,,,,MT
+U Montana Western,Professional Services,2019,10,,,,MT
+U Montana Western,Public Admin,2004,1,14,18,.77777779,MT
+U Montana Western,Public Admin,2004,5,15,29,.51724136,MT
+U Montana Western,Public Admin,2004,10,17,28,.60714287,MT
+U Montana Western,Public Admin,2007,1,26,38,.68421054,MT
+U Montana Western,Public Admin,2007,5,24,29,.82758623,MT
+U Montana Western,Public Admin,2007,10,26,40,.64999998,MT
+U Montana Western,Public Admin,2010,1,26,49,.53061223,MT
+U Montana Western,Public Admin,2010,5,26,52,.5,MT
+U Montana Western,Public Admin,2010,10,32,57,.56140351,MT
+U Montana Western,Public Admin,2013,1,26,48,.54166669,MT
+U Montana Western,Public Admin,2013,5,36,69,.52173913,MT
+U Montana Western,Public Admin,2013,10,,,,MT
+U Montana Western,Public Admin,2016,1,26,42,.61904764,MT
+U Montana Western,Public Admin,2016,5,22,47,.46808511,MT
+U Montana Western,Public Admin,2016,10,,,,MT
+U Montana Western,Public Admin,2019,1,22,47,.46808511,MT
+U Montana Western,Public Admin,2019,5,,,,MT
+U Montana Western,Public Admin,2019,10,,,,MT
+U Montana Western,Real Estate,2004,1,2,2,1,MT
+U Montana Western,Real Estate,2004,5,1,1,1,MT
+U Montana Western,Real Estate,2004,10,0,3,0,MT
+U Montana Western,Real Estate,2007,1,2,5,.40000001,MT
+U Montana Western,Real Estate,2007,5,1,12,.083333336,MT
+U Montana Western,Real Estate,2007,10,2,3,.66666669,MT
+U Montana Western,Real Estate,2010,1,5,5,1,MT
+U Montana Western,Real Estate,2010,5,1,3,.33333334,MT
+U Montana Western,Real Estate,2010,10,3,3,1,MT
+U Montana Western,Real Estate,2013,1,2,4,.5,MT
+U Montana Western,Real Estate,2013,5,2,10,.2,MT
+U Montana Western,Real Estate,2013,10,,,,MT
+U Montana Western,Real Estate,2016,1,7,11,.63636363,MT
+U Montana Western,Real Estate,2016,5,4,12,.33333334,MT
+U Montana Western,Real Estate,2016,10,,,,MT
+U Montana Western,Real Estate,2019,1,4,7,.5714286,MT
+U Montana Western,Real Estate,2019,5,,,,MT
+U Montana Western,Real Estate,2019,10,,,,MT
+U Montana Western,Retail,2004,1,21,25,.83999997,MT
+U Montana Western,Retail,2004,5,9,29,.31034482,MT
+U Montana Western,Retail,2004,10,6,21,.2857143,MT
+U Montana Western,Retail,2007,1,19,34,.55882353,MT
+U Montana Western,Retail,2007,5,10,25,.40000001,MT
+U Montana Western,Retail,2007,10,12,31,.38709676,MT
+U Montana Western,Retail,2010,1,18,32,.5625,MT
+U Montana Western,Retail,2010,5,19,43,.44186047,MT
+U Montana Western,Retail,2010,10,18,34,.52941179,MT
+U Montana Western,Retail,2013,1,21,45,.46666667,MT
+U Montana Western,Retail,2013,5,19,43,.44186047,MT
+U Montana Western,Retail,2013,10,,,,MT
+U Montana Western,Retail,2016,1,19,39,.48717949,MT
+U Montana Western,Retail,2016,5,24,47,.5106383,MT
+U Montana Western,Retail,2016,10,,,,MT
+U Montana Western,Retail,2019,1,15,34,.44117647,MT
+U Montana Western,Retail,2019,5,,,,MT
+U Montana Western,Retail,2019,10,,,,MT
+U Montana Western,Transportation,2004,1,0,0,,MT
+U Montana Western,Transportation,2004,5,0,6,0,MT
+U Montana Western,Transportation,2004,10,0,0,,MT
+U Montana Western,Transportation,2007,1,1,2,.5,MT
+U Montana Western,Transportation,2007,5,1,2,.5,MT
+U Montana Western,Transportation,2007,10,1,2,.5,MT
+U Montana Western,Transportation,2010,1,0,3,0,MT
+U Montana Western,Transportation,2010,5,1,4,.25,MT
+U Montana Western,Transportation,2010,10,4,7,.5714286,MT
+U Montana Western,Transportation,2013,1,0,1,0,MT
+U Montana Western,Transportation,2013,5,6,8,.75,MT
+U Montana Western,Transportation,2013,10,,,,MT
+U Montana Western,Transportation,2016,1,0,9,0,MT
+U Montana Western,Transportation,2016,5,3,9,.33333334,MT
+U Montana Western,Transportation,2016,10,,,,MT
+U Montana Western,Transportation,2019,1,4,4,1,MT
+U Montana Western,Transportation,2019,5,,,,MT
+U Montana Western,Transportation,2019,10,,,,MT
+U Montana Western,Utilities,2004,1,0,0,,MT
+U Montana Western,Utilities,2004,5,0,0,,MT
+U Montana Western,Utilities,2004,10,0,0,,MT
+U Montana Western,Utilities,2007,1,0,0,,MT
+U Montana Western,Utilities,2007,5,0,0,,MT
+U Montana Western,Utilities,2007,10,0,0,,MT
+U Montana Western,Utilities,2010,1,0,1,0,MT
+U Montana Western,Utilities,2010,5,0,2,0,MT
+U Montana Western,Utilities,2010,10,1,1,1,MT
+U Montana Western,Utilities,2013,1,1,1,1,MT
+U Montana Western,Utilities,2013,5,0,0,,MT
+U Montana Western,Utilities,2013,10,,,,MT
+U Montana Western,Utilities,2016,1,0,1,0,MT
+U Montana Western,Utilities,2016,5,0,0,,MT
+U Montana Western,Utilities,2016,10,,,,MT
+U Montana Western,Utilities,2019,1,1,2,.5,MT
+U Montana Western,Utilities,2019,5,,,,MT
+U Montana Western,Utilities,2019,10,,,,MT
+U Montana Western,Wholesale,2004,1,1,4,.25,MT
+U Montana Western,Wholesale,2004,5,5,11,.45454547,MT
+U Montana Western,Wholesale,2004,10,3,8,.375,MT
+U Montana Western,Wholesale,2007,1,3,11,.27272728,MT
+U Montana Western,Wholesale,2007,5,3,5,.60000002,MT
+U Montana Western,Wholesale,2007,10,5,14,.35714287,MT
+U Montana Western,Wholesale,2010,1,6,19,.31578946,MT
+U Montana Western,Wholesale,2010,5,10,24,.41666666,MT
+U Montana Western,Wholesale,2010,10,7,10,.69999999,MT
+U Montana Western,Wholesale,2013,1,7,19,.36842105,MT
+U Montana Western,Wholesale,2013,5,8,21,.38095239,MT
+U Montana Western,Wholesale,2013,10,,,,MT
+U Montana Western,Wholesale,2016,1,8,22,.36363637,MT
+U Montana Western,Wholesale,2016,5,0,3,0,MT
+U Montana Western,Wholesale,2016,10,,,,MT
+U Montana Western,Wholesale,2019,1,3,11,.27272728,MT
+U Montana Western,Wholesale,2019,5,,,,MT
+U Montana Western,Wholesale,2019,10,,,,MT
+University of Montana,Admin/Waste,2004,1,110,173,.63583815,MT
+University of Montana,Admin/Waste,2004,5,60,147,.40816328,MT
+University of Montana,Admin/Waste,2004,10,59,147,.40136054,MT
+University of Montana,Admin/Waste,2007,1,101,178,.56741571,MT
+University of Montana,Admin/Waste,2007,5,70,168,.41666666,MT
+University of Montana,Admin/Waste,2007,10,45,130,.34615386,MT
+University of Montana,Admin/Waste,2010,1,116,199,.58291459,MT
+University of Montana,Admin/Waste,2010,5,84,173,.48554912,MT
+University of Montana,Admin/Waste,2010,10,54,143,.37762237,MT
+University of Montana,Admin/Waste,2013,1,126,235,.53617018,MT
+University of Montana,Admin/Waste,2013,5,95,191,.49738219,MT
+University of Montana,Admin/Waste,2013,10,,,,MT
+University of Montana,Admin/Waste,2016,1,74,142,.52112675,MT
+University of Montana,Admin/Waste,2016,5,80,148,.54054052,MT
+University of Montana,Admin/Waste,2016,10,,,,MT
+University of Montana,Admin/Waste,2019,1,80,141,.5673759,MT
+University of Montana,Admin/Waste,2019,5,,,,MT
+University of Montana,Admin/Waste,2019,10,,,,MT
+University of Montana,Agriculture,2004,1,20,32,.625,MT
+University of Montana,Agriculture,2004,5,9,15,.60000002,MT
+University of Montana,Agriculture,2004,10,8,16,.5,MT
+University of Montana,Agriculture,2007,1,14,24,.58333331,MT
+University of Montana,Agriculture,2007,5,16,25,.63999999,MT
+University of Montana,Agriculture,2007,10,11,21,.52380955,MT
+University of Montana,Agriculture,2010,1,13,24,.54166669,MT
+University of Montana,Agriculture,2010,5,15,27,.55555558,MT
+University of Montana,Agriculture,2010,10,11,24,.45833334,MT
+University of Montana,Agriculture,2013,1,9,14,.64285713,MT
+University of Montana,Agriculture,2013,5,11,19,.57894737,MT
+University of Montana,Agriculture,2013,10,,,,MT
+University of Montana,Agriculture,2016,1,10,21,.47619048,MT
+University of Montana,Agriculture,2016,5,19,25,.75999999,MT
+University of Montana,Agriculture,2016,10,,,,MT
+University of Montana,Agriculture,2019,1,12,19,.63157892,MT
+University of Montana,Agriculture,2019,5,,,,MT
+University of Montana,Agriculture,2019,10,,,,MT
+University of Montana,Arts/Entertainment,2004,1,46,69,.66666669,MT
+University of Montana,Arts/Entertainment,2004,5,32,58,.55172414,MT
+University of Montana,Arts/Entertainment,2004,10,21,46,.45652175,MT
+University of Montana,Arts/Entertainment,2007,1,46,76,.60526317,MT
+University of Montana,Arts/Entertainment,2007,5,48,81,.5925926,MT
+University of Montana,Arts/Entertainment,2007,10,25,90,.27777779,MT
+University of Montana,Arts/Entertainment,2010,1,44,71,.61971831,MT
+University of Montana,Arts/Entertainment,2010,5,42,86,.48837209,MT
+University of Montana,Arts/Entertainment,2010,10,31,63,.49206349,MT
+University of Montana,Arts/Entertainment,2013,1,62,90,.68888891,MT
+University of Montana,Arts/Entertainment,2013,5,47,82,.57317072,MT
+University of Montana,Arts/Entertainment,2013,10,,,,MT
+University of Montana,Arts/Entertainment,2016,1,46,61,.75409836,MT
+University of Montana,Arts/Entertainment,2016,5,40,66,.60606062,MT
+University of Montana,Arts/Entertainment,2016,10,,,,MT
+University of Montana,Arts/Entertainment,2019,1,36,53,.67924529,MT
+University of Montana,Arts/Entertainment,2019,5,,,,MT
+University of Montana,Arts/Entertainment,2019,10,,,,MT
+University of Montana,Construction,2004,1,61,105,.58095241,MT
+University of Montana,Construction,2004,5,34,82,.41463414,MT
+University of Montana,Construction,2004,10,46,96,.47916666,MT
+University of Montana,Construction,2007,1,34,67,.50746268,MT
+University of Montana,Construction,2007,5,31,84,.36904761,MT
+University of Montana,Construction,2007,10,32,81,.39506173,MT
+University of Montana,Construction,2010,1,30,61,.49180329,MT
+University of Montana,Construction,2010,5,34,64,.53125,MT
+University of Montana,Construction,2010,10,38,86,.44186047,MT
+University of Montana,Construction,2013,1,35,78,.44871795,MT
+University of Montana,Construction,2013,5,36,106,.33962265,MT
+University of Montana,Construction,2013,10,,,,MT
+University of Montana,Construction,2016,1,43,76,.56578946,MT
+University of Montana,Construction,2016,5,44,92,.47826087,MT
+University of Montana,Construction,2016,10,,,,MT
+University of Montana,Construction,2019,1,49,83,.59036142,MT
+University of Montana,Construction,2019,5,,,,MT
+University of Montana,Construction,2019,10,,,,MT
+University of Montana,Education,2004,1,329,550,.59818184,MT
+University of Montana,Education,2004,5,342,698,.48997134,MT
+University of Montana,Education,2004,10,367,738,.49728999,MT
+University of Montana,Education,2007,1,306,490,.62448978,MT
+University of Montana,Education,2007,5,323,584,.55308217,MT
+University of Montana,Education,2007,10,328,676,.48520711,MT
+University of Montana,Education,2010,1,283,433,.65357965,MT
+University of Montana,Education,2010,5,354,679,.52135491,MT
+University of Montana,Education,2010,10,342,703,.48648649,MT
+University of Montana,Education,2013,1,331,532,.62218046,MT
+University of Montana,Education,2013,5,394,687,.57350802,MT
+University of Montana,Education,2013,10,,,,MT
+University of Montana,Education,2016,1,287,473,.60676533,MT
+University of Montana,Education,2016,5,330,618,.53398061,MT
+University of Montana,Education,2016,10,,,,MT
+University of Montana,Education,2019,1,323,479,.67432153,MT
+University of Montana,Education,2019,5,,,,MT
+University of Montana,Education,2019,10,,,,MT
+University of Montana,Finance,2004,1,144,233,.61802578,MT
+University of Montana,Finance,2004,5,136,211,.64454979,MT
+University of Montana,Finance,2004,10,116,196,.59183675,MT
+University of Montana,Finance,2007,1,102,146,.69863015,MT
+University of Montana,Finance,2007,5,114,189,.60317463,MT
+University of Montana,Finance,2007,10,105,186,.56451613,MT
+University of Montana,Finance,2010,1,106,163,.65030676,MT
+University of Montana,Finance,2010,5,123,192,.640625,MT
+University of Montana,Finance,2010,10,124,212,.58490568,MT
+University of Montana,Finance,2013,1,110,166,.66265059,MT
+University of Montana,Finance,2013,5,119,192,.61979169,MT
+University of Montana,Finance,2013,10,,,,MT
+University of Montana,Finance,2016,1,88,152,.57894737,MT
+University of Montana,Finance,2016,5,110,190,.57894737,MT
+University of Montana,Finance,2016,10,,,,MT
+University of Montana,Finance,2019,1,73,114,.64035088,MT
+University of Montana,Finance,2019,5,,,,MT
+University of Montana,Finance,2019,10,,,,MT
+University of Montana,Food/Hospitality,2004,1,194,306,.63398695,MT
+University of Montana,Food/Hospitality,2004,5,79,191,.41361257,MT
+University of Montana,Food/Hospitality,2004,10,49,151,.3245033,MT
+University of Montana,Food/Hospitality,2007,1,204,331,.61631417,MT
+University of Montana,Food/Hospitality,2007,5,112,231,.4848485,MT
+University of Montana,Food/Hospitality,2007,10,74,204,.36274511,MT
+University of Montana,Food/Hospitality,2010,1,201,313,.64217252,MT
+University of Montana,Food/Hospitality,2010,5,109,224,.48660713,MT
+University of Montana,Food/Hospitality,2010,10,67,153,.4379085,MT
+University of Montana,Food/Hospitality,2013,1,205,313,.65495205,MT
+University of Montana,Food/Hospitality,2013,5,84,198,.42424244,MT
+University of Montana,Food/Hospitality,2013,10,,,,MT
+University of Montana,Food/Hospitality,2016,1,219,312,.70192307,MT
+University of Montana,Food/Hospitality,2016,5,86,166,.51807231,MT
+University of Montana,Food/Hospitality,2016,10,,,,MT
+University of Montana,Food/Hospitality,2019,1,163,243,.67078191,MT
+University of Montana,Food/Hospitality,2019,5,,,,MT
+University of Montana,Food/Hospitality,2019,10,,,,MT
+University of Montana,Health Care,2004,1,277,415,.66746986,MT
+University of Montana,Health Care,2004,5,234,514,.45525292,MT
+University of Montana,Health Care,2004,10,275,543,.50644565,MT
+University of Montana,Health Care,2007,1,315,491,.64154786,MT
+University of Montana,Health Care,2007,5,359,575,.62434781,MT
+University of Montana,Health Care,2007,10,335,640,.5234375,MT
+University of Montana,Health Care,2010,1,343,485,.7072165,MT
+University of Montana,Health Care,2010,5,358,649,.55161786,MT
+University of Montana,Health Care,2010,10,324,629,.51510334,MT
+University of Montana,Health Care,2013,1,407,591,.6886633,MT
+University of Montana,Health Care,2013,5,331,619,.53473341,MT
+University of Montana,Health Care,2013,10,,,,MT
+University of Montana,Health Care,2016,1,351,510,.68823528,MT
+University of Montana,Health Care,2016,5,341,604,.56456953,MT
+University of Montana,Health Care,2016,10,,,,MT
+University of Montana,Health Care,2019,1,296,420,.70476192,MT
+University of Montana,Health Care,2019,5,,,,MT
+University of Montana,Health Care,2019,10,,,,MT
+University of Montana,Information,2004,1,82,129,.63565892,MT
+University of Montana,Information,2004,5,62,137,.45255473,MT
+University of Montana,Information,2004,10,41,115,.35652173,MT
+University of Montana,Information,2007,1,71,116,.61206895,MT
+University of Montana,Information,2007,5,37,104,.35576922,MT
+University of Montana,Information,2007,10,33,105,.31428573,MT
+University of Montana,Information,2010,1,75,128,.5859375,MT
+University of Montana,Information,2010,5,63,150,.41999999,MT
+University of Montana,Information,2010,10,48,130,.36923078,MT
+University of Montana,Information,2013,1,75,145,.51724136,MT
+University of Montana,Information,2013,5,61,137,.44525549,MT
+University of Montana,Information,2013,10,,,,MT
+University of Montana,Information,2016,1,65,109,.59633029,MT
+University of Montana,Information,2016,5,52,103,.50485438,MT
+University of Montana,Information,2016,10,,,,MT
+University of Montana,Information,2019,1,47,78,.6025641,MT
+University of Montana,Information,2019,5,,,,MT
+University of Montana,Information,2019,10,,,,MT
+University of Montana,Management,2004,1,4,9,.44444445,MT
+University of Montana,Management,2004,5,8,19,.42105263,MT
+University of Montana,Management,2004,10,8,20,.40000001,MT
+University of Montana,Management,2007,1,6,16,.375,MT
+University of Montana,Management,2007,5,12,23,.52173913,MT
+University of Montana,Management,2007,10,7,23,.30434781,MT
+University of Montana,Management,2010,1,9,15,.60000002,MT
+University of Montana,Management,2010,5,8,30,.26666668,MT
+University of Montana,Management,2010,10,11,34,.32352942,MT
+University of Montana,Management,2013,1,3,4,.75,MT
+University of Montana,Management,2013,5,5,21,.23809524,MT
+University of Montana,Management,2013,10,,,,MT
+University of Montana,Management,2016,1,4,12,.33333334,MT
+University of Montana,Management,2016,5,5,17,.29411766,MT
+University of Montana,Management,2016,10,,,,MT
+University of Montana,Management,2019,1,3,6,.5,MT
+University of Montana,Management,2019,5,,,,MT
+University of Montana,Management,2019,10,,,,MT
+University of Montana,Manufacturing,2004,1,47,109,.43119267,MT
+University of Montana,Manufacturing,2004,5,37,117,.31623933,MT
+University of Montana,Manufacturing,2004,10,40,127,.31496063,MT
+University of Montana,Manufacturing,2007,1,37,89,.41573033,MT
+University of Montana,Manufacturing,2007,5,39,137,.28467155,MT
+University of Montana,Manufacturing,2007,10,41,139,.29496402,MT
+University of Montana,Manufacturing,2010,1,42,93,.45161289,MT
+University of Montana,Manufacturing,2010,5,52,153,.33986929,MT
+University of Montana,Manufacturing,2010,10,52,158,.32911393,MT
+University of Montana,Manufacturing,2013,1,36,101,.35643566,MT
+University of Montana,Manufacturing,2013,5,57,126,.45238096,MT
+University of Montana,Manufacturing,2013,10,,,,MT
+University of Montana,Manufacturing,2016,1,42,93,.45161289,MT
+University of Montana,Manufacturing,2016,5,39,94,.41489363,MT
+University of Montana,Manufacturing,2016,10,,,,MT
+University of Montana,Manufacturing,2019,1,41,67,.61194032,MT
+University of Montana,Manufacturing,2019,5,,,,MT
+University of Montana,Manufacturing,2019,10,,,,MT
+University of Montana,Mining,2004,1,1,3,.33333334,MT
+University of Montana,Mining,2004,5,6,11,.54545456,MT
+University of Montana,Mining,2004,10,10,14,.71428573,MT
+University of Montana,Mining,2007,1,8,10,.80000001,MT
+University of Montana,Mining,2007,5,10,16,.625,MT
+University of Montana,Mining,2007,10,7,13,.53846157,MT
+University of Montana,Mining,2010,1,5,12,.41666666,MT
+University of Montana,Mining,2010,5,11,17,.64705884,MT
+University of Montana,Mining,2010,10,9,14,.64285713,MT
+University of Montana,Mining,2013,1,0,2,0,MT
+University of Montana,Mining,2013,5,3,6,.5,MT
+University of Montana,Mining,2013,10,,,,MT
+University of Montana,Mining,2016,1,5,5,1,MT
+University of Montana,Mining,2016,5,3,8,.375,MT
+University of Montana,Mining,2016,10,,,,MT
+University of Montana,Mining,2019,1,0,4,0,MT
+University of Montana,Mining,2019,5,,,,MT
+University of Montana,Mining,2019,10,,,,MT
+University of Montana,Other Services,2004,1,53,82,.64634144,MT
+University of Montana,Other Services,2004,5,53,93,.56989247,MT
+University of Montana,Other Services,2004,10,52,91,.5714286,MT
+University of Montana,Other Services,2007,1,53,86,.61627907,MT
+University of Montana,Other Services,2007,5,49,89,.55056179,MT
+University of Montana,Other Services,2007,10,68,127,.53543305,MT
+University of Montana,Other Services,2010,1,57,76,.75,MT
+University of Montana,Other Services,2010,5,63,109,.57798165,MT
+University of Montana,Other Services,2010,10,69,107,.64485979,MT
+University of Montana,Other Services,2013,1,59,101,.58415842,MT
+University of Montana,Other Services,2013,5,69,127,.54330707,MT
+University of Montana,Other Services,2013,10,,,,MT
+University of Montana,Other Services,2016,1,43,67,.64179105,MT
+University of Montana,Other Services,2016,5,62,98,.63265306,MT
+University of Montana,Other Services,2016,10,,,,MT
+University of Montana,Other Services,2019,1,60,91,.65934068,MT
+University of Montana,Other Services,2019,5,,,,MT
+University of Montana,Other Services,2019,10,,,,MT
+University of Montana,Professional Services,2004,1,164,295,.55593222,MT
+University of Montana,Professional Services,2004,5,147,358,.41061452,MT
+University of Montana,Professional Services,2004,10,141,336,.41964287,MT
+University of Montana,Professional Services,2007,1,144,308,.46753246,MT
+University of Montana,Professional Services,2007,5,159,352,.45170453,MT
+University of Montana,Professional Services,2007,10,218,466,.46781117,MT
+University of Montana,Professional Services,2010,1,143,305,.46885246,MT
+University of Montana,Professional Services,2010,5,199,445,.447191,MT
+University of Montana,Professional Services,2010,10,253,534,.47378278,MT
+University of Montana,Professional Services,2013,1,162,366,.44262296,MT
+University of Montana,Professional Services,2013,5,215,471,.45647559,MT
+University of Montana,Professional Services,2013,10,,,,MT
+University of Montana,Professional Services,2016,1,186,363,.51239669,MT
+University of Montana,Professional Services,2016,5,236,448,.52678573,MT
+University of Montana,Professional Services,2016,10,,,,MT
+University of Montana,Professional Services,2019,1,195,357,.54621851,MT
+University of Montana,Professional Services,2019,5,,,,MT
+University of Montana,Professional Services,2019,10,,,,MT
+University of Montana,Public Admin,2004,1,168,273,.61538464,MT
+University of Montana,Public Admin,2004,5,226,396,.57070708,MT
+University of Montana,Public Admin,2004,10,241,405,.59506172,MT
+University of Montana,Public Admin,2007,1,188,298,.63087249,MT
+University of Montana,Public Admin,2007,5,232,371,.62533695,MT
+University of Montana,Public Admin,2007,10,254,433,.58660507,MT
+University of Montana,Public Admin,2010,1,154,230,.6695652,MT
+University of Montana,Public Admin,2010,5,246,377,.65251988,MT
+University of Montana,Public Admin,2010,10,264,433,.60969979,MT
+University of Montana,Public Admin,2013,1,205,318,.6446541,MT
+University of Montana,Public Admin,2013,5,266,413,.64406782,MT
+University of Montana,Public Admin,2013,10,,,,MT
+University of Montana,Public Admin,2016,1,155,228,.67982459,MT
+University of Montana,Public Admin,2016,5,217,348,.62356323,MT
+University of Montana,Public Admin,2016,10,,,,MT
+University of Montana,Public Admin,2019,1,172,257,.66926068,MT
+University of Montana,Public Admin,2019,5,,,,MT
+University of Montana,Public Admin,2019,10,,,,MT
+University of Montana,Real Estate,2004,1,27,35,.77142859,MT
+University of Montana,Real Estate,2004,5,19,32,.59375,MT
+University of Montana,Real Estate,2004,10,20,28,.71428573,MT
+University of Montana,Real Estate,2007,1,18,34,.52941179,MT
+University of Montana,Real Estate,2007,5,10,18,.55555558,MT
+University of Montana,Real Estate,2007,10,8,24,.33333334,MT
+University of Montana,Real Estate,2010,1,16,23,.69565219,MT
+University of Montana,Real Estate,2010,5,12,32,.375,MT
+University of Montana,Real Estate,2010,10,22,40,.55000001,MT
+University of Montana,Real Estate,2013,1,23,34,.67647058,MT
+University of Montana,Real Estate,2013,5,19,37,.51351351,MT
+University of Montana,Real Estate,2013,10,,,,MT
+University of Montana,Real Estate,2016,1,25,39,.64102566,MT
+University of Montana,Real Estate,2016,5,11,23,.47826087,MT
+University of Montana,Real Estate,2016,10,,,,MT
+University of Montana,Real Estate,2019,1,16,16,1,MT
+University of Montana,Real Estate,2019,5,,,,MT
+University of Montana,Real Estate,2019,10,,,,MT
+University of Montana,Retail,2004,1,223,369,.60433602,MT
+University of Montana,Retail,2004,5,124,268,.46268657,MT
+University of Montana,Retail,2004,10,91,240,.37916666,MT
+University of Montana,Retail,2007,1,220,368,.59782606,MT
+University of Montana,Retail,2007,5,129,285,.45263159,MT
+University of Montana,Retail,2007,10,104,260,.40000001,MT
+University of Montana,Retail,2010,1,206,326,.63190186,MT
+University of Montana,Retail,2010,5,145,295,.49152541,MT
+University of Montana,Retail,2010,10,115,286,.40209791,MT
+University of Montana,Retail,2013,1,206,367,.56130791,MT
+University of Montana,Retail,2013,5,147,313,.46964857,MT
+University of Montana,Retail,2013,10,,,,MT
+University of Montana,Retail,2016,1,164,248,.66129035,MT
+University of Montana,Retail,2016,5,123,246,.5,MT
+University of Montana,Retail,2016,10,,,,MT
+University of Montana,Retail,2019,1,178,268,.66417909,MT
+University of Montana,Retail,2019,5,,,,MT
+University of Montana,Retail,2019,10,,,,MT
+University of Montana,Transportation,2004,1,30,43,.69767439,MT
+University of Montana,Transportation,2004,5,22,40,.55000001,MT
+University of Montana,Transportation,2004,10,22,39,.56410259,MT
+University of Montana,Transportation,2007,1,19,41,.46341464,MT
+University of Montana,Transportation,2007,5,18,48,.375,MT
+University of Montana,Transportation,2007,10,10,47,.21276596,MT
+University of Montana,Transportation,2010,1,18,36,.5,MT
+University of Montana,Transportation,2010,5,19,49,.3877551,MT
+University of Montana,Transportation,2010,10,14,34,.41176471,MT
+University of Montana,Transportation,2013,1,29,52,.55769229,MT
+University of Montana,Transportation,2013,5,22,55,.40000001,MT
+University of Montana,Transportation,2013,10,,,,MT
+University of Montana,Transportation,2016,1,18,37,.48648649,MT
+University of Montana,Transportation,2016,5,23,46,.5,MT
+University of Montana,Transportation,2016,10,,,,MT
+University of Montana,Transportation,2019,1,17,29,.58620691,MT
+University of Montana,Transportation,2019,5,,,,MT
+University of Montana,Transportation,2019,10,,,,MT
+University of Montana,Utilities,2004,1,0,0,,MT
+University of Montana,Utilities,2004,5,1,1,1,MT
+University of Montana,Utilities,2004,10,1,2,.5,MT
+University of Montana,Utilities,2007,1,2,3,.66666669,MT
+University of Montana,Utilities,2007,5,1,1,1,MT
+University of Montana,Utilities,2007,10,7,7,1,MT
+University of Montana,Utilities,2010,1,1,1,1,MT
+University of Montana,Utilities,2010,5,0,0,,MT
+University of Montana,Utilities,2010,10,1,6,.16666667,MT
+University of Montana,Utilities,2013,1,1,1,1,MT
+University of Montana,Utilities,2013,5,1,4,.25,MT
+University of Montana,Utilities,2013,10,,,,MT
+University of Montana,Utilities,2016,1,0,1,0,MT
+University of Montana,Utilities,2016,5,2,2,1,MT
+University of Montana,Utilities,2016,10,,,,MT
+University of Montana,Utilities,2019,1,1,3,.33333334,MT
+University of Montana,Utilities,2019,5,,,,MT
+University of Montana,Utilities,2019,10,,,,MT
+University of Montana,Wholesale,2004,1,40,74,.54054052,MT
+University of Montana,Wholesale,2004,5,40,95,.42105263,MT
+University of Montana,Wholesale,2004,10,46,115,.40000001,MT
+University of Montana,Wholesale,2007,1,40,71,.5633803,MT
+University of Montana,Wholesale,2007,5,36,106,.33962265,MT
+University of Montana,Wholesale,2007,10,42,94,.44680852,MT
+University of Montana,Wholesale,2010,1,33,75,.44,MT
+University of Montana,Wholesale,2010,5,44,110,.40000001,MT
+University of Montana,Wholesale,2010,10,45,106,.4245283,MT
+University of Montana,Wholesale,2013,1,42,89,.47191012,MT
+University of Montana,Wholesale,2013,5,41,97,.42268041,MT
+University of Montana,Wholesale,2013,10,,,,MT
+University of Montana,Wholesale,2016,1,24,51,.47058824,MT
+University of Montana,Wholesale,2016,5,34,63,.53968257,MT
+University of Montana,Wholesale,2016,10,,,,MT
+University of Montana,Wholesale,2019,1,15,39,.38461539,MT
+University of Montana,Wholesale,2019,5,,,,MT
+University of Montana,Wholesale,2019,10,,,,MT
