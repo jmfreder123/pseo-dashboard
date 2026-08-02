@@ -56,9 +56,14 @@ python3 build_state_data.py ut --out data
 ```
 
 Omit `--min-observed` to keep every institution surviving the analytic frame —
-correct for AZ and OR, where community colleges drop out on their own because
-they award no bachelor's degrees. Use `--rename CODE=Label` to shorten an
+correct for AZ, OR, and MT. Use `--rename CODE=Label` to shorten an
 institution's name for the axes.
+
+**`total_observed` is counted across all cohorts, not just the triennial set**,
+matching the `.do` files. This matters: Colorado's documented `>= 320` selects
+12 institutions on that scale but 0 if the cohort filter is applied first,
+because Colorado has a 2001 cohort the triennial filter drops. Thresholds
+quoted in this README are on the all-cohort scale and reproduce exactly.
 
 ## Filters
 

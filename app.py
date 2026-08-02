@@ -48,8 +48,24 @@ def load_tsi():
 def load_flows():
     return _load_glob("*_regional_flows.csv")
 
+@st.cache_data
+def load_benchmark():
+    """Participating-state reference series, or None if not built.
+
+    Deliberately not named *_tsi.csv: it is a reference line, not a state, and
+    must stay out of the state/institution filters.
+    """
+    path = DATA_DIR / "benchmark.csv"
+    if not path.exists():
+        return None
+    df = pd.read_csv(path)
+    df["grad_cohort"] = df["grad_cohort"].astype(str)
+    df["horizon"] = df["horizon"].astype(int)
+    return df
+
 tsi = load_tsi()
 flows = load_flows()
+benchmark = load_benchmark()
 
 # ============================================================
 # Sidebar filters
@@ -113,6 +129,17 @@ cohorts_selected = st.sidebar.multiselect(
     options=cohorts_available,
     default=cohorts_available
 )
+
+# Reference line (Horizon Decay tab only)
+if benchmark is not None:
+    show_benchmark = st.sidebar.checkbox(
+        "Show participating-state reference",
+        value=True,
+        help="Dashed line on Horizon Decay: all PSEO states aggregated. "
+             "Not a national figure -- PSEO covers about two thirds of states.",
+    )
+else:
+    show_benchmark = False
 
 # ============================================================
 # Apply filters
@@ -291,6 +318,30 @@ with tab2:
                 institution_cat="Institution"
             ),
         )
+        # Reference line: the same industries and cohorts, aggregated across
+        # every PSEO state. Institution and state filters deliberately do not
+        # apply -- the point is a fixed baseline to read the lines against.
+        if show_benchmark and benchmark is not None:
+            b = benchmark[
+                benchmark["industry_cat"].isin(industries_selected)
+                & benchmark["grad_cohort"].isin(cohorts_selected)
+                & benchmark["horizon"].isin(horizons_for_lineplot)
+            ]
+            if not b.empty:
+                bagg = (
+                    b.groupby("horizon", as_index=False)
+                     .agg(emp_instate_=("emp_instate_", "sum"), emp_n_=("emp_n_", "sum"))
+                     .sort_values("horizon")
+                )
+                bagg["TSI"] = bagg["emp_instate_"] / bagg["emp_n_"]
+                fig.add_scatter(
+                    x=bagg["horizon"], y=bagg["TSI"],
+                    mode="lines+markers",
+                    name="Participating-state avg",
+                    line=dict(color="#444444", width=3, dash="dash"),
+                    marker=dict(size=8, symbol="diamond"),
+                )
+
         fig.update_yaxes(range=[0.4, 1.0], tickformat=".0%")
         fig.update_xaxes(tickmode="array", tickvals=[1, 5, 10], ticktext=["Y1", "Y5", "Y10"])
         fig.update_layout(
@@ -298,6 +349,14 @@ with tab2:
             margin=dict(l=20, r=20, t=20, b=20)
         )
         st.plotly_chart(fig, use_container_width=True)
+
+        if show_benchmark and benchmark is not None:
+            st.caption(
+                "The dashed line aggregates every state in the PSEO release, not the "
+                "United States. PSEO excludes California, Florida, New Jersey and "
+                "others, so read it as a participating-state average. Composition is "
+                "recorded in `data/benchmark_composition.csv`."
+            )
 
 # ---------------- Sankey ----------------
 with tab3:

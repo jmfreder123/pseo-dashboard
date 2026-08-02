@@ -98,16 +98,25 @@ def load_state(st):
     return df, dict(zip(inst.institution, inst.label))
 
 
-def analytic_frame(df, st):
-    """The six filters shared by every state pipeline."""
-    f = df[
+def analytic_frame(df, st, triennial=True):
+    """The filters shared by every state pipeline.
+
+    triennial=False keeps every cohort. The .do files compute total_observed
+    on all cohorts and only then restrict to the triennial set, so coverage
+    thresholds are quoted on the all-cohort scale -- Colorado's documented
+    `>= 320` selects 12 institutions there but 0 if the cohort filter is
+    applied first. Coverage must therefore be computed with triennial=False.
+    """
+    mask = (
         (df.institution != FIPS[st])
         & (df.degree_level == "05")
         & (df.cipcode == "00")
         & (df.grad_cohort != "0000")
         & (df.ind_level != "A")
-        & (df.grad_cohort.isin(COHORTS))
-    ].copy()
+    )
+    if triennial:
+        mask &= df.grad_cohort.isin(COHORTS)
+    f = df[mask].copy()
     for c in COUNT_COLS:
         f[c] = pd.to_numeric(f[c], errors="coerce")
     return f
@@ -172,8 +181,10 @@ def main():
 
     print(f"downloading {st} …", file=sys.stderr)
     df, names = load_state(st)
-    frame = analytic_frame(df, st)
-    cov = coverage(frame, names)
+    # Coverage on all cohorts (the .do-file scale), data on triennial only
+    full = analytic_frame(df, st, triennial=False)
+    cov = coverage(full, names)
+    frame = full[full.grad_cohort.isin(COHORTS)]
 
     if a.coverage:
         print(cov[["label", "obs_y1", "obs_y5", "obs_y10", "total_observed"]].to_string())
