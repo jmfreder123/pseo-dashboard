@@ -6,6 +6,7 @@ __pycache__/
 .env
 
 # Raw PSEO downloads: large, and regenerable via build_state_data.py
+.raw_cache/
 pseof_*.csv
 pseof_*.csv.gz
 pseoe_*.csv

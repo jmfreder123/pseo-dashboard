@@ -25,6 +25,10 @@ DASHBOARD_DATA = Path(
 RAW_AZ = DROPBOX_BASE / "pseof_az.csv"
 RAW_TX = DROPBOX_BASE / "OR, UT, CO, TX" / "pseof_tx.csv"
 
+# Raw files are cached here when downloaded from the Census release
+RAW_CACHE = Path(os.environ.get("PSEO_RAW_CACHE", Path(__file__).parent / ".raw_cache"))
+PSEO_BASE_URL = "https://lehd.ces.census.gov/data/pseo/latest_release"
+
 BUNDLED_AZ_TSI = DASHBOARD_DATA / "az_tsi.csv"
 BUNDLED_AZ_FLOWS = DASHBOARD_DATA / "az_regional_flows.csv"
 BUNDLED_TX_TSI = DASHBOARD_DATA / "tx_tsi.csv"
@@ -48,6 +52,20 @@ CO_INST_CODES = {
     "Colorado State": "00135000",
 }
 
+OR_INST_CODES = {
+    "University of Oregon": "00322300",
+    "Oregon State": "00321000",
+    "Portland State": "00321600",
+    "Oregon Tech": "00321100",
+}
+
+UT_INST_CODES = {
+    "University of Utah": "00367500",
+    "Utah State": "00367700",
+    "Utah Valley": "00402700",
+    "Weber State": "00368000",
+}
+
 # Industry NAICS code lookups
 INDUSTRY_CODES = {
     "Agriculture": "11", "Mining": "21", "Utilities": "22",
@@ -65,6 +83,41 @@ REGION_CODES = {
     "West North Central": "4", "South Atlantic": "5", "East South Central": "6",
     "West South Central": "7", "Mountain": "8", "Pacific": "9",
 }
+
+
+def load_raw(state):
+    """Return the raw pseof_<state>.csv as a DataFrame.
+
+    Looks in the configured local paths first, then falls back to downloading
+    from the Census release into RAW_CACHE. The fallback is what lets a state
+    be audited on a machine that has no local copy of the raw file.
+    """
+    st = state.lower()
+    candidates = [
+        DROPBOX_BASE / f"pseof_{st}.csv",
+        DROPBOX_BASE / "OR, UT, CO, TX" / f"pseof_{st}.csv",
+        RAW_CACHE / f"pseof_{st}.csv",
+    ]
+    for p in candidates:
+        if p.exists():
+            print(f"  raw {st}: {p}")
+            return pd.read_csv(p, dtype=str, low_memory=False)
+
+    import gzip
+    import urllib.request
+
+    url = f"{PSEO_BASE_URL}/{st}/pseof_{st}.csv.gz"
+    print(f"  raw {st}: not found locally, downloading {url}")
+    RAW_CACHE.mkdir(parents=True, exist_ok=True)
+    dest = RAW_CACHE / f"pseof_{st}.csv"
+    with urllib.request.urlopen(url) as r:
+        dest.write_bytes(gzip.decompress(r.read()))
+    return pd.read_csv(dest, dtype=str, low_memory=False)
+
+
+def load_bundled(state, kind):
+    """Load a bundled dashboard CSV: kind is 'tsi' or 'regional_flows'."""
+    return pd.read_csv(DASHBOARD_DATA / f"{state.lower()}_{kind}.csv")
 
 
 def find_raw_tsi_cell(raw_df, inst_code, industry_code, cohort, horizon):
@@ -201,73 +254,117 @@ def audit_flows(name, raw_df, bundled_df, inst_label, inst_code, industry_label,
         print(f"  {'PASS' if match else 'FAIL'}  values {'match' if match else 'differ'}")
 
 
-def main():
-    print("Loading raw PSEO files (this takes a moment)...")
-    raw_az = pd.read_csv(RAW_AZ, dtype=str, low_memory=False)
-    raw_tx = pd.read_csv(RAW_TX, dtype=str, low_memory=False)
-
-    print("Loading bundled dashboard CSVs...")
-    bundled_az_tsi = pd.read_csv(BUNDLED_AZ_TSI)
-    bundled_az_flows = pd.read_csv(BUNDLED_AZ_FLOWS)
-    bundled_tx_tsi = pd.read_csv(BUNDLED_TX_TSI)
-    bundled_tx_flows = pd.read_csv(BUNDLED_TX_FLOWS)
-    bundled_co_tsi = pd.read_csv(BUNDLED_CO_TSI)
-    bundled_co_flows = pd.read_csv(BUNDLED_CO_FLOWS)
-    raw_co = pd.read_csv(RAW_CO, dtype=str, low_memory=False)
-
-    print("\n" + "=" * 70)
-    print("STANDARD AUDIT — 10 spot checks")
-    print("=" * 70)
-
-    # AZ TSI checks
+def check_az(raw, tsi, flows):
     print("\n### AZ TSI checks ###")
-    audit_tsi("AZ-1: ASU Education 2004 Y1", raw_az, bundled_az_tsi,
+    audit_tsi("AZ-1: ASU Education 2004 Y1", raw, tsi,
               "ASU", AZ_INST_CODES["ASU"], "Education", "2004", 1)
-    audit_tsi("AZ-2: UA Information 2010 Y10", raw_az, bundled_az_tsi,
+    audit_tsi("AZ-2: UA Information 2010 Y10", raw, tsi,
               "UA", AZ_INST_CODES["UA"], "Information", "2010", 10)
-    audit_tsi("AZ-3: NAU Utilities 2007 Y5", raw_az, bundled_az_tsi,
+    audit_tsi("AZ-3: NAU Utilities 2007 Y5", raw, tsi,
               "NAU", AZ_INST_CODES["NAU"], "Utilities", "2007", 5)
 
-    # AZ flows checks
     print("\n### AZ regional flows checks ###")
     # For "all industries" we'd need ind_level=A; we kept ind_level=S only.
     # Substitute: ASU Education -> Mountain Y1 (largest single flow we can verify)
-    audit_flows("AZ-4: ASU Education -> Mountain Y1", raw_az, bundled_az_flows,
+    audit_flows("AZ-4: ASU Education -> Mountain Y1", raw, flows,
                 "ASU", AZ_INST_CODES["ASU"], "Education", "2004", "Mountain", 1)
-    audit_flows("AZ-5: UA Information -> Pacific Y1", raw_az, bundled_az_flows,
+    audit_flows("AZ-5: UA Information -> Pacific Y1", raw, flows,
                 "UA", AZ_INST_CODES["UA"], "Information", "2004", "Pacific", 1)
 
-    # TX TSI checks
+
+def check_tx(raw, tsi, flows):
     print("\n### TX TSI checks ###")
-    audit_tsi("TX-1: UT-Austin Information 2004 Y1", raw_tx, bundled_tx_tsi,
+    audit_tsi("TX-1: UT-Austin Information 2004 Y1", raw, tsi,
               "UT Austin", TX_INST_CODES["UT Austin"], "Information", "2004", 1)
-    audit_tsi("TX-2: Texas A&M Education 2010 Y5", raw_tx, bundled_tx_tsi,
+    audit_tsi("TX-2: Texas A&M Education 2010 Y5", raw, tsi,
               "Texas A&M", TX_INST_CODES["Texas A&M"], "Education", "2010", 5)
-    audit_tsi("TX-3: Sam Houston Health Care 2016 Y1", raw_tx, bundled_tx_tsi,
+    audit_tsi("TX-3: Sam Houston Health Care 2016 Y1", raw, tsi,
               "Sam Houston State", TX_INST_CODES["Sam Houston State"], "Health Care", "2016", 1)
 
-    # TX flows checks
     print("\n### TX regional flows checks ###")
-    audit_flows("TX-4: UT-Austin Information -> West South Central Y1", raw_tx, bundled_tx_flows,
+    audit_flows("TX-4: UT-Austin Information -> West South Central Y1", raw, flows,
                 "UT Austin", TX_INST_CODES["UT Austin"], "Information", "2004", "West South Central", 1)
-    audit_flows("TX-5: Texas A&M Information -> Pacific Y1", raw_tx, bundled_tx_flows,
+    audit_flows("TX-5: Texas A&M Information -> Pacific Y1", raw, flows,
                 "Texas A&M", TX_INST_CODES["Texas A&M"], "Information", "2004", "Pacific", 1)
 
-    # CO TSI checks
+
+def check_co(raw, tsi, flows):
     print("\n### CO TSI checks ###")
-    audit_tsi("CO-1: CU Boulder Information 2004 Y1", raw_co, bundled_co_tsi,
+    audit_tsi("CO-1: CU Boulder Information 2004 Y1", raw, tsi,
               "CU Boulder", CO_INST_CODES["CU Boulder"], "Information", "2004", 1)
-    audit_tsi("CO-2: Colorado School of Mines Mining 2010 Y10", raw_co, bundled_co_tsi,
+    audit_tsi("CO-2: Colorado School of Mines Mining 2010 Y10", raw, tsi,
               "Colorado School of Mines", CO_INST_CODES["Colorado School of Mines"], "Mining", "2010", 10)
-    audit_tsi("CO-3: Metro State Denver Health Care 2016 Y1", raw_co, bundled_co_tsi,
+    audit_tsi("CO-3: Metro State Denver Health Care 2016 Y1", raw, tsi,
               "Metro State Denver", CO_INST_CODES["Metro State Denver"], "Health Care", "2016", 1)
 
-    # CO flows checks
     print("\n### CO regional flows checks ###")
-    audit_flows("CO-4: CU Boulder Information -> Pacific Y1", raw_co, bundled_co_flows,
+    audit_flows("CO-4: CU Boulder Information -> Pacific Y1", raw, flows,
                 "CU Boulder", CO_INST_CODES["CU Boulder"], "Information", "2004", "Pacific", 1)
-    audit_flows("CO-5: Colorado State Education -> Mountain Y1", raw_co, bundled_co_flows,
+    audit_flows("CO-5: Colorado State Education -> Mountain Y1", raw, flows,
                 "Colorado State", CO_INST_CODES["Colorado State"], "Education", "2004", "Mountain", 1)
+
+
+def check_or(raw, tsi, flows):
+    print("\n### OR TSI checks ###")
+    audit_tsi("OR-1: U Oregon Information 2004 Y1", raw, tsi,
+              "University of Oregon", OR_INST_CODES["University of Oregon"], "Information", "2004", 1)
+    audit_tsi("OR-2: Oregon State Manufacturing 2010 Y10", raw, tsi,
+              "Oregon State", OR_INST_CODES["Oregon State"], "Manufacturing", "2010", 10)
+    audit_tsi("OR-3: Portland State Health Care 2016 Y1", raw, tsi,
+              "Portland State", OR_INST_CODES["Portland State"], "Health Care", "2016", 1)
+
+    print("\n### OR regional flows checks ###")
+    audit_flows("OR-4: U Oregon Information -> Pacific Y1", raw, flows,
+                "University of Oregon", OR_INST_CODES["University of Oregon"], "Information", "2004", "Pacific", 1)
+    audit_flows("OR-5: Oregon State Education -> Mountain Y1", raw, flows,
+                "Oregon State", OR_INST_CODES["Oregon State"], "Education", "2004", "Mountain", 1)
+
+
+def check_ut(raw, tsi, flows):
+    # UT cohorts start at 2010 -- 2004 and 2007 do not exist in the source.
+    print("\n### UT TSI checks ###")
+    audit_tsi("UT-1: U Utah Information 2010 Y1", raw, tsi,
+              "University of Utah", UT_INST_CODES["University of Utah"], "Information", "2010", 1)
+    audit_tsi("UT-2: U Utah Health Care 2010 Y10", raw, tsi,
+              "University of Utah", UT_INST_CODES["University of Utah"], "Health Care", "2010", 10)
+    audit_tsi("UT-3: Utah State Education 2016 Y5", raw, tsi,
+              "Utah State", UT_INST_CODES["Utah State"], "Education", "2016", 5)
+    audit_tsi("UT-4: Weber State Manufacturing 2016 Y1", raw, tsi,
+              "Weber State", UT_INST_CODES["Weber State"], "Manufacturing", "2016", 1)
+
+    print("\n### UT regional flows checks ###")
+    audit_flows("UT-5: U Utah Information -> Pacific Y1", raw, flows,
+                "University of Utah", UT_INST_CODES["University of Utah"], "Information", "2010", "Pacific", 1)
+    audit_flows("UT-6: Utah Valley Health Care -> Mountain Y1", raw, flows,
+                "Utah Valley", UT_INST_CODES["Utah Valley"], "Health Care", "2016", "Mountain", 1)
+
+    print("\n### UT cohort-coverage check ###")
+    missing = [c for c in ("2004", "2007") if (tsi["grad_cohort"].astype(str) == c).any()]
+    if missing:
+        print(f"  FAIL  unexpected cohorts present in bundled UT data: {missing}")
+    else:
+        print("  PASS  2004 and 2007 absent, as expected for UT")
+
+
+CHECKS = {"az": check_az, "tx": check_tx, "co": check_co, "or": check_or, "ut": check_ut}
+
+
+def main():
+    states = [s.lower() for s in sys.argv[1:]] or list(CHECKS)
+    unknown = [s for s in states if s not in CHECKS]
+    if unknown:
+        sys.exit(f"no checks defined for: {', '.join(unknown)}. Known: {', '.join(CHECKS)}")
+
+    print("=" * 70)
+    print(f"STANDARD AUDIT — {', '.join(s.upper() for s in states)}")
+    print("=" * 70)
+
+    for st in states:
+        print(f"\nLoading {st.upper()} …")
+        raw = load_raw(st)
+        tsi = load_bundled(st, "tsi")
+        flows = load_bundled(st, "regional_flows")
+        CHECKS[st](raw, tsi, flows)
 
     print("\n" + "=" * 70)
     print("Audit complete.")
@@ -392,4 +489,11 @@ def audit_dashboard_aggregation():
 
 if __name__ == "__main__":
     main()
-    audit_dashboard_aggregation()
+    # Layer 3 replicates the dashboard's aggregation against hardcoded AZ/TX
+    # expectations, so it only makes sense when both are in scope.
+    selected = [s.lower() for s in sys.argv[1:]] or list(CHECKS)
+    if {"az", "tx"} <= set(selected):
+        audit_dashboard_aggregation()
+    else:
+        print("\n(skipping Layer 3 aggregation audit — it is AZ/TX-specific;"
+              " run with no arguments to include it)")
