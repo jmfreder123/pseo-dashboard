@@ -454,8 +454,8 @@ def audit_dashboard_aggregation():
     in_, n, si = dashboard_tsi(["AZ", "TX"], ["ASU", "UT Austin"], ["Education"], [2004], 1)
     print(f"  Dashboard would display: emp_instate={in_}  emp_n={n}  TSI={si:.4f}")
     # Verify: pull each component cell from raw and sum
-    raw_az = pd.read_csv(RAW_AZ, dtype=str, low_memory=False)
-    raw_tx = pd.read_csv(RAW_TX, dtype=str, low_memory=False)
+    raw_az = load_raw("az")
+    raw_tx = load_raw("tx")
     asu = find_raw_tsi_cell(raw_az, AZ_INST_CODES["ASU"], "61", "2004", 1)
     uta = find_raw_tsi_cell(raw_tx, TX_INST_CODES["UT Austin"], "61", "2004", 1)
     exp_in = asu[0] + uta[0]

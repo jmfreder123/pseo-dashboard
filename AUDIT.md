@@ -13,9 +13,10 @@ Raw files are read from the configured local paths if present, otherwise
 downloaded from `https://lehd.ces.census.gov/data/pseo/latest_release/` and
 cached in `.raw_cache/` (gitignored).
 
-## Run of 2026-08-02 — 27/27 pass
+## Run of 2026-08-02 — 32/32 pass
 
-Source: PSEO `latest_release`.
+Source: PSEO `latest_release`. Full run, `python3 audit.py` with no arguments:
+27 per-state spot checks plus 5 Layer 3 aggregation checks, no failures.
 
 ### Arizona (5/5)
 
@@ -69,20 +70,40 @@ Source: PSEO `latest_release`.
 | UT-6 Utah Valley Health Care → Mountain Y1 | 771 / 805 | — | PASS |
 | UT-7 cohorts 2004 and 2007 absent | — | — | PASS |
 
+### Layer 3 — dashboard aggregation logic (5/5)
+
+These replicate the dashboard's own filter-and-aggregate path rather than
+comparing files, so they test the ratio-of-sums logic the heatmap, line plot,
+and Sankey depend on.
+
+| Check | Value | Result |
+|---|---|---|
+| L3-1 ASU Education 2004 Y1, single cell | 3788 / 4140 = 0.9150 | PASS |
+| L3-2 ASU Education, all cohorts, Y1 | 17132 / 20803 = 0.8235 | PASS |
+| L3-3 Cross-state: ASU + UT Austin, Education 2004 Y1 | 6484 / 7204 = 0.9001 | PASS |
+| L3-4 AZ aggregate, all inst × ind × cohorts, Y1 | 203146 / 289679 = 0.7013 | PASS |
+| L3-5 Sankey flow, ASU Education → Mountain 2004 Y1 | 3834 | PASS |
+
+**L3-4 is the strongest single result here.** Its expected value comes from an
+earlier Stata `total` command, so the match confirms the Streamlit aggregation
+reproduces the Stata pipeline's output — not merely that the bundled CSVs match
+the raw release. L3-2 and L3-3 confirm that cross-cohort and cross-state
+aggregation compose correctly when several filters are active at once.
+
 ## Scope and limitations
 
-- **These are spot checks, not full verification.** 27 cells against a corpus
-  of 16,560 TSI cells and 149,040 flow cells. They confirm the analytic
+- **These are spot checks, not full verification.** 27 sampled cells against a
+  corpus of 16,560 TSI cells and 149,040 flow cells. They confirm the analytic
   filters, institution and industry label mappings, and the reshape are
-  correct; they cannot rule out an error confined to cells not sampled.
+  correct; they cannot rule out an error confined to cells not sampled. The
+  Layer 3 checks are broader — L3-4 aggregates every Arizona cell at Y1 — but
+  cover only AZ and TX.
 - **AZ, TX, and CO were built in Stata; OR and UT were built by
   `build_state_data.py`.** Both paths reproduce the raw values exactly at
   every cell checked, which is the evidence that the Python builder is a
   faithful reimplementation of the `.do` pipeline.
-- **The Layer 3 aggregation audit did not run in this session.** It replicates
-  the dashboard's ratio-of-sums logic against hardcoded AZ/TX expectations and
-  only executes when both states are in scope; the runs here were `ut`, `or`,
-  `az`, and `co tx` separately. Run `python3 audit.py` with no arguments to
-  include it.
+- **Layer 3 covers only AZ and TX.** Its expected values are hardcoded for
+  those states, so it is skipped unless both are in scope. There is no
+  equivalent aggregation check for CO, OR, or UT.
 - A stronger check for publication would be a full-column comparison against a
   Stata-generated file rather than sampled cells.
