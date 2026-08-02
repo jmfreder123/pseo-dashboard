@@ -166,8 +166,9 @@ with tab0:
         of a university's graduates who remain employed in that same state at one, five,
         and ten years after graduation. Built on the U.S. Census Bureau's Postsecondary
         Employment Outcomes (PSEO) data, it covers bachelor's degree graduates from public
-        universities in Arizona, Texas, Colorado, and Oregon, spanning graduation cohorts
-        from 2004 to 2019 and twenty industries defined by two-digit NAICS codes.
+        universities in Arizona, Texas, Colorado, Oregon, and Utah, spanning graduation
+        cohorts from 2004 to 2019 and twenty industries defined by two-digit NAICS codes.
+        Utah's data begin with the 2010 cohort.
 
         The TSI is purely descriptive. It documents where graduates work; it does not explain why
         graduates stay or leave.
@@ -333,6 +334,7 @@ with tab3:
                 "TX": "#c47b3a",   # muted burnt-orange (Texas)
                 "CO": "#5a8b8e",   # muted teal (Colorado mountains)
                 "OR": "#4f7a52",   # muted evergreen (Oregon)
+                "UT": "#7a6a9c",   # muted slate-violet (Utah)
             }
             DEFAULT_INST_COLOR = "#888888"
 

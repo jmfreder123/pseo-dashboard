@@ -1,7 +1,7 @@
 # PSEO Talent Stickiness Dashboard
 
 Interactive dashboard for exploring graduate retention patterns at public
-universities in Arizona, Texas, Colorado, and Oregon.
+universities in Arizona, Texas, Colorado, Oregon, and Utah.
 
 ## Setup
 
@@ -25,12 +25,13 @@ The dashboard will open in your default browser at `http://localhost:8501`.
 
 Two CSVs per state in `data/`, named `{st}_tsi.csv` and `{st}_regional_flows.csv`:
 
-| State | Institutions | Selection rule |
-|-------|--------------|----------------|
-| AZ | 3 | all four-year publics |
-| TX | 20 | `total_observed >= 340` |
-| CO | 12 | `total_observed >= 320` |
-| OR | 7 | all four-year publics (no threshold — see Notes) |
+| State | Institutions | Cohorts | Selection rule |
+|-------|--------------|---------|----------------|
+| AZ | 3 | 2004–2019 | all four-year publics |
+| TX | 20 | 2004–2019 | `total_observed >= 340` |
+| CO | 12 | 2004–2019 | `total_observed >= 320` |
+| OR | 7 | 2004–2019 | all four-year publics (no threshold — see Notes) |
+| UT | 6 | 2010–2019 | `total_observed >= 100` (drops Snow College) |
 
 Source: U.S. Census Bureau Postsecondary Employment Outcomes (PSEO),
 2004–2019 graduation cohorts, bachelor's degrees, all CIP codes.
@@ -79,6 +80,11 @@ institution's name for the axes.
 - TSI is computed as **ratio of sums** within filtered data, not mean of ratios.
 - Suppressed cells are dropped before aggregation.
 - Y10 data is observed only for the 2004, 2007, and 2010 cohorts; Y5 excludes 2019.
+- **Utah's PSEO data begin with the 2010 cohort** — there are no 2004 or 2007
+  rows. Filtering to those cohorts yields nothing for UT, and Utah's Y10
+  figures rest on the 2010 cohort alone.
 - Coverage thresholds are state-specific and do **not** transfer. Oregon's 7
   publics all fall between 268 and 278 observed cells, so applying CO's 320 or
-  TX's 340 would select zero institutions. Always run `--coverage` first.
+  TX's 340 would select zero institutions. Utah's six four-year publics sit at
+  155–160 while Snow College sits at 14, so a threshold anywhere in that gap
+  works. Always run `--coverage` first.

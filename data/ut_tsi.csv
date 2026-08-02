@@ -1,0 +1,1441 @@
+institution_cat,industry_cat,grad_cohort,horizon,emp_instate_,emp_n_,SI_by_cohort,state
+Southern Utah,Admin/Waste,2010,1,29,54,.53703701,UT
+Southern Utah,Admin/Waste,2010,5,32,44,.72727275,UT
+Southern Utah,Admin/Waste,2010,10,20,42,.47619048,UT
+Southern Utah,Admin/Waste,2013,1,23,29,.79310346,UT
+Southern Utah,Admin/Waste,2013,5,34,61,.55737704,UT
+Southern Utah,Admin/Waste,2013,10,,,,UT
+Southern Utah,Admin/Waste,2016,1,45,64,.703125,UT
+Southern Utah,Admin/Waste,2016,5,34,64,.53125,UT
+Southern Utah,Admin/Waste,2016,10,,,,UT
+Southern Utah,Admin/Waste,2019,1,62,96,.64583331,UT
+Southern Utah,Admin/Waste,2019,5,,,,UT
+Southern Utah,Admin/Waste,2019,10,,,,UT
+Southern Utah,Agriculture,2010,1,5,7,.71428573,UT
+Southern Utah,Agriculture,2010,5,0,7,0,UT
+Southern Utah,Agriculture,2010,10,2,4,.5,UT
+Southern Utah,Agriculture,2013,1,0,1,0,UT
+Southern Utah,Agriculture,2013,5,10,19,.52631581,UT
+Southern Utah,Agriculture,2013,10,,,,UT
+Southern Utah,Agriculture,2016,1,5,8,.625,UT
+Southern Utah,Agriculture,2016,5,7,13,.53846157,UT
+Southern Utah,Agriculture,2016,10,,,,UT
+Southern Utah,Agriculture,2019,1,8,13,.61538464,UT
+Southern Utah,Agriculture,2019,5,,,,UT
+Southern Utah,Agriculture,2019,10,,,,UT
+Southern Utah,Arts/Entertainment,2010,1,17,23,.73913044,UT
+Southern Utah,Arts/Entertainment,2010,5,13,14,.9285714,UT
+Southern Utah,Arts/Entertainment,2010,10,10,12,.83333331,UT
+Southern Utah,Arts/Entertainment,2013,1,12,15,.80000001,UT
+Southern Utah,Arts/Entertainment,2013,5,18,29,.62068963,UT
+Southern Utah,Arts/Entertainment,2013,10,,,,UT
+Southern Utah,Arts/Entertainment,2016,1,13,20,.64999998,UT
+Southern Utah,Arts/Entertainment,2016,5,16,31,.51612902,UT
+Southern Utah,Arts/Entertainment,2016,10,,,,UT
+Southern Utah,Arts/Entertainment,2019,1,23,32,.71875,UT
+Southern Utah,Arts/Entertainment,2019,5,,,,UT
+Southern Utah,Arts/Entertainment,2019,10,,,,UT
+Southern Utah,Construction,2010,1,30,46,.65217394,UT
+Southern Utah,Construction,2010,5,30,51,.58823532,UT
+Southern Utah,Construction,2010,10,38,53,.71698111,UT
+Southern Utah,Construction,2013,1,32,43,.74418604,UT
+Southern Utah,Construction,2013,5,46,80,.57499999,UT
+Southern Utah,Construction,2013,10,,,,UT
+Southern Utah,Construction,2016,1,28,35,.80000001,UT
+Southern Utah,Construction,2016,5,46,92,.5,UT
+Southern Utah,Construction,2016,10,,,,UT
+Southern Utah,Construction,2019,1,59,96,.61458331,UT
+Southern Utah,Construction,2019,5,,,,UT
+Southern Utah,Construction,2019,10,,,,UT
+Southern Utah,Education,2010,1,267,345,.77391303,UT
+Southern Utah,Education,2010,5,276,369,.74796748,UT
+Southern Utah,Education,2010,10,244,345,.70724636,UT
+Southern Utah,Education,2013,1,306,382,.80104715,UT
+Southern Utah,Education,2013,5,356,495,.71919191,UT
+Southern Utah,Education,2013,10,,,,UT
+Southern Utah,Education,2016,1,309,397,.77833754,UT
+Southern Utah,Education,2016,5,325,482,.67427385,UT
+Southern Utah,Education,2016,10,,,,UT
+Southern Utah,Education,2019,1,362,476,.76050419,UT
+Southern Utah,Education,2019,5,,,,UT
+Southern Utah,Education,2019,10,,,,UT
+Southern Utah,Finance,2010,1,51,78,.65384614,UT
+Southern Utah,Finance,2010,5,69,95,.7263158,UT
+Southern Utah,Finance,2010,10,60,92,.65217394,UT
+Southern Utah,Finance,2013,1,63,76,.82894737,UT
+Southern Utah,Finance,2013,5,76,105,.72380954,UT
+Southern Utah,Finance,2013,10,,,,UT
+Southern Utah,Finance,2016,1,62,101,.61386138,UT
+Southern Utah,Finance,2016,5,87,123,.70731705,UT
+Southern Utah,Finance,2016,10,,,,UT
+Southern Utah,Finance,2019,1,97,125,.77600002,UT
+Southern Utah,Finance,2019,5,,,,UT
+Southern Utah,Finance,2019,10,,,,UT
+Southern Utah,Food/Hospitality,2010,1,52,92,.56521738,UT
+Southern Utah,Food/Hospitality,2010,5,23,73,.31506848,UT
+Southern Utah,Food/Hospitality,2010,10,17,44,.38636363,UT
+Southern Utah,Food/Hospitality,2013,1,55,86,.63953489,UT
+Southern Utah,Food/Hospitality,2013,5,23,71,.32394367,UT
+Southern Utah,Food/Hospitality,2013,10,,,,UT
+Southern Utah,Food/Hospitality,2016,1,49,99,.49494949,UT
+Southern Utah,Food/Hospitality,2016,5,31,62,.5,UT
+Southern Utah,Food/Hospitality,2016,10,,,,UT
+Southern Utah,Food/Hospitality,2019,1,53,97,.54639173,UT
+Southern Utah,Food/Hospitality,2019,5,,,,UT
+Southern Utah,Food/Hospitality,2019,10,,,,UT
+Southern Utah,Health Care,2010,1,235,317,.7413249,UT
+Southern Utah,Health Care,2010,5,217,343,.63265306,UT
+Southern Utah,Health Care,2010,10,225,388,.57989693,UT
+Southern Utah,Health Care,2013,1,278,341,.81524926,UT
+Southern Utah,Health Care,2013,5,299,488,.61270493,UT
+Southern Utah,Health Care,2013,10,,,,UT
+Southern Utah,Health Care,2016,1,363,450,.80666667,UT
+Southern Utah,Health Care,2016,5,292,475,.61473686,UT
+Southern Utah,Health Care,2016,10,,,,UT
+Southern Utah,Health Care,2019,1,519,682,.76099706,UT
+Southern Utah,Health Care,2019,5,,,,UT
+Southern Utah,Health Care,2019,10,,,,UT
+Southern Utah,Information,2010,1,27,30,.89999998,UT
+Southern Utah,Information,2010,5,33,37,.8918919,UT
+Southern Utah,Information,2010,10,23,31,.74193549,UT
+Southern Utah,Information,2013,1,22,29,.75862068,UT
+Southern Utah,Information,2013,5,33,53,.6226415,UT
+Southern Utah,Information,2013,10,,,,UT
+Southern Utah,Information,2016,1,26,34,.7647059,UT
+Southern Utah,Information,2016,5,42,57,.7368421,UT
+Southern Utah,Information,2016,10,,,,UT
+Southern Utah,Information,2019,1,31,49,.63265306,UT
+Southern Utah,Information,2019,5,,,,UT
+Southern Utah,Information,2019,10,,,,UT
+Southern Utah,Management,2010,1,9,12,.75,UT
+Southern Utah,Management,2010,5,11,11,1,UT
+Southern Utah,Management,2010,10,7,11,.63636363,UT
+Southern Utah,Management,2013,1,5,12,.41666666,UT
+Southern Utah,Management,2013,5,10,21,.47619048,UT
+Southern Utah,Management,2013,10,,,,UT
+Southern Utah,Management,2016,1,11,12,.91666669,UT
+Southern Utah,Management,2016,5,16,22,.72727275,UT
+Southern Utah,Management,2016,10,,,,UT
+Southern Utah,Management,2019,1,16,25,.63999999,UT
+Southern Utah,Management,2019,5,,,,UT
+Southern Utah,Management,2019,10,,,,UT
+Southern Utah,Manufacturing,2010,1,39,82,.47560975,UT
+Southern Utah,Manufacturing,2010,5,44,72,.6111111,UT
+Southern Utah,Manufacturing,2010,10,35,76,.46052632,UT
+Southern Utah,Manufacturing,2013,1,41,59,.69491524,UT
+Southern Utah,Manufacturing,2013,5,62,119,.52100843,UT
+Southern Utah,Manufacturing,2013,10,,,,UT
+Southern Utah,Manufacturing,2016,1,37,62,.59677422,UT
+Southern Utah,Manufacturing,2016,5,35,100,.34999999,UT
+Southern Utah,Manufacturing,2016,10,,,,UT
+Southern Utah,Manufacturing,2019,1,76,117,.64957267,UT
+Southern Utah,Manufacturing,2019,5,,,,UT
+Southern Utah,Manufacturing,2019,10,,,,UT
+Southern Utah,Mining,2010,1,12,15,.80000001,UT
+Southern Utah,Mining,2010,5,6,6,1,UT
+Southern Utah,Mining,2010,10,3,5,.60000002,UT
+Southern Utah,Mining,2013,1,1,2,.5,UT
+Southern Utah,Mining,2013,5,3,6,.5,UT
+Southern Utah,Mining,2013,10,,,,UT
+Southern Utah,Mining,2016,1,4,5,.80000001,UT
+Southern Utah,Mining,2016,5,0,0,,UT
+Southern Utah,Mining,2016,10,,,,UT
+Southern Utah,Mining,2019,1,5,5,1,UT
+Southern Utah,Mining,2019,5,,,,UT
+Southern Utah,Mining,2019,10,,,,UT
+Southern Utah,Other Services,2010,1,9,12,.75,UT
+Southern Utah,Other Services,2010,5,16,26,.61538464,UT
+Southern Utah,Other Services,2010,10,11,19,.57894737,UT
+Southern Utah,Other Services,2013,1,9,12,.75,UT
+Southern Utah,Other Services,2013,5,8,18,.44444445,UT
+Southern Utah,Other Services,2013,10,,,,UT
+Southern Utah,Other Services,2016,1,17,25,.68000001,UT
+Southern Utah,Other Services,2016,5,16,22,.72727275,UT
+Southern Utah,Other Services,2016,10,,,,UT
+Southern Utah,Other Services,2019,1,15,25,.60000002,UT
+Southern Utah,Other Services,2019,5,,,,UT
+Southern Utah,Other Services,2019,10,,,,UT
+Southern Utah,Professional Services,2010,1,57,101,.56435645,UT
+Southern Utah,Professional Services,2010,5,70,107,.65420562,UT
+Southern Utah,Professional Services,2010,10,67,109,.61467892,UT
+Southern Utah,Professional Services,2013,1,72,102,.70588237,UT
+Southern Utah,Professional Services,2013,5,119,181,.65745854,UT
+Southern Utah,Professional Services,2013,10,,,,UT
+Southern Utah,Professional Services,2016,1,106,150,.70666665,UT
+Southern Utah,Professional Services,2016,5,159,242,.6570248,UT
+Southern Utah,Professional Services,2016,10,,,,UT
+Southern Utah,Professional Services,2019,1,174,254,.68503934,UT
+Southern Utah,Professional Services,2019,5,,,,UT
+Southern Utah,Professional Services,2019,10,,,,UT
+Southern Utah,Public Admin,2010,1,66,93,.7096774,UT
+Southern Utah,Public Admin,2010,5,78,114,.68421054,UT
+Southern Utah,Public Admin,2010,10,74,97,.76288658,UT
+Southern Utah,Public Admin,2013,1,79,89,.88764048,UT
+Southern Utah,Public Admin,2013,5,120,166,.72289157,UT
+Southern Utah,Public Admin,2013,10,,,,UT
+Southern Utah,Public Admin,2016,1,89,110,.80909091,UT
+Southern Utah,Public Admin,2016,5,112,167,.67065871,UT
+Southern Utah,Public Admin,2016,10,,,,UT
+Southern Utah,Public Admin,2019,1,125,165,.75757575,UT
+Southern Utah,Public Admin,2019,5,,,,UT
+Southern Utah,Public Admin,2019,10,,,,UT
+Southern Utah,Real Estate,2010,1,11,19,.57894737,UT
+Southern Utah,Real Estate,2010,5,10,18,.55555558,UT
+Southern Utah,Real Estate,2010,10,9,17,.52941179,UT
+Southern Utah,Real Estate,2013,1,10,11,.90909094,UT
+Southern Utah,Real Estate,2013,5,12,18,.66666669,UT
+Southern Utah,Real Estate,2013,10,,,,UT
+Southern Utah,Real Estate,2016,1,8,16,.5,UT
+Southern Utah,Real Estate,2016,5,14,17,.82352942,UT
+Southern Utah,Real Estate,2016,10,,,,UT
+Southern Utah,Real Estate,2019,1,26,31,.83870965,UT
+Southern Utah,Real Estate,2019,5,,,,UT
+Southern Utah,Real Estate,2019,10,,,,UT
+Southern Utah,Retail,2010,1,64,133,.48120302,UT
+Southern Utah,Retail,2010,5,44,95,.46315789,UT
+Southern Utah,Retail,2010,10,47,105,.44761905,UT
+Southern Utah,Retail,2013,1,88,130,.6769231,UT
+Southern Utah,Retail,2013,5,63,132,.47727272,UT
+Southern Utah,Retail,2013,10,,,,UT
+Southern Utah,Retail,2016,1,77,131,.58778626,UT
+Southern Utah,Retail,2016,5,72,145,.49655172,UT
+Southern Utah,Retail,2016,10,,,,UT
+Southern Utah,Retail,2019,1,120,191,.62827224,UT
+Southern Utah,Retail,2019,5,,,,UT
+Southern Utah,Retail,2019,10,,,,UT
+Southern Utah,Transportation,2010,1,31,40,.77499998,UT
+Southern Utah,Transportation,2010,5,24,34,.70588237,UT
+Southern Utah,Transportation,2010,10,25,34,.7352941,UT
+Southern Utah,Transportation,2013,1,19,26,.73076922,UT
+Southern Utah,Transportation,2013,5,28,46,.60869563,UT
+Southern Utah,Transportation,2013,10,,,,UT
+Southern Utah,Transportation,2016,1,21,32,.65625,UT
+Southern Utah,Transportation,2016,5,27,45,.60000002,UT
+Southern Utah,Transportation,2016,10,,,,UT
+Southern Utah,Transportation,2019,1,35,38,.92105263,UT
+Southern Utah,Transportation,2019,5,,,,UT
+Southern Utah,Transportation,2019,10,,,,UT
+Southern Utah,Utilities,2010,1,1,4,.25,UT
+Southern Utah,Utilities,2010,5,5,5,1,UT
+Southern Utah,Utilities,2010,10,6,9,.66666669,UT
+Southern Utah,Utilities,2013,1,1,2,.5,UT
+Southern Utah,Utilities,2013,5,5,13,.38461539,UT
+Southern Utah,Utilities,2013,10,,,,UT
+Southern Utah,Utilities,2016,1,0,3,0,UT
+Southern Utah,Utilities,2016,5,0,0,,UT
+Southern Utah,Utilities,2016,10,,,,UT
+Southern Utah,Utilities,2019,1,2,3,.66666669,UT
+Southern Utah,Utilities,2019,5,,,,UT
+Southern Utah,Utilities,2019,10,,,,UT
+Southern Utah,Wholesale,2010,1,24,36,.66666669,UT
+Southern Utah,Wholesale,2010,5,24,32,.75,UT
+Southern Utah,Wholesale,2010,10,27,34,.79411763,UT
+Southern Utah,Wholesale,2013,1,19,27,.7037037,UT
+Southern Utah,Wholesale,2013,5,24,55,.43636364,UT
+Southern Utah,Wholesale,2013,10,,,,UT
+Southern Utah,Wholesale,2016,1,14,25,.56,UT
+Southern Utah,Wholesale,2016,5,23,41,.56097561,UT
+Southern Utah,Wholesale,2016,10,,,,UT
+Southern Utah,Wholesale,2019,1,33,62,.53225809,UT
+Southern Utah,Wholesale,2019,5,,,,UT
+Southern Utah,Wholesale,2019,10,,,,UT
+University of Utah,Admin/Waste,2010,1,295,341,.86510265,UT
+University of Utah,Admin/Waste,2010,5,271,364,.74450547,UT
+University of Utah,Admin/Waste,2010,10,193,334,.57784432,UT
+University of Utah,Admin/Waste,2013,1,428,511,.83757341,UT
+University of Utah,Admin/Waste,2013,5,317,445,.71235955,UT
+University of Utah,Admin/Waste,2013,10,,,,UT
+University of Utah,Admin/Waste,2016,1,390,509,.76620823,UT
+University of Utah,Admin/Waste,2016,5,254,424,.5990566,UT
+University of Utah,Admin/Waste,2016,10,,,,UT
+University of Utah,Admin/Waste,2019,1,374,488,.76639342,UT
+University of Utah,Admin/Waste,2019,5,,,,UT
+University of Utah,Admin/Waste,2019,10,,,,UT
+University of Utah,Agriculture,2010,1,1,6,.16666667,UT
+University of Utah,Agriculture,2010,5,3,13,.23076923,UT
+University of Utah,Agriculture,2010,10,4,7,.5714286,UT
+University of Utah,Agriculture,2013,1,1,6,.16666667,UT
+University of Utah,Agriculture,2013,5,0,8,0,UT
+University of Utah,Agriculture,2013,10,,,,UT
+University of Utah,Agriculture,2016,1,3,10,.30000001,UT
+University of Utah,Agriculture,2016,5,3,12,.25,UT
+University of Utah,Agriculture,2016,10,,,,UT
+University of Utah,Agriculture,2019,1,5,14,.35714287,UT
+University of Utah,Agriculture,2019,5,,,,UT
+University of Utah,Agriculture,2019,10,,,,UT
+University of Utah,Arts/Entertainment,2010,1,107,120,.89166665,UT
+University of Utah,Arts/Entertainment,2010,5,89,119,.74789917,UT
+University of Utah,Arts/Entertainment,2010,10,58,79,.73417723,UT
+University of Utah,Arts/Entertainment,2013,1,128,150,.85333335,UT
+University of Utah,Arts/Entertainment,2013,5,105,139,.75539571,UT
+University of Utah,Arts/Entertainment,2013,10,,,,UT
+University of Utah,Arts/Entertainment,2016,1,158,187,.8449198,UT
+University of Utah,Arts/Entertainment,2016,5,90,138,.65217394,UT
+University of Utah,Arts/Entertainment,2016,10,,,,UT
+University of Utah,Arts/Entertainment,2019,1,137,179,.76536316,UT
+University of Utah,Arts/Entertainment,2019,5,,,,UT
+University of Utah,Arts/Entertainment,2019,10,,,,UT
+University of Utah,Construction,2010,1,99,114,.86842108,UT
+University of Utah,Construction,2010,5,135,185,.72972971,UT
+University of Utah,Construction,2010,10,171,219,.78082192,UT
+University of Utah,Construction,2013,1,157,186,.84408605,UT
+University of Utah,Construction,2013,5,213,278,.76618707,UT
+University of Utah,Construction,2013,10,,,,UT
+University of Utah,Construction,2016,1,183,235,.77872342,UT
+University of Utah,Construction,2016,5,206,279,.73835123,UT
+University of Utah,Construction,2016,10,,,,UT
+University of Utah,Construction,2019,1,222,267,.83146065,UT
+University of Utah,Construction,2019,5,,,,UT
+University of Utah,Construction,2019,10,,,,UT
+University of Utah,Education,2010,1,895,1026,.8723197,UT
+University of Utah,Education,2010,5,947,1204,.78654486,UT
+University of Utah,Education,2010,10,947,1274,.74332809,UT
+University of Utah,Education,2013,1,1257,1456,.86332417,UT
+University of Utah,Education,2013,5,1293,1704,.75880283,UT
+University of Utah,Education,2013,10,,,,UT
+University of Utah,Education,2016,1,1316,1492,.88203752,UT
+University of Utah,Education,2016,5,1158,1545,.74951458,UT
+University of Utah,Education,2016,10,,,,UT
+University of Utah,Education,2019,1,1373,1549,.88637829,UT
+University of Utah,Education,2019,5,,,,UT
+University of Utah,Education,2019,10,,,,UT
+University of Utah,Finance,2010,1,699,763,.91612059,UT
+University of Utah,Finance,2010,5,660,811,.81381011,UT
+University of Utah,Finance,2010,10,553,738,.74932247,UT
+University of Utah,Finance,2013,1,763,858,.8892774,UT
+University of Utah,Finance,2013,5,742,939,.79020232,UT
+University of Utah,Finance,2013,10,,,,UT
+University of Utah,Finance,2016,1,710,832,.85336536,UT
+University of Utah,Finance,2016,5,705,883,.79841447,UT
+University of Utah,Finance,2016,10,,,,UT
+University of Utah,Finance,2019,1,788,941,.83740699,UT
+University of Utah,Finance,2019,5,,,,UT
+University of Utah,Finance,2019,10,,,,UT
+University of Utah,Food/Hospitality,2010,1,301,386,.77979273,UT
+University of Utah,Food/Hospitality,2010,5,144,272,.52941179,UT
+University of Utah,Food/Hospitality,2010,10,96,191,.50261778,UT
+University of Utah,Food/Hospitality,2013,1,321,411,.78102189,UT
+University of Utah,Food/Hospitality,2013,5,175,305,.57377046,UT
+University of Utah,Food/Hospitality,2013,10,,,,UT
+University of Utah,Food/Hospitality,2016,1,362,492,.73577237,UT
+University of Utah,Food/Hospitality,2016,5,168,300,.56,UT
+University of Utah,Food/Hospitality,2016,10,,,,UT
+University of Utah,Food/Hospitality,2019,1,340,462,.73593074,UT
+University of Utah,Food/Hospitality,2019,5,,,,UT
+University of Utah,Food/Hospitality,2019,10,,,,UT
+University of Utah,Health Care,2010,1,1175,1349,.87101555,UT
+University of Utah,Health Care,2010,5,971,1367,.71031457,UT
+University of Utah,Health Care,2010,10,1001,1588,.63035262,UT
+University of Utah,Health Care,2013,1,1526,1785,.85490197,UT
+University of Utah,Health Care,2013,5,1364,1969,.6927374,UT
+University of Utah,Health Care,2013,10,,,,UT
+University of Utah,Health Care,2016,1,1623,1877,.86467767,UT
+University of Utah,Health Care,2016,5,1325,1875,.70666665,UT
+University of Utah,Health Care,2016,10,,,,UT
+University of Utah,Health Care,2019,1,1732,1999,.8664332,UT
+University of Utah,Health Care,2019,5,,,,UT
+University of Utah,Health Care,2019,10,,,,UT
+University of Utah,Information,2010,1,217,241,.90041494,UT
+University of Utah,Information,2010,5,295,391,.75447571,UT
+University of Utah,Information,2010,10,299,426,.70187795,UT
+University of Utah,Information,2013,1,316,367,.86103541,UT
+University of Utah,Information,2013,5,379,512,.74023438,UT
+University of Utah,Information,2013,10,,,,UT
+University of Utah,Information,2016,1,333,431,.77262181,UT
+University of Utah,Information,2016,5,450,636,.70754719,UT
+University of Utah,Information,2016,10,,,,UT
+University of Utah,Information,2019,1,391,503,.777336,UT
+University of Utah,Information,2019,5,,,,UT
+University of Utah,Information,2019,10,,,,UT
+University of Utah,Management,2010,1,148,152,.97368419,UT
+University of Utah,Management,2010,5,110,125,.88,UT
+University of Utah,Management,2010,10,109,132,.82575756,UT
+University of Utah,Management,2013,1,151,165,.91515154,UT
+University of Utah,Management,2013,5,150,186,.80645162,UT
+University of Utah,Management,2013,10,,,,UT
+University of Utah,Management,2016,1,168,189,.8888889,UT
+University of Utah,Management,2016,5,145,190,.7631579,UT
+University of Utah,Management,2016,10,,,,UT
+University of Utah,Management,2019,1,173,189,.91534394,UT
+University of Utah,Management,2019,5,,,,UT
+University of Utah,Management,2019,10,,,,UT
+University of Utah,Manufacturing,2010,1,409,486,.84156376,UT
+University of Utah,Manufacturing,2010,5,427,561,.76114082,UT
+University of Utah,Manufacturing,2010,10,403,560,.71964288,UT
+University of Utah,Manufacturing,2013,1,579,726,.79752064,UT
+University of Utah,Manufacturing,2013,5,553,749,.73831773,UT
+University of Utah,Manufacturing,2013,10,,,,UT
+University of Utah,Manufacturing,2016,1,662,785,.84331208,UT
+University of Utah,Manufacturing,2016,5,664,880,.75454545,UT
+University of Utah,Manufacturing,2016,10,,,,UT
+University of Utah,Manufacturing,2019,1,638,795,.80251575,UT
+University of Utah,Manufacturing,2019,5,,,,UT
+University of Utah,Manufacturing,2019,10,,,,UT
+University of Utah,Mining,2010,1,22,33,.66666669,UT
+University of Utah,Mining,2010,5,19,21,.90476191,UT
+University of Utah,Mining,2010,10,20,22,.90909094,UT
+University of Utah,Mining,2013,1,27,30,.89999998,UT
+University of Utah,Mining,2013,5,17,24,.70833331,UT
+University of Utah,Mining,2013,10,,,,UT
+University of Utah,Mining,2016,1,19,41,.46341464,UT
+University of Utah,Mining,2016,5,34,46,.73913044,UT
+University of Utah,Mining,2016,10,,,,UT
+University of Utah,Mining,2019,1,19,23,.82608694,UT
+University of Utah,Mining,2019,5,,,,UT
+University of Utah,Mining,2019,10,,,,UT
+University of Utah,Other Services,2010,1,89,106,.83962262,UT
+University of Utah,Other Services,2010,5,89,116,.76724136,UT
+University of Utah,Other Services,2010,10,66,106,.6226415,UT
+University of Utah,Other Services,2013,1,136,157,.86624205,UT
+University of Utah,Other Services,2013,5,124,156,.79487181,UT
+University of Utah,Other Services,2013,10,,,,UT
+University of Utah,Other Services,2016,1,117,145,.80689657,UT
+University of Utah,Other Services,2016,5,103,144,.71527779,UT
+University of Utah,Other Services,2016,10,,,,UT
+University of Utah,Other Services,2019,1,116,144,.80555558,UT
+University of Utah,Other Services,2019,5,,,,UT
+University of Utah,Other Services,2019,10,,,,UT
+University of Utah,Professional Services,2010,1,852,1016,.83858269,UT
+University of Utah,Professional Services,2010,5,929,1241,.74858987,UT
+University of Utah,Professional Services,2010,10,937,1375,.68145454,UT
+University of Utah,Professional Services,2013,1,1321,1547,.8539108,UT
+University of Utah,Professional Services,2013,5,1327,1872,.70886755,UT
+University of Utah,Professional Services,2013,10,,,,UT
+University of Utah,Professional Services,2016,1,1419,1723,.82356358,UT
+University of Utah,Professional Services,2016,5,1566,2197,.71279019,UT
+University of Utah,Professional Services,2016,10,,,,UT
+University of Utah,Professional Services,2019,1,1517,1842,.82356137,UT
+University of Utah,Professional Services,2019,5,,,,UT
+University of Utah,Professional Services,2019,10,,,,UT
+University of Utah,Public Admin,2010,1,221,257,.85992217,UT
+University of Utah,Public Admin,2010,5,298,405,.73580247,UT
+University of Utah,Public Admin,2010,10,321,439,.73120731,UT
+University of Utah,Public Admin,2013,1,347,410,.84634149,UT
+University of Utah,Public Admin,2013,5,400,514,.7782101,UT
+University of Utah,Public Admin,2013,10,,,,UT
+University of Utah,Public Admin,2016,1,321,399,.80451125,UT
+University of Utah,Public Admin,2016,5,365,500,.73000002,UT
+University of Utah,Public Admin,2016,10,,,,UT
+University of Utah,Public Admin,2019,1,403,463,.87041038,UT
+University of Utah,Public Admin,2019,5,,,,UT
+University of Utah,Public Admin,2019,10,,,,UT
+University of Utah,Real Estate,2010,1,81,89,.91011238,UT
+University of Utah,Real Estate,2010,5,80,98,.81632656,UT
+University of Utah,Real Estate,2010,10,81,107,.75700933,UT
+University of Utah,Real Estate,2013,1,105,117,.8974359,UT
+University of Utah,Real Estate,2013,5,105,137,.76642334,UT
+University of Utah,Real Estate,2013,10,,,,UT
+University of Utah,Real Estate,2016,1,105,116,.90517241,UT
+University of Utah,Real Estate,2016,5,130,152,.85526317,UT
+University of Utah,Real Estate,2016,10,,,,UT
+University of Utah,Real Estate,2019,1,118,130,.90769231,UT
+University of Utah,Real Estate,2019,5,,,,UT
+University of Utah,Real Estate,2019,10,,,,UT
+University of Utah,Retail,2010,1,581,671,.86587185,UT
+University of Utah,Retail,2010,5,410,577,.71057194,UT
+University of Utah,Retail,2010,10,319,473,.67441863,UT
+University of Utah,Retail,2013,1,659,794,.82997483,UT
+University of Utah,Retail,2013,5,458,655,.69923663,UT
+University of Utah,Retail,2013,10,,,,UT
+University of Utah,Retail,2016,1,593,731,.81121749,UT
+University of Utah,Retail,2016,5,375,554,.67689532,UT
+University of Utah,Retail,2016,10,,,,UT
+University of Utah,Retail,2019,1,585,720,.8125,UT
+University of Utah,Retail,2019,5,,,,UT
+University of Utah,Retail,2019,10,,,,UT
+University of Utah,Transportation,2010,1,132,154,.85714287,UT
+University of Utah,Transportation,2010,5,148,183,.80874318,UT
+University of Utah,Transportation,2010,10,147,196,.75,UT
+University of Utah,Transportation,2013,1,171,205,.83414632,UT
+University of Utah,Transportation,2013,5,180,232,.7758621,UT
+University of Utah,Transportation,2013,10,,,,UT
+University of Utah,Transportation,2016,1,190,224,.84821427,UT
+University of Utah,Transportation,2016,5,179,237,.75527424,UT
+University of Utah,Transportation,2016,10,,,,UT
+University of Utah,Transportation,2019,1,192,233,.82403433,UT
+University of Utah,Transportation,2019,5,,,,UT
+University of Utah,Transportation,2019,10,,,,UT
+University of Utah,Utilities,2010,1,6,6,1,UT
+University of Utah,Utilities,2010,5,24,25,.95999998,UT
+University of Utah,Utilities,2010,10,30,35,.85714287,UT
+University of Utah,Utilities,2013,1,11,14,.78571427,UT
+University of Utah,Utilities,2013,5,22,22,1,UT
+University of Utah,Utilities,2013,10,,,,UT
+University of Utah,Utilities,2016,1,16,19,.84210527,UT
+University of Utah,Utilities,2016,5,25,27,.92592591,UT
+University of Utah,Utilities,2016,10,,,,UT
+University of Utah,Utilities,2019,1,14,14,1,UT
+University of Utah,Utilities,2019,5,,,,UT
+University of Utah,Utilities,2019,10,,,,UT
+University of Utah,Wholesale,2010,1,187,221,.84615386,UT
+University of Utah,Wholesale,2010,5,202,262,.77099234,UT
+University of Utah,Wholesale,2010,10,194,272,.71323532,UT
+University of Utah,Wholesale,2013,1,250,290,.86206895,UT
+University of Utah,Wholesale,2013,5,211,306,.68954247,UT
+University of Utah,Wholesale,2013,10,,,,UT
+University of Utah,Wholesale,2016,1,213,269,.79182154,UT
+University of Utah,Wholesale,2016,5,229,318,.72012579,UT
+University of Utah,Wholesale,2016,10,,,,UT
+University of Utah,Wholesale,2019,1,231,272,.84926468,UT
+University of Utah,Wholesale,2019,5,,,,UT
+University of Utah,Wholesale,2019,10,,,,UT
+Utah State,Admin/Waste,2010,1,152,215,.70697677,UT
+Utah State,Admin/Waste,2010,5,101,168,.60119045,UT
+Utah State,Admin/Waste,2010,10,96,196,.48979592,UT
+Utah State,Admin/Waste,2013,1,183,279,.65591395,UT
+Utah State,Admin/Waste,2013,5,116,240,.48333332,UT
+Utah State,Admin/Waste,2013,10,,,,UT
+Utah State,Admin/Waste,2016,1,236,320,.73750001,UT
+Utah State,Admin/Waste,2016,5,171,295,.57966101,UT
+Utah State,Admin/Waste,2016,10,,,,UT
+Utah State,Admin/Waste,2019,1,232,305,.76065576,UT
+Utah State,Admin/Waste,2019,5,,,,UT
+Utah State,Admin/Waste,2019,10,,,,UT
+Utah State,Agriculture,2010,1,16,27,.5925926,UT
+Utah State,Agriculture,2010,5,5,13,.38461539,UT
+Utah State,Agriculture,2010,10,15,31,.48387095,UT
+Utah State,Agriculture,2013,1,19,43,.44186047,UT
+Utah State,Agriculture,2013,5,16,38,.42105263,UT
+Utah State,Agriculture,2013,10,,,,UT
+Utah State,Agriculture,2016,1,15,31,.48387095,UT
+Utah State,Agriculture,2016,5,16,31,.51612902,UT
+Utah State,Agriculture,2016,10,,,,UT
+Utah State,Agriculture,2019,1,22,49,.44897959,UT
+Utah State,Agriculture,2019,5,,,,UT
+Utah State,Agriculture,2019,10,,,,UT
+Utah State,Arts/Entertainment,2010,1,39,54,.72222221,UT
+Utah State,Arts/Entertainment,2010,5,31,49,.63265306,UT
+Utah State,Arts/Entertainment,2010,10,28,34,.82352942,UT
+Utah State,Arts/Entertainment,2013,1,62,82,.75609756,UT
+Utah State,Arts/Entertainment,2013,5,37,69,.53623188,UT
+Utah State,Arts/Entertainment,2013,10,,,,UT
+Utah State,Arts/Entertainment,2016,1,51,78,.65384614,UT
+Utah State,Arts/Entertainment,2016,5,49,69,.71014494,UT
+Utah State,Arts/Entertainment,2016,10,,,,UT
+Utah State,Arts/Entertainment,2019,1,63,79,.79746836,UT
+Utah State,Arts/Entertainment,2019,5,,,,UT
+Utah State,Arts/Entertainment,2019,10,,,,UT
+Utah State,Construction,2010,1,71,108,.6574074,UT
+Utah State,Construction,2010,5,90,133,.67669171,UT
+Utah State,Construction,2010,10,93,126,.73809522,UT
+Utah State,Construction,2013,1,96,138,.69565219,UT
+Utah State,Construction,2013,5,101,162,.62345678,UT
+Utah State,Construction,2013,10,,,,UT
+Utah State,Construction,2016,1,147,201,.73134327,UT
+Utah State,Construction,2016,5,141,191,.73821992,UT
+Utah State,Construction,2016,10,,,,UT
+Utah State,Construction,2019,1,171,225,.75999999,UT
+Utah State,Construction,2019,5,,,,UT
+Utah State,Construction,2019,10,,,,UT
+Utah State,Education,2010,1,713,999,.71371371,UT
+Utah State,Education,2010,5,820,1308,.62691134,UT
+Utah State,Education,2010,10,707,1143,.61854768,UT
+Utah State,Education,2013,1,1095,1571,.69700825,UT
+Utah State,Education,2013,5,1047,1751,.59794402,UT
+Utah State,Education,2013,10,,,,UT
+Utah State,Education,2016,1,1179,1595,.73918498,UT
+Utah State,Education,2016,5,1121,1690,.66331363,UT
+Utah State,Education,2016,10,,,,UT
+Utah State,Education,2019,1,1341,1749,.76672387,UT
+Utah State,Education,2019,5,,,,UT
+Utah State,Education,2019,10,,,,UT
+Utah State,Finance,2010,1,271,322,.8416149,UT
+Utah State,Finance,2010,5,234,327,.71559632,UT
+Utah State,Finance,2010,10,231,311,.74276525,UT
+Utah State,Finance,2013,1,317,422,.75118482,UT
+Utah State,Finance,2013,5,274,394,.69543147,UT
+Utah State,Finance,2013,10,,,,UT
+Utah State,Finance,2016,1,353,451,.78270513,UT
+Utah State,Finance,2016,5,343,483,.71014494,UT
+Utah State,Finance,2016,10,,,,UT
+Utah State,Finance,2019,1,370,470,.78723407,UT
+Utah State,Finance,2019,5,,,,UT
+Utah State,Finance,2019,10,,,,UT
+Utah State,Food/Hospitality,2010,1,66,107,.61682242,UT
+Utah State,Food/Hospitality,2010,5,30,85,.35294119,UT
+Utah State,Food/Hospitality,2010,10,30,86,.3488372,UT
+Utah State,Food/Hospitality,2013,1,98,176,.55681819,UT
+Utah State,Food/Hospitality,2013,5,40,106,.3773585,UT
+Utah State,Food/Hospitality,2013,10,,,,UT
+Utah State,Food/Hospitality,2016,1,101,164,.61585367,UT
+Utah State,Food/Hospitality,2016,5,51,130,.3923077,UT
+Utah State,Food/Hospitality,2016,10,,,,UT
+Utah State,Food/Hospitality,2019,1,122,209,.58373207,UT
+Utah State,Food/Hospitality,2019,5,,,,UT
+Utah State,Food/Hospitality,2019,10,,,,UT
+Utah State,Health Care,2010,1,295,450,.65555555,UT
+Utah State,Health Care,2010,5,309,588,.52551019,UT
+Utah State,Health Care,2010,10,273,620,.44032258,UT
+Utah State,Health Care,2013,1,475,749,.63417888,UT
+Utah State,Health Care,2013,5,471,991,.47527748,UT
+Utah State,Health Care,2013,10,,,,UT
+Utah State,Health Care,2016,1,686,957,.7168234,UT
+Utah State,Health Care,2016,5,564,1073,.5256291,UT
+Utah State,Health Care,2016,10,,,,UT
+Utah State,Health Care,2019,1,769,1092,.70421243,UT
+Utah State,Health Care,2019,5,,,,UT
+Utah State,Health Care,2019,10,,,,UT
+Utah State,Information,2010,1,92,111,.82882881,UT
+Utah State,Information,2010,5,122,149,.81879193,UT
+Utah State,Information,2010,10,127,173,.73410404,UT
+Utah State,Information,2013,1,146,180,.81111109,UT
+Utah State,Information,2013,5,169,231,.73160172,UT
+Utah State,Information,2013,10,,,,UT
+Utah State,Information,2016,1,151,203,.74384236,UT
+Utah State,Information,2016,5,223,279,.79928315,UT
+Utah State,Information,2016,10,,,,UT
+Utah State,Information,2019,1,179,216,.8287037,UT
+Utah State,Information,2019,5,,,,UT
+Utah State,Information,2019,10,,,,UT
+Utah State,Management,2010,1,62,69,.89855075,UT
+Utah State,Management,2010,5,40,52,.76923078,UT
+Utah State,Management,2010,10,49,66,.74242425,UT
+Utah State,Management,2013,1,54,76,.71052629,UT
+Utah State,Management,2013,5,53,69,.76811594,UT
+Utah State,Management,2013,10,,,,UT
+Utah State,Management,2016,1,77,92,.8369565,UT
+Utah State,Management,2016,5,80,109,.73394495,UT
+Utah State,Management,2016,10,,,,UT
+Utah State,Management,2019,1,89,111,.8018018,UT
+Utah State,Management,2019,5,,,,UT
+Utah State,Management,2019,10,,,,UT
+Utah State,Manufacturing,2010,1,368,475,.77473682,UT
+Utah State,Manufacturing,2010,5,350,510,.68627453,UT
+Utah State,Manufacturing,2010,10,326,487,.66940451,UT
+Utah State,Manufacturing,2013,1,430,587,.73253834,UT
+Utah State,Manufacturing,2013,5,412,608,.67763156,UT
+Utah State,Manufacturing,2013,10,,,,UT
+Utah State,Manufacturing,2016,1,513,704,.72869319,UT
+Utah State,Manufacturing,2016,5,543,756,.71825397,UT
+Utah State,Manufacturing,2016,10,,,,UT
+Utah State,Manufacturing,2019,1,753,885,.85084748,UT
+Utah State,Manufacturing,2019,5,,,,UT
+Utah State,Manufacturing,2019,10,,,,UT
+Utah State,Mining,2010,1,20,30,.66666669,UT
+Utah State,Mining,2010,5,17,20,.85000002,UT
+Utah State,Mining,2010,10,11,17,.64705884,UT
+Utah State,Mining,2013,1,21,27,.77777779,UT
+Utah State,Mining,2013,5,8,14,.5714286,UT
+Utah State,Mining,2013,10,,,,UT
+Utah State,Mining,2016,1,10,19,.52631581,UT
+Utah State,Mining,2016,5,11,18,.6111111,UT
+Utah State,Mining,2016,10,,,,UT
+Utah State,Mining,2019,1,11,13,.84615386,UT
+Utah State,Mining,2019,5,,,,UT
+Utah State,Mining,2019,10,,,,UT
+Utah State,Other Services,2010,1,37,46,.80434781,UT
+Utah State,Other Services,2010,5,29,42,.69047618,UT
+Utah State,Other Services,2010,10,27,43,.62790698,UT
+Utah State,Other Services,2013,1,45,59,.76271188,UT
+Utah State,Other Services,2013,5,37,50,.74000001,UT
+Utah State,Other Services,2013,10,,,,UT
+Utah State,Other Services,2016,1,47,72,.65277779,UT
+Utah State,Other Services,2016,5,52,75,.69333333,UT
+Utah State,Other Services,2016,10,,,,UT
+Utah State,Other Services,2019,1,53,76,.69736844,UT
+Utah State,Other Services,2019,5,,,,UT
+Utah State,Other Services,2019,10,,,,UT
+Utah State,Professional Services,2010,1,421,550,.76545453,UT
+Utah State,Professional Services,2010,5,488,699,.6981402,UT
+Utah State,Professional Services,2010,10,503,749,.67156208,UT
+Utah State,Professional Services,2013,1,704,927,.75943905,UT
+Utah State,Professional Services,2013,5,702,990,.70909089,UT
+Utah State,Professional Services,2013,10,,,,UT
+Utah State,Professional Services,2016,1,1050,1316,.79787236,UT
+Utah State,Professional Services,2016,5,970,1350,.7185185,UT
+Utah State,Professional Services,2016,10,,,,UT
+Utah State,Professional Services,2019,1,1063,1311,.81083143,UT
+Utah State,Professional Services,2019,5,,,,UT
+Utah State,Professional Services,2019,10,,,,UT
+Utah State,Public Admin,2010,1,147,197,.74619287,UT
+Utah State,Public Admin,2010,5,170,259,.65637064,UT
+Utah State,Public Admin,2010,10,175,266,.65789473,UT
+Utah State,Public Admin,2013,1,259,368,.70380437,UT
+Utah State,Public Admin,2013,5,280,418,.66985649,UT
+Utah State,Public Admin,2013,10,,,,UT
+Utah State,Public Admin,2016,1,290,402,.72139305,UT
+Utah State,Public Admin,2016,5,313,483,.64803314,UT
+Utah State,Public Admin,2016,10,,,,UT
+Utah State,Public Admin,2019,1,329,432,.76157409,UT
+Utah State,Public Admin,2019,5,,,,UT
+Utah State,Public Admin,2019,10,,,,UT
+Utah State,Real Estate,2010,1,31,50,.62,UT
+Utah State,Real Estate,2010,5,31,48,.64583331,UT
+Utah State,Real Estate,2010,10,34,45,.75555557,UT
+Utah State,Real Estate,2013,1,42,61,.6885246,UT
+Utah State,Real Estate,2013,5,38,56,.6785714,UT
+Utah State,Real Estate,2013,10,,,,UT
+Utah State,Real Estate,2016,1,65,80,.8125,UT
+Utah State,Real Estate,2016,5,66,79,.83544302,UT
+Utah State,Real Estate,2016,10,,,,UT
+Utah State,Real Estate,2019,1,53,70,.75714284,UT
+Utah State,Real Estate,2019,5,,,,UT
+Utah State,Real Estate,2019,10,,,,UT
+Utah State,Retail,2010,1,249,322,.77329195,UT
+Utah State,Retail,2010,5,185,285,.64912283,UT
+Utah State,Retail,2010,10,183,308,.59415585,UT
+Utah State,Retail,2013,1,352,483,.72877848,UT
+Utah State,Retail,2013,5,249,404,.61633664,UT
+Utah State,Retail,2013,10,,,,UT
+Utah State,Retail,2016,1,364,496,.73387098,UT
+Utah State,Retail,2016,5,286,437,.65446222,UT
+Utah State,Retail,2016,10,,,,UT
+Utah State,Retail,2019,1,458,573,.79930192,UT
+Utah State,Retail,2019,5,,,,UT
+Utah State,Retail,2019,10,,,,UT
+Utah State,Transportation,2010,1,65,92,.70652175,UT
+Utah State,Transportation,2010,5,62,96,.64583331,UT
+Utah State,Transportation,2010,10,65,114,.57017541,UT
+Utah State,Transportation,2013,1,91,133,.68421054,UT
+Utah State,Transportation,2013,5,93,153,.60784316,UT
+Utah State,Transportation,2013,10,,,,UT
+Utah State,Transportation,2016,1,115,164,.7012195,UT
+Utah State,Transportation,2016,5,122,189,.64550263,UT
+Utah State,Transportation,2016,10,,,,UT
+Utah State,Transportation,2019,1,138,172,.80232561,UT
+Utah State,Transportation,2019,5,,,,UT
+Utah State,Transportation,2019,10,,,,UT
+Utah State,Utilities,2010,1,4,8,.5,UT
+Utah State,Utilities,2010,5,4,7,.5714286,UT
+Utah State,Utilities,2010,10,16,19,.84210527,UT
+Utah State,Utilities,2013,1,4,5,.80000001,UT
+Utah State,Utilities,2013,5,11,12,.91666669,UT
+Utah State,Utilities,2013,10,,,,UT
+Utah State,Utilities,2016,1,3,3,1,UT
+Utah State,Utilities,2016,5,12,15,.80000001,UT
+Utah State,Utilities,2016,10,,,,UT
+Utah State,Utilities,2019,1,6,6,1,UT
+Utah State,Utilities,2019,5,,,,UT
+Utah State,Utilities,2019,10,,,,UT
+Utah State,Wholesale,2010,1,87,110,.79090911,UT
+Utah State,Wholesale,2010,5,88,135,.65185183,UT
+Utah State,Wholesale,2010,10,78,120,.64999998,UT
+Utah State,Wholesale,2013,1,108,159,.67924529,UT
+Utah State,Wholesale,2013,5,112,185,.60540539,UT
+Utah State,Wholesale,2013,10,,,,UT
+Utah State,Wholesale,2016,1,120,176,.68181819,UT
+Utah State,Wholesale,2016,5,118,199,.59296483,UT
+Utah State,Wholesale,2016,10,,,,UT
+Utah State,Wholesale,2019,1,160,218,.73394495,UT
+Utah State,Wholesale,2019,5,,,,UT
+Utah State,Wholesale,2019,10,,,,UT
+Utah Tech,Admin/Waste,2010,1,19,32,.59375,UT
+Utah Tech,Admin/Waste,2010,5,14,35,.40000001,UT
+Utah Tech,Admin/Waste,2010,10,12,20,.60000002,UT
+Utah Tech,Admin/Waste,2013,1,36,56,.64285713,UT
+Utah Tech,Admin/Waste,2013,5,20,32,.625,UT
+Utah Tech,Admin/Waste,2013,10,,,,UT
+Utah Tech,Admin/Waste,2016,1,49,75,.65333331,UT
+Utah Tech,Admin/Waste,2016,5,36,57,.63157892,UT
+Utah Tech,Admin/Waste,2016,10,,,,UT
+Utah Tech,Admin/Waste,2019,1,56,84,.66666669,UT
+Utah Tech,Admin/Waste,2019,5,,,,UT
+Utah Tech,Admin/Waste,2019,10,,,,UT
+Utah Tech,Agriculture,2010,1,0,0,,UT
+Utah Tech,Agriculture,2010,5,1,3,.33333334,UT
+Utah Tech,Agriculture,2010,10,1,1,1,UT
+Utah Tech,Agriculture,2013,1,1,5,.2,UT
+Utah Tech,Agriculture,2013,5,1,1,1,UT
+Utah Tech,Agriculture,2013,10,,,,UT
+Utah Tech,Agriculture,2016,1,0,2,0,UT
+Utah Tech,Agriculture,2016,5,0,3,0,UT
+Utah Tech,Agriculture,2016,10,,,,UT
+Utah Tech,Agriculture,2019,1,1,4,.25,UT
+Utah Tech,Agriculture,2019,5,,,,UT
+Utah Tech,Agriculture,2019,10,,,,UT
+Utah Tech,Arts/Entertainment,2010,1,2,2,1,UT
+Utah Tech,Arts/Entertainment,2010,5,4,5,.80000001,UT
+Utah Tech,Arts/Entertainment,2010,10,4,5,.80000001,UT
+Utah Tech,Arts/Entertainment,2013,1,10,11,.90909094,UT
+Utah Tech,Arts/Entertainment,2013,5,16,20,.80000001,UT
+Utah Tech,Arts/Entertainment,2013,10,,,,UT
+Utah Tech,Arts/Entertainment,2016,1,19,24,.79166669,UT
+Utah Tech,Arts/Entertainment,2016,5,14,20,.69999999,UT
+Utah Tech,Arts/Entertainment,2016,10,,,,UT
+Utah Tech,Arts/Entertainment,2019,1,18,25,.72000003,UT
+Utah Tech,Arts/Entertainment,2019,5,,,,UT
+Utah Tech,Arts/Entertainment,2019,10,,,,UT
+Utah Tech,Construction,2010,1,12,16,.75,UT
+Utah Tech,Construction,2010,5,18,25,.72000003,UT
+Utah Tech,Construction,2010,10,23,31,.74193549,UT
+Utah Tech,Construction,2013,1,21,39,.53846157,UT
+Utah Tech,Construction,2013,5,36,54,.66666669,UT
+Utah Tech,Construction,2013,10,,,,UT
+Utah Tech,Construction,2016,1,36,60,.60000002,UT
+Utah Tech,Construction,2016,5,37,57,.64912283,UT
+Utah Tech,Construction,2016,10,,,,UT
+Utah Tech,Construction,2019,1,48,72,.66666669,UT
+Utah Tech,Construction,2019,5,,,,UT
+Utah Tech,Construction,2019,10,,,,UT
+Utah Tech,Education,2010,1,114,137,.83211678,UT
+Utah Tech,Education,2010,5,124,148,.83783782,UT
+Utah Tech,Education,2010,10,136,157,.86624205,UT
+Utah Tech,Education,2013,1,187,237,.78902954,UT
+Utah Tech,Education,2013,5,202,274,.73722625,UT
+Utah Tech,Education,2013,10,,,,UT
+Utah Tech,Education,2016,1,207,279,.74193549,UT
+Utah Tech,Education,2016,5,206,284,.72535211,UT
+Utah Tech,Education,2016,10,,,,UT
+Utah Tech,Education,2019,1,236,311,.75884247,UT
+Utah Tech,Education,2019,5,,,,UT
+Utah Tech,Education,2019,10,,,,UT
+Utah Tech,Finance,2010,1,30,47,.63829786,UT
+Utah Tech,Finance,2010,5,30,40,.75,UT
+Utah Tech,Finance,2010,10,42,46,.9130435,UT
+Utah Tech,Finance,2013,1,45,57,.78947371,UT
+Utah Tech,Finance,2013,5,53,68,.77941179,UT
+Utah Tech,Finance,2013,10,,,,UT
+Utah Tech,Finance,2016,1,66,84,.78571427,UT
+Utah Tech,Finance,2016,5,51,65,.7846154,UT
+Utah Tech,Finance,2016,10,,,,UT
+Utah Tech,Finance,2019,1,52,82,.63414633,UT
+Utah Tech,Finance,2019,5,,,,UT
+Utah Tech,Finance,2019,10,,,,UT
+Utah Tech,Food/Hospitality,2010,1,28,47,.59574467,UT
+Utah Tech,Food/Hospitality,2010,5,14,37,.37837839,UT
+Utah Tech,Food/Hospitality,2010,10,7,17,.41176471,UT
+Utah Tech,Food/Hospitality,2013,1,28,50,.56,UT
+Utah Tech,Food/Hospitality,2013,5,21,39,.53846157,UT
+Utah Tech,Food/Hospitality,2013,10,,,,UT
+Utah Tech,Food/Hospitality,2016,1,32,82,.39024389,UT
+Utah Tech,Food/Hospitality,2016,5,10,30,.33333334,UT
+Utah Tech,Food/Hospitality,2016,10,,,,UT
+Utah Tech,Food/Hospitality,2019,1,46,91,.50549453,UT
+Utah Tech,Food/Hospitality,2019,5,,,,UT
+Utah Tech,Food/Hospitality,2019,10,,,,UT
+Utah Tech,Health Care,2010,1,115,135,.85185188,UT
+Utah Tech,Health Care,2010,5,113,155,.72903228,UT
+Utah Tech,Health Care,2010,10,103,160,.64375001,UT
+Utah Tech,Health Care,2013,1,213,280,.76071429,UT
+Utah Tech,Health Care,2013,5,189,286,.66083914,UT
+Utah Tech,Health Care,2013,10,,,,UT
+Utah Tech,Health Care,2016,1,371,474,.78270042,UT
+Utah Tech,Health Care,2016,5,296,432,.68518519,UT
+Utah Tech,Health Care,2016,10,,,,UT
+Utah Tech,Health Care,2019,1,791,967,.81799382,UT
+Utah Tech,Health Care,2019,5,,,,UT
+Utah Tech,Health Care,2019,10,,,,UT
+Utah Tech,Information,2010,1,19,25,.75999999,UT
+Utah Tech,Information,2010,5,27,32,.84375,UT
+Utah Tech,Information,2010,10,23,31,.74193549,UT
+Utah Tech,Information,2013,1,40,46,.86956519,UT
+Utah Tech,Information,2013,5,35,46,.76086956,UT
+Utah Tech,Information,2013,10,,,,UT
+Utah Tech,Information,2016,1,43,66,.65151513,UT
+Utah Tech,Information,2016,5,45,49,.91836733,UT
+Utah Tech,Information,2016,10,,,,UT
+Utah Tech,Information,2019,1,43,50,.86000001,UT
+Utah Tech,Information,2019,5,,,,UT
+Utah Tech,Information,2019,10,,,,UT
+Utah Tech,Management,2010,1,1,2,.5,UT
+Utah Tech,Management,2010,5,2,5,.40000001,UT
+Utah Tech,Management,2010,10,6,7,.85714287,UT
+Utah Tech,Management,2013,1,8,8,1,UT
+Utah Tech,Management,2013,5,5,7,.71428573,UT
+Utah Tech,Management,2013,10,,,,UT
+Utah Tech,Management,2016,1,13,19,.68421054,UT
+Utah Tech,Management,2016,5,9,9,1,UT
+Utah Tech,Management,2016,10,,,,UT
+Utah Tech,Management,2019,1,14,22,.63636363,UT
+Utah Tech,Management,2019,5,,,,UT
+Utah Tech,Management,2019,10,,,,UT
+Utah Tech,Manufacturing,2010,1,20,39,.51282054,UT
+Utah Tech,Manufacturing,2010,5,22,36,.6111111,UT
+Utah Tech,Manufacturing,2010,10,18,42,.42857143,UT
+Utah Tech,Manufacturing,2013,1,33,62,.53225809,UT
+Utah Tech,Manufacturing,2013,5,25,50,.5,UT
+Utah Tech,Manufacturing,2013,10,,,,UT
+Utah Tech,Manufacturing,2016,1,32,77,.41558442,UT
+Utah Tech,Manufacturing,2016,5,32,46,.69565219,UT
+Utah Tech,Manufacturing,2016,10,,,,UT
+Utah Tech,Manufacturing,2019,1,48,84,.5714286,UT
+Utah Tech,Manufacturing,2019,5,,,,UT
+Utah Tech,Manufacturing,2019,10,,,,UT
+Utah Tech,Mining,2010,1,0,0,,UT
+Utah Tech,Mining,2010,5,1,2,.5,UT
+Utah Tech,Mining,2010,10,0,2,0,UT
+Utah Tech,Mining,2013,1,1,1,1,UT
+Utah Tech,Mining,2013,5,0,0,,UT
+Utah Tech,Mining,2013,10,,,,UT
+Utah Tech,Mining,2016,1,1,3,.33333334,UT
+Utah Tech,Mining,2016,5,0,1,0,UT
+Utah Tech,Mining,2016,10,,,,UT
+Utah Tech,Mining,2019,1,0,0,,UT
+Utah Tech,Mining,2019,5,,,,UT
+Utah Tech,Mining,2019,10,,,,UT
+Utah Tech,Other Services,2010,1,2,9,.22222222,UT
+Utah Tech,Other Services,2010,5,6,9,.66666669,UT
+Utah Tech,Other Services,2010,10,5,6,.83333331,UT
+Utah Tech,Other Services,2013,1,5,7,.71428573,UT
+Utah Tech,Other Services,2013,5,12,18,.66666669,UT
+Utah Tech,Other Services,2013,10,,,,UT
+Utah Tech,Other Services,2016,1,13,16,.8125,UT
+Utah Tech,Other Services,2016,5,11,16,.6875,UT
+Utah Tech,Other Services,2016,10,,,,UT
+Utah Tech,Other Services,2019,1,20,32,.625,UT
+Utah Tech,Other Services,2019,5,,,,UT
+Utah Tech,Other Services,2019,10,,,,UT
+Utah Tech,Professional Services,2010,1,46,59,.779661,UT
+Utah Tech,Professional Services,2010,5,55,81,.67901236,UT
+Utah Tech,Professional Services,2010,10,52,72,.72222221,UT
+Utah Tech,Professional Services,2013,1,112,137,.81751823,UT
+Utah Tech,Professional Services,2013,5,104,137,.7591241,UT
+Utah Tech,Professional Services,2013,10,,,,UT
+Utah Tech,Professional Services,2016,1,109,175,.62285715,UT
+Utah Tech,Professional Services,2016,5,133,183,.72677594,UT
+Utah Tech,Professional Services,2016,10,,,,UT
+Utah Tech,Professional Services,2019,1,140,180,.77777779,UT
+Utah Tech,Professional Services,2019,5,,,,UT
+Utah Tech,Professional Services,2019,10,,,,UT
+Utah Tech,Public Admin,2010,1,7,13,.53846157,UT
+Utah Tech,Public Admin,2010,5,23,38,.60526317,UT
+Utah Tech,Public Admin,2010,10,19,34,.55882353,UT
+Utah Tech,Public Admin,2013,1,30,36,.83333331,UT
+Utah Tech,Public Admin,2013,5,35,56,.625,UT
+Utah Tech,Public Admin,2013,10,,,,UT
+Utah Tech,Public Admin,2016,1,44,73,.60273975,UT
+Utah Tech,Public Admin,2016,5,58,92,.63043481,UT
+Utah Tech,Public Admin,2016,10,,,,UT
+Utah Tech,Public Admin,2019,1,54,81,.66666669,UT
+Utah Tech,Public Admin,2019,5,,,,UT
+Utah Tech,Public Admin,2019,10,,,,UT
+Utah Tech,Real Estate,2010,1,11,12,.91666669,UT
+Utah Tech,Real Estate,2010,5,5,5,1,UT
+Utah Tech,Real Estate,2010,10,6,8,.75,UT
+Utah Tech,Real Estate,2013,1,8,9,.8888889,UT
+Utah Tech,Real Estate,2013,5,10,11,.90909094,UT
+Utah Tech,Real Estate,2013,10,,,,UT
+Utah Tech,Real Estate,2016,1,16,19,.84210527,UT
+Utah Tech,Real Estate,2016,5,13,13,1,UT
+Utah Tech,Real Estate,2016,10,,,,UT
+Utah Tech,Real Estate,2019,1,30,33,.90909094,UT
+Utah Tech,Real Estate,2019,5,,,,UT
+Utah Tech,Real Estate,2019,10,,,,UT
+Utah Tech,Retail,2010,1,42,62,.67741936,UT
+Utah Tech,Retail,2010,5,35,75,.46666667,UT
+Utah Tech,Retail,2010,10,35,67,.52238804,UT
+Utah Tech,Retail,2013,1,74,101,.73267329,UT
+Utah Tech,Retail,2013,5,57,95,.60000002,UT
+Utah Tech,Retail,2013,10,,,,UT
+Utah Tech,Retail,2016,1,100,145,.68965518,UT
+Utah Tech,Retail,2016,5,66,109,.60550457,UT
+Utah Tech,Retail,2016,10,,,,UT
+Utah Tech,Retail,2019,1,130,172,.75581396,UT
+Utah Tech,Retail,2019,5,,,,UT
+Utah Tech,Retail,2019,10,,,,UT
+Utah Tech,Transportation,2010,1,11,17,.64705884,UT
+Utah Tech,Transportation,2010,5,7,14,.5,UT
+Utah Tech,Transportation,2010,10,7,11,.63636363,UT
+Utah Tech,Transportation,2013,1,26,37,.7027027,UT
+Utah Tech,Transportation,2013,5,40,51,.78431374,UT
+Utah Tech,Transportation,2013,10,,,,UT
+Utah Tech,Transportation,2016,1,41,54,.75925928,UT
+Utah Tech,Transportation,2016,5,33,45,.73333335,UT
+Utah Tech,Transportation,2016,10,,,,UT
+Utah Tech,Transportation,2019,1,55,67,.82089549,UT
+Utah Tech,Transportation,2019,5,,,,UT
+Utah Tech,Transportation,2019,10,,,,UT
+Utah Tech,Utilities,2010,1,0,1,0,UT
+Utah Tech,Utilities,2010,5,3,3,1,UT
+Utah Tech,Utilities,2010,10,1,1,1,UT
+Utah Tech,Utilities,2013,1,1,3,.33333334,UT
+Utah Tech,Utilities,2013,5,0,0,,UT
+Utah Tech,Utilities,2013,10,,,,UT
+Utah Tech,Utilities,2016,1,3,8,.375,UT
+Utah Tech,Utilities,2016,5,1,3,.33333334,UT
+Utah Tech,Utilities,2016,10,,,,UT
+Utah Tech,Utilities,2019,1,2,4,.5,UT
+Utah Tech,Utilities,2019,5,,,,UT
+Utah Tech,Utilities,2019,10,,,,UT
+Utah Tech,Wholesale,2010,1,9,11,.81818181,UT
+Utah Tech,Wholesale,2010,5,14,21,.66666669,UT
+Utah Tech,Wholesale,2010,10,11,15,.73333335,UT
+Utah Tech,Wholesale,2013,1,31,39,.79487181,UT
+Utah Tech,Wholesale,2013,5,23,31,.74193549,UT
+Utah Tech,Wholesale,2013,10,,,,UT
+Utah Tech,Wholesale,2016,1,29,39,.74358976,UT
+Utah Tech,Wholesale,2016,5,25,34,.7352941,UT
+Utah Tech,Wholesale,2016,10,,,,UT
+Utah Tech,Wholesale,2019,1,32,37,.86486489,UT
+Utah Tech,Wholesale,2019,5,,,,UT
+Utah Tech,Wholesale,2019,10,,,,UT
+Utah Valley,Admin/Waste,2010,1,178,216,.82407409,UT
+Utah Valley,Admin/Waste,2010,5,130,194,.67010307,UT
+Utah Valley,Admin/Waste,2010,10,125,188,.66489363,UT
+Utah Valley,Admin/Waste,2013,1,265,322,.82298136,UT
+Utah Valley,Admin/Waste,2013,5,181,268,.67537314,UT
+Utah Valley,Admin/Waste,2013,10,,,,UT
+Utah Valley,Admin/Waste,2016,1,326,390,.83589745,UT
+Utah Valley,Admin/Waste,2016,5,183,259,.70656371,UT
+Utah Valley,Admin/Waste,2016,10,,,,UT
+Utah Valley,Admin/Waste,2019,1,335,407,.8230958,UT
+Utah Valley,Admin/Waste,2019,5,,,,UT
+Utah Valley,Admin/Waste,2019,10,,,,UT
+Utah Valley,Agriculture,2010,1,2,6,.33333334,UT
+Utah Valley,Agriculture,2010,5,0,2,0,UT
+Utah Valley,Agriculture,2010,10,2,2,1,UT
+Utah Valley,Agriculture,2013,1,2,11,.18181819,UT
+Utah Valley,Agriculture,2013,5,3,6,.5,UT
+Utah Valley,Agriculture,2013,10,,,,UT
+Utah Valley,Agriculture,2016,1,3,5,.60000002,UT
+Utah Valley,Agriculture,2016,5,4,6,.66666669,UT
+Utah Valley,Agriculture,2016,10,,,,UT
+Utah Valley,Agriculture,2019,1,3,6,.5,UT
+Utah Valley,Agriculture,2019,5,,,,UT
+Utah Valley,Agriculture,2019,10,,,,UT
+Utah Valley,Arts/Entertainment,2010,1,41,46,.89130437,UT
+Utah Valley,Arts/Entertainment,2010,5,43,49,.87755102,UT
+Utah Valley,Arts/Entertainment,2010,10,35,45,.77777779,UT
+Utah Valley,Arts/Entertainment,2013,1,73,76,.96052629,UT
+Utah Valley,Arts/Entertainment,2013,5,48,65,.73846155,UT
+Utah Valley,Arts/Entertainment,2013,10,,,,UT
+Utah Valley,Arts/Entertainment,2016,1,79,89,.88764048,UT
+Utah Valley,Arts/Entertainment,2016,5,68,83,.81927711,UT
+Utah Valley,Arts/Entertainment,2016,10,,,,UT
+Utah Valley,Arts/Entertainment,2019,1,99,114,.86842108,UT
+Utah Valley,Arts/Entertainment,2019,5,,,,UT
+Utah Valley,Arts/Entertainment,2019,10,,,,UT
+Utah Valley,Construction,2010,1,112,138,.81159419,UT
+Utah Valley,Construction,2010,5,131,189,.69312167,UT
+Utah Valley,Construction,2010,10,150,208,.72115386,UT
+Utah Valley,Construction,2013,1,224,269,.83271378,UT
+Utah Valley,Construction,2013,5,228,296,.77027029,UT
+Utah Valley,Construction,2013,10,,,,UT
+Utah Valley,Construction,2016,1,256,298,.85906041,UT
+Utah Valley,Construction,2016,5,241,332,.72590363,UT
+Utah Valley,Construction,2016,10,,,,UT
+Utah Valley,Construction,2019,1,386,448,.86160713,UT
+Utah Valley,Construction,2019,5,,,,UT
+Utah Valley,Construction,2019,10,,,,UT
+Utah Valley,Education,2010,1,606,692,.87572253,UT
+Utah Valley,Education,2010,5,559,707,.79066479,UT
+Utah Valley,Education,2010,10,547,711,.76933897,UT
+Utah Valley,Education,2013,1,946,1094,.86471665,UT
+Utah Valley,Education,2013,5,831,1024,.81152344,UT
+Utah Valley,Education,2013,10,,,,UT
+Utah Valley,Education,2016,1,897,1020,.87941176,UT
+Utah Valley,Education,2016,5,825,1006,.82007951,UT
+Utah Valley,Education,2016,10,,,,UT
+Utah Valley,Education,2019,1,1101,1244,.88504821,UT
+Utah Valley,Education,2019,5,,,,UT
+Utah Valley,Education,2019,10,,,,UT
+Utah Valley,Finance,2010,1,189,221,.85520363,UT
+Utah Valley,Finance,2010,5,209,265,.78867924,UT
+Utah Valley,Finance,2010,10,216,268,.80597013,UT
+Utah Valley,Finance,2013,1,298,347,.85878962,UT
+Utah Valley,Finance,2013,5,277,384,.72135419,UT
+Utah Valley,Finance,2013,10,,,,UT
+Utah Valley,Finance,2016,1,356,431,.82598609,UT
+Utah Valley,Finance,2016,5,346,430,.80465114,UT
+Utah Valley,Finance,2016,10,,,,UT
+Utah Valley,Finance,2019,1,510,585,.87179488,UT
+Utah Valley,Finance,2019,5,,,,UT
+Utah Valley,Finance,2019,10,,,,UT
+Utah Valley,Food/Hospitality,2010,1,106,149,.71140939,UT
+Utah Valley,Food/Hospitality,2010,5,37,90,.41111112,UT
+Utah Valley,Food/Hospitality,2010,10,41,75,.54666668,UT
+Utah Valley,Food/Hospitality,2013,1,101,147,.68707484,UT
+Utah Valley,Food/Hospitality,2013,5,59,131,.45038167,UT
+Utah Valley,Food/Hospitality,2013,10,,,,UT
+Utah Valley,Food/Hospitality,2016,1,124,175,.70857143,UT
+Utah Valley,Food/Hospitality,2016,5,77,112,.6875,UT
+Utah Valley,Food/Hospitality,2016,10,,,,UT
+Utah Valley,Food/Hospitality,2019,1,171,226,.75663716,UT
+Utah Valley,Food/Hospitality,2019,5,,,,UT
+Utah Valley,Food/Hospitality,2019,10,,,,UT
+Utah Valley,Health Care,2010,1,428,537,.79702049,UT
+Utah Valley,Health Care,2010,5,401,619,.64781904,UT
+Utah Valley,Health Care,2010,10,389,619,.62843293,UT
+Utah Valley,Health Care,2013,1,635,792,.80176765,UT
+Utah Valley,Health Care,2013,5,567,844,.67180097,UT
+Utah Valley,Health Care,2013,10,,,,UT
+Utah Valley,Health Care,2016,1,771,915,.84262294,UT
+Utah Valley,Health Care,2016,5,686,982,.69857436,UT
+Utah Valley,Health Care,2016,10,,,,UT
+Utah Valley,Health Care,2019,1,1118,1288,.86801243,UT
+Utah Valley,Health Care,2019,5,,,,UT
+Utah Valley,Health Care,2019,10,,,,UT
+Utah Valley,Information,2010,1,189,207,.9130435,UT
+Utah Valley,Information,2010,5,200,249,.80321288,UT
+Utah Valley,Information,2010,10,200,236,.84745765,UT
+Utah Valley,Information,2013,1,315,338,.93195266,UT
+Utah Valley,Information,2013,5,315,364,.86538464,UT
+Utah Valley,Information,2013,10,,,,UT
+Utah Valley,Information,2016,1,356,387,.91989666,UT
+Utah Valley,Information,2016,5,388,434,.89400923,UT
+Utah Valley,Information,2016,10,,,,UT
+Utah Valley,Information,2019,1,481,504,.95436507,UT
+Utah Valley,Information,2019,5,,,,UT
+Utah Valley,Information,2019,10,,,,UT
+Utah Valley,Management,2010,1,47,47,1,UT
+Utah Valley,Management,2010,5,37,48,.77083331,UT
+Utah Valley,Management,2010,10,28,42,.66666669,UT
+Utah Valley,Management,2013,1,62,69,.89855075,UT
+Utah Valley,Management,2013,5,56,75,.74666667,UT
+Utah Valley,Management,2013,10,,,,UT
+Utah Valley,Management,2016,1,64,67,.95522386,UT
+Utah Valley,Management,2016,5,67,88,.76136363,UT
+Utah Valley,Management,2016,10,,,,UT
+Utah Valley,Management,2019,1,104,116,.89655173,UT
+Utah Valley,Management,2019,5,,,,UT
+Utah Valley,Management,2019,10,,,,UT
+Utah Valley,Manufacturing,2010,1,187,233,.80257511,UT
+Utah Valley,Manufacturing,2010,5,146,240,.60833335,UT
+Utah Valley,Manufacturing,2010,10,135,239,.56485355,UT
+Utah Valley,Manufacturing,2013,1,210,307,.68403912,UT
+Utah Valley,Manufacturing,2013,5,217,309,.70226538,UT
+Utah Valley,Manufacturing,2013,10,,,,UT
+Utah Valley,Manufacturing,2016,1,263,331,.79456192,UT
+Utah Valley,Manufacturing,2016,5,260,369,.70460707,UT
+Utah Valley,Manufacturing,2016,10,,,,UT
+Utah Valley,Manufacturing,2019,1,363,421,.8622328,UT
+Utah Valley,Manufacturing,2019,5,,,,UT
+Utah Valley,Manufacturing,2019,10,,,,UT
+Utah Valley,Mining,2010,1,6,6,1,UT
+Utah Valley,Mining,2010,5,4,4,1,UT
+Utah Valley,Mining,2010,10,7,11,.63636363,UT
+Utah Valley,Mining,2013,1,8,13,.61538464,UT
+Utah Valley,Mining,2013,5,5,10,.5,UT
+Utah Valley,Mining,2013,10,,,,UT
+Utah Valley,Mining,2016,1,2,3,.66666669,UT
+Utah Valley,Mining,2016,5,7,10,.69999999,UT
+Utah Valley,Mining,2016,10,,,,UT
+Utah Valley,Mining,2019,1,10,13,.76923078,UT
+Utah Valley,Mining,2019,5,,,,UT
+Utah Valley,Mining,2019,10,,,,UT
+Utah Valley,Other Services,2010,1,35,41,.85365856,UT
+Utah Valley,Other Services,2010,5,32,42,.76190478,UT
+Utah Valley,Other Services,2010,10,26,34,.7647059,UT
+Utah Valley,Other Services,2013,1,46,67,.68656719,UT
+Utah Valley,Other Services,2013,5,29,48,.60416669,UT
+Utah Valley,Other Services,2013,10,,,,UT
+Utah Valley,Other Services,2016,1,51,72,.70833331,UT
+Utah Valley,Other Services,2016,5,58,69,.84057969,UT
+Utah Valley,Other Services,2016,10,,,,UT
+Utah Valley,Other Services,2019,1,65,78,.83333331,UT
+Utah Valley,Other Services,2019,5,,,,UT
+Utah Valley,Other Services,2019,10,,,,UT
+Utah Valley,Professional Services,2010,1,404,479,.84342378,UT
+Utah Valley,Professional Services,2010,5,407,545,.74678898,UT
+Utah Valley,Professional Services,2010,10,385,542,.7103321,UT
+Utah Valley,Professional Services,2013,1,693,799,.86733419,UT
+Utah Valley,Professional Services,2013,5,696,869,.80092061,UT
+Utah Valley,Professional Services,2013,10,,,,UT
+Utah Valley,Professional Services,2016,1,803,901,.89123195,UT
+Utah Valley,Professional Services,2016,5,814,982,.82892054,UT
+Utah Valley,Professional Services,2016,10,,,,UT
+Utah Valley,Professional Services,2019,1,1067,1204,.88621265,UT
+Utah Valley,Professional Services,2019,5,,,,UT
+Utah Valley,Professional Services,2019,10,,,,UT
+Utah Valley,Public Admin,2010,1,190,226,.84070796,UT
+Utah Valley,Public Admin,2010,5,226,277,.81588447,UT
+Utah Valley,Public Admin,2010,10,199,288,.69097221,UT
+Utah Valley,Public Admin,2013,1,238,297,.80134678,UT
+Utah Valley,Public Admin,2013,5,254,343,.74052477,UT
+Utah Valley,Public Admin,2013,10,,,,UT
+Utah Valley,Public Admin,2016,1,291,348,.83620691,UT
+Utah Valley,Public Admin,2016,5,295,387,.76227391,UT
+Utah Valley,Public Admin,2016,10,,,,UT
+Utah Valley,Public Admin,2019,1,301,350,.86000001,UT
+Utah Valley,Public Admin,2019,5,,,,UT
+Utah Valley,Public Admin,2019,10,,,,UT
+Utah Valley,Real Estate,2010,1,24,29,.82758623,UT
+Utah Valley,Real Estate,2010,5,38,48,.79166669,UT
+Utah Valley,Real Estate,2010,10,24,37,.64864862,UT
+Utah Valley,Real Estate,2013,1,54,65,.83076924,UT
+Utah Valley,Real Estate,2013,5,43,51,.84313726,UT
+Utah Valley,Real Estate,2013,10,,,,UT
+Utah Valley,Real Estate,2016,1,57,72,.79166669,UT
+Utah Valley,Real Estate,2016,5,65,72,.90277779,UT
+Utah Valley,Real Estate,2016,10,,,,UT
+Utah Valley,Real Estate,2019,1,84,99,.84848487,UT
+Utah Valley,Real Estate,2019,5,,,,UT
+Utah Valley,Real Estate,2019,10,,,,UT
+Utah Valley,Retail,2010,1,305,367,.83106267,UT
+Utah Valley,Retail,2010,5,208,303,.68646866,UT
+Utah Valley,Retail,2010,10,187,265,.7056604,UT
+Utah Valley,Retail,2013,1,429,522,.82183909,UT
+Utah Valley,Retail,2013,5,301,415,.72530121,UT
+Utah Valley,Retail,2013,10,,,,UT
+Utah Valley,Retail,2016,1,481,555,.86666667,UT
+Utah Valley,Retail,2016,5,297,404,.73514849,UT
+Utah Valley,Retail,2016,10,,,,UT
+Utah Valley,Retail,2019,1,569,650,.87538463,UT
+Utah Valley,Retail,2019,5,,,,UT
+Utah Valley,Retail,2019,10,,,,UT
+Utah Valley,Transportation,2010,1,85,266,.31954888,UT
+Utah Valley,Transportation,2010,5,87,323,.26934984,UT
+Utah Valley,Transportation,2010,10,88,343,.25655976,UT
+Utah Valley,Transportation,2013,1,121,390,.31025642,UT
+Utah Valley,Transportation,2013,5,130,431,.30162412,UT
+Utah Valley,Transportation,2013,10,,,,UT
+Utah Valley,Transportation,2016,1,144,405,.35555556,UT
+Utah Valley,Transportation,2016,5,172,467,.36830837,UT
+Utah Valley,Transportation,2016,10,,,,UT
+Utah Valley,Transportation,2019,1,209,412,.50728154,UT
+Utah Valley,Transportation,2019,5,,,,UT
+Utah Valley,Transportation,2019,10,,,,UT
+Utah Valley,Utilities,2010,1,3,3,1,UT
+Utah Valley,Utilities,2010,5,14,15,.93333334,UT
+Utah Valley,Utilities,2010,10,17,20,.85000002,UT
+Utah Valley,Utilities,2013,1,12,12,1,UT
+Utah Valley,Utilities,2013,5,12,12,1,UT
+Utah Valley,Utilities,2013,10,,,,UT
+Utah Valley,Utilities,2016,1,4,7,.5714286,UT
+Utah Valley,Utilities,2016,5,13,16,.8125,UT
+Utah Valley,Utilities,2016,10,,,,UT
+Utah Valley,Utilities,2019,1,14,14,1,UT
+Utah Valley,Utilities,2019,5,,,,UT
+Utah Valley,Utilities,2019,10,,,,UT
+Utah Valley,Wholesale,2010,1,122,145,.84137928,UT
+Utah Valley,Wholesale,2010,5,88,132,.66666669,UT
+Utah Valley,Wholesale,2010,10,96,140,.6857143,UT
+Utah Valley,Wholesale,2013,1,145,185,.78378379,UT
+Utah Valley,Wholesale,2013,5,123,173,.71098268,UT
+Utah Valley,Wholesale,2013,10,,,,UT
+Utah Valley,Wholesale,2016,1,174,211,.82464457,UT
+Utah Valley,Wholesale,2016,5,160,220,.72727275,UT
+Utah Valley,Wholesale,2016,10,,,,UT
+Utah Valley,Wholesale,2019,1,232,263,.88212925,UT
+Utah Valley,Wholesale,2019,5,,,,UT
+Utah Valley,Wholesale,2019,10,,,,UT
+Weber State,Admin/Waste,2010,1,100,126,.79365081,UT
+Weber State,Admin/Waste,2010,5,87,142,.61267608,UT
+Weber State,Admin/Waste,2010,10,75,135,.55555558,UT
+Weber State,Admin/Waste,2013,1,164,201,.81592041,UT
+Weber State,Admin/Waste,2013,5,107,152,.70394737,UT
+Weber State,Admin/Waste,2013,10,,,,UT
+Weber State,Admin/Waste,2016,1,190,261,.72796935,UT
+Weber State,Admin/Waste,2016,5,122,202,.60396039,UT
+Weber State,Admin/Waste,2016,10,,,,UT
+Weber State,Admin/Waste,2019,1,167,236,.70762712,UT
+Weber State,Admin/Waste,2019,5,,,,UT
+Weber State,Admin/Waste,2019,10,,,,UT
+Weber State,Agriculture,2010,1,2,4,.5,UT
+Weber State,Agriculture,2010,5,0,2,0,UT
+Weber State,Agriculture,2010,10,0,1,0,UT
+Weber State,Agriculture,2013,1,3,8,.375,UT
+Weber State,Agriculture,2013,5,2,2,1,UT
+Weber State,Agriculture,2013,10,,,,UT
+Weber State,Agriculture,2016,1,4,6,.66666669,UT
+Weber State,Agriculture,2016,5,6,7,.85714287,UT
+Weber State,Agriculture,2016,10,,,,UT
+Weber State,Agriculture,2019,1,1,5,.2,UT
+Weber State,Agriculture,2019,5,,,,UT
+Weber State,Agriculture,2019,10,,,,UT
+Weber State,Arts/Entertainment,2010,1,23,31,.74193549,UT
+Weber State,Arts/Entertainment,2010,5,14,28,.5,UT
+Weber State,Arts/Entertainment,2010,10,23,30,.76666665,UT
+Weber State,Arts/Entertainment,2013,1,41,48,.85416669,UT
+Weber State,Arts/Entertainment,2013,5,37,41,.902439,UT
+Weber State,Arts/Entertainment,2013,10,,,,UT
+Weber State,Arts/Entertainment,2016,1,54,60,.89999998,UT
+Weber State,Arts/Entertainment,2016,5,33,37,.8918919,UT
+Weber State,Arts/Entertainment,2016,10,,,,UT
+Weber State,Arts/Entertainment,2019,1,46,55,.83636361,UT
+Weber State,Arts/Entertainment,2019,5,,,,UT
+Weber State,Arts/Entertainment,2019,10,,,,UT
+Weber State,Construction,2010,1,128,156,.82051283,UT
+Weber State,Construction,2010,5,120,171,.70175439,UT
+Weber State,Construction,2010,10,140,187,.74866313,UT
+Weber State,Construction,2013,1,126,158,.79746836,UT
+Weber State,Construction,2013,5,130,177,.73446327,UT
+Weber State,Construction,2013,10,,,,UT
+Weber State,Construction,2016,1,125,165,.75757575,UT
+Weber State,Construction,2016,5,156,202,.77227724,UT
+Weber State,Construction,2016,10,,,,UT
+Weber State,Construction,2019,1,152,190,.80000001,UT
+Weber State,Construction,2019,5,,,,UT
+Weber State,Construction,2019,10,,,,UT
+Weber State,Education,2010,1,454,519,.87475914,UT
+Weber State,Education,2010,5,533,625,.85280001,UT
+Weber State,Education,2010,10,510,639,.79812205,UT
+Weber State,Education,2013,1,614,714,.85994399,UT
+Weber State,Education,2013,5,638,760,.83947366,UT
+Weber State,Education,2013,10,,,,UT
+Weber State,Education,2016,1,617,722,.85457063,UT
+Weber State,Education,2016,5,608,704,.86363637,UT
+Weber State,Education,2016,10,,,,UT
+Weber State,Education,2019,1,719,844,.85189575,UT
+Weber State,Education,2019,5,,,,UT
+Weber State,Education,2019,10,,,,UT
+Weber State,Finance,2010,1,194,217,.89400923,UT
+Weber State,Finance,2010,5,188,238,.78991598,UT
+Weber State,Finance,2010,10,179,227,.78854626,UT
+Weber State,Finance,2013,1,247,275,.8981818,UT
+Weber State,Finance,2013,5,270,308,.87662339,UT
+Weber State,Finance,2013,10,,,,UT
+Weber State,Finance,2016,1,253,286,.88461536,UT
+Weber State,Finance,2016,5,237,272,.87132353,UT
+Weber State,Finance,2016,10,,,,UT
+Weber State,Finance,2019,1,278,340,.81764704,UT
+Weber State,Finance,2019,5,,,,UT
+Weber State,Finance,2019,10,,,,UT
+Weber State,Food/Hospitality,2010,1,43,81,.53086418,UT
+Weber State,Food/Hospitality,2010,5,32,73,.43835616,UT
+Weber State,Food/Hospitality,2010,10,13,47,.27659574,UT
+Weber State,Food/Hospitality,2013,1,72,124,.58064514,UT
+Weber State,Food/Hospitality,2013,5,35,56,.625,UT
+Weber State,Food/Hospitality,2013,10,,,,UT
+Weber State,Food/Hospitality,2016,1,68,96,.70833331,UT
+Weber State,Food/Hospitality,2016,5,38,53,.71698111,UT
+Weber State,Food/Hospitality,2016,10,,,,UT
+Weber State,Food/Hospitality,2019,1,65,102,.63725489,UT
+Weber State,Food/Hospitality,2019,5,,,,UT
+Weber State,Food/Hospitality,2019,10,,,,UT
+Weber State,Health Care,2010,1,971,1266,.76698261,UT
+Weber State,Health Care,2010,5,825,1189,.69386041,UT
+Weber State,Health Care,2010,10,734,1085,.6764977,UT
+Weber State,Health Care,2013,1,1554,1948,.79774129,UT
+Weber State,Health Care,2013,5,1306,1806,.72314507,UT
+Weber State,Health Care,2013,10,,,,UT
+Weber State,Health Care,2016,1,1741,2163,.80490059,UT
+Weber State,Health Care,2016,5,1479,1988,.74396378,UT
+Weber State,Health Care,2016,10,,,,UT
+Weber State,Health Care,2019,1,1886,2395,.78747392,UT
+Weber State,Health Care,2019,5,,,,UT
+Weber State,Health Care,2019,10,,,,UT
+Weber State,Information,2010,1,74,87,.85057473,UT
+Weber State,Information,2010,5,95,109,.87155962,UT
+Weber State,Information,2010,10,92,112,.8214286,UT
+Weber State,Information,2013,1,122,128,.953125,UT
+Weber State,Information,2013,5,125,138,.90579712,UT
+Weber State,Information,2013,10,,,,UT
+Weber State,Information,2016,1,98,110,.89090908,UT
+Weber State,Information,2016,5,136,159,.8553459,UT
+Weber State,Information,2016,10,,,,UT
+Weber State,Information,2019,1,106,122,.86885244,UT
+Weber State,Information,2019,5,,,,UT
+Weber State,Information,2019,10,,,,UT
+Weber State,Management,2010,1,59,73,.80821919,UT
+Weber State,Management,2010,5,57,66,.86363637,UT
+Weber State,Management,2010,10,55,72,.7638889,UT
+Weber State,Management,2013,1,92,97,.94845361,UT
+Weber State,Management,2013,5,81,86,.94186044,UT
+Weber State,Management,2013,10,,,,UT
+Weber State,Management,2016,1,89,110,.80909091,UT
+Weber State,Management,2016,5,72,79,.91139239,UT
+Weber State,Management,2016,10,,,,UT
+Weber State,Management,2019,1,86,108,.7962963,UT
+Weber State,Management,2019,5,,,,UT
+Weber State,Management,2019,10,,,,UT
+Weber State,Manufacturing,2010,1,256,296,.86486489,UT
+Weber State,Manufacturing,2010,5,259,341,.75953078,UT
+Weber State,Manufacturing,2010,10,245,356,.68820226,UT
+Weber State,Manufacturing,2013,1,319,391,.81585675,UT
+Weber State,Manufacturing,2013,5,297,375,.792,UT
+Weber State,Manufacturing,2013,10,,,,UT
+Weber State,Manufacturing,2016,1,343,436,.78669727,UT
+Weber State,Manufacturing,2016,5,359,422,.85071093,UT
+Weber State,Manufacturing,2016,10,,,,UT
+Weber State,Manufacturing,2019,1,405,481,.84199584,UT
+Weber State,Manufacturing,2019,5,,,,UT
+Weber State,Manufacturing,2019,10,,,,UT
+Weber State,Mining,2010,1,5,5,1,UT
+Weber State,Mining,2010,5,4,5,.80000001,UT
+Weber State,Mining,2010,10,3,4,.75,UT
+Weber State,Mining,2013,1,5,5,1,UT
+Weber State,Mining,2013,5,3,3,1,UT
+Weber State,Mining,2013,10,,,,UT
+Weber State,Mining,2016,1,12,13,.92307693,UT
+Weber State,Mining,2016,5,3,3,1,UT
+Weber State,Mining,2016,10,,,,UT
+Weber State,Mining,2019,1,0,0,,UT
+Weber State,Mining,2019,5,,,,UT
+Weber State,Mining,2019,10,,,,UT
+Weber State,Other Services,2010,1,31,40,.77499998,UT
+Weber State,Other Services,2010,5,23,44,.52272725,UT
+Weber State,Other Services,2010,10,24,41,.58536583,UT
+Weber State,Other Services,2013,1,42,54,.77777779,UT
+Weber State,Other Services,2013,5,31,41,.75609756,UT
+Weber State,Other Services,2013,10,,,,UT
+Weber State,Other Services,2016,1,39,46,.84782606,UT
+Weber State,Other Services,2016,5,32,44,.72727275,UT
+Weber State,Other Services,2016,10,,,,UT
+Weber State,Other Services,2019,1,45,68,.66176468,UT
+Weber State,Other Services,2019,5,,,,UT
+Weber State,Other Services,2019,10,,,,UT
+Weber State,Professional Services,2010,1,258,291,.88659793,UT
+Weber State,Professional Services,2010,5,284,368,.77173913,UT
+Weber State,Professional Services,2010,10,298,391,.76214832,UT
+Weber State,Professional Services,2013,1,401,455,.88131869,UT
+Weber State,Professional Services,2013,5,453,540,.83888888,UT
+Weber State,Professional Services,2013,10,,,,UT
+Weber State,Professional Services,2016,1,495,571,.86690015,UT
+Weber State,Professional Services,2016,5,475,576,.82465279,UT
+Weber State,Professional Services,2016,10,,,,UT
+Weber State,Professional Services,2019,1,584,673,.86775631,UT
+Weber State,Professional Services,2019,5,,,,UT
+Weber State,Professional Services,2019,10,,,,UT
+Weber State,Public Admin,2010,1,146,173,.84393066,UT
+Weber State,Public Admin,2010,5,187,236,.79237288,UT
+Weber State,Public Admin,2010,10,176,214,.8224299,UT
+Weber State,Public Admin,2013,1,238,276,.86231881,UT
+Weber State,Public Admin,2013,5,280,328,.85365856,UT
+Weber State,Public Admin,2013,10,,,,UT
+Weber State,Public Admin,2016,1,230,282,.81560284,UT
+Weber State,Public Admin,2016,5,271,314,.86305732,UT
+Weber State,Public Admin,2016,10,,,,UT
+Weber State,Public Admin,2019,1,271,317,.85488957,UT
+Weber State,Public Admin,2019,5,,,,UT
+Weber State,Public Admin,2019,10,,,,UT
+Weber State,Real Estate,2010,1,30,31,.96774191,UT
+Weber State,Real Estate,2010,5,28,29,.96551722,UT
+Weber State,Real Estate,2010,10,38,47,.80851066,UT
+Weber State,Real Estate,2013,1,36,40,.89999998,UT
+Weber State,Real Estate,2013,5,28,36,.77777779,UT
+Weber State,Real Estate,2013,10,,,,UT
+Weber State,Real Estate,2016,1,41,45,.91111112,UT
+Weber State,Real Estate,2016,5,29,31,.93548387,UT
+Weber State,Real Estate,2016,10,,,,UT
+Weber State,Real Estate,2019,1,34,35,.97142857,UT
+Weber State,Real Estate,2019,5,,,,UT
+Weber State,Real Estate,2019,10,,,,UT
+Weber State,Retail,2010,1,225,277,.8122744,UT
+Weber State,Retail,2010,5,143,207,.69082123,UT
+Weber State,Retail,2010,10,105,191,.54973823,UT
+Weber State,Retail,2013,1,243,309,.78640777,UT
+Weber State,Retail,2013,5,174,234,.74358976,UT
+Weber State,Retail,2013,10,,,,UT
+Weber State,Retail,2016,1,237,307,.77198696,UT
+Weber State,Retail,2016,5,153,212,.72169811,UT
+Weber State,Retail,2016,10,,,,UT
+Weber State,Retail,2019,1,303,375,.80800003,UT
+Weber State,Retail,2019,5,,,,UT
+Weber State,Retail,2019,10,,,,UT
+Weber State,Transportation,2010,1,60,78,.76923078,UT
+Weber State,Transportation,2010,5,71,98,.72448981,UT
+Weber State,Transportation,2010,10,64,88,.72727275,UT
+Weber State,Transportation,2013,1,78,97,.8041237,UT
+Weber State,Transportation,2013,5,78,85,.91764706,UT
+Weber State,Transportation,2013,10,,,,UT
+Weber State,Transportation,2016,1,89,121,.73553717,UT
+Weber State,Transportation,2016,5,78,102,.7647059,UT
+Weber State,Transportation,2016,10,,,,UT
+Weber State,Transportation,2019,1,89,109,.81651378,UT
+Weber State,Transportation,2019,5,,,,UT
+Weber State,Transportation,2019,10,,,,UT
+Weber State,Utilities,2010,1,4,8,.5,UT
+Weber State,Utilities,2010,5,5,13,.38461539,UT
+Weber State,Utilities,2010,10,4,5,.80000001,UT
+Weber State,Utilities,2013,1,4,7,.5714286,UT
+Weber State,Utilities,2013,5,4,5,.80000001,UT
+Weber State,Utilities,2013,10,,,,UT
+Weber State,Utilities,2016,1,7,8,.875,UT
+Weber State,Utilities,2016,5,5,9,.55555558,UT
+Weber State,Utilities,2016,10,,,,UT
+Weber State,Utilities,2019,1,9,11,.81818181,UT
+Weber State,Utilities,2019,5,,,,UT
+Weber State,Utilities,2019,10,,,,UT
+Weber State,Wholesale,2010,1,85,99,.85858583,UT
+Weber State,Wholesale,2010,5,103,134,.76865673,UT
+Weber State,Wholesale,2010,10,108,152,.71052629,UT
+Weber State,Wholesale,2013,1,127,146,.86986303,UT
+Weber State,Wholesale,2013,5,101,114,.88596493,UT
+Weber State,Wholesale,2013,10,,,,UT
+Weber State,Wholesale,2016,1,123,157,.78343952,UT
+Weber State,Wholesale,2016,5,122,144,.84722221,UT
+Weber State,Wholesale,2016,10,,,,UT
+Weber State,Wholesale,2019,1,111,131,.84732825,UT
+Weber State,Wholesale,2019,5,,,,UT
+Weber State,Wholesale,2019,10,,,,UT

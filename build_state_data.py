@@ -58,6 +58,7 @@ COUNT_COLS = [f"y{h}_grads_emp{s}" for h in (1, 5, 10) for s in ("", "_instate")
 # Dashboard axes need short labels, not the Census legal names. Codes not
 # listed here fall back to the crosswalk label; override with --rename.
 SHORT_LABELS = {
+    # Oregon
     "00319300": "Eastern Oregon",
     "00321100": "Oregon Tech",
     "00321000": "Oregon State",
@@ -65,6 +66,13 @@ SHORT_LABELS = {
     "00321900": "Southern Oregon",
     "00322300": "University of Oregon",
     "00320900": "Western Oregon",
+    # Utah
+    "00367500": "University of Utah",
+    "00367700": "Utah State",
+    "00402700": "Utah Valley",
+    "00368000": "Weber State",
+    "00367800": "Southern Utah",
+    "00367100": "Utah Tech",
 }
 
 
