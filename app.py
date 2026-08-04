@@ -14,6 +14,20 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Google Analytics (GA4) -- injects tracking tag into the app's HTML head once at startup
+def _inject_ga(measurement_id):
+    snippet = (
+        '<script async src="https://www.googletagmanager.com/gtag/js?id=' + measurement_id + '"></script>'
+        '<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}'
+        "gtag('js', new Date());gtag('config', '" + measurement_id + "');</script>"
+    )
+    index_path = Path(st.__file__).parent / "static" / "index.html"
+    html = index_path.read_text(encoding="utf-8")
+    if measurement_id not in html:
+        index_path.write_text(html.replace("<head>", "<head>" + snippet, 1), encoding="utf-8")
+
+_inject_ga("G-W4SJXLVGL6")
+
 # Set Plotly default template for cleaner-looking charts
 pio.templates.default = "plotly_white"
 
