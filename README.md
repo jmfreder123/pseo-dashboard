@@ -1,7 +1,8 @@
 # PSEO Talent Stickiness Dashboard
 
 Interactive dashboard for exploring graduate retention patterns at public
-universities in Arizona, Texas, Colorado, Oregon, Utah, and Montana.
+universities in Arizona, Texas, Colorado, Oregon, Utah, Montana, and South
+Carolina.
 
 ## Setup
 
@@ -33,6 +34,7 @@ Two CSVs per state in `data/`, named `{st}_tsi.csv` and `{st}_regional_flows.csv
 | OR | 7 | 2004–2019 | all four-year publics (no threshold — see Notes) |
 | UT | 6 | 2010–2019 | `total_observed >= 100` (drops Snow College) |
 | MT | 6 | 2004–2019 | all four-year publics (no threshold) |
+| SC | 12 | 2004–2019 | IPEDS sector rule (no threshold — see Notes) |
 
 Source: U.S. Census Bureau Postsecondary Employment Outcomes (PSEO),
 2004–2019 graduation cohorts, bachelor's degrees, all CIP codes.
@@ -132,6 +134,14 @@ Governors University alone, filed under `us` because it has no home state.
 - **Utah's PSEO data begin with the 2010 cohort** — there are no 2004 or 2007
   rows. Filtering to those cohorts yields nothing for UT, and Utah's Y10
   figures rest on the 2010 cohort alone.
+- **South Carolina admits no threshold at all.** Its 33 in-frame institutions
+  sit between 264 and 338 `total_observed`, with private colleges interleaved
+  among the publics: Limestone (330) outranks the Citadel (326), Newberry (329)
+  outranks USC Aiken (326). No cut separates sector from sector. SC's twelve
+  were selected by running the IPEDS rule directly, then passed to
+  `build_state_data.py` via `--institutions`. SC also carries a 2001 cohort, so
+  a threshold quoted on the triennial scale selects zero rather than merely
+  fewer.
 - Coverage thresholds are state-specific and do **not** transfer. Oregon's 7
   publics all fall between 268 and 278 observed cells, so applying CO's 320 or
   TX's 340 would select zero institutions. Utah's six four-year publics sit at

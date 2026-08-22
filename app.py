@@ -409,6 +409,7 @@ with tab3:
                 "OR": "#4f7a52",   # muted evergreen (Oregon)
                 "UT": "#7a6a9c",   # muted slate-violet (Utah)
                 "MT": "#8c7a5c",   # muted sagebrush-tan (Montana)
+                "SC": "#4a6b8a",   # muted indigo (South Carolina)
             }
             DEFAULT_INST_COLOR = "#888888"
 
