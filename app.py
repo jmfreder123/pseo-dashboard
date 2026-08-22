@@ -114,7 +114,14 @@ states_selected = st.sidebar.multiselect(
 institutions_available = sorted(
     tsi[tsi["state"].isin(states_selected)]["institution_cat"].unique()
 )
-default_institutions = [i for i in DEFAULT_INSTITUTIONS if i in institutions_available]
+# DEFAULT_INSTITUTIONS only names institutions from AZ, TX, CO and OR, so a state
+# filter that excludes all four leaves the intersection empty and the dashboard
+# opens with nothing selected. Fall back to every institution in the selected
+# states rather than none, so a state added later works without editing the list.
+default_institutions = (
+    [i for i in DEFAULT_INSTITUTIONS if i in institutions_available]
+    or institutions_available
+)
 institutions_selected = st.sidebar.multiselect(
     "Institution",
     options=institutions_available,
