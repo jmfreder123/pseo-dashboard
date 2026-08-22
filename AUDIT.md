@@ -130,6 +130,91 @@ rule to the behaviour it was validated on, so a future IPEDS vintage that
 reclassified Utah's dual-mission universities or a Colorado community college
 would fail the audit rather than silently change the baseline.
 
+## Run of 2026-08-22 — full-column comparison against Stata
+
+The limitation recorded below ("a stronger check for publication would be a
+full-column comparison against a Stata-generated file rather than sampled
+cells") has now been carried out for AZ, CO, and TX.
+
+No new Stata run was required. AZ, CO, and TX were originally built in Stata
+and those exports are committed in `data/`, so the comparison is against
+artifacts that already existed. Each state was rebuilt with
+`build_state_data.py` from **the same local raw files the Stata pipeline
+consumed**, not a fresh Census download, so the release vintage is held fixed
+and any difference is attributable to implementation rather than data. Labels
+were supplied through `--rename` to match the Stata value labels, and the
+documented thresholds were reapplied (CO 320, TX 340, AZ none).
+
+Every cell of both files was compared, joined on
+`institution_cat × industry_cat × grad_cohort × horizon` (plus `region_cat`
+for flows).
+
+| State | TSI cells | flow cells | `emp_instate_` | `emp_n_` | `SI_by_cohort` |
+|-------|-----------|------------|----------------|----------|----------------|
+| AZ | 1,080 | 9,720 | 0 differ | 0 differ | 1 differs |
+| CO | 4,320 | 38,880 | 0 differ | 0 differ | 0 differ |
+| TX | 7,200 | 64,800 | 0 differ | 0 differ | 1 differs |
+
+116,280 cells compared. Key sets are identical in every file: no row is present
+in one build and absent from the other.
+
+### The two differences
+
+```
+AZ  ASU, Other Services, 2010, Y10           305/512  .59570312  vs  .59570313
+TX  U Houston Downtown, Prof Svcs, 2013, Y1  481/512  .93945312  vs  .93945313
+```
+
+Both denominators are 512. A power of two makes the float32 quotient exactly
+representable, so the decimal expansion terminates in a 5 at the ninth place
+and the eighth-place rounding is a genuine tie: 0.595703125 and 0.939453125.
+Python rounds half to even, Stata rounds half away from zero. This is a
+tie-breaking convention, not a numerical disagreement, and it can only arise
+where `emp_n_` is a power of two.
+
+### Institution selection
+
+`--min-observed 320` selected Colorado's twelve institutions and
+`--min-observed 340` selected Texas's twenty — the same sets the `.do` files
+enumerate by hand in `inlist()`. The coverage-and-threshold path is therefore
+confirmed against Stata, not merely the arithmetic downstream of it.
+
+### Row ordering
+
+Flows files differ in row order in all three states while being
+content-identical (sorted diff: 0 lines). `app.py` aggregates and is
+indifferent, but `cmp` is the wrong tool for checking these files.
+
+## South Carolina — built without Stata
+
+SC has no Stata counterpart; it was built by `build_state_data.py` alone, which
+is defensible only because of the comparison above. Its twelve institutions
+come from running the IPEDS sector rule directly rather than from a threshold,
+because no threshold separates sector in South Carolina (see README).
+
+Values below were checked against an independent read of the raw release using
+separate filtering code, so a shared bug would have to appear in both paths.
+
+| Check | in-state / total | TSI | Result |
+|---|---|---|---|
+| SC-1 USC Education 2004 Y1 | 546 / 697 | 0.7834 | PASS |
+| SC-2 Clemson Manufacturing 2010 Y10 | 486 / 902 | 0.5388 | PASS |
+| SC-3 The Citadel Public Admin 2007 Y5 | 94 / 121 | 0.7769 | PASS |
+| SC-4 Coastal Carolina Food/Hospitality 2016 Y1 | 364 / 560 | 0.6500 | PASS |
+| SC-5 USC Beaufort Health Care 2019 Y1 | 120 / 195 | 0.6154 | PASS |
+| SC-6 Clemson Manufacturing 2004 → South Atlantic Y1 | 359 / 534 | — | PASS |
+| SC-7 SC aggregate, all inst × ind × cohorts, Y1 | 121556 / 198965 | 0.6109 | PASS |
+
+SC-7 is the Layer 3 analogue. Its `emp_n_` total of 198,965 equals the
+`grads_y1` figure recorded for SC in `data/benchmark_composition.csv`, computed
+by a different code path at a different time. SC was already a benchmark
+contributor before it became a dashboard state, so adding it does not move the
+reference line and `benchmark.csv` needs no regeneration.
+
+South Carolina's release is `V4.13.0 / 2025Q4`. The six earlier states were
+built from files downloaded in April 2026. Whether those vintages differ has
+not been established.
+
 ## Scope and limitations
 
 - **These are spot checks, not full verification.** 27 sampled cells against a
@@ -138,12 +223,14 @@ would fail the audit rather than silently change the baseline.
   correct; they cannot rule out an error confined to cells not sampled. The
   Layer 3 checks are broader — L3-4 aggregates every Arizona cell at Y1 — but
   cover only AZ and TX.
-- **AZ, TX, and CO were built in Stata; OR and UT were built by
+- **AZ, TX, and CO were built in Stata; OR, UT, MT, and SC were built by
   `build_state_data.py`.** Both paths reproduce the raw values exactly at
   every cell checked, which is the evidence that the Python builder is a
   faithful reimplementation of the `.do` pipeline.
 - **Layer 3 covers only AZ and TX.** Its expected values are hardcoded for
   those states, so it is skipped unless both are in scope. There is no
   equivalent aggregation check for CO, OR, or UT.
-- A stronger check for publication would be a full-column comparison against a
-  Stata-generated file rather than sampled cells.
+- ~~A stronger check for publication would be a full-column comparison against
+  a Stata-generated file rather than sampled cells.~~ Done for AZ, CO, and TX
+  on 2026-08-22; see above. Not done for OR, UT, MT, or SC, none of which have
+  a Stata counterpart to compare against.
