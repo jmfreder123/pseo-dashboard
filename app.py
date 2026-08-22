@@ -21,10 +21,18 @@ def _inject_ga(measurement_id):
         '<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}'
         "gtag('js', new Date());gtag('config', '" + measurement_id + "');</script>"
     )
-    index_path = Path(st.__file__).parent / "static" / "index.html"
-    html = index_path.read_text(encoding="utf-8")
-    if measurement_id not in html:
-        index_path.write_text(html.replace("<head>", "<head>" + snippet, 1), encoding="utf-8")
+    # Patching Streamlit's own package HTML only works where that directory is
+    # writable -- i.e. locally. On Streamlit Cloud it is read-only and the write
+    # raises PermissionError at import time, which takes the whole app down. The
+    # tag is not worth the site, so failure here is silent and the app starts
+    # without analytics.
+    try:
+        index_path = Path(st.__file__).parent / "static" / "index.html"
+        html = index_path.read_text(encoding="utf-8")
+        if measurement_id not in html:
+            index_path.write_text(html.replace("<head>", "<head>" + snippet, 1), encoding="utf-8")
+    except (OSError, PermissionError):
+        pass
 
 _inject_ga("G-W4SJXLVGL6")
 
