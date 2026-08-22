@@ -94,12 +94,17 @@ benchmark = load_benchmark()
 # ============================================================
 st.sidebar.header("Filters")
 
-# Default institution set: 3 AZ + 3 representative TX
+# Default institution set: the flagship university of each state, one per state, so
+# the opening view compares every state on the dashboard rather than only the four
+# that happened to be represented.
 DEFAULT_INSTITUTIONS = [
-    "ASU", "NAU", "UA",
-    "UT Austin", "Texas A&M", "Sam Houston State",
-    "CU Boulder", "Colorado State",
-    "University of Oregon", "Oregon State", "Portland State"
+    "UA",                                  # Arizona
+    "UT Austin",                           # Texas
+    "CU Boulder",                          # Colorado
+    "University of Oregon",                # Oregon
+    "University of Utah",                  # Utah
+    "University of Montana",               # Montana
+    "University of South Carolina (USC)",  # South Carolina
 ]
 
 # State
@@ -118,10 +123,13 @@ institutions_available = sorted(
 # filter that excludes all four leaves the intersection empty and the dashboard
 # opens with nothing selected. Fall back to every institution in the selected
 # states rather than none, so a state added later works without editing the list.
-default_institutions = (
-    [i for i in DEFAULT_INSTITUTIONS if i in institutions_available]
-    or institutions_available
-)
+if len(states_selected) == 1:
+    default_institutions = institutions_available
+else:
+    default_institutions = (
+        [i for i in DEFAULT_INSTITUTIONS if i in institutions_available]
+        or institutions_available
+    )
 institutions_selected = st.sidebar.multiselect(
     "Institution",
     options=institutions_available,
