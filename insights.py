@@ -255,6 +255,15 @@ def chart_industries(d):
 # ------------------------------------------------------------------
 # Render
 # ------------------------------------------------------------------
+@st.cache_data(show_spinner=False)
+def _aggregates(_tsi, _flows):
+    """The four summaries behind the tab. The data never change within a
+    deployment, so this runs once per server, not once per visitor per click.
+    Leading underscores tell Streamlit not to hash the frames on every call."""
+    return (state_horizons(_tsi), flagship_gap(_tsi),
+            leaver_destinations(_flows), industry_tsi(_tsi))
+
+
 def render(tsi, flows):
     st.info(
         "These figures cover all ten states and every school on the dashboard. "
@@ -266,10 +275,7 @@ def render(tsi, flows):
         "graduates employed anywhere."
     )
 
-    hz = state_horizons(tsi)
-    fg = flagship_gap(tsi)
-    dest = leaver_destinations(flows)
-    ind = industry_tsi(tsi)
+    hz, fg, dest, ind = _aggregates(tsi, flows)
 
     # --- KPI row ---
     n_under = int((fg["gap"] < 0).sum())

@@ -88,15 +88,21 @@ def _load_glob(pattern):
     df["horizon"] = df["horizon"].astype(int)
     return df
 
-@st.cache_data
+# cache_resource, not cache_data: cache_data hands every session its own
+# unpickled copy of the frames (about 45 MB each for the flows), which is what
+# made memory grow with every visitor. cache_resource shares one object. That
+# is safe here because nothing below mutates these frames -- every filter
+# builds a new frame with a boolean mask, and the one place that adds a column
+# (insights.leaver_destinations) copies first.
+@st.cache_resource
 def load_tsi():
     return _load_glob("*_tsi.csv")
 
-@st.cache_data
+@st.cache_resource
 def load_flows():
     return _load_glob("*_regional_flows.csv")
 
-@st.cache_data
+@st.cache_resource
 def load_benchmark():
     """Participating-state reference series, or None if not built.
 
