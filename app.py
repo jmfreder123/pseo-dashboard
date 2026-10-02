@@ -48,6 +48,7 @@ st.caption("Bachelor's degree graduate retention across institutions, industries
 # Data loading
 # ============================================================
 DATA_DIR = Path(__file__).parent / "data"
+ASSETS_DIR = Path(__file__).parent / "assets"
 
 def _load_glob(pattern):
     """Concatenate every state file matching pattern.
@@ -532,3 +533,20 @@ with tab4:
             file_name="tsi_filtered.csv",
             mime="text/csv"
         )
+
+# ============================================================
+# Footer
+# ============================================================
+st.markdown("<div style='height: 2.5rem'></div>", unsafe_allow_html=True)
+st.divider()
+f_left, f_mid, f_right = st.columns([1.1, 3, 2.4], vertical_alignment="center")
+with f_left:
+    st.image(str(ASSETS_DIR / "pseo_coalition.png"), width=120)
+with f_mid:
+    st.caption(
+        "Built at Arizona State University's Mary Lou Fulton College for Teaching and "
+        "Learning Innovation with support from the PSEO Coalition. "
+        "Data: U.S. Census Bureau, Post-Secondary Employment Outcomes."
+    )
+with f_right:
+    st.image(str(ASSETS_DIR / "asu_mlf_horizontal.png"), width=320)
