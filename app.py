@@ -335,7 +335,7 @@ with tab1:
             xaxis=dict(tickangle=-45),
             margin=dict(l=20, r=20, t=20, b=20)
         )
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, use_container_width=True, config=insights.PLOTLY_CONFIG)
 
 # ---------------- Horizon decay line plot ----------------
 with tab2:
@@ -394,7 +394,7 @@ with tab2:
             height=600,
             margin=dict(l=20, r=20, t=20, b=20)
         )
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, use_container_width=True, config=insights.PLOTLY_CONFIG)
 
         if show_benchmark and benchmark is not None:
             st.caption(
@@ -499,7 +499,7 @@ with tab3:
                         paper_bgcolor="white",
                         plot_bgcolor="white",
                     )
-                    st.plotly_chart(fig, use_container_width=True)
+                    st.plotly_chart(fig, use_container_width=True, config=insights.PLOTLY_CONFIG)
 
 # ---------------- Summary Table ----------------
 with tab4:

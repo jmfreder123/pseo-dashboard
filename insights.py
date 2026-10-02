@@ -35,6 +35,19 @@ STATE_COLORS = {
 }
 STATE_COLOR_DEFAULT = "#888888"
 
+# Plotly's toolbar, trimmed to the single camera (download as PNG). Zoom, pan,
+# autoscale and the rest are noise on charts this size. Used by every chart in
+# the app so the toolbar looks the same everywhere.
+PLOTLY_CONFIG = {
+    "displaylogo": False,
+    "modeBarButtonsToRemove": [
+        "zoom2d", "pan2d", "select2d", "lasso2d", "zoomIn2d", "zoomOut2d",
+        "autoScale2d", "resetScale2d", "toggleSpikelines",
+        "hoverClosestCartesian", "hoverCompareCartesian",
+        "resetSankeyGroup",
+    ],
+}
+
 
 def state_color(code, alpha=None):
     hex_ = STATE_COLORS.get(code, STATE_COLOR_DEFAULT)
@@ -304,7 +317,7 @@ def render(tsi, flows):
         "share of its graduates in-state than the state's other public universities do. "
         "Dots show the share of year-one employed graduates working in-state."
     )
-    st.plotly_chart(chart_flagship(fg), use_container_width=True)
+    st.plotly_chart(chart_flagship(fg), use_container_width=True, config=PLOTLY_CONFIG)
     st.caption(
         "Read with care: flagships recruit nationally and regional campuses serve "
         "students who already live nearby, so this gap may reflect who enrolled more "
@@ -332,7 +345,7 @@ def render(tsi, flows):
         f"{lo['loss_total']*100:.0f}. The lighter segment is the early loss, the darker "
         "the later one."
     )
-    st.plotly_chart(chart_leak(hz), use_container_width=True)
+    st.plotly_chart(chart_leak(hz), use_container_width=True, config=PLOTLY_CONFIG)
     with st.expander("Table"):
         t = hz.sort_values("loss_total", ascending=False).copy()
         t["State"] = t["state"].map(_name)
@@ -351,7 +364,7 @@ def render(tsi, flows):
         "A graduate working in a neighbouring state counts as a leaver even when "
         "both states share a division."
     )
-    st.plotly_chart(chart_destinations(dest), use_container_width=True)
+    st.plotly_chart(chart_destinations(dest), use_container_width=True, config=PLOTLY_CONFIG)
     with st.expander("Table"):
         piv = dest.pivot(index="state", columns="region_cat", values="share").fillna(0)
         piv.index = [_name(s) for s in piv.index]
@@ -371,7 +384,7 @@ def render(tsi, flows):
         f"graduates, keeps {big['tsi']:.0%}. Sectors that hire locally hold on; "
         "the ones with national labour markets don't."
     )
-    st.plotly_chart(chart_industries(ind), use_container_width=True)
+    st.plotly_chart(chart_industries(ind), use_container_width=True, config=PLOTLY_CONFIG)
     with st.expander("Table"):
         t = ind.sort_values("tsi", ascending=False).copy()
         t.columns = ["Industry", "Year-1 TSI", "Employed graduates"]
