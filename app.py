@@ -42,21 +42,15 @@ _inject_ga("G-W4SJXLVGL6")
 pio.templates.default = "plotly_white"
 
 # Opening animation: a graduate leaves home, walks through the door, comes out
-# the other side and shakes hands with an employer. Plays once per visit, on the
-# first run only; the page reruns on every filter change, so without the guard
-# it would replay on every click. Hand-drawn SVG and CSS in assets/intro.html.
-# The slot is created on every run and only filled on the first. Removing the
-# element outright would shift everything below it, and Streamlit then treats
-# the tab bar as a new widget and jumps back to the first tab on the next click.
-_intro_slot = st.empty()
-if not st.session_state.get("intro_played"):
-    st.session_state["intro_played"] = True
-    try:
-        _intro = (Path(__file__).parent / "assets" / "intro.html").read_text(encoding="utf-8")
-        with _intro_slot:
-            st.components.v1.html(_intro, height=104)
-    except OSError:
-        pass
+# the other side and shakes hands with an employer. Hand-drawn SVG and CSS in
+# assets/intro.html. It stays on the page and replays once a minute (the scene
+# itself is about five seconds; the final frame holds the rest of the time).
+# Drawn on every run so nothing above the tab bar ever changes between reruns.
+try:
+    _intro = (Path(__file__).parent / "assets" / "intro.html").read_text(encoding="utf-8")
+    st.components.v1.html(_intro, height=104)
+except OSError:
+    pass
 
 ASSETS_DIR = Path(__file__).parent / "assets"
 
