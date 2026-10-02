@@ -1,0 +1,1081 @@
+institution_cat,industry_cat,grad_cohort,horizon,emp_instate_,emp_n_,SI_by_cohort,state
+UH Hilo,Admin/Waste,2004,1,6,26,.23076923,HI
+UH Hilo,Admin/Waste,2004,5,7,21,.33333334,HI
+UH Hilo,Admin/Waste,2004,10,9,33,.27272728,HI
+UH Hilo,Admin/Waste,2007,1,10,28,.35714287,HI
+UH Hilo,Admin/Waste,2007,5,23,55,.41818181,HI
+UH Hilo,Admin/Waste,2007,10,8,29,.27586207,HI
+UH Hilo,Admin/Waste,2010,1,29,47,.61702126,HI
+UH Hilo,Admin/Waste,2010,5,14,29,.48275861,HI
+UH Hilo,Admin/Waste,2010,10,15,37,.4054054,HI
+UH Hilo,Admin/Waste,2013,1,31,62,.5,HI
+UH Hilo,Admin/Waste,2013,5,27,71,.38028169,HI
+UH Hilo,Admin/Waste,2013,10,,,,HI
+UH Hilo,Admin/Waste,2016,1,23,53,.43396226,HI
+UH Hilo,Admin/Waste,2016,5,15,43,.3488372,HI
+UH Hilo,Admin/Waste,2016,10,,,,HI
+UH Hilo,Admin/Waste,2019,1,19,37,.51351351,HI
+UH Hilo,Admin/Waste,2019,5,,,,HI
+UH Hilo,Admin/Waste,2019,10,,,,HI
+UH Hilo,Agriculture,2004,1,3,5,.60000002,HI
+UH Hilo,Agriculture,2004,5,3,7,.42857143,HI
+UH Hilo,Agriculture,2004,10,3,7,.42857143,HI
+UH Hilo,Agriculture,2007,1,6,15,.40000001,HI
+UH Hilo,Agriculture,2007,5,9,10,.89999998,HI
+UH Hilo,Agriculture,2007,10,3,6,.5,HI
+UH Hilo,Agriculture,2010,1,4,11,.36363637,HI
+UH Hilo,Agriculture,2010,5,8,13,.61538464,HI
+UH Hilo,Agriculture,2010,10,7,11,.63636363,HI
+UH Hilo,Agriculture,2013,1,3,4,.75,HI
+UH Hilo,Agriculture,2013,5,15,17,.88235295,HI
+UH Hilo,Agriculture,2013,10,,,,HI
+UH Hilo,Agriculture,2016,1,10,11,.90909094,HI
+UH Hilo,Agriculture,2016,5,5,11,.45454547,HI
+UH Hilo,Agriculture,2016,10,,,,HI
+UH Hilo,Agriculture,2019,1,8,10,.80000001,HI
+UH Hilo,Agriculture,2019,5,,,,HI
+UH Hilo,Agriculture,2019,10,,,,HI
+UH Hilo,Arts/Entertainment,2004,1,2,6,.33333334,HI
+UH Hilo,Arts/Entertainment,2004,5,8,11,.72727275,HI
+UH Hilo,Arts/Entertainment,2004,10,5,11,.45454547,HI
+UH Hilo,Arts/Entertainment,2007,1,10,14,.71428573,HI
+UH Hilo,Arts/Entertainment,2007,5,7,16,.4375,HI
+UH Hilo,Arts/Entertainment,2007,10,6,13,.46153846,HI
+UH Hilo,Arts/Entertainment,2010,1,5,11,.45454547,HI
+UH Hilo,Arts/Entertainment,2010,5,7,11,.63636363,HI
+UH Hilo,Arts/Entertainment,2010,10,12,20,.60000002,HI
+UH Hilo,Arts/Entertainment,2013,1,7,10,.69999999,HI
+UH Hilo,Arts/Entertainment,2013,5,6,18,.33333334,HI
+UH Hilo,Arts/Entertainment,2013,10,,,,HI
+UH Hilo,Arts/Entertainment,2016,1,6,16,.375,HI
+UH Hilo,Arts/Entertainment,2016,5,12,20,.60000002,HI
+UH Hilo,Arts/Entertainment,2016,10,,,,HI
+UH Hilo,Arts/Entertainment,2019,1,9,13,.69230771,HI
+UH Hilo,Arts/Entertainment,2019,5,,,,HI
+UH Hilo,Arts/Entertainment,2019,10,,,,HI
+UH Hilo,Construction,2004,1,9,23,.39130434,HI
+UH Hilo,Construction,2004,5,3,11,.27272728,HI
+UH Hilo,Construction,2004,10,7,17,.41176471,HI
+UH Hilo,Construction,2007,1,6,8,.75,HI
+UH Hilo,Construction,2007,5,9,19,.47368422,HI
+UH Hilo,Construction,2007,10,4,13,.30769232,HI
+UH Hilo,Construction,2010,1,4,19,.21052632,HI
+UH Hilo,Construction,2010,5,9,17,.52941179,HI
+UH Hilo,Construction,2010,10,7,19,.36842105,HI
+UH Hilo,Construction,2013,1,5,13,.38461539,HI
+UH Hilo,Construction,2013,5,11,19,.57894737,HI
+UH Hilo,Construction,2013,10,,,,HI
+UH Hilo,Construction,2016,1,5,12,.41666666,HI
+UH Hilo,Construction,2016,5,11,27,.4074074,HI
+UH Hilo,Construction,2016,10,,,,HI
+UH Hilo,Construction,2019,1,7,14,.5,HI
+UH Hilo,Construction,2019,5,,,,HI
+UH Hilo,Construction,2019,10,,,,HI
+UH Hilo,Education,2004,1,104,151,.68874174,HI
+UH Hilo,Education,2004,5,113,169,.66863906,HI
+UH Hilo,Education,2004,10,119,186,.63978493,HI
+UH Hilo,Education,2007,1,98,150,.65333331,HI
+UH Hilo,Education,2007,5,132,205,.64390242,HI
+UH Hilo,Education,2007,10,144,216,.66666669,HI
+UH Hilo,Education,2010,1,113,202,.55940592,HI
+UH Hilo,Education,2010,5,167,227,.73568285,HI
+UH Hilo,Education,2010,10,164,262,.62595421,HI
+UH Hilo,Education,2013,1,127,193,.65803111,HI
+UH Hilo,Education,2013,5,196,298,.65771812,HI
+UH Hilo,Education,2013,10,,,,HI
+UH Hilo,Education,2016,1,151,219,.68949771,HI
+UH Hilo,Education,2016,5,197,294,.67006803,HI
+UH Hilo,Education,2016,10,,,,HI
+UH Hilo,Education,2019,1,134,184,.72826087,HI
+UH Hilo,Education,2019,5,,,,HI
+UH Hilo,Education,2019,10,,,,HI
+UH Hilo,Finance,2004,1,5,19,.2631579,HI
+UH Hilo,Finance,2004,5,7,20,.34999999,HI
+UH Hilo,Finance,2004,10,6,23,.26086956,HI
+UH Hilo,Finance,2007,1,9,14,.64285713,HI
+UH Hilo,Finance,2007,5,23,32,.71875,HI
+UH Hilo,Finance,2007,10,19,36,.52777779,HI
+UH Hilo,Finance,2010,1,19,44,.43181819,HI
+UH Hilo,Finance,2010,5,19,26,.73076922,HI
+UH Hilo,Finance,2010,10,12,21,.5714286,HI
+UH Hilo,Finance,2013,1,12,15,.80000001,HI
+UH Hilo,Finance,2013,5,27,46,.5869565,HI
+UH Hilo,Finance,2013,10,,,,HI
+UH Hilo,Finance,2016,1,18,31,.58064514,HI
+UH Hilo,Finance,2016,5,17,36,.47222221,HI
+UH Hilo,Finance,2016,10,,,,HI
+UH Hilo,Finance,2019,1,12,20,.60000002,HI
+UH Hilo,Finance,2019,5,,,,HI
+UH Hilo,Finance,2019,10,,,,HI
+UH Hilo,Food/Hospitality,2004,1,23,38,.60526317,HI
+UH Hilo,Food/Hospitality,2004,5,13,32,.40625,HI
+UH Hilo,Food/Hospitality,2004,10,9,46,.19565217,HI
+UH Hilo,Food/Hospitality,2007,1,28,56,.5,HI
+UH Hilo,Food/Hospitality,2007,5,23,60,.38333333,HI
+UH Hilo,Food/Hospitality,2007,10,21,65,.32307693,HI
+UH Hilo,Food/Hospitality,2010,1,48,83,.57831323,HI
+UH Hilo,Food/Hospitality,2010,5,49,66,.74242425,HI
+UH Hilo,Food/Hospitality,2010,10,33,59,.55932206,HI
+UH Hilo,Food/Hospitality,2013,1,50,75,.66666669,HI
+UH Hilo,Food/Hospitality,2013,5,41,81,.50617284,HI
+UH Hilo,Food/Hospitality,2013,10,,,,HI
+UH Hilo,Food/Hospitality,2016,1,69,94,.73404253,HI
+UH Hilo,Food/Hospitality,2016,5,37,72,.5138889,HI
+UH Hilo,Food/Hospitality,2016,10,,,,HI
+UH Hilo,Food/Hospitality,2019,1,52,87,.59770113,HI
+UH Hilo,Food/Hospitality,2019,5,,,,HI
+UH Hilo,Food/Hospitality,2019,10,,,,HI
+UH Hilo,Health Care,2004,1,83,109,.76146787,HI
+UH Hilo,Health Care,2004,5,73,113,.64601767,HI
+UH Hilo,Health Care,2004,10,45,107,.42056075,HI
+UH Hilo,Health Care,2007,1,120,158,.75949365,HI
+UH Hilo,Health Care,2007,5,125,203,.61576355,HI
+UH Hilo,Health Care,2007,10,96,175,.54857141,HI
+UH Hilo,Health Care,2010,1,157,245,.64081633,HI
+UH Hilo,Health Care,2010,5,178,265,.67169809,HI
+UH Hilo,Health Care,2010,10,161,275,.58545452,HI
+UH Hilo,Health Care,2013,1,168,269,.62453532,HI
+UH Hilo,Health Care,2013,5,194,301,.64451826,HI
+UH Hilo,Health Care,2013,10,,,,HI
+UH Hilo,Health Care,2016,1,214,292,.73287672,HI
+UH Hilo,Health Care,2016,5,239,374,.63903743,HI
+UH Hilo,Health Care,2016,10,,,,HI
+UH Hilo,Health Care,2019,1,230,298,.77181208,HI
+UH Hilo,Health Care,2019,5,,,,HI
+UH Hilo,Health Care,2019,10,,,,HI
+UH Hilo,Information,2004,1,2,5,.40000001,HI
+UH Hilo,Information,2004,5,1,11,.090909094,HI
+UH Hilo,Information,2004,10,1,14,.071428575,HI
+UH Hilo,Information,2007,1,3,10,.30000001,HI
+UH Hilo,Information,2007,5,2,11,.18181819,HI
+UH Hilo,Information,2007,10,3,21,.14285715,HI
+UH Hilo,Information,2010,1,4,14,.2857143,HI
+UH Hilo,Information,2010,5,2,12,.16666667,HI
+UH Hilo,Information,2010,10,5,15,.33333334,HI
+UH Hilo,Information,2013,1,8,21,.38095239,HI
+UH Hilo,Information,2013,5,3,18,.16666667,HI
+UH Hilo,Information,2013,10,,,,HI
+UH Hilo,Information,2016,1,8,15,.53333336,HI
+UH Hilo,Information,2016,5,1,8,.125,HI
+UH Hilo,Information,2016,10,,,,HI
+UH Hilo,Information,2019,1,5,17,.29411766,HI
+UH Hilo,Information,2019,5,,,,HI
+UH Hilo,Information,2019,10,,,,HI
+UH Hilo,Management,2004,1,0,1,0,HI
+UH Hilo,Management,2004,5,1,6,.16666667,HI
+UH Hilo,Management,2004,10,1,5,.2,HI
+UH Hilo,Management,2007,1,3,3,1,HI
+UH Hilo,Management,2007,5,6,13,.46153846,HI
+UH Hilo,Management,2007,10,1,7,.14285715,HI
+UH Hilo,Management,2010,1,2,4,.5,HI
+UH Hilo,Management,2010,5,0,1,0,HI
+UH Hilo,Management,2010,10,5,8,.625,HI
+UH Hilo,Management,2013,1,4,5,.80000001,HI
+UH Hilo,Management,2013,5,5,13,.38461539,HI
+UH Hilo,Management,2013,10,,,,HI
+UH Hilo,Management,2016,1,3,10,.30000001,HI
+UH Hilo,Management,2016,5,4,9,.44444445,HI
+UH Hilo,Management,2016,10,,,,HI
+UH Hilo,Management,2019,1,4,8,.5,HI
+UH Hilo,Management,2019,5,,,,HI
+UH Hilo,Management,2019,10,,,,HI
+UH Hilo,Manufacturing,2004,1,2,12,.16666667,HI
+UH Hilo,Manufacturing,2004,5,8,24,.33333334,HI
+UH Hilo,Manufacturing,2004,10,5,13,.38461539,HI
+UH Hilo,Manufacturing,2007,1,10,30,.33333334,HI
+UH Hilo,Manufacturing,2007,5,6,38,.15789473,HI
+UH Hilo,Manufacturing,2007,10,11,46,.23913044,HI
+UH Hilo,Manufacturing,2010,1,6,36,.16666667,HI
+UH Hilo,Manufacturing,2010,5,5,18,.27777779,HI
+UH Hilo,Manufacturing,2010,10,2,44,.045454547,HI
+UH Hilo,Manufacturing,2013,1,3,21,.14285715,HI
+UH Hilo,Manufacturing,2013,5,14,38,.36842105,HI
+UH Hilo,Manufacturing,2013,10,,,,HI
+UH Hilo,Manufacturing,2016,1,3,23,.13043478,HI
+UH Hilo,Manufacturing,2016,5,5,25,.2,HI
+UH Hilo,Manufacturing,2016,10,,,,HI
+UH Hilo,Manufacturing,2019,1,5,25,.2,HI
+UH Hilo,Manufacturing,2019,5,,,,HI
+UH Hilo,Manufacturing,2019,10,,,,HI
+UH Hilo,Mining,2004,1,0,0,,HI
+UH Hilo,Mining,2004,5,0,3,0,HI
+UH Hilo,Mining,2004,10,0,0,,HI
+UH Hilo,Mining,2007,1,0,0,,HI
+UH Hilo,Mining,2007,5,0,0,,HI
+UH Hilo,Mining,2007,10,0,2,0,HI
+UH Hilo,Mining,2010,1,0,0,,HI
+UH Hilo,Mining,2010,5,0,0,,HI
+UH Hilo,Mining,2010,10,0,1,0,HI
+UH Hilo,Mining,2013,1,0,0,,HI
+UH Hilo,Mining,2013,5,0,0,,HI
+UH Hilo,Mining,2013,10,,,,HI
+UH Hilo,Mining,2016,1,0,1,0,HI
+UH Hilo,Mining,2016,5,0,0,,HI
+UH Hilo,Mining,2016,10,,,,HI
+UH Hilo,Mining,2019,1,0,1,0,HI
+UH Hilo,Mining,2019,5,,,,HI
+UH Hilo,Mining,2019,10,,,,HI
+UH Hilo,Other Services,2004,1,3,6,.5,HI
+UH Hilo,Other Services,2004,5,6,12,.5,HI
+UH Hilo,Other Services,2004,10,8,16,.5,HI
+UH Hilo,Other Services,2007,1,8,11,.72727275,HI
+UH Hilo,Other Services,2007,5,2,7,.2857143,HI
+UH Hilo,Other Services,2007,10,5,10,.5,HI
+UH Hilo,Other Services,2010,1,8,16,.5,HI
+UH Hilo,Other Services,2010,5,6,11,.54545456,HI
+UH Hilo,Other Services,2010,10,15,26,.57692307,HI
+UH Hilo,Other Services,2013,1,9,25,.36000001,HI
+UH Hilo,Other Services,2013,5,9,28,.32142857,HI
+UH Hilo,Other Services,2013,10,,,,HI
+UH Hilo,Other Services,2016,1,12,24,.5,HI
+UH Hilo,Other Services,2016,5,10,21,.47619048,HI
+UH Hilo,Other Services,2016,10,,,,HI
+UH Hilo,Other Services,2019,1,7,12,.58333331,HI
+UH Hilo,Other Services,2019,5,,,,HI
+UH Hilo,Other Services,2019,10,,,,HI
+UH Hilo,Professional Services,2004,1,18,28,.64285713,HI
+UH Hilo,Professional Services,2004,5,18,53,.33962265,HI
+UH Hilo,Professional Services,2004,10,19,46,.41304347,HI
+UH Hilo,Professional Services,2007,1,48,86,.55813956,HI
+UH Hilo,Professional Services,2007,5,29,53,.5471698,HI
+UH Hilo,Professional Services,2007,10,22,61,.36065573,HI
+UH Hilo,Professional Services,2010,1,28,48,.58333331,HI
+UH Hilo,Professional Services,2010,5,32,54,.5925926,HI
+UH Hilo,Professional Services,2010,10,23,75,.30666667,HI
+UH Hilo,Professional Services,2013,1,34,64,.53125,HI
+UH Hilo,Professional Services,2013,5,33,66,.5,HI
+UH Hilo,Professional Services,2013,10,,,,HI
+UH Hilo,Professional Services,2016,1,44,71,.61971831,HI
+UH Hilo,Professional Services,2016,5,38,88,.43181819,HI
+UH Hilo,Professional Services,2016,10,,,,HI
+UH Hilo,Professional Services,2019,1,33,64,.515625,HI
+UH Hilo,Professional Services,2019,5,,,,HI
+UH Hilo,Professional Services,2019,10,,,,HI
+UH Hilo,Public Admin,2004,1,20,35,.5714286,HI
+UH Hilo,Public Admin,2004,5,30,56,.53571427,HI
+UH Hilo,Public Admin,2004,10,40,60,.66666669,HI
+UH Hilo,Public Admin,2007,1,35,51,.68627453,HI
+UH Hilo,Public Admin,2007,5,56,86,.6511628,HI
+UH Hilo,Public Admin,2007,10,76,124,.61290324,HI
+UH Hilo,Public Admin,2010,1,31,71,.43661973,HI
+UH Hilo,Public Admin,2010,5,62,83,.74698794,HI
+UH Hilo,Public Admin,2010,10,95,149,.63758391,HI
+UH Hilo,Public Admin,2013,1,38,58,.65517241,HI
+UH Hilo,Public Admin,2013,5,86,128,.671875,HI
+UH Hilo,Public Admin,2013,10,,,,HI
+UH Hilo,Public Admin,2016,1,51,74,.6891892,HI
+UH Hilo,Public Admin,2016,5,76,110,.69090909,HI
+UH Hilo,Public Admin,2016,10,,,,HI
+UH Hilo,Public Admin,2019,1,43,69,.62318838,HI
+UH Hilo,Public Admin,2019,5,,,,HI
+UH Hilo,Public Admin,2019,10,,,,HI
+UH Hilo,Real Estate,2004,1,8,10,.80000001,HI
+UH Hilo,Real Estate,2004,5,6,10,.60000002,HI
+UH Hilo,Real Estate,2004,10,7,9,.77777779,HI
+UH Hilo,Real Estate,2007,1,6,10,.60000002,HI
+UH Hilo,Real Estate,2007,5,4,9,.44444445,HI
+UH Hilo,Real Estate,2007,10,3,18,.16666667,HI
+UH Hilo,Real Estate,2010,1,9,15,.60000002,HI
+UH Hilo,Real Estate,2010,5,3,4,.75,HI
+UH Hilo,Real Estate,2010,10,2,8,.25,HI
+UH Hilo,Real Estate,2013,1,9,19,.47368422,HI
+UH Hilo,Real Estate,2013,5,11,20,.55000001,HI
+UH Hilo,Real Estate,2013,10,,,,HI
+UH Hilo,Real Estate,2016,1,10,12,.83333331,HI
+UH Hilo,Real Estate,2016,5,5,5,1,HI
+UH Hilo,Real Estate,2016,10,,,,HI
+UH Hilo,Real Estate,2019,1,10,20,.5,HI
+UH Hilo,Real Estate,2019,5,,,,HI
+UH Hilo,Real Estate,2019,10,,,,HI
+UH Hilo,Retail,2004,1,36,42,.85714287,HI
+UH Hilo,Retail,2004,5,24,54,.44444445,HI
+UH Hilo,Retail,2004,10,16,53,.3018868,HI
+UH Hilo,Retail,2007,1,45,87,.51724136,HI
+UH Hilo,Retail,2007,5,35,73,.47945204,HI
+UH Hilo,Retail,2007,10,22,62,.3548387,HI
+UH Hilo,Retail,2010,1,83,162,.51234567,HI
+UH Hilo,Retail,2010,5,65,130,.5,HI
+UH Hilo,Retail,2010,10,47,110,.42727274,HI
+UH Hilo,Retail,2013,1,110,234,.47008547,HI
+UH Hilo,Retail,2013,5,78,195,.40000001,HI
+UH Hilo,Retail,2013,10,,,,HI
+UH Hilo,Retail,2016,1,107,210,.50952381,HI
+UH Hilo,Retail,2016,5,76,204,.37254903,HI
+UH Hilo,Retail,2016,10,,,,HI
+UH Hilo,Retail,2019,1,92,170,.5411765,HI
+UH Hilo,Retail,2019,5,,,,HI
+UH Hilo,Retail,2019,10,,,,HI
+UH Hilo,Transportation,2004,1,8,16,.5,HI
+UH Hilo,Transportation,2004,5,2,9,.22222222,HI
+UH Hilo,Transportation,2004,10,13,23,.56521738,HI
+UH Hilo,Transportation,2007,1,13,16,.8125,HI
+UH Hilo,Transportation,2007,5,7,25,.28,HI
+UH Hilo,Transportation,2007,10,11,34,.32352942,HI
+UH Hilo,Transportation,2010,1,4,18,.22222222,HI
+UH Hilo,Transportation,2010,5,6,12,.5,HI
+UH Hilo,Transportation,2010,10,10,42,.23809524,HI
+UH Hilo,Transportation,2013,1,8,15,.53333336,HI
+UH Hilo,Transportation,2013,5,6,28,.21428572,HI
+UH Hilo,Transportation,2013,10,,,,HI
+UH Hilo,Transportation,2016,1,8,19,.42105263,HI
+UH Hilo,Transportation,2016,5,17,34,.5,HI
+UH Hilo,Transportation,2016,10,,,,HI
+UH Hilo,Transportation,2019,1,12,25,.47999999,HI
+UH Hilo,Transportation,2019,5,,,,HI
+UH Hilo,Transportation,2019,10,,,,HI
+UH Hilo,Utilities,2004,1,0,1,0,HI
+UH Hilo,Utilities,2004,5,0,1,0,HI
+UH Hilo,Utilities,2004,10,0,0,,HI
+UH Hilo,Utilities,2007,1,0,2,0,HI
+UH Hilo,Utilities,2007,5,1,2,.5,HI
+UH Hilo,Utilities,2007,10,2,2,1,HI
+UH Hilo,Utilities,2010,1,2,4,.5,HI
+UH Hilo,Utilities,2010,5,0,1,0,HI
+UH Hilo,Utilities,2010,10,1,2,.5,HI
+UH Hilo,Utilities,2013,1,7,10,.69999999,HI
+UH Hilo,Utilities,2013,5,4,4,1,HI
+UH Hilo,Utilities,2013,10,,,,HI
+UH Hilo,Utilities,2016,1,0,1,0,HI
+UH Hilo,Utilities,2016,5,1,1,1,HI
+UH Hilo,Utilities,2016,10,,,,HI
+UH Hilo,Utilities,2019,1,0,2,0,HI
+UH Hilo,Utilities,2019,5,,,,HI
+UH Hilo,Utilities,2019,10,,,,HI
+UH Hilo,Wholesale,2004,1,0,5,0,HI
+UH Hilo,Wholesale,2004,5,1,19,.052631579,HI
+UH Hilo,Wholesale,2004,10,0,13,0,HI
+UH Hilo,Wholesale,2007,1,8,9,.8888889,HI
+UH Hilo,Wholesale,2007,5,1,6,.16666667,HI
+UH Hilo,Wholesale,2007,10,6,21,.2857143,HI
+UH Hilo,Wholesale,2010,1,6,27,.22222222,HI
+UH Hilo,Wholesale,2010,5,5,15,.33333334,HI
+UH Hilo,Wholesale,2010,10,9,17,.52941179,HI
+UH Hilo,Wholesale,2013,1,1,9,.11111111,HI
+UH Hilo,Wholesale,2013,5,3,16,.1875,HI
+UH Hilo,Wholesale,2013,10,,,,HI
+UH Hilo,Wholesale,2016,1,2,12,.16666667,HI
+UH Hilo,Wholesale,2016,5,11,19,.57894737,HI
+UH Hilo,Wholesale,2016,10,,,,HI
+UH Hilo,Wholesale,2019,1,1,11,.090909094,HI
+UH Hilo,Wholesale,2019,5,,,,HI
+UH Hilo,Wholesale,2019,10,,,,HI
+UH West Oahu,Admin/Waste,2004,1,1,3,.33333334,HI
+UH West Oahu,Admin/Waste,2004,5,4,6,.66666669,HI
+UH West Oahu,Admin/Waste,2004,10,4,16,.25,HI
+UH West Oahu,Admin/Waste,2007,1,18,39,.46153846,HI
+UH West Oahu,Admin/Waste,2007,5,20,37,.54054052,HI
+UH West Oahu,Admin/Waste,2007,10,11,18,.6111111,HI
+UH West Oahu,Admin/Waste,2010,1,22,24,.91666669,HI
+UH West Oahu,Admin/Waste,2010,5,14,16,.875,HI
+UH West Oahu,Admin/Waste,2010,10,4,17,.23529412,HI
+UH West Oahu,Admin/Waste,2013,1,44,55,.80000001,HI
+UH West Oahu,Admin/Waste,2013,5,10,15,.66666669,HI
+UH West Oahu,Admin/Waste,2013,10,,,,HI
+UH West Oahu,Admin/Waste,2016,1,59,65,.90769231,HI
+UH West Oahu,Admin/Waste,2016,5,32,49,.65306121,HI
+UH West Oahu,Admin/Waste,2016,10,,,,HI
+UH West Oahu,Admin/Waste,2019,1,58,76,.7631579,HI
+UH West Oahu,Admin/Waste,2019,5,,,,HI
+UH West Oahu,Admin/Waste,2019,10,,,,HI
+UH West Oahu,Agriculture,2004,1,0,1,0,HI
+UH West Oahu,Agriculture,2004,5,0,0,,HI
+UH West Oahu,Agriculture,2004,10,0,4,0,HI
+UH West Oahu,Agriculture,2007,1,0,4,0,HI
+UH West Oahu,Agriculture,2007,5,4,4,1,HI
+UH West Oahu,Agriculture,2007,10,0,0,,HI
+UH West Oahu,Agriculture,2010,1,0,0,,HI
+UH West Oahu,Agriculture,2010,5,0,1,0,HI
+UH West Oahu,Agriculture,2010,10,0,0,,HI
+UH West Oahu,Agriculture,2013,1,0,0,,HI
+UH West Oahu,Agriculture,2013,5,0,0,,HI
+UH West Oahu,Agriculture,2013,10,,,,HI
+UH West Oahu,Agriculture,2016,1,0,0,,HI
+UH West Oahu,Agriculture,2016,5,0,0,,HI
+UH West Oahu,Agriculture,2016,10,,,,HI
+UH West Oahu,Agriculture,2019,1,1,1,1,HI
+UH West Oahu,Agriculture,2019,5,,,,HI
+UH West Oahu,Agriculture,2019,10,,,,HI
+UH West Oahu,Arts/Entertainment,2004,1,2,2,1,HI
+UH West Oahu,Arts/Entertainment,2004,5,2,3,.66666669,HI
+UH West Oahu,Arts/Entertainment,2004,10,1,3,.33333334,HI
+UH West Oahu,Arts/Entertainment,2007,1,0,8,0,HI
+UH West Oahu,Arts/Entertainment,2007,5,0,5,0,HI
+UH West Oahu,Arts/Entertainment,2007,10,3,5,.60000002,HI
+UH West Oahu,Arts/Entertainment,2010,1,2,2,1,HI
+UH West Oahu,Arts/Entertainment,2010,5,0,0,,HI
+UH West Oahu,Arts/Entertainment,2010,10,3,3,1,HI
+UH West Oahu,Arts/Entertainment,2013,1,8,11,.72727275,HI
+UH West Oahu,Arts/Entertainment,2013,5,3,3,1,HI
+UH West Oahu,Arts/Entertainment,2013,10,,,,HI
+UH West Oahu,Arts/Entertainment,2016,1,10,10,1,HI
+UH West Oahu,Arts/Entertainment,2016,5,9,9,1,HI
+UH West Oahu,Arts/Entertainment,2016,10,,,,HI
+UH West Oahu,Arts/Entertainment,2019,1,14,17,.82352942,HI
+UH West Oahu,Arts/Entertainment,2019,5,,,,HI
+UH West Oahu,Arts/Entertainment,2019,10,,,,HI
+UH West Oahu,Construction,2004,1,1,3,.33333334,HI
+UH West Oahu,Construction,2004,5,4,5,.80000001,HI
+UH West Oahu,Construction,2004,10,4,17,.23529412,HI
+UH West Oahu,Construction,2007,1,7,13,.53846157,HI
+UH West Oahu,Construction,2007,5,11,24,.45833334,HI
+UH West Oahu,Construction,2007,10,12,18,.66666669,HI
+UH West Oahu,Construction,2010,1,4,5,.80000001,HI
+UH West Oahu,Construction,2010,5,8,8,1,HI
+UH West Oahu,Construction,2010,10,12,16,.75,HI
+UH West Oahu,Construction,2013,1,21,26,.80769229,HI
+UH West Oahu,Construction,2013,5,12,14,.85714287,HI
+UH West Oahu,Construction,2013,10,,,,HI
+UH West Oahu,Construction,2016,1,20,24,.83333331,HI
+UH West Oahu,Construction,2016,5,27,43,.62790698,HI
+UH West Oahu,Construction,2016,10,,,,HI
+UH West Oahu,Construction,2019,1,42,47,.89361703,HI
+UH West Oahu,Construction,2019,5,,,,HI
+UH West Oahu,Construction,2019,10,,,,HI
+UH West Oahu,Education,2004,1,26,35,.74285716,HI
+UH West Oahu,Education,2004,5,26,28,.9285714,HI
+UH West Oahu,Education,2004,10,25,46,.54347825,HI
+UH West Oahu,Education,2007,1,47,74,.63513511,HI
+UH West Oahu,Education,2007,5,62,104,.59615386,HI
+UH West Oahu,Education,2007,10,48,68,.70588237,HI
+UH West Oahu,Education,2010,1,61,67,.91044778,HI
+UH West Oahu,Education,2010,5,91,95,.95789474,HI
+UH West Oahu,Education,2010,10,90,123,.73170733,HI
+UH West Oahu,Education,2013,1,117,143,.81818181,HI
+UH West Oahu,Education,2013,5,100,124,.80645162,HI
+UH West Oahu,Education,2013,10,,,,HI
+UH West Oahu,Education,2016,1,140,158,.88607597,HI
+UH West Oahu,Education,2016,5,152,199,.7638191,HI
+UH West Oahu,Education,2016,10,,,,HI
+UH West Oahu,Education,2019,1,177,221,.80090499,HI
+UH West Oahu,Education,2019,5,,,,HI
+UH West Oahu,Education,2019,10,,,,HI
+UH West Oahu,Finance,2004,1,2,4,.5,HI
+UH West Oahu,Finance,2004,5,11,13,.84615386,HI
+UH West Oahu,Finance,2004,10,14,32,.4375,HI
+UH West Oahu,Finance,2007,1,15,22,.68181819,HI
+UH West Oahu,Finance,2007,5,17,28,.60714287,HI
+UH West Oahu,Finance,2007,10,13,25,.51999998,HI
+UH West Oahu,Finance,2010,1,21,21,1,HI
+UH West Oahu,Finance,2010,5,15,16,.9375,HI
+UH West Oahu,Finance,2010,10,14,20,.69999999,HI
+UH West Oahu,Finance,2013,1,36,45,.80000001,HI
+UH West Oahu,Finance,2013,5,34,43,.79069769,HI
+UH West Oahu,Finance,2013,10,,,,HI
+UH West Oahu,Finance,2016,1,45,51,.88235295,HI
+UH West Oahu,Finance,2016,5,55,77,.71428573,HI
+UH West Oahu,Finance,2016,10,,,,HI
+UH West Oahu,Finance,2019,1,61,78,.78205127,HI
+UH West Oahu,Finance,2019,5,,,,HI
+UH West Oahu,Finance,2019,10,,,,HI
+UH West Oahu,Food/Hospitality,2004,1,21,24,.875,HI
+UH West Oahu,Food/Hospitality,2004,5,12,24,.5,HI
+UH West Oahu,Food/Hospitality,2004,10,8,33,.24242425,HI
+UH West Oahu,Food/Hospitality,2007,1,26,44,.59090906,HI
+UH West Oahu,Food/Hospitality,2007,5,21,44,.47727272,HI
+UH West Oahu,Food/Hospitality,2007,10,9,27,.33333334,HI
+UH West Oahu,Food/Hospitality,2010,1,34,38,.89473683,HI
+UH West Oahu,Food/Hospitality,2010,5,24,26,.92307693,HI
+UH West Oahu,Food/Hospitality,2010,10,14,23,.60869563,HI
+UH West Oahu,Food/Hospitality,2013,1,56,72,.77777779,HI
+UH West Oahu,Food/Hospitality,2013,5,28,37,.75675678,HI
+UH West Oahu,Food/Hospitality,2013,10,,,,HI
+UH West Oahu,Food/Hospitality,2016,1,114,126,.90476191,HI
+UH West Oahu,Food/Hospitality,2016,5,67,92,.72826087,HI
+UH West Oahu,Food/Hospitality,2016,10,,,,HI
+UH West Oahu,Food/Hospitality,2019,1,117,140,.83571428,HI
+UH West Oahu,Food/Hospitality,2019,5,,,,HI
+UH West Oahu,Food/Hospitality,2019,10,,,,HI
+UH West Oahu,Health Care,2004,1,47,60,.78333336,HI
+UH West Oahu,Health Care,2004,5,30,39,.76923078,HI
+UH West Oahu,Health Care,2004,10,34,55,.61818182,HI
+UH West Oahu,Health Care,2007,1,66,96,.6875,HI
+UH West Oahu,Health Care,2007,5,47,88,.53409094,HI
+UH West Oahu,Health Care,2007,10,48,71,.67605633,HI
+UH West Oahu,Health Care,2010,1,84,91,.92307693,HI
+UH West Oahu,Health Care,2010,5,86,95,.90526319,HI
+UH West Oahu,Health Care,2010,10,59,81,.72839504,HI
+UH West Oahu,Health Care,2013,1,127,137,.92700732,HI
+UH West Oahu,Health Care,2013,5,104,138,.75362319,HI
+UH West Oahu,Health Care,2013,10,,,,HI
+UH West Oahu,Health Care,2016,1,176,190,.92631578,HI
+UH West Oahu,Health Care,2016,5,146,192,.76041669,HI
+UH West Oahu,Health Care,2016,10,,,,HI
+UH West Oahu,Health Care,2019,1,200,249,.80321288,HI
+UH West Oahu,Health Care,2019,5,,,,HI
+UH West Oahu,Health Care,2019,10,,,,HI
+UH West Oahu,Information,2004,1,4,6,.66666669,HI
+UH West Oahu,Information,2004,5,2,2,1,HI
+UH West Oahu,Information,2004,10,8,12,.66666669,HI
+UH West Oahu,Information,2007,1,5,13,.38461539,HI
+UH West Oahu,Information,2007,5,7,16,.4375,HI
+UH West Oahu,Information,2007,10,1,10,.1,HI
+UH West Oahu,Information,2010,1,2,2,1,HI
+UH West Oahu,Information,2010,5,3,3,1,HI
+UH West Oahu,Information,2010,10,2,7,.2857143,HI
+UH West Oahu,Information,2013,1,13,19,.68421054,HI
+UH West Oahu,Information,2013,5,7,7,1,HI
+UH West Oahu,Information,2013,10,,,,HI
+UH West Oahu,Information,2016,1,14,21,.66666669,HI
+UH West Oahu,Information,2016,5,10,16,.625,HI
+UH West Oahu,Information,2016,10,,,,HI
+UH West Oahu,Information,2019,1,14,18,.77777779,HI
+UH West Oahu,Information,2019,5,,,,HI
+UH West Oahu,Information,2019,10,,,,HI
+UH West Oahu,Management,2004,1,0,0,,HI
+UH West Oahu,Management,2004,5,4,4,1,HI
+UH West Oahu,Management,2004,10,5,9,.55555558,HI
+UH West Oahu,Management,2007,1,1,5,.2,HI
+UH West Oahu,Management,2007,5,8,10,.80000001,HI
+UH West Oahu,Management,2007,10,7,8,.875,HI
+UH West Oahu,Management,2010,1,6,6,1,HI
+UH West Oahu,Management,2010,5,1,2,.5,HI
+UH West Oahu,Management,2010,10,3,3,1,HI
+UH West Oahu,Management,2013,1,12,13,.92307693,HI
+UH West Oahu,Management,2013,5,8,8,1,HI
+UH West Oahu,Management,2013,10,,,,HI
+UH West Oahu,Management,2016,1,17,18,.94444442,HI
+UH West Oahu,Management,2016,5,24,25,.95999998,HI
+UH West Oahu,Management,2016,10,,,,HI
+UH West Oahu,Management,2019,1,21,22,.95454544,HI
+UH West Oahu,Management,2019,5,,,,HI
+UH West Oahu,Management,2019,10,,,,HI
+UH West Oahu,Manufacturing,2004,1,0,2,0,HI
+UH West Oahu,Manufacturing,2004,5,2,5,.40000001,HI
+UH West Oahu,Manufacturing,2004,10,1,8,.125,HI
+UH West Oahu,Manufacturing,2007,1,5,28,.17857143,HI
+UH West Oahu,Manufacturing,2007,5,7,23,.30434781,HI
+UH West Oahu,Manufacturing,2007,10,1,17,.05882353,HI
+UH West Oahu,Manufacturing,2010,1,0,0,,HI
+UH West Oahu,Manufacturing,2010,5,4,10,.40000001,HI
+UH West Oahu,Manufacturing,2010,10,4,10,.40000001,HI
+UH West Oahu,Manufacturing,2013,1,8,11,.72727275,HI
+UH West Oahu,Manufacturing,2013,5,10,15,.66666669,HI
+UH West Oahu,Manufacturing,2013,10,,,,HI
+UH West Oahu,Manufacturing,2016,1,10,13,.76923078,HI
+UH West Oahu,Manufacturing,2016,5,15,25,.60000002,HI
+UH West Oahu,Manufacturing,2016,10,,,,HI
+UH West Oahu,Manufacturing,2019,1,6,15,.40000001,HI
+UH West Oahu,Manufacturing,2019,5,,,,HI
+UH West Oahu,Manufacturing,2019,10,,,,HI
+UH West Oahu,Mining,2004,1,0,0,,HI
+UH West Oahu,Mining,2004,5,0,0,,HI
+UH West Oahu,Mining,2004,10,0,2,0,HI
+UH West Oahu,Mining,2007,1,0,0,,HI
+UH West Oahu,Mining,2007,5,0,0,,HI
+UH West Oahu,Mining,2007,10,0,1,0,HI
+UH West Oahu,Mining,2010,1,0,0,,HI
+UH West Oahu,Mining,2010,5,0,0,,HI
+UH West Oahu,Mining,2010,10,0,0,,HI
+UH West Oahu,Mining,2013,1,0,0,,HI
+UH West Oahu,Mining,2013,5,0,0,,HI
+UH West Oahu,Mining,2013,10,,,,HI
+UH West Oahu,Mining,2016,1,0,0,,HI
+UH West Oahu,Mining,2016,5,0,0,,HI
+UH West Oahu,Mining,2016,10,,,,HI
+UH West Oahu,Mining,2019,1,0,0,,HI
+UH West Oahu,Mining,2019,5,,,,HI
+UH West Oahu,Mining,2019,10,,,,HI
+UH West Oahu,Other Services,2004,1,5,9,.55555558,HI
+UH West Oahu,Other Services,2004,5,0,5,0,HI
+UH West Oahu,Other Services,2004,10,8,17,.47058824,HI
+UH West Oahu,Other Services,2007,1,14,38,.36842105,HI
+UH West Oahu,Other Services,2007,5,7,28,.25,HI
+UH West Oahu,Other Services,2007,10,5,8,.625,HI
+UH West Oahu,Other Services,2010,1,9,9,1,HI
+UH West Oahu,Other Services,2010,5,8,11,.72727275,HI
+UH West Oahu,Other Services,2010,10,17,19,.89473683,HI
+UH West Oahu,Other Services,2013,1,18,25,.72000003,HI
+UH West Oahu,Other Services,2013,5,17,22,.77272725,HI
+UH West Oahu,Other Services,2013,10,,,,HI
+UH West Oahu,Other Services,2016,1,37,40,.92500001,HI
+UH West Oahu,Other Services,2016,5,35,42,.83333331,HI
+UH West Oahu,Other Services,2016,10,,,,HI
+UH West Oahu,Other Services,2019,1,28,34,.82352942,HI
+UH West Oahu,Other Services,2019,5,,,,HI
+UH West Oahu,Other Services,2019,10,,,,HI
+UH West Oahu,Professional Services,2004,1,20,26,.76923078,HI
+UH West Oahu,Professional Services,2004,5,17,18,.94444442,HI
+UH West Oahu,Professional Services,2004,10,16,31,.51612902,HI
+UH West Oahu,Professional Services,2007,1,36,50,.72000003,HI
+UH West Oahu,Professional Services,2007,5,24,48,.5,HI
+UH West Oahu,Professional Services,2007,10,16,31,.51612902,HI
+UH West Oahu,Professional Services,2010,1,35,38,.92105263,HI
+UH West Oahu,Professional Services,2010,5,28,32,.875,HI
+UH West Oahu,Professional Services,2010,10,23,31,.74193549,HI
+UH West Oahu,Professional Services,2013,1,67,76,.88157892,HI
+UH West Oahu,Professional Services,2013,5,54,73,.73972601,HI
+UH West Oahu,Professional Services,2013,10,,,,HI
+UH West Oahu,Professional Services,2016,1,90,104,.86538464,HI
+UH West Oahu,Professional Services,2016,5,88,112,.78571427,HI
+UH West Oahu,Professional Services,2016,10,,,,HI
+UH West Oahu,Professional Services,2019,1,132,146,.9041096,HI
+UH West Oahu,Professional Services,2019,5,,,,HI
+UH West Oahu,Professional Services,2019,10,,,,HI
+UH West Oahu,Public Admin,2004,1,17,20,.85000002,HI
+UH West Oahu,Public Admin,2004,5,18,19,.94736844,HI
+UH West Oahu,Public Admin,2004,10,19,29,.65517241,HI
+UH West Oahu,Public Admin,2007,1,21,27,.77777779,HI
+UH West Oahu,Public Admin,2007,5,31,51,.60784316,HI
+UH West Oahu,Public Admin,2007,10,23,31,.74193549,HI
+UH West Oahu,Public Admin,2010,1,30,35,.85714287,HI
+UH West Oahu,Public Admin,2010,5,48,50,.95999998,HI
+UH West Oahu,Public Admin,2010,10,52,60,.86666667,HI
+UH West Oahu,Public Admin,2013,1,40,50,.80000001,HI
+UH West Oahu,Public Admin,2013,5,72,86,.83720928,HI
+UH West Oahu,Public Admin,2013,10,,,,HI
+UH West Oahu,Public Admin,2016,1,71,71,1,HI
+UH West Oahu,Public Admin,2016,5,112,133,.84210527,HI
+UH West Oahu,Public Admin,2016,10,,,,HI
+UH West Oahu,Public Admin,2019,1,87,99,.87878788,HI
+UH West Oahu,Public Admin,2019,5,,,,HI
+UH West Oahu,Public Admin,2019,10,,,,HI
+UH West Oahu,Real Estate,2004,1,0,1,0,HI
+UH West Oahu,Real Estate,2004,5,0,0,,HI
+UH West Oahu,Real Estate,2004,10,4,7,.5714286,HI
+UH West Oahu,Real Estate,2007,1,10,12,.83333331,HI
+UH West Oahu,Real Estate,2007,5,8,11,.72727275,HI
+UH West Oahu,Real Estate,2007,10,4,4,1,HI
+UH West Oahu,Real Estate,2010,1,8,11,.72727275,HI
+UH West Oahu,Real Estate,2010,5,9,12,.75,HI
+UH West Oahu,Real Estate,2010,10,5,7,.71428573,HI
+UH West Oahu,Real Estate,2013,1,7,9,.77777779,HI
+UH West Oahu,Real Estate,2013,5,10,10,1,HI
+UH West Oahu,Real Estate,2013,10,,,,HI
+UH West Oahu,Real Estate,2016,1,12,13,.92307693,HI
+UH West Oahu,Real Estate,2016,5,18,18,1,HI
+UH West Oahu,Real Estate,2016,10,,,,HI
+UH West Oahu,Real Estate,2019,1,17,24,.70833331,HI
+UH West Oahu,Real Estate,2019,5,,,,HI
+UH West Oahu,Real Estate,2019,10,,,,HI
+UH West Oahu,Retail,2004,1,17,22,.77272725,HI
+UH West Oahu,Retail,2004,5,4,12,.33333334,HI
+UH West Oahu,Retail,2004,10,4,15,.26666668,HI
+UH West Oahu,Retail,2007,1,25,43,.58139533,HI
+UH West Oahu,Retail,2007,5,17,37,.45945945,HI
+UH West Oahu,Retail,2007,10,15,27,.55555558,HI
+UH West Oahu,Retail,2010,1,28,28,1,HI
+UH West Oahu,Retail,2010,5,20,22,.90909094,HI
+UH West Oahu,Retail,2010,10,16,32,.5,HI
+UH West Oahu,Retail,2013,1,53,69,.76811594,HI
+UH West Oahu,Retail,2013,5,25,37,.67567569,HI
+UH West Oahu,Retail,2013,10,,,,HI
+UH West Oahu,Retail,2016,1,85,104,.81730771,HI
+UH West Oahu,Retail,2016,5,45,66,.68181819,HI
+UH West Oahu,Retail,2016,10,,,,HI
+UH West Oahu,Retail,2019,1,102,126,.80952382,HI
+UH West Oahu,Retail,2019,5,,,,HI
+UH West Oahu,Retail,2019,10,,,,HI
+UH West Oahu,Transportation,2004,1,6,7,.85714287,HI
+UH West Oahu,Transportation,2004,5,5,6,.83333331,HI
+UH West Oahu,Transportation,2004,10,4,10,.40000001,HI
+UH West Oahu,Transportation,2007,1,4,19,.21052632,HI
+UH West Oahu,Transportation,2007,5,12,29,.41379312,HI
+UH West Oahu,Transportation,2007,10,9,23,.39130434,HI
+UH West Oahu,Transportation,2010,1,3,3,1,HI
+UH West Oahu,Transportation,2010,5,8,12,.66666669,HI
+UH West Oahu,Transportation,2010,10,7,8,.875,HI
+UH West Oahu,Transportation,2013,1,14,22,.63636363,HI
+UH West Oahu,Transportation,2013,5,15,15,1,HI
+UH West Oahu,Transportation,2013,10,,,,HI
+UH West Oahu,Transportation,2016,1,18,19,.94736844,HI
+UH West Oahu,Transportation,2016,5,22,29,.75862068,HI
+UH West Oahu,Transportation,2016,10,,,,HI
+UH West Oahu,Transportation,2019,1,24,36,.66666669,HI
+UH West Oahu,Transportation,2019,5,,,,HI
+UH West Oahu,Transportation,2019,10,,,,HI
+UH West Oahu,Utilities,2004,1,0,0,,HI
+UH West Oahu,Utilities,2004,5,0,0,,HI
+UH West Oahu,Utilities,2004,10,0,1,0,HI
+UH West Oahu,Utilities,2007,1,0,0,,HI
+UH West Oahu,Utilities,2007,5,2,4,.5,HI
+UH West Oahu,Utilities,2007,10,0,2,0,HI
+UH West Oahu,Utilities,2010,1,0,0,,HI
+UH West Oahu,Utilities,2010,5,0,0,,HI
+UH West Oahu,Utilities,2010,10,0,0,,HI
+UH West Oahu,Utilities,2013,1,2,2,1,HI
+UH West Oahu,Utilities,2013,5,0,1,0,HI
+UH West Oahu,Utilities,2013,10,,,,HI
+UH West Oahu,Utilities,2016,1,0,0,,HI
+UH West Oahu,Utilities,2016,5,3,3,1,HI
+UH West Oahu,Utilities,2016,10,,,,HI
+UH West Oahu,Utilities,2019,1,2,2,1,HI
+UH West Oahu,Utilities,2019,5,,,,HI
+UH West Oahu,Utilities,2019,10,,,,HI
+UH West Oahu,Wholesale,2004,1,1,3,.33333334,HI
+UH West Oahu,Wholesale,2004,5,1,2,.5,HI
+UH West Oahu,Wholesale,2004,10,2,8,.25,HI
+UH West Oahu,Wholesale,2007,1,10,16,.625,HI
+UH West Oahu,Wholesale,2007,5,7,18,.3888889,HI
+UH West Oahu,Wholesale,2007,10,6,9,.66666669,HI
+UH West Oahu,Wholesale,2010,1,6,6,1,HI
+UH West Oahu,Wholesale,2010,5,8,9,.8888889,HI
+UH West Oahu,Wholesale,2010,10,10,12,.83333331,HI
+UH West Oahu,Wholesale,2013,1,16,22,.72727275,HI
+UH West Oahu,Wholesale,2013,5,11,15,.73333335,HI
+UH West Oahu,Wholesale,2013,10,,,,HI
+UH West Oahu,Wholesale,2016,1,15,21,.71428573,HI
+UH West Oahu,Wholesale,2016,5,21,30,.69999999,HI
+UH West Oahu,Wholesale,2016,10,,,,HI
+UH West Oahu,Wholesale,2019,1,12,21,.5714286,HI
+UH West Oahu,Wholesale,2019,5,,,,HI
+UH West Oahu,Wholesale,2019,10,,,,HI
+University of Hawaii (UH),Admin/Waste,2004,1,106,146,.72602737,HI
+University of Hawaii (UH),Admin/Waste,2004,5,85,133,.63909775,HI
+University of Hawaii (UH),Admin/Waste,2004,10,82,145,.56551725,HI
+University of Hawaii (UH),Admin/Waste,2007,1,150,208,.72115386,HI
+University of Hawaii (UH),Admin/Waste,2007,5,137,226,.60619467,HI
+University of Hawaii (UH),Admin/Waste,2007,10,116,202,.57425743,HI
+University of Hawaii (UH),Admin/Waste,2010,1,200,244,.81967211,HI
+University of Hawaii (UH),Admin/Waste,2010,5,163,257,.63424122,HI
+University of Hawaii (UH),Admin/Waste,2010,10,88,167,.52694613,HI
+University of Hawaii (UH),Admin/Waste,2013,1,280,355,.78873241,HI
+University of Hawaii (UH),Admin/Waste,2013,5,149,271,.54981548,HI
+University of Hawaii (UH),Admin/Waste,2013,10,,,,HI
+University of Hawaii (UH),Admin/Waste,2016,1,241,310,.77741933,HI
+University of Hawaii (UH),Admin/Waste,2016,5,124,248,.5,HI
+University of Hawaii (UH),Admin/Waste,2016,10,,,,HI
+University of Hawaii (UH),Admin/Waste,2019,1,220,325,.6769231,HI
+University of Hawaii (UH),Admin/Waste,2019,5,,,,HI
+University of Hawaii (UH),Admin/Waste,2019,10,,,,HI
+University of Hawaii (UH),Agriculture,2004,1,1,1,1,HI
+University of Hawaii (UH),Agriculture,2004,5,5,9,.55555558,HI
+University of Hawaii (UH),Agriculture,2004,10,4,7,.5714286,HI
+University of Hawaii (UH),Agriculture,2007,1,4,8,.5,HI
+University of Hawaii (UH),Agriculture,2007,5,0,3,0,HI
+University of Hawaii (UH),Agriculture,2007,10,2,4,.5,HI
+University of Hawaii (UH),Agriculture,2010,1,10,12,.83333331,HI
+University of Hawaii (UH),Agriculture,2010,5,7,19,.36842105,HI
+University of Hawaii (UH),Agriculture,2010,10,5,7,.71428573,HI
+University of Hawaii (UH),Agriculture,2013,1,8,15,.53333336,HI
+University of Hawaii (UH),Agriculture,2013,5,14,18,.77777779,HI
+University of Hawaii (UH),Agriculture,2013,10,,,,HI
+University of Hawaii (UH),Agriculture,2016,1,1,13,.07692308,HI
+University of Hawaii (UH),Agriculture,2016,5,1,4,.25,HI
+University of Hawaii (UH),Agriculture,2016,10,,,,HI
+University of Hawaii (UH),Agriculture,2019,1,6,13,.46153846,HI
+University of Hawaii (UH),Agriculture,2019,5,,,,HI
+University of Hawaii (UH),Agriculture,2019,10,,,,HI
+University of Hawaii (UH),Arts/Entertainment,2004,1,31,40,.77499998,HI
+University of Hawaii (UH),Arts/Entertainment,2004,5,22,33,.66666669,HI
+University of Hawaii (UH),Arts/Entertainment,2004,10,14,29,.48275861,HI
+University of Hawaii (UH),Arts/Entertainment,2007,1,32,50,.63999999,HI
+University of Hawaii (UH),Arts/Entertainment,2007,5,34,66,.5151515,HI
+University of Hawaii (UH),Arts/Entertainment,2007,10,31,57,.54385966,HI
+University of Hawaii (UH),Arts/Entertainment,2010,1,44,62,.7096774,HI
+University of Hawaii (UH),Arts/Entertainment,2010,5,46,64,.71875,HI
+University of Hawaii (UH),Arts/Entertainment,2010,10,34,52,.65384614,HI
+University of Hawaii (UH),Arts/Entertainment,2013,1,52,81,.64197528,HI
+University of Hawaii (UH),Arts/Entertainment,2013,5,63,95,.66315788,HI
+University of Hawaii (UH),Arts/Entertainment,2013,10,,,,HI
+University of Hawaii (UH),Arts/Entertainment,2016,1,58,83,.6987952,HI
+University of Hawaii (UH),Arts/Entertainment,2016,5,47,82,.57317072,HI
+University of Hawaii (UH),Arts/Entertainment,2016,10,,,,HI
+University of Hawaii (UH),Arts/Entertainment,2019,1,66,88,.75,HI
+University of Hawaii (UH),Arts/Entertainment,2019,5,,,,HI
+University of Hawaii (UH),Arts/Entertainment,2019,10,,,,HI
+University of Hawaii (UH),Construction,2004,1,48,57,.84210527,HI
+University of Hawaii (UH),Construction,2004,5,61,72,.84722221,HI
+University of Hawaii (UH),Construction,2004,10,71,91,.78021979,HI
+University of Hawaii (UH),Construction,2007,1,93,127,.73228347,HI
+University of Hawaii (UH),Construction,2007,5,88,118,.74576271,HI
+University of Hawaii (UH),Construction,2007,10,85,116,.73275864,HI
+University of Hawaii (UH),Construction,2010,1,130,143,.90909094,HI
+University of Hawaii (UH),Construction,2010,5,127,174,.72988504,HI
+University of Hawaii (UH),Construction,2010,10,113,172,.65697676,HI
+University of Hawaii (UH),Construction,2013,1,176,199,.88442212,HI
+University of Hawaii (UH),Construction,2013,5,168,217,.77419353,HI
+University of Hawaii (UH),Construction,2013,10,,,,HI
+University of Hawaii (UH),Construction,2016,1,198,251,.78884465,HI
+University of Hawaii (UH),Construction,2016,5,206,268,.76865673,HI
+University of Hawaii (UH),Construction,2016,10,,,,HI
+University of Hawaii (UH),Construction,2019,1,201,236,.85169494,HI
+University of Hawaii (UH),Construction,2019,5,,,,HI
+University of Hawaii (UH),Construction,2019,10,,,,HI
+University of Hawaii (UH),Education,2004,1,553,637,.86813188,HI
+University of Hawaii (UH),Education,2004,5,600,775,.77419353,HI
+University of Hawaii (UH),Education,2004,10,575,787,.73062259,HI
+University of Hawaii (UH),Education,2007,1,761,885,.859887,HI
+University of Hawaii (UH),Education,2007,5,886,1142,.77583188,HI
+University of Hawaii (UH),Education,2007,10,826,1153,.71639204,HI
+University of Hawaii (UH),Education,2010,1,675,799,.84480602,HI
+University of Hawaii (UH),Education,2010,5,764,1017,.75122911,HI
+University of Hawaii (UH),Education,2010,10,694,991,.70030272,HI
+University of Hawaii (UH),Education,2013,1,744,893,.83314669,HI
+University of Hawaii (UH),Education,2013,5,800,1079,.74142724,HI
+University of Hawaii (UH),Education,2013,10,,,,HI
+University of Hawaii (UH),Education,2016,1,683,813,.84009838,HI
+University of Hawaii (UH),Education,2016,5,659,962,.68503118,HI
+University of Hawaii (UH),Education,2016,10,,,,HI
+University of Hawaii (UH),Education,2019,1,738,882,.83673471,HI
+University of Hawaii (UH),Education,2019,5,,,,HI
+University of Hawaii (UH),Education,2019,10,,,,HI
+University of Hawaii (UH),Finance,2004,1,184,219,.84018266,HI
+University of Hawaii (UH),Finance,2004,5,157,206,.76213592,HI
+University of Hawaii (UH),Finance,2004,10,142,228,.62280703,HI
+University of Hawaii (UH),Finance,2007,1,218,263,.82889736,HI
+University of Hawaii (UH),Finance,2007,5,210,282,.74468082,HI
+University of Hawaii (UH),Finance,2007,10,198,302,.65562916,HI
+University of Hawaii (UH),Finance,2010,1,177,217,.81566823,HI
+University of Hawaii (UH),Finance,2010,5,227,298,.76174498,HI
+University of Hawaii (UH),Finance,2010,10,194,279,.69534051,HI
+University of Hawaii (UH),Finance,2013,1,188,240,.78333336,HI
+University of Hawaii (UH),Finance,2013,5,240,352,.68181819,HI
+University of Hawaii (UH),Finance,2013,10,,,,HI
+University of Hawaii (UH),Finance,2016,1,224,278,.80575538,HI
+University of Hawaii (UH),Finance,2016,5,266,370,.71891892,HI
+University of Hawaii (UH),Finance,2016,10,,,,HI
+University of Hawaii (UH),Finance,2019,1,190,261,.72796935,HI
+University of Hawaii (UH),Finance,2019,5,,,,HI
+University of Hawaii (UH),Finance,2019,10,,,,HI
+University of Hawaii (UH),Food/Hospitality,2004,1,344,416,.82692307,HI
+University of Hawaii (UH),Food/Hospitality,2004,5,169,287,.5888502,HI
+University of Hawaii (UH),Food/Hospitality,2004,10,144,231,.62337661,HI
+University of Hawaii (UH),Food/Hospitality,2007,1,495,633,.78199053,HI
+University of Hawaii (UH),Food/Hospitality,2007,5,323,491,.65784115,HI
+University of Hawaii (UH),Food/Hospitality,2007,10,217,370,.58648646,HI
+University of Hawaii (UH),Food/Hospitality,2010,1,482,610,.79016393,HI
+University of Hawaii (UH),Food/Hospitality,2010,5,292,448,.65178573,HI
+University of Hawaii (UH),Food/Hospitality,2010,10,181,288,.62847221,HI
+University of Hawaii (UH),Food/Hospitality,2013,1,628,786,.7989822,HI
+University of Hawaii (UH),Food/Hospitality,2013,5,392,549,.7140255,HI
+University of Hawaii (UH),Food/Hospitality,2013,10,,,,HI
+University of Hawaii (UH),Food/Hospitality,2016,1,626,744,.84139782,HI
+University of Hawaii (UH),Food/Hospitality,2016,5,353,491,.71894091,HI
+University of Hawaii (UH),Food/Hospitality,2016,10,,,,HI
+University of Hawaii (UH),Food/Hospitality,2019,1,439,607,.72322899,HI
+University of Hawaii (UH),Food/Hospitality,2019,5,,,,HI
+University of Hawaii (UH),Food/Hospitality,2019,10,,,,HI
+University of Hawaii (UH),Health Care,2004,1,393,483,.81366462,HI
+University of Hawaii (UH),Health Care,2004,5,371,561,.66131908,HI
+University of Hawaii (UH),Health Care,2004,10,369,605,.60991734,HI
+University of Hawaii (UH),Health Care,2007,1,639,799,.79974967,HI
+University of Hawaii (UH),Health Care,2007,5,592,841,.70392388,HI
+University of Hawaii (UH),Health Care,2007,10,607,934,.64989293,HI
+University of Hawaii (UH),Health Care,2010,1,606,755,.80264902,HI
+University of Hawaii (UH),Health Care,2010,5,641,897,.71460426,HI
+University of Hawaii (UH),Health Care,2010,10,570,901,.63263041,HI
+University of Hawaii (UH),Health Care,2013,1,868,1068,.81273407,HI
+University of Hawaii (UH),Health Care,2013,5,859,1272,.67531449,HI
+University of Hawaii (UH),Health Care,2013,10,,,,HI
+University of Hawaii (UH),Health Care,2016,1,826,1066,.77485931,HI
+University of Hawaii (UH),Health Care,2016,5,814,1241,.65592265,HI
+University of Hawaii (UH),Health Care,2016,10,,,,HI
+University of Hawaii (UH),Health Care,2019,1,774,1012,.76482213,HI
+University of Hawaii (UH),Health Care,2019,5,,,,HI
+University of Hawaii (UH),Health Care,2019,10,,,,HI
+University of Hawaii (UH),Information,2004,1,64,74,.86486489,HI
+University of Hawaii (UH),Information,2004,5,68,98,.69387758,HI
+University of Hawaii (UH),Information,2004,10,64,91,.70329672,HI
+University of Hawaii (UH),Information,2007,1,71,86,.82558137,HI
+University of Hawaii (UH),Information,2007,5,80,127,.62992126,HI
+University of Hawaii (UH),Information,2007,10,67,134,.5,HI
+University of Hawaii (UH),Information,2010,1,71,92,.77173913,HI
+University of Hawaii (UH),Information,2010,5,94,163,.5766871,HI
+University of Hawaii (UH),Information,2010,10,75,171,.43859649,HI
+University of Hawaii (UH),Information,2013,1,85,111,.76576579,HI
+University of Hawaii (UH),Information,2013,5,78,171,.45614034,HI
+University of Hawaii (UH),Information,2013,10,,,,HI
+University of Hawaii (UH),Information,2016,1,81,119,.68067229,HI
+University of Hawaii (UH),Information,2016,5,73,158,.46202531,HI
+University of Hawaii (UH),Information,2016,10,,,,HI
+University of Hawaii (UH),Information,2019,1,78,129,.60465115,HI
+University of Hawaii (UH),Information,2019,5,,,,HI
+University of Hawaii (UH),Information,2019,10,,,,HI
+University of Hawaii (UH),Management,2004,1,57,62,.91935486,HI
+University of Hawaii (UH),Management,2004,5,61,69,.884058,HI
+University of Hawaii (UH),Management,2004,10,65,77,.84415585,HI
+University of Hawaii (UH),Management,2007,1,47,56,.83928573,HI
+University of Hawaii (UH),Management,2007,5,49,61,.80327868,HI
+University of Hawaii (UH),Management,2007,10,60,74,.8108108,HI
+University of Hawaii (UH),Management,2010,1,57,66,.86363637,HI
+University of Hawaii (UH),Management,2010,5,76,93,.8172043,HI
+University of Hawaii (UH),Management,2010,10,77,101,.76237625,HI
+University of Hawaii (UH),Management,2013,1,88,94,.93617022,HI
+University of Hawaii (UH),Management,2013,5,107,129,.82945734,HI
+University of Hawaii (UH),Management,2013,10,,,,HI
+University of Hawaii (UH),Management,2016,1,100,109,.91743118,HI
+University of Hawaii (UH),Management,2016,5,122,147,.82993197,HI
+University of Hawaii (UH),Management,2016,10,,,,HI
+University of Hawaii (UH),Management,2019,1,89,95,.93684208,HI
+University of Hawaii (UH),Management,2019,5,,,,HI
+University of Hawaii (UH),Management,2019,10,,,,HI
+University of Hawaii (UH),Manufacturing,2004,1,16,41,.39024389,HI
+University of Hawaii (UH),Manufacturing,2004,5,28,81,.34567901,HI
+University of Hawaii (UH),Manufacturing,2004,10,16,70,.22857143,HI
+University of Hawaii (UH),Manufacturing,2007,1,28,100,.28,HI
+University of Hawaii (UH),Manufacturing,2007,5,33,109,.30275229,HI
+University of Hawaii (UH),Manufacturing,2007,10,39,139,.28057554,HI
+University of Hawaii (UH),Manufacturing,2010,1,24,107,.22429906,HI
+University of Hawaii (UH),Manufacturing,2010,5,34,143,.23776224,HI
+University of Hawaii (UH),Manufacturing,2010,10,30,148,.2027027,HI
+University of Hawaii (UH),Manufacturing,2013,1,51,130,.3923077,HI
+University of Hawaii (UH),Manufacturing,2013,5,55,170,.32352942,HI
+University of Hawaii (UH),Manufacturing,2013,10,,,,HI
+University of Hawaii (UH),Manufacturing,2016,1,43,120,.35833332,HI
+University of Hawaii (UH),Manufacturing,2016,5,43,157,.27388534,HI
+University of Hawaii (UH),Manufacturing,2016,10,,,,HI
+University of Hawaii (UH),Manufacturing,2019,1,46,106,.43396226,HI
+University of Hawaii (UH),Manufacturing,2019,5,,,,HI
+University of Hawaii (UH),Manufacturing,2019,10,,,,HI
+University of Hawaii (UH),Mining,2004,1,0,1,0,HI
+University of Hawaii (UH),Mining,2004,5,0,0,,HI
+University of Hawaii (UH),Mining,2004,10,0,0,,HI
+University of Hawaii (UH),Mining,2007,1,0,1,0,HI
+University of Hawaii (UH),Mining,2007,5,0,1,0,HI
+University of Hawaii (UH),Mining,2007,10,0,0,,HI
+University of Hawaii (UH),Mining,2010,1,0,0,,HI
+University of Hawaii (UH),Mining,2010,5,0,0,,HI
+University of Hawaii (UH),Mining,2010,10,0,0,,HI
+University of Hawaii (UH),Mining,2013,1,0,2,0,HI
+University of Hawaii (UH),Mining,2013,5,0,0,,HI
+University of Hawaii (UH),Mining,2013,10,,,,HI
+University of Hawaii (UH),Mining,2016,1,0,1,0,HI
+University of Hawaii (UH),Mining,2016,5,0,2,0,HI
+University of Hawaii (UH),Mining,2016,10,,,,HI
+University of Hawaii (UH),Mining,2019,1,0,1,0,HI
+University of Hawaii (UH),Mining,2019,5,,,,HI
+University of Hawaii (UH),Mining,2019,10,,,,HI
+University of Hawaii (UH),Other Services,2004,1,76,86,.88372093,HI
+University of Hawaii (UH),Other Services,2004,5,45,63,.71428573,HI
+University of Hawaii (UH),Other Services,2004,10,53,76,.69736844,HI
+University of Hawaii (UH),Other Services,2007,1,81,97,.83505154,HI
+University of Hawaii (UH),Other Services,2007,5,83,129,.64341086,HI
+University of Hawaii (UH),Other Services,2007,10,81,117,.69230771,HI
+University of Hawaii (UH),Other Services,2010,1,80,101,.79207921,HI
+University of Hawaii (UH),Other Services,2010,5,100,143,.69930071,HI
+University of Hawaii (UH),Other Services,2010,10,87,124,.70161289,HI
+University of Hawaii (UH),Other Services,2013,1,84,108,.77777779,HI
+University of Hawaii (UH),Other Services,2013,5,115,161,.71428573,HI
+University of Hawaii (UH),Other Services,2013,10,,,,HI
+University of Hawaii (UH),Other Services,2016,1,111,139,.79856116,HI
+University of Hawaii (UH),Other Services,2016,5,97,146,.66438359,HI
+University of Hawaii (UH),Other Services,2016,10,,,,HI
+University of Hawaii (UH),Other Services,2019,1,117,126,.9285714,HI
+University of Hawaii (UH),Other Services,2019,5,,,,HI
+University of Hawaii (UH),Other Services,2019,10,,,,HI
+University of Hawaii (UH),Professional Services,2004,1,347,423,.82033098,HI
+University of Hawaii (UH),Professional Services,2004,5,256,381,.67191601,HI
+University of Hawaii (UH),Professional Services,2004,10,212,373,.56836462,HI
+University of Hawaii (UH),Professional Services,2007,1,552,679,.81296021,HI
+University of Hawaii (UH),Professional Services,2007,5,447,641,.69734788,HI
+University of Hawaii (UH),Professional Services,2007,10,359,633,.56714058,HI
+University of Hawaii (UH),Professional Services,2010,1,465,603,.77114427,HI
+University of Hawaii (UH),Professional Services,2010,5,386,607,.63591433,HI
+University of Hawaii (UH),Professional Services,2010,10,315,593,.53119731,HI
+University of Hawaii (UH),Professional Services,2013,1,568,712,.7977528,HI
+University of Hawaii (UH),Professional Services,2013,5,474,813,.58302581,HI
+University of Hawaii (UH),Professional Services,2013,10,,,,HI
+University of Hawaii (UH),Professional Services,2016,1,616,813,.75768757,HI
+University of Hawaii (UH),Professional Services,2016,5,556,929,.59849298,HI
+University of Hawaii (UH),Professional Services,2016,10,,,,HI
+University of Hawaii (UH),Professional Services,2019,1,709,912,.7774123,HI
+University of Hawaii (UH),Professional Services,2019,5,,,,HI
+University of Hawaii (UH),Professional Services,2019,10,,,,HI
+University of Hawaii (UH),Public Admin,2004,1,87,98,.8877551,HI
+University of Hawaii (UH),Public Admin,2004,5,154,199,.77386934,HI
+University of Hawaii (UH),Public Admin,2004,10,189,233,.81115878,HI
+University of Hawaii (UH),Public Admin,2007,1,142,179,.7932961,HI
+University of Hawaii (UH),Public Admin,2007,5,227,300,.75666666,HI
+University of Hawaii (UH),Public Admin,2007,10,323,431,.74941993,HI
+University of Hawaii (UH),Public Admin,2010,1,115,155,.74193549,HI
+University of Hawaii (UH),Public Admin,2010,5,265,359,.73816156,HI
+University of Hawaii (UH),Public Admin,2010,10,320,425,.75294119,HI
+University of Hawaii (UH),Public Admin,2013,1,127,188,.67553192,HI
+University of Hawaii (UH),Public Admin,2013,5,280,393,.71246821,HI
+University of Hawaii (UH),Public Admin,2013,10,,,,HI
+University of Hawaii (UH),Public Admin,2016,1,145,192,.75520831,HI
+University of Hawaii (UH),Public Admin,2016,5,307,440,.69772726,HI
+University of Hawaii (UH),Public Admin,2016,10,,,,HI
+University of Hawaii (UH),Public Admin,2019,1,164,221,.74208146,HI
+University of Hawaii (UH),Public Admin,2019,5,,,,HI
+University of Hawaii (UH),Public Admin,2019,10,,,,HI
+University of Hawaii (UH),Real Estate,2004,1,51,56,.91071427,HI
+University of Hawaii (UH),Real Estate,2004,5,31,36,.8611111,HI
+University of Hawaii (UH),Real Estate,2004,10,41,63,.65079367,HI
+University of Hawaii (UH),Real Estate,2007,1,47,63,.74603176,HI
+University of Hawaii (UH),Real Estate,2007,5,50,72,.69444442,HI
+University of Hawaii (UH),Real Estate,2007,10,58,84,.69047618,HI
+University of Hawaii (UH),Real Estate,2010,1,52,73,.71232879,HI
+University of Hawaii (UH),Real Estate,2010,5,54,83,.6506024,HI
+University of Hawaii (UH),Real Estate,2010,10,48,77,.62337661,HI
+University of Hawaii (UH),Real Estate,2013,1,55,73,.75342464,HI
+University of Hawaii (UH),Real Estate,2013,5,67,103,.65048546,HI
+University of Hawaii (UH),Real Estate,2013,10,,,,HI
+University of Hawaii (UH),Real Estate,2016,1,77,88,.875,HI
+University of Hawaii (UH),Real Estate,2016,5,62,87,.71264368,HI
+University of Hawaii (UH),Real Estate,2016,10,,,,HI
+University of Hawaii (UH),Real Estate,2019,1,60,66,.90909094,HI
+University of Hawaii (UH),Real Estate,2019,5,,,,HI
+University of Hawaii (UH),Real Estate,2019,10,,,,HI
+University of Hawaii (UH),Retail,2004,1,252,301,.83720928,HI
+University of Hawaii (UH),Retail,2004,5,141,228,.61842108,HI
+University of Hawaii (UH),Retail,2004,10,115,210,.54761904,HI
+University of Hawaii (UH),Retail,2007,1,331,430,.76976746,HI
+University of Hawaii (UH),Retail,2007,5,222,361,.61495847,HI
+University of Hawaii (UH),Retail,2007,10,168,304,.55263156,HI
+University of Hawaii (UH),Retail,2010,1,418,518,.80694979,HI
+University of Hawaii (UH),Retail,2010,5,256,390,.65641028,HI
+University of Hawaii (UH),Retail,2010,10,189,317,.59621453,HI
+University of Hawaii (UH),Retail,2013,1,381,494,.77125508,HI
+University of Hawaii (UH),Retail,2013,5,258,445,.57977527,HI
+University of Hawaii (UH),Retail,2013,10,,,,HI
+University of Hawaii (UH),Retail,2016,1,416,526,.79087454,HI
+University of Hawaii (UH),Retail,2016,5,215,373,.57640749,HI
+University of Hawaii (UH),Retail,2016,10,,,,HI
+University of Hawaii (UH),Retail,2019,1,314,412,.76213592,HI
+University of Hawaii (UH),Retail,2019,5,,,,HI
+University of Hawaii (UH),Retail,2019,10,,,,HI
+University of Hawaii (UH),Transportation,2004,1,60,73,.82191783,HI
+University of Hawaii (UH),Transportation,2004,5,47,73,.6438356,HI
+University of Hawaii (UH),Transportation,2004,10,55,87,.63218391,HI
+University of Hawaii (UH),Transportation,2007,1,60,66,.90909094,HI
+University of Hawaii (UH),Transportation,2007,5,107,131,.81679392,HI
+University of Hawaii (UH),Transportation,2007,10,129,183,.70491803,HI
+University of Hawaii (UH),Transportation,2010,1,78,94,.82978725,HI
+University of Hawaii (UH),Transportation,2010,5,137,186,.73655915,HI
+University of Hawaii (UH),Transportation,2010,10,141,193,.73056996,HI
+University of Hawaii (UH),Transportation,2013,1,71,97,.73195875,HI
+University of Hawaii (UH),Transportation,2013,5,117,186,.62903225,HI
+University of Hawaii (UH),Transportation,2013,10,,,,HI
+University of Hawaii (UH),Transportation,2016,1,98,124,.7903226,HI
+University of Hawaii (UH),Transportation,2016,5,131,196,.66836733,HI
+University of Hawaii (UH),Transportation,2016,10,,,,HI
+University of Hawaii (UH),Transportation,2019,1,94,109,.86238533,HI
+University of Hawaii (UH),Transportation,2019,5,,,,HI
+University of Hawaii (UH),Transportation,2019,10,,,,HI
+University of Hawaii (UH),Utilities,2004,1,3,3,1,HI
+University of Hawaii (UH),Utilities,2004,5,10,10,1,HI
+University of Hawaii (UH),Utilities,2004,10,30,30,1,HI
+University of Hawaii (UH),Utilities,2007,1,15,16,.9375,HI
+University of Hawaii (UH),Utilities,2007,5,37,40,.92500001,HI
+University of Hawaii (UH),Utilities,2007,10,54,56,.96428573,HI
+University of Hawaii (UH),Utilities,2010,1,17,18,.94444442,HI
+University of Hawaii (UH),Utilities,2010,5,49,58,.84482759,HI
+University of Hawaii (UH),Utilities,2010,10,57,61,.93442625,HI
+University of Hawaii (UH),Utilities,2013,1,21,21,1,HI
+University of Hawaii (UH),Utilities,2013,5,40,44,.90909094,HI
+University of Hawaii (UH),Utilities,2013,10,,,,HI
+University of Hawaii (UH),Utilities,2016,1,22,25,.88,HI
+University of Hawaii (UH),Utilities,2016,5,40,45,.8888889,HI
+University of Hawaii (UH),Utilities,2016,10,,,,HI
+University of Hawaii (UH),Utilities,2019,1,10,13,.76923078,HI
+University of Hawaii (UH),Utilities,2019,5,,,,HI
+University of Hawaii (UH),Utilities,2019,10,,,,HI
+University of Hawaii (UH),Wholesale,2004,1,29,46,.63043481,HI
+University of Hawaii (UH),Wholesale,2004,5,43,76,.56578946,HI
+University of Hawaii (UH),Wholesale,2004,10,35,81,.43209878,HI
+University of Hawaii (UH),Wholesale,2007,1,48,73,.65753424,HI
+University of Hawaii (UH),Wholesale,2007,5,41,93,.44086021,HI
+University of Hawaii (UH),Wholesale,2007,10,40,102,.39215687,HI
+University of Hawaii (UH),Wholesale,2010,1,56,80,.69999999,HI
+University of Hawaii (UH),Wholesale,2010,5,74,132,.56060606,HI
+University of Hawaii (UH),Wholesale,2010,10,59,102,.57843137,HI
+University of Hawaii (UH),Wholesale,2013,1,70,103,.67961162,HI
+University of Hawaii (UH),Wholesale,2013,5,67,125,.53600001,HI
+University of Hawaii (UH),Wholesale,2013,10,,,,HI
+University of Hawaii (UH),Wholesale,2016,1,61,96,.63541669,HI
+University of Hawaii (UH),Wholesale,2016,5,64,127,.50393701,HI
+University of Hawaii (UH),Wholesale,2016,10,,,,HI
+University of Hawaii (UH),Wholesale,2019,1,61,114,.5350877,HI
+University of Hawaii (UH),Wholesale,2019,5,,,,HI
+University of Hawaii (UH),Wholesale,2019,10,,,,HI

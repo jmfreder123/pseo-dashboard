@@ -215,6 +215,67 @@ South Carolina's release is `V4.13.0 / 2025Q4`. The six earlier states were
 built from files downloaded in April 2026. Whether those vintages differ has
 not been established.
 
+## Hawaii — added 2026-10-02
+
+Built by `build_state_data.py` from **R2025Q4**, the same release every other
+state on the dashboard uses (see "Release vintage" below).
+
+Hawaii is the first state where the coverage threshold and the IPEDS sector rule
+select the same institutions. Its four in-frame institutions sit at 273, 270, 249
+and 76 `total_observed`, a gap wide enough that any cut between 77 and 249 gives
+the same answer the rule gives. Selection was still made by running the rule, for
+consistency with the other states.
+
+| OPEID | Institution | CONTROL | INSTCAT | HLOFFER | Rule |
+|---|---|---|---|---|---|
+| 00161000 | University of Hawaii at Manoa | 1 | 2 | 9 | keep |
+| 00161100 | University of Hawaii at Hilo | 1 | 2 | 9 | keep |
+| 02107800 | University of Hawaii - West Oahu | 1 | 2 | 5 | keep |
+| 00161500 | University of Hawaii Maui College | 1 | 3 | 5 | drop |
+
+**West Oahu is a second case for the `INSTCAT == 2` half of the union.** It is
+baccalaureate-only (`HLOFFER 5`), so an `HLOFFER >= 7` rule alone would drop it,
+exactly as it drops University of Montana Western. Utah is the mirror case, where
+`INSTCAT` fails and `HLOFFER` rescues four dual-mission universities. Both halves
+of the rule are load-bearing, in different states.
+
+Values checked against an independent read of the raw release using separate
+filtering code.
+
+| Check | in-state / total | TSI | Result |
+|---|---|---|---|
+| HI-1 UH Education 2004 Y1 | 553 / 637 | 0.8681 | PASS |
+| HI-2 UH Health Care 2010 Y10 | 570 / 901 | 0.6326 | PASS |
+| HI-3 UH Hilo Public Admin 2007 Y5 | 56 / 86 | 0.6512 | PASS |
+| HI-4 UH West Oahu Retail 2016 Y1 | 85 / 104 | 0.8173 | PASS |
+| HI-5 UH Hilo Food/Hospitality 2019 Y1 | 52 / 87 | 0.5977 | PASS |
+| HI-6 UH Education 2004 → Pacific Y1 | 553 / 584 | — | PASS |
+| HI-7 HI aggregate, all inst × ind × cohorts, Y1 | 30784 / 40413 | 0.7617 | PASS |
+
+HI-7's `emp_n_` total of 40,413 equals the `grads_y1` recorded for HI in
+`data/benchmark_composition.csv`. HI was already a benchmark contributor, so
+adding it as a dashboard state does not move the reference line.
+
+Coverage caveat, from `pseo_hi_partners.txt`: "72% of statewide graduates covered
+(2015 estimate) — University of Hawaii System." That is the lowest coverage of
+any state on the dashboard; South Carolina's is 86%.
+
+## Release vintage — resolved
+
+The 2026-08-22 entry recorded the vintage question as unestablished. It is now
+established, and the answer is that every state matches.
+
+Census keeps each quarterly release permanently under `/data/pseo/R<YYYY>Q<N>/`,
+with `latest_release` a moving pointer. `R2025Q4` was published 2026-01-28 and
+remained `latest_release` until `R2026Q2` appeared 2026-08-25. The six original
+states were downloaded in April 2026 and South Carolina on 2026-08-22, both
+inside that window, and SC's `version_pseo.txt` reads `V4.13.0 2025Q4`. Hawaii
+was taken from the archived `R2025Q4` path rather than `latest_release` for the
+same reason.
+
+**All eight states are on R2025Q4.** The dashboard is now one release behind
+current; moving forward should be done for every state at once, not piecemeal.
+
 ## Scope and limitations
 
 - **These are spot checks, not full verification.** 27 sampled cells against a
@@ -223,7 +284,7 @@ not been established.
   correct; they cannot rule out an error confined to cells not sampled. The
   Layer 3 checks are broader — L3-4 aggregates every Arizona cell at Y1 — but
   cover only AZ and TX.
-- **AZ, TX, and CO were built in Stata; OR, UT, MT, and SC were built by
+- **AZ, TX, and CO were built in Stata; OR, UT, MT, SC, and HI were built by
   `build_state_data.py`.** Both paths reproduce the raw values exactly at
   every cell checked, which is the evidence that the Python builder is a
   faithful reimplementation of the `.do` pipeline.
@@ -232,5 +293,5 @@ not been established.
   equivalent aggregation check for CO, OR, or UT.
 - ~~A stronger check for publication would be a full-column comparison against
   a Stata-generated file rather than sampled cells.~~ Done for AZ, CO, and TX
-  on 2026-08-22; see above. Not done for OR, UT, MT, or SC, none of which have
-  a Stata counterpart to compare against.
+  on 2026-08-22; see above. Not done for OR, UT, MT, SC, or HI, none of which
+  have a Stata counterpart to compare against.

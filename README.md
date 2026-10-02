@@ -1,8 +1,8 @@
 # PSEO Talent Stickiness Dashboard
 
 Interactive dashboard for exploring graduate retention patterns at public
-universities in Arizona, Texas, Colorado, Oregon, Utah, Montana, and South
-Carolina.
+universities in Arizona, Texas, Colorado, Oregon, Utah, Montana, South
+Carolina, and Hawaii.
 
 ## Setup
 
@@ -35,6 +35,7 @@ Two CSVs per state in `data/`, named `{st}_tsi.csv` and `{st}_regional_flows.csv
 | UT | 6 | 2010–2019 | `total_observed >= 100` (drops Snow College) |
 | MT | 6 | 2004–2019 | all four-year publics (no threshold) |
 | SC | 12 | 2004–2019 | IPEDS sector rule (no threshold — see Notes) |
+| HI | 3 | 2004–2019 | IPEDS sector rule (a threshold would also work — see Notes) |
 
 Source: U.S. Census Bureau Postsecondary Employment Outcomes (PSEO),
 2004–2019 graduation cohorts, bachelor's degrees, all CIP codes.
@@ -142,6 +143,12 @@ Governors University alone, filed under `us` because it has no home state.
   `build_state_data.py` via `--institutions`. SC also carries a 2001 cohort, so
   a threshold quoted on the triennial scale selects zero rather than merely
   fewer.
+- **Hawaii is the one state where both selection methods agree.** Its four
+  in-frame institutions sit at 273, 270, 249 and 76 `total_observed`, so any
+  threshold between 77 and 249 selects the same three universities the IPEDS
+  rule admits. Note that 273 is below Arizona's 280, so CO's 320 or TX's 340
+  would still select zero. Hawaii's six community colleges never enter the
+  frame.
 - Coverage thresholds are state-specific and do **not** transfer. Oregon's 7
   publics all fall between 268 and 278 observed cells, so applying CO's 320 or
   TX's 340 would select zero institutions. Utah's six four-year publics sit at
