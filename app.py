@@ -428,6 +428,104 @@ with tab2:
             )
 
 # ---------------- Sankey ----------------
+# Light pastel region colors
+REGION_COLORS = {
+    "New England":         "#cfe2f3",
+    "Middle Atlantic":     "#d9d2e9",
+    "East North Central":  "#d9ead3",
+    "West North Central":  "#fff2cc",
+    "South Atlantic":      "#f4cccc",
+    "East South Central":  "#ead1dc",
+    "West South Central":  "#fce5cd",
+    "Mountain":            "#d0e0e3",
+    "Pacific":             "#f9cb9c",
+}
+
+
+def _hex_to_rgba(hex_color, alpha=0.18):
+    h = hex_color.lstrip("#")
+    r, g, b = int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
+    return f"rgba({r},{g},{b},{alpha})"
+
+
+def sankey_figure(state_code, state_agg, horizon, height=600):
+    """One state's institution -> region Sankey. Institutions take the state's
+    dashboard colour (insights.STATE_COLORS), regions the pastel set above.
+    The figure grows with the institution count so a 28-school state (New
+    York) is not squeezed into the same height as a 3-school one."""
+    institutions = state_agg["institution_cat"].unique().tolist()
+    height = max(height, 32 * len(institutions) + 150)
+    regions = state_agg["region_cat"].unique().tolist()
+    inst_color = insights.STATE_COLORS.get(state_code, insights.STATE_COLOR_DEFAULT)
+    labels = institutions + regions
+    idx = {label: i for i, label in enumerate(labels)}
+    fig = go.Figure(data=[go.Sankey(
+        arrangement="snap",
+        node=dict(
+            pad=25,
+            thickness=14,
+            line=dict(color="rgba(0,0,0,0.2)", width=0.5),
+            label=labels,
+            color=[inst_color] * len(institutions)
+                  + [REGION_COLORS.get(r, "#dddddd") for r in regions],
+        ),
+        link=dict(
+            source=[idx[i] for i in state_agg["institution_cat"]],
+            target=[idx[r] for r in state_agg["region_cat"]],
+            value=state_agg["grads"].tolist(),
+            color=[_hex_to_rgba(inst_color)] * len(state_agg),
+        ),
+    )])
+    fig.update_layout(
+        height=height,
+        font=dict(size=12, color="#1a1a1a", family="sans-serif"),
+        title=dict(
+            text=f"{insights.STATE_NAMES.get(state_code, state_code)} — Y{horizon}",
+            font=dict(size=14, color="#1a1a1a"),
+        ),
+        margin=dict(l=20, r=20, t=50, b=20),
+        paper_bgcolor="white",
+        plot_bgcolor="white",
+    )
+    return fig
+
+
+def _sankey_step(states, delta):
+    cur = st.session_state.get("sankey_state")
+    i = states.index(cur) if cur in states else 0
+    st.session_state["sankey_state"] = states[(i + delta) % len(states)]
+
+
+def sankey_nav(states, key):
+    """Previous / Next buttons around a 'State — n of N' label. Returns the
+    state code currently shown. One state: no buttons, just the label."""
+    cur = st.session_state.get("sankey_state")
+    if cur not in states:
+        cur = states[0]
+        st.session_state["sankey_state"] = cur
+    if len(states) == 1:
+        return cur
+    prev_col, mid, next_col = st.columns([1, 3, 1])
+    prev_col.button("← Previous", key=f"{key}_prev", use_container_width=True,
+                    on_click=_sankey_step, args=(states, -1))
+    next_col.button("Next →", key=f"{key}_next", use_container_width=True,
+                    on_click=_sankey_step, args=(states, 1))
+    mid.markdown(
+        f"<div style='text-align:center;padding-top:0.45rem'>"
+        f"<b>{insights.STATE_NAMES.get(cur, cur)}</b> &nbsp;·&nbsp; "
+        f"{states.index(cur) + 1} of {len(states)}</div>",
+        unsafe_allow_html=True,
+    )
+    return cur
+
+
+@st.dialog("Regional Flows", width="large")
+def sankey_popup(agg, states, horizon):
+    cur = sankey_nav(states, "popup")
+    fig = sankey_figure(cur, agg[agg["state"] == cur], horizon, height=650)
+    st.plotly_chart(fig, use_container_width=True, config=insights.PLOTLY_CONFIG)
+
+
 with tab3:
     st.subheader(f"Regional Flows — Y{horizon_selected}, total counts across selected filters")
 
@@ -444,85 +542,15 @@ with tab3:
         if agg.empty:
             st.info("All counts are zero or suppressed for this filter.")
         else:
-            # Light pastel region colors — same across both Sankeys
-            REGION_COLORS = {
-                "New England":         "#cfe2f3",
-                "Middle Atlantic":     "#d9d2e9",
-                "East North Central":  "#d9ead3",
-                "West North Central":  "#fff2cc",
-                "South Atlantic":      "#f4cccc",
-                "East South Central":  "#ead1dc",
-                "West South Central":  "#fce5cd",
-                "Mountain":            "#d0e0e3",
-                "Pacific":             "#f9cb9c",
-            }
-            # One colour per state across the whole dashboard; defined once in
-            # insights.py so the Sankey and the Insights tab can never disagree.
-            STATE_INST_COLORS = insights.STATE_COLORS
-            DEFAULT_INST_COLOR = insights.STATE_COLOR_DEFAULT
-
             states_with_data = sorted(agg["state"].unique())
-
-            if len(states_with_data) == 1:
-                cols = [st.container()]
-            else:
-                cols = st.columns(len(states_with_data))
-
-            for col, state_code in zip(cols, states_with_data):
-                with col:
-                    state_agg = agg[agg["state"] == state_code]
-                    institutions = state_agg["institution_cat"].unique().tolist()
-                    regions = state_agg["region_cat"].unique().tolist()
-
-                    # Single muted color for all institutions in a state
-                    inst_color = STATE_INST_COLORS.get(state_code, DEFAULT_INST_COLOR)
-                    inst_colors = [inst_color] * len(institutions)
-                    region_colors = [REGION_COLORS.get(r, "#dddddd") for r in regions]
-                    node_colors = inst_colors + region_colors
-
-                    labels = institutions + regions
-                    label_to_idx = {label: i for i, label in enumerate(labels)}
-
-                    sources = [label_to_idx[i] for i in state_agg["institution_cat"]]
-                    targets = [label_to_idx[r] for r in state_agg["region_cat"]]
-                    values = state_agg["grads"].tolist()
-
-                    # Very light ribbons — let the node colors do the work
-                    def hex_to_rgba(hex_color, alpha=0.18):
-                        h = hex_color.lstrip("#")
-                        r, g, b = int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
-                        return f"rgba({r},{g},{b},{alpha})"
-
-                    link_colors = [hex_to_rgba(inst_color) for _ in sources]
-
-                    fig = go.Figure(data=[go.Sankey(
-                        arrangement="snap",
-                        node=dict(
-                            pad=25,
-                            thickness=14,
-                            line=dict(color="rgba(0,0,0,0.2)", width=0.5),
-                            label=labels,
-                            color=node_colors,
-                        ),
-                        link=dict(
-                            source=sources,
-                            target=targets,
-                            value=values,
-                            color=link_colors,
-                        )
-                    )])
-                    fig.update_layout(
-                        height=600,
-                        font=dict(size=12, color="#1a1a1a", family="sans-serif"),
-                        title=dict(
-                            text=f"{state_code} — Y{horizon_selected}",
-                            font=dict(size=14, color="#1a1a1a")
-                        ),
-                        margin=dict(l=20, r=20, t=50, b=20),
-                        paper_bgcolor="white",
-                        plot_bgcolor="white",
-                    )
-                    st.plotly_chart(fig, use_container_width=True, config=insights.PLOTLY_CONFIG)
+            if len(states_with_data) > 1:
+                st.caption("One state at a time. Use the buttons to move between states, "
+                           "or open the pop-up for a larger view.")
+            cur = sankey_nav(states_with_data, "tab")
+            fig = sankey_figure(cur, agg[agg["state"] == cur], horizon_selected)
+            st.plotly_chart(fig, use_container_width=True, config=insights.PLOTLY_CONFIG)
+            if st.button("Open in pop-up", key="sankey_open"):
+                sankey_popup(agg, states_with_data, horizon_selected)
 
 # ---------------- Summary Table ----------------
 with tab4:
