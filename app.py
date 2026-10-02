@@ -95,6 +95,10 @@ benchmark = load_benchmark()
 # Sidebar filters
 # ============================================================
 st.sidebar.header("Filters")
+st.sidebar.caption(
+    "Four flagships are selected to start. Add more states and schools below, "
+    "or filter by industry and graduation year."
+)
 
 # The flagship university of each state. Used as the fallback selection for any
 # multi-state comparison that the opening set does not cover, so no combination
