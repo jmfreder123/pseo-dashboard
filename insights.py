@@ -1,8 +1,8 @@
-"""Insights tab: four headline stories computed from the full dataset.
+"""Insights tab: headline stories computed from the full dataset.
 
 Everything here is a ratio of sums over all states, institutions, industries and
-cohorts, deliberately ignoring the sidebar filters -- the flagship story needs
-every institution, and the default filter is flagships only.
+cohorts, deliberately ignoring the sidebar filters -- the stories describe the
+whole dashboard, and the default filter is four flagships.
 
 Colour: one accent (#9B2247, a validated step of the dashboard's maroon), a
 de-emphasis grey, a two-step maroon ordinal ramp, and a single-hue sequential
@@ -165,44 +165,6 @@ def industry_tsi(tsi):
 # ------------------------------------------------------------------
 # Charts
 # ------------------------------------------------------------------
-def chart_flagship(d):
-    d = d.sort_values("gap")
-    labels = [_name(s) for s in d["state"]]
-    fig = go.Figure()
-    # connectors
-    for _, r in d.iterrows():
-        fig.add_shape(type="line", x0=r["others_tsi"], x1=r["flag_tsi"],
-                      y0=_name(r["state"]), y1=_name(r["state"]),
-                      line=dict(color=state_color(r["state"], 0.45), width=3), layer="below")
-    fig.add_trace(go.Scatter(
-        x=d["others_tsi"], y=labels, mode="markers", name="Other public universities",
-        marker=dict(color="white", size=12,
-                    line=dict(color=[state_color(s) for s in d["state"]], width=2.5)),
-        hovertemplate="%{y}<br>Other publics: %{x:.1%}<extra></extra>",
-    ))
-    fig.add_trace(go.Scatter(
-        x=d["flag_tsi"], y=labels, mode="markers", name="Flagship",
-        marker=dict(color=[state_color(s) for s in d["state"]], size=13,
-                    line=dict(color="white", width=2)),
-        customdata=d["flagship"],
-        hovertemplate="%{y}<br>%{customdata}: %{x:.1%}<extra></extra>",
-    ))
-    # gap label at the right-hand dot
-    for _, r in d.iterrows():
-        right = max(r["flag_tsi"], r["others_tsi"])
-        fig.add_annotation(x=right, y=_name(r["state"]), xanchor="left", xshift=10,
-                           text=f"{r['gap']*100:+.0f} pts", showarrow=False,
-                           font=dict(color=INK_MUTED, size=12))
-    _base_layout(fig, 70 + 36 * len(d), margin=dict(l=10, r=20, t=40, b=10))
-    fig.update_traces(showlegend=False)
-    fig.add_annotation(xref="paper", yref="paper", x=0, y=1, yanchor="bottom", yshift=10, xanchor="left", showarrow=False,
-                       text="Filled dot: flagship · Open dot: the state's other public universities",
-                       font=dict(size=12, color=INK_MUTED))
-    fig.update_xaxes(tickformat=".0%", range=[0.5, 0.95], title=None)
-    fig.update_yaxes(categoryorder="array", categoryarray=labels)
-    return fig
-
-
 def chart_leak(d):
     d = d.sort_values("loss_total", ascending=True)
     labels = [_name(s) for s in d["state"]]
@@ -315,32 +277,7 @@ def render(tsi, flows):
 
     st.divider()
 
-    # --- 1. Flagship paradox ---
-    st.subheader("The flagship paradox")
-    st.markdown(
-        f"In **{n_under} of {len(fg)}** states, the flagship university keeps a smaller "
-        "share of its graduates in-state than the state's other public universities do. "
-        "Dots show the share of year-one employed graduates working in-state."
-    )
-    st.plotly_chart(chart_flagship(fg), use_container_width=True, config=PLOTLY_STATIC)
-    st.caption(
-        "Read with care: flagships recruit nationally and regional campuses serve "
-        "students who already live nearby, so this gap may reflect who enrolled more "
-        "than what the university did. The TSI describes where graduates work; it "
-        "does not explain why."
-    )
-    with st.expander("Table"):
-        t = fg.sort_values("gap").copy()
-        t["State"] = t["state"].map(_name)
-        t = t[["State", "flagship", "flag_tsi", "others_tsi", "n_others", "gap"]]
-        t.columns = ["State", "Flagship", "Flagship TSI", "Other publics TSI",
-                     "Other publics (n)", "Gap"]
-        st.dataframe(t.style.format({"Flagship TSI": "{:.1%}", "Other publics TSI": "{:.1%}",
-                                     "Gap": "{:+.1%}"}), hide_index=True, use_container_width=True)
-
-    st.divider()
-
-    # --- 2. Where the leak happens ---
+    # --- 1. Where the leak happens ---
     st.subheader("Where the leak happens")
     lo = hz.sort_values("loss_total").iloc[0]; hi = hz.sort_values("loss_total").iloc[-1]
     st.markdown(
@@ -361,7 +298,7 @@ def render(tsi, flows):
 
     st.divider()
 
-    # --- 3. Where leavers go ---
+    # --- 2. Where leavers go ---
     st.subheader("Where leavers go")
     st.markdown(
         "Of the graduates who work outside their degree state a year after "
@@ -377,7 +314,7 @@ def render(tsi, flows):
 
     st.divider()
 
-    # --- 4. Which industries hold on ---
+    # --- 3. Which industries hold on ---
     st.subheader("Which industries hold on")
     top = ind.iloc[-1]; bot = ind.iloc[0]
     big = ind.sort_values("grads", ascending=False).iloc[0]
