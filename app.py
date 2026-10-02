@@ -45,11 +45,16 @@ pio.templates.default = "plotly_white"
 # the other side and shakes hands with an employer. Plays once per visit, on the
 # first run only; the page reruns on every filter change, so without the guard
 # it would replay on every click. Hand-drawn SVG and CSS in assets/intro.html.
+# The slot is created on every run and only filled on the first. Removing the
+# element outright would shift everything below it, and Streamlit then treats
+# the tab bar as a new widget and jumps back to the first tab on the next click.
+_intro_slot = st.empty()
 if not st.session_state.get("intro_played"):
     st.session_state["intro_played"] = True
     try:
         _intro = (Path(__file__).parent / "assets" / "intro.html").read_text(encoding="utf-8")
-        st.components.v1.html(_intro, height=104)
+        with _intro_slot:
+            st.components.v1.html(_intro, height=104)
     except OSError:
         pass
 
