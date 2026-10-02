@@ -32,6 +32,8 @@ STATE_COLORS = {
     "MT": "#008300",  # green
     "SC": "#4a3aa7",  # violet
     "HI": "#e34948",  # red
+    "OH": "#ad1457",  # deep pink
+    "NY": "#8bc34a",  # lime
 }
 STATE_COLOR_DEFAULT = "#888888"
 
