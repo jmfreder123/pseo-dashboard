@@ -73,7 +73,7 @@ quoted in this README are on the all-cohort scale and reproduce exactly.
 ## Participating-state reference line
 
 `build_benchmark.py` aggregates the same analytic frame across every state in
-the PSEO release and emits `data/benchmark.csv`, which the Horizon Decay tab
+the PSEO release and emits `data/benchmark.csv`, which the Retention Over Time tab
 draws as a dashed reference line. `data/benchmark_composition.csv` records
 which states and how many institutions went into it.
 
@@ -125,7 +125,7 @@ Governors University alone, filed under `us` because it has no home state.
 
 - **Overview** — introduction and method notes
 - **Heatmap** — institution × industry, colored by TSI for a single horizon
-- **Horizon Decay** — TSI by horizon (Y1/Y5/Y10), one line per institution
+- **Retention Over Time** — TSI by horizon (Y1/Y5/Y10), one line per institution
 - **Regional Flows (Sankey)** — institution → Census region for selected filters
 - **Summary Table** — filtered data, sortable and downloadable
 

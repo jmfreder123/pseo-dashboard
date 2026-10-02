@@ -209,12 +209,12 @@ cohorts_selected = st.sidebar.multiselect(
     default=cohorts_available
 )
 
-# Reference line (Horizon Decay tab only)
+# Reference line (Retention Over Time tab only)
 if benchmark is not None:
     show_benchmark = st.sidebar.checkbox(
         "Show participating-state reference",
         value=True,
-        help="Dashed line on Horizon Decay: all PSEO states aggregated. "
+        help="Dashed line on Retention Over Time: all PSEO states aggregated. "
              "Not a national figure -- PSEO covers about two thirds of states.",
     )
 else:
@@ -258,7 +258,7 @@ tab0, tab_ins, tab1, tab2, tab3, tab4 = st.tabs([
     "Overview",
     "Insights",
     "Heatmap",
-    "Horizon Decay",
+    "Retention Over Time",
     "Regional Flows (Sankey)",
     "Summary Table"
 ])
@@ -297,7 +297,7 @@ with tab0:
     st.markdown(
         """
         - **Heatmap** — which institution-industry combinations retain the most graduates?
-        - **Horizon Decay** — how does retention change as graduates move further from graduation?
+        - **Retention Over Time** — how does retention change as graduates move further from graduation?
         - **Regional Flows** — where do graduates who leave the state actually go?
         - **Summary Table** — the underlying values, filterable and downloadable.
         """
@@ -376,9 +376,9 @@ with tab1:
         )
         st.plotly_chart(fig, use_container_width=True, config=insights.PLOTLY_CONFIG)
 
-# ---------------- Horizon decay line plot ----------------
+# ---------------- Retention over time line plot ----------------
 with tab2:
-    st.subheader("Horizon Decay — TSI by horizon, one line per institution")
+    st.subheader("Retention Over Time — TSI at years 1, 5 and 10, one line per institution")
 
     h = tsi_filtered[tsi_filtered["horizon"].isin(horizons_for_lineplot)]
     if h.empty:
