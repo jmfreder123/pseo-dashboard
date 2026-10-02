@@ -256,10 +256,14 @@ def chart_industries(d):
 # Render
 # ------------------------------------------------------------------
 def render(tsi, flows):
+    st.info(
+        "These figures cover all ten states and every school on the dashboard. "
+        "The filters at left do not apply here.",
+        icon="ℹ️",
+    )
     st.caption(
-        "These figures use every state, institution, industry and cohort on the "
-        "dashboard, regardless of the filters at left. Each is a ratio of sums: "
-        "graduates employed in-state divided by graduates employed anywhere."
+        "Each figure is a ratio of sums: graduates employed in-state divided by "
+        "graduates employed anywhere."
     )
 
     hz = state_horizons(tsi)
