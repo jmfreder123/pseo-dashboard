@@ -5,6 +5,8 @@ import plotly.graph_objects as go
 import plotly.io as pio
 from pathlib import Path
 
+import insights
+
 # ============================================================
 # Page setup
 # ============================================================
@@ -213,8 +215,9 @@ col4.metric("Observed cells", f"{tsi_filtered['emp_n_'].notna().sum():,}")
 # ============================================================
 # Tabs
 # ============================================================
-tab0, tab1, tab2, tab3, tab4 = st.tabs([
+tab0, tab_ins, tab1, tab2, tab3, tab4 = st.tabs([
     "Overview",
+    "Insights",
     "Heatmap",
     "Horizon Decay",
     "Regional Flows (Sankey)",
@@ -292,6 +295,10 @@ with tab0:
             **Contact:** [jmfrede5@asu.edu]
             """
         )
+
+# ---------------- Insights ----------------
+with tab_ins:
+    insights.render(tsi, flows)
 
 # ---------------- Heatmap ----------------
 with tab1:
@@ -426,18 +433,10 @@ with tab3:
                 "Mountain":            "#d0e0e3",
                 "Pacific":             "#f9cb9c",
             }
-            # Soft state-themed institution palettes
-            STATE_INST_COLORS = {
-                "AZ": "#a4506b",   # muted maroon (ASU)
-                "TX": "#c47b3a",   # muted burnt-orange (Texas)
-                "CO": "#5a8b8e",   # muted teal (Colorado mountains)
-                "OR": "#4f7a52",   # muted evergreen (Oregon)
-                "UT": "#7a6a9c",   # muted slate-violet (Utah)
-                "MT": "#8c7a5c",   # muted sagebrush-tan (Montana)
-                "SC": "#4a6b8a",   # muted indigo (South Carolina)
-                "HI": "#8f5a8a",   # muted orchid (Hawaii)
-            }
-            DEFAULT_INST_COLOR = "#888888"
+            # One colour per state across the whole dashboard; defined once in
+            # insights.py so the Sankey and the Insights tab can never disagree.
+            STATE_INST_COLORS = insights.STATE_COLORS
+            DEFAULT_INST_COLOR = insights.STATE_COLOR_DEFAULT
 
             states_with_data = sorted(agg["state"].unique())
 
