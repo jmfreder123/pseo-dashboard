@@ -133,24 +133,33 @@ states_selected = st.sidebar.multiselect(
 institutions_available = sorted(
     tsi[tsi["state"].isin(states_selected)]["institution_cat"].unique()
 )
-# Three tiers, each predictable:
-#   every state selected    -> the opening four (what a first-time visitor sees)
-#   a subset of states      -> the flagship of each selected state
+# The institution selection is reset only when the state selection changes.
+# Three cases:
+#   first load              -> the opening four (what a first-time visitor sees)
 #   one state               -> every institution in it (the point is that state's detail)
+#   two or more states      -> the flagship of each selected state, including when
+#                              every state is selected
 # The final `or` guards a state with no flagship listed, so nothing ever opens empty.
-if len(states_selected) == 1:
-    default_institutions = institutions_available
-elif set(states_selected) == set(states_available):
+# Streamlit recreates a multiselect whenever its `default` changes, which is why
+# the selection is written to session_state under a fixed key instead: any other
+# filter change leaves the institutions alone.
+first_load = "prev_states" not in st.session_state
+if first_load:
     default_institutions = [i for i in OPENING_INSTITUTIONS if i in institutions_available]
+elif len(states_selected) == 1:
+    default_institutions = institutions_available
 else:
     default_institutions = (
         [i for i in FLAGSHIPS if i in institutions_available]
         or institutions_available
     )
+if st.session_state.get("prev_states") != states_selected:
+    st.session_state["institutions"] = default_institutions
+    st.session_state["prev_states"] = states_selected
 institutions_selected = st.sidebar.multiselect(
     "Institution",
     options=institutions_available,
-    default=default_institutions
+    key="institutions",
 )
 
 # Industry
