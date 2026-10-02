@@ -217,8 +217,8 @@ def chart_destinations(g):
         colorscale=SEQ, zmin=0, zmax=max(0.5, float(piv.values.max())),
         text=text, texttemplate="%{text}", textfont=dict(size=12),
         xgap=2, ygap=2,
-        colorbar=dict(title="Share of leavers", tickformat=".0%", thickness=12, len=0.8),
-        hovertemplate="%{y} → %{x}<br>%{z:.1%} of leavers<extra></extra>",
+        colorbar=dict(title="Share of those who leave", tickformat=".0%", thickness=12, len=0.8),
+        hovertemplate="%{y} → %{x}<br>%{z:.1%} of those who leave<extra></extra>",
     ))
     _base_layout(fig, 80 + 34 * len(row_order))
     fig.update_xaxes(showgrid=False, tickangle=-30, side="bottom")
@@ -272,7 +272,7 @@ def render(tsi, flows):
     c1.caption("than their state's other public universities, one year out")
     c2.metric("Still in-state ten years out", f"{top10['Y10']:.0%}")
     c2.caption(f"{_name(top10['state'])}, the highest of the {len(hz)} states")
-    c3.metric("Largest destination for leavers", f"{top_dest['share']:.0%}")
+    c3.metric("Biggest destination for graduates who leave", f"{top_dest['share']:.0%}")
     c3.caption(f"of {_name(top_dest['state'])}'s out-of-state graduates work in the "
                f"{top_dest['region_cat']} division")
 
@@ -299,12 +299,12 @@ def render(tsi, flows):
 
     st.divider()
 
-    # --- 2. Where leavers go ---
-    st.subheader("Where leavers go")
+    # --- 2. Where graduates go when they leave ---
+    st.subheader("Where graduates go when they leave")
     st.markdown(
         "Of the graduates who work outside their degree state a year after "
         "graduation, where are they? Each row sums to 100% across Census divisions. "
-        "A graduate working in a neighbouring state counts as a leaver even when "
+        "A graduate working in a neighbouring state counts as having left even when "
         "both states share a division."
     )
     st.plotly_chart(chart_destinations(dest), use_container_width=True, config=PLOTLY_CONFIG)
