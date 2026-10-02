@@ -277,8 +277,8 @@ def render(tsi, flows):
 
     st.divider()
 
-    # --- 1. Where the leak happens ---
-    st.subheader("Where the leak happens")
+    # --- 1. Who keeps their graduates over time ---
+    st.subheader("Who keeps their graduates over time")
     lo = hz.sort_values("loss_total").iloc[0]; hi = hz.sort_values("loss_total").iloc[-1]
     st.markdown(
         f"Every state loses graduates as the years pass, but not at the same rate. "
