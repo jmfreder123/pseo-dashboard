@@ -41,6 +41,18 @@ _inject_ga("G-W4SJXLVGL6")
 # Set Plotly default template for cleaner-looking charts
 pio.templates.default = "plotly_white"
 
+# Opening animation: a graduate leaves home, walks through the door, comes out
+# the other side and shakes hands with an employer. Plays once per visit, on the
+# first run only; the page reruns on every filter change, so without the guard
+# it would replay on every click. Hand-drawn SVG and CSS in assets/intro.html.
+if not st.session_state.get("intro_played"):
+    st.session_state["intro_played"] = True
+    try:
+        _intro = (Path(__file__).parent / "assets" / "intro.html").read_text(encoding="utf-8")
+        st.components.v1.html(_intro, height=104)
+    except OSError:
+        pass
+
 st.title("PSEO Talent Stickiness Dashboard")
 st.caption("Bachelor's degree graduate retention across institutions, industries, cohorts, and regions")
 
