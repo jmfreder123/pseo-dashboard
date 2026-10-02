@@ -168,6 +168,10 @@ else:
 if st.session_state.get("prev_states") != states_selected:
     st.session_state["institutions"] = default_institutions
     st.session_state["prev_states"] = states_selected
+    # Remember what the app chose, and whether it was the first-load set, so
+    # the Sankey tab can tell an untouched opening selection from a deliberate one.
+    st.session_state["institutions_auto"] = default_institutions
+    st.session_state["institutions_auto_is_opening"] = first_load
 institutions_selected = st.sidebar.multiselect(
     "Institution",
     options=institutions_available,
@@ -541,7 +545,26 @@ def sankey_popup(agg, states, horizon):
 with tab3:
     st.subheader(f"Regional Flows — Y{horizon_selected}, total counts across selected filters")
 
-    f = flows_filtered[flows_filtered["horizon"] == horizon_selected]
+    # On first load the sidebar holds the opening four, but the Sankey is the
+    # one view where a state-by-state tour is the point, so until the visitor
+    # touches the Institution filter it shows the flagship of every state.
+    sankey_untouched = (
+        st.session_state.get("institutions_auto_is_opening", False)
+        and institutions_selected == st.session_state.get("institutions_auto")
+    )
+    if sankey_untouched:
+        sankey_flows = flows[
+            (flows["state"].isin(states_selected)) &
+            (flows["institution_cat"].isin(FLAGSHIPS)) &
+            (flows["industry_cat"].isin(industries_selected)) &
+            (flows["grad_cohort"].isin(cohorts_selected))
+        ]
+        st.caption("Showing the flagship of every state. Change the Institution "
+                   "filter at left to pick other schools.")
+    else:
+        sankey_flows = flows_filtered
+
+    f = sankey_flows[sankey_flows["horizon"] == horizon_selected]
     if f.empty:
         st.info("No regional flow data for the current filter selection.")
     else:
