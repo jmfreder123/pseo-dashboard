@@ -96,10 +96,10 @@ benchmark = load_benchmark()
 # ============================================================
 st.sidebar.header("Filters")
 
-# Default institution set: the flagship university of each state, one per state, so
-# the opening view compares every state on the dashboard rather than only the four
-# that happened to be represented.
-DEFAULT_INSTITUTIONS = [
+# The flagship university of each state. Used as the fallback selection for any
+# multi-state comparison that the opening set does not cover, so no combination
+# of states ever opens empty. Mirrors FLAGSHIP in insights.py.
+FLAGSHIPS = [
     "UA",                                  # Arizona
     "UT Austin",                           # Texas
     "CU Boulder",                          # Colorado
@@ -109,6 +109,10 @@ DEFAULT_INSTITUTIONS = [
     "University of South Carolina (USC)",  # South Carolina
     "University of Hawaii (UH)",           # Hawaii
 ]
+
+# What a first-time visitor sees: the flagships of the four states the dashboard
+# launched with. Deliberately short so the Institution filter fits its box.
+OPENING_INSTITUTIONS = ["UA", "UT Austin", "CU Boulder", "University of Oregon"]
 
 # State
 states_available = sorted(tsi["state"].unique())
@@ -122,15 +126,18 @@ states_selected = st.sidebar.multiselect(
 institutions_available = sorted(
     tsi[tsi["state"].isin(states_selected)]["institution_cat"].unique()
 )
-# DEFAULT_INSTITUTIONS only names institutions from AZ, TX, CO and OR, so a state
-# filter that excludes all four leaves the intersection empty and the dashboard
-# opens with nothing selected. Fall back to every institution in the selected
-# states rather than none, so a state added later works without editing the list.
+# Three tiers, each predictable:
+#   every state selected    -> the opening four (what a first-time visitor sees)
+#   a subset of states      -> the flagship of each selected state
+#   one state               -> every institution in it (the point is that state's detail)
+# The final `or` guards a state with no flagship listed, so nothing ever opens empty.
 if len(states_selected) == 1:
     default_institutions = institutions_available
+elif set(states_selected) == set(states_available):
+    default_institutions = [i for i in OPENING_INSTITUTIONS if i in institutions_available]
 else:
     default_institutions = (
-        [i for i in DEFAULT_INSTITUTIONS if i in institutions_available]
+        [i for i in FLAGSHIPS if i in institutions_available]
         or institutions_available
     )
 institutions_selected = st.sidebar.multiselect(
