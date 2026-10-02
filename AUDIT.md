@@ -260,6 +260,57 @@ Coverage caveat, from `pseo_hi_partners.txt`: "72% of statewide graduates covere
 (2015 estimate) — University of Hawaii System." That is the lowest coverage of
 any state on the dashboard; South Carolina's is 86%.
 
+## Ohio and New York — added 2026-10-02
+
+Both built by `build_state_data.py` from **R2025Q4**. Both files carry a 2001
+cohort, as South Carolina's does, so coverage is on the all-cohort scale.
+
+**Ohio** was selected by the IPEDS rule alone. Of 19 in-frame institutions the
+rule admits 13, all at 327–340 `total_observed`. The six dropped are five
+community colleges (highest: Cincinnati State at 14) and Franklin University
+(CONTROL 2). No threshold was needed; any cut between 15 and 326 gives the
+same set.
+
+**New York** is the first state where the rule alone is not enough. It admits
+40 of 41 in-frame institutions: every SUNY and CUNY campus offering a master's
+passes `HLOFFER >= 7`. The 28 kept are the rule's set intersected with
+`total_observed >= 320`, Colorado's documented cutoff. The 320 line is not a
+natural break — John Jay and City Tech sit at 317 — so it is a documented
+choice, not a discovered one. The 12 dropped by the threshold all pass the
+sector rule; the one institution the rule itself drops (SUNY Alfred, 285) is
+below the threshold anyway.
+
+Labels were supplied through `--rename`: SUNY and CUNY campuses carry their
+system prefix, Ohio campuses use the short common name.
+
+Values checked against an independent read of the raw release using the
+`csv` module and separately written filters.
+
+| Check | in-state / total | TSI | Result |
+|---|---|---|---|
+| OH-1 Ohio State Education 2004 Y1 | 1556 / 1935 | 0.8041 | PASS |
+| OH-2 Cincinnati Health Care 2010 Y10 | 1548 / 2385 | 0.6491 | PASS |
+| OH-3 Central State Public Admin 2007 Y5 | 12 / 14 | 0.8571 | PASS |
+| OH-4 Youngstown State Food/Hospitality 2016 Y1 | 159 / 190 | 0.8368 | PASS |
+| OH-5 Shawnee State Health Care 2019 Y1 | 229 / 302 | 0.7583 | PASS |
+| OH-6 Ohio State Manufacturing 2004 → East North Central Y1 | 809 / 921 | — | PASS |
+| OH-7 OH aggregate, all inst × ind × cohorts, Y1 | 420304 / 564316 | 0.7448 | PASS |
+| NY-1 SUNY Buffalo Education 2004 Y1 | 404 / 532 | 0.7594 | PASS |
+| NY-2 SUNY Stony Brook Health Care 2010 Y10 | 1987 / 2587 | 0.7681 | PASS |
+| NY-3 CUNY Hunter Public Admin 2007 Y5 | 311 / 351 | 0.8860 | PASS |
+| NY-4 CUNY York Retail 2016 Y1 | 209 / 240 | 0.8708 | PASS |
+| NY-5 SUNY Maritime Transportation 2019 Y1 | 91 / 281 | 0.3238 | PASS |
+| NY-6 SUNY Buffalo Education 2004 → Middle Atlantic Y1 | 404 / 420 | — | PASS |
+| NY-7 NY aggregate, 28 inst × ind × cohorts, Y1 | 487509 / 571160 | 0.8535 | PASS |
+
+OH-7's `emp_n_` total of 564,316 equals the `grads_y1` recorded for OH in
+`data/benchmark_composition.csv`, which was computed by a different code path
+with the same 13 institutions. NY-7 does not match the composition figure
+(670,025) and is not expected to: the benchmark keeps all 40 New York publics,
+the dashboard 28. Texas (43 vs 20) and Colorado (14 vs 12) have the same
+relationship. Neither state moves the reference line; both were already
+benchmark contributors.
+
 ## Release vintage — resolved
 
 The 2026-08-22 entry recorded the vintage question as unestablished. It is now

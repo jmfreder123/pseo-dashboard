@@ -113,6 +113,8 @@ FLAGSHIPS = [
     "University of Montana",               # Montana
     "University of South Carolina (USC)",  # South Carolina
     "University of Hawaii (UH)",           # Hawaii
+    "Ohio State",                          # Ohio
+    "SUNY Buffalo",                        # New York
 ]
 
 # What a first-time visitor sees: the flagships of the four states the dashboard
@@ -247,7 +249,7 @@ with tab0:
         and ten years after graduation. Built on the U.S. Census Bureau's Postsecondary
         Employment Outcomes (PSEO) data, it covers bachelor's degree graduates from public
         universities in Arizona, Texas, Colorado, Oregon, Utah, Montana, South
-        Carolina, and Hawaii, spanning graduation cohorts from 2004 to 2019 and twenty
+        Carolina, Hawaii, Ohio, and New York, spanning graduation cohorts from 2004 to 2019 and twenty
         industries defined by two-digit NAICS codes. Utah's data begin with the 2010
         cohort.
 

@@ -70,7 +70,8 @@ SEQ = ["#FBEFF2", "#9B2247"]   # single hue, light -> dark
 
 STATE_NAMES = {
     "AZ": "Arizona", "CO": "Colorado", "HI": "Hawaii", "MT": "Montana",
-    "OR": "Oregon", "SC": "South Carolina", "TX": "Texas", "UT": "Utah",
+    "NY": "New York", "OH": "Ohio", "OR": "Oregon", "SC": "South Carolina",
+    "TX": "Texas", "UT": "Utah",
 }
 
 # Flagship per state: mirrors DEFAULT_INSTITUTIONS in app.py. Kept here rather
@@ -80,6 +81,7 @@ FLAGSHIP = {
     "OR": "University of Oregon", "UT": "University of Utah",
     "MT": "University of Montana", "SC": "University of South Carolina (USC)",
     "HI": "University of Hawaii (UH)",
+    "OH": "Ohio State", "NY": "SUNY Buffalo",
 }
 
 

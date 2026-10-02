@@ -2,7 +2,7 @@
 
 Interactive dashboard for exploring graduate retention patterns at public
 universities in Arizona, Texas, Colorado, Oregon, Utah, Montana, South
-Carolina, and Hawaii.
+Carolina, Hawaii, Ohio, and New York.
 
 ## Setup
 
@@ -36,6 +36,8 @@ Two CSVs per state in `data/`, named `{st}_tsi.csv` and `{st}_regional_flows.csv
 | MT | 6 | 2004–2019 | all four-year publics (no threshold) |
 | SC | 12 | 2004–2019 | IPEDS sector rule (no threshold — see Notes) |
 | HI | 3 | 2004–2019 | IPEDS sector rule (a threshold would also work — see Notes) |
+| OH | 13 | 2004–2019 | IPEDS sector rule (no threshold — see Notes) |
+| NY | 28 | 2004–2019 | IPEDS sector rule, then `total_observed >= 320` — see Notes |
 
 Source: U.S. Census Bureau Postsecondary Employment Outcomes (PSEO),
 2004–2019 graduation cohorts, bachelor's degrees, all CIP codes.
@@ -149,6 +151,19 @@ Governors University alone, filed under `us` because it has no home state.
   rule admits. Note that 273 is below Arizona's 280, so CO's 320 or TX's 340
   would still select zero. Hawaii's six community colleges never enter the
   frame.
+- **Ohio needs no threshold.** The IPEDS rule admits 13 of its 19 in-frame
+  institutions, all between 327 and 340 `total_observed`; the six it drops are
+  community colleges and one private (Franklin), none above 14.
+- **New York is the one state that uses both methods.** The IPEDS rule admits
+  40 of 41 in-frame institutions — every SUNY and CUNY campus that offers a
+  master's — which is twice Texas and too many for a single-state view. The
+  28 kept are the rule's set with Colorado's `total_observed >= 320` applied on
+  top. The 12 that fall below 320 are the graduate-focused campuses (Upstate
+  Medical, Downstate, the CUNY Graduate Center), the SUNY technology colleges,
+  FIT, Farmingdale, Cobleskill, Medgar Evers, and two large CUNY seniors that
+  miss by three cells: John Jay and City Tech, both at 317. The benchmark
+  line still uses all 40 (see `data/benchmark_composition.csv`), the same
+  way it uses 43 Texas and 14 Colorado institutions.
 - Coverage thresholds are state-specific and do **not** transfer. Oregon's 7
   publics all fall between 268 and 278 observed cells, so applying CO's 320 or
   TX's 340 would select zero institutions. Utah's six four-year publics sit at
