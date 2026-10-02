@@ -1,0 +1,45 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>
+  html,body{margin:0;background:transparent;overflow:hidden}
+  svg{display:block;width:100%;height:90px}
+  @media (prefers-reduced-motion: reduce){ *{animation:none !important} }
+  #eyes{transform-box:fill-box;transform-origin:50% 50%;animation:blink 12s linear infinite}
+  @keyframes blink{0%,45%{transform:scaleY(1)} 46%{transform:scaleY(.1)} 47%,78%{transform:scaleY(1)} 79%{transform:scaleY(.1)} 80%,100%{transform:scaleY(1)}}
+
+  #sheet{animation:scroll 12s linear infinite}
+  @keyframes scroll{0%,6%{transform:translateY(0)} 24%,60%{transform:translateY(-44px)} 66%,100%{transform:translateY(0)}}
+  #hl{opacity:0;animation:hl 12s linear infinite}
+  @keyframes hl{0%,26%{opacity:0} 30%,58%{opacity:1} 62%,100%{opacity:0}}
+  #arm{transform-box:fill-box;transform-origin:0% 100%;animation:swipe 12s linear infinite}
+  @keyframes swipe{0%,4%{transform:rotate(-40deg)} 8%{transform:rotate(-10deg)} 14%{transform:rotate(-40deg)} 20%{transform:rotate(-10deg)} 26%,60%{transform:rotate(-20deg)} 66%,100%{transform:rotate(60deg)}}
+</style></head>
+<body><svg viewBox="0 0 300 90" preserveAspectRatio="xMinYMid meet" aria-hidden="true">
+  <rect x="10" y="80" width="280" height="7" rx="3.5" fill="#f0efec"/>
+<g transform="translate(-205,0)">
+
+  <defs><clipPath id="clip"><rect x="300" y="12" width="170" height="62" rx="3"/></clipPath></defs>
+  <rect x="300" y="12" width="170" height="62" rx="3" fill="#f6f4f0"/>
+  <g clip-path="url(#clip)"><g id="sheet"><g class="row" transform="translate(0,14)"><rect x="304" y="0" width="160" height="9" rx="1.5" fill="#fff"/><rect x="308" y="2.5" width="40" height="4" rx="2" fill="#d9d4cc"/><rect x="380" y="2.5" width="22" height="4" rx="2" fill="#e6e2db"/><rect x="430" y="2.5" width="26" height="4" rx="2" fill="#e6e2db"/></g><g class="row" transform="translate(0,25)"><rect x="304" y="0" width="160" height="9" rx="1.5" fill="#fff"/><rect x="308" y="2.5" width="63" height="4" rx="2" fill="#d9d4cc"/><rect x="380" y="2.5" width="22" height="4" rx="2" fill="#e6e2db"/><rect x="430" y="2.5" width="26" height="4" rx="2" fill="#e6e2db"/></g><g class="row" transform="translate(0,36)"><rect x="304" y="0" width="160" height="9" rx="1.5" fill="#fff"/><rect x="308" y="2.5" width="86" height="4" rx="2" fill="#d9d4cc"/><rect x="380" y="2.5" width="22" height="4" rx="2" fill="#e6e2db"/><rect x="430" y="2.5" width="26" height="4" rx="2" fill="#e6e2db"/></g><g class="row" transform="translate(0,47)"><rect x="304" y="0" width="160" height="9" rx="1.5" fill="#fff"/><rect x="308" y="2.5" width="59" height="4" rx="2" fill="#d9d4cc"/><rect x="380" y="2.5" width="22" height="4" rx="2" fill="#e6e2db"/><rect x="430" y="2.5" width="26" height="4" rx="2" fill="#e6e2db"/></g><g class="row" transform="translate(0,58)"><rect x="304" y="0" width="160" height="9" rx="1.5" fill="#fff"/><rect x="308" y="2.5" width="82" height="4" rx="2" fill="#d9d4cc"/><rect x="380" y="2.5" width="22" height="4" rx="2" fill="#e6e2db"/><rect x="430" y="2.5" width="26" height="4" rx="2" fill="#e6e2db"/></g><g class="row" transform="translate(0,69)"><rect x="304" y="0" width="160" height="9" rx="1.5" fill="#fff"/><rect x="308" y="2.5" width="55" height="4" rx="2" fill="#d9d4cc"/><rect x="380" y="2.5" width="22" height="4" rx="2" fill="#e6e2db"/><rect x="430" y="2.5" width="26" height="4" rx="2" fill="#e6e2db"/></g><g class="row" transform="translate(0,80)"><rect x="304" y="0" width="160" height="9" rx="1.5" fill="#fff"/><rect x="308" y="2.5" width="78" height="4" rx="2" fill="#d9d4cc"/><rect x="380" y="2.5" width="22" height="4" rx="2" fill="#e6e2db"/><rect x="430" y="2.5" width="26" height="4" rx="2" fill="#e6e2db"/></g><g class="row" transform="translate(0,91)"><rect x="304" y="0" width="160" height="9" rx="1.5" fill="#fff"/><rect x="308" y="2.5" width="51" height="4" rx="2" fill="#d9d4cc"/><rect x="380" y="2.5" width="22" height="4" rx="2" fill="#e6e2db"/><rect x="430" y="2.5" width="26" height="4" rx="2" fill="#e6e2db"/></g><g class="row" transform="translate(0,102)"><rect x="304" y="0" width="160" height="9" rx="1.5" fill="#fff"/><rect x="308" y="2.5" width="74" height="4" rx="2" fill="#d9d4cc"/><rect x="380" y="2.5" width="22" height="4" rx="2" fill="#e6e2db"/><rect x="430" y="2.5" width="26" height="4" rx="2" fill="#e6e2db"/></g><g class="row" transform="translate(0,113)"><rect x="304" y="0" width="160" height="9" rx="1.5" fill="#fff"/><rect x="308" y="2.5" width="47" height="4" rx="2" fill="#d9d4cc"/><rect x="380" y="2.5" width="22" height="4" rx="2" fill="#e6e2db"/><rect x="430" y="2.5" width="26" height="4" rx="2" fill="#e6e2db"/></g>
+    <rect id="hl" x="304" y="69" width="160" height="9" rx="1.5" fill="#f6dfe6"/>
+  </g></g>
+  <rect x="300" y="12" width="170" height="62" rx="3" fill="none" stroke="#E8E8E8" stroke-width="1.5"/>
+  
+  <g id="guy" transform="translate(255,0)">
+    
+    <line id="legL" x1="-5" y1="74" x2="-5" y2="82" stroke="#9B2247" stroke-width="4" stroke-linecap="round"/>
+    <line id="legR" x1="5" y1="74" x2="5" y2="82" stroke="#9B2247" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="58" r="16" fill="#9B2247"/>
+    <ellipse cx="-5" cy="50" rx="6" ry="4" fill="#fff" opacity=".14"/>
+    <g id="eyes">
+      <circle cx="5" cy="54" r="3.4" fill="#fff"/><circle cx="11" cy="54" r="3.4" fill="#fff"/>
+      <circle cx="6" cy="54.5" r="1.5" fill="#1a1a1a"/><circle cx="12" cy="54.5" r="1.5" fill="#1a1a1a"/>
+    </g>
+    <path d="M4 62 Q9 66 14 62" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <!-- mortarboard -->
+    <polygon points="-20,42 0,35 20,42 0,49" fill="#1a1a1a"/>
+    <rect x="-9" y="42" width="18" height="5" fill="#1a1a1a"/>
+    <line x1="18" y1="41" x2="18" y2="54" stroke="#FFC627" stroke-width="2" stroke-linecap="round"/>
+    <g transform="translate(12,54)"><line id="arm" x1="0" y1="0" x2="16" y2="-8" stroke="#9B2247" stroke-width="4" stroke-linecap="round"/></g>
+  </g>
+</g>
+</svg></body></html>

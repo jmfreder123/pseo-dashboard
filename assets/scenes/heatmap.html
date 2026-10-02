@@ -1,0 +1,46 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>
+  html,body{margin:0;background:transparent;overflow:hidden}
+  svg{display:block;width:100%;height:90px}
+  @media (prefers-reduced-motion: reduce){ *{animation:none !important} }
+  #eyes{transform-box:fill-box;transform-origin:50% 50%;animation:blink 12s linear infinite}
+  @keyframes blink{0%,45%{transform:scaleY(1)} 46%{transform:scaleY(.1)} 47%,78%{transform:scaleY(1)} 79%{transform:scaleY(.1)} 80%,100%{transform:scaleY(1)}}
+
+  .cell{fill:#FBEFF2;animation:warm 12s linear infinite}
+  @keyframes warm{0%,3%{fill:#FBEFF2} 14%,40%{fill:#9B2247} 50%,100%{fill:#FBEFF2}}
+  #fan{transform-box:fill-box;transform-origin:0% 100%;animation:fan 12s linear infinite}
+  @keyframes fan{0%,12%{transform:rotate(40deg)} 15%{transform:rotate(-20deg)} 18%{transform:rotate(40deg)} 21%{transform:rotate(-20deg)}
+    24%{transform:rotate(40deg)} 27%{transform:rotate(-20deg)} 30%{transform:rotate(40deg)} 33%{transform:rotate(-20deg)}
+    36%{transform:rotate(40deg)} 39%{transform:rotate(-20deg)} 42%,100%{transform:rotate(40deg)}}
+  .shimmer{opacity:0;animation:rise 12s linear infinite;stroke:#e34948;stroke-width:1.5;fill:none;stroke-linecap:round}
+  @keyframes rise{0%,14%{opacity:0;transform:translateY(0)} 20%{opacity:.7} 36%{opacity:0;transform:translateY(-14px)} 100%{opacity:0}}
+  #sweat{opacity:0;animation:sweat 12s linear infinite;fill:#6fb3e8}
+  @keyframes sweat{0%,16%{opacity:0;transform:translateY(0)} 20%{opacity:1} 34%{opacity:0;transform:translateY(10px)} 100%{opacity:0}}
+</style></head>
+<body><svg viewBox="0 0 300 90" preserveAspectRatio="xMinYMid meet" aria-hidden="true">
+  <rect x="10" y="80" width="280" height="7" rx="3.5" fill="#f0efec"/>
+<g transform="translate(-205,0)">
+
+  <rect class="cell" x="300" y="18" width="17" height="12" rx="2" style="animation-delay:0.0s"/><rect class="cell" x="320" y="18" width="17" height="12" rx="2" style="animation-delay:0.18s"/><rect class="cell" x="340" y="18" width="17" height="12" rx="2" style="animation-delay:0.36s"/><rect class="cell" x="360" y="18" width="17" height="12" rx="2" style="animation-delay:0.54s"/><rect class="cell" x="380" y="18" width="17" height="12" rx="2" style="animation-delay:0.72s"/><rect class="cell" x="300" y="33" width="17" height="12" rx="2" style="animation-delay:0.18s"/><rect class="cell" x="320" y="33" width="17" height="12" rx="2" style="animation-delay:0.36s"/><rect class="cell" x="340" y="33" width="17" height="12" rx="2" style="animation-delay:0.54s"/><rect class="cell" x="360" y="33" width="17" height="12" rx="2" style="animation-delay:0.72s"/><rect class="cell" x="380" y="33" width="17" height="12" rx="2" style="animation-delay:0.8999999999999999s"/><rect class="cell" x="300" y="48" width="17" height="12" rx="2" style="animation-delay:0.36s"/><rect class="cell" x="320" y="48" width="17" height="12" rx="2" style="animation-delay:0.54s"/><rect class="cell" x="340" y="48" width="17" height="12" rx="2" style="animation-delay:0.72s"/><rect class="cell" x="360" y="48" width="17" height="12" rx="2" style="animation-delay:0.8999999999999999s"/><rect class="cell" x="380" y="48" width="17" height="12" rx="2" style="animation-delay:1.08s"/><rect class="cell" x="300" y="63" width="17" height="12" rx="2" style="animation-delay:0.54s"/><rect class="cell" x="320" y="63" width="17" height="12" rx="2" style="animation-delay:0.72s"/><rect class="cell" x="340" y="63" width="17" height="12" rx="2" style="animation-delay:0.8999999999999999s"/><rect class="cell" x="360" y="63" width="17" height="12" rx="2" style="animation-delay:1.08s"/><rect class="cell" x="380" y="63" width="17" height="12" rx="2" style="animation-delay:1.26s"/>
+  <path class="shimmer" d="M318 16 q3 -4 0 -8 q-3 -4 0 -8" style="animation-delay:0.0s"/><path class="shimmer" d="M348 16 q3 -4 0 -8 q-3 -4 0 -8" style="animation-delay:0.5s"/><path class="shimmer" d="M378 16 q3 -4 0 -8 q-3 -4 0 -8" style="animation-delay:1.0s"/>
+  
+  <g id="guy" transform="translate(250,0)">
+    
+    <line id="legL" x1="-5" y1="74" x2="-5" y2="82" stroke="#9B2247" stroke-width="4" stroke-linecap="round"/>
+    <line id="legR" x1="5" y1="74" x2="5" y2="82" stroke="#9B2247" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="58" r="16" fill="#9B2247"/>
+    <ellipse cx="-5" cy="50" rx="6" ry="4" fill="#fff" opacity=".14"/>
+    <g id="eyes">
+      <circle cx="5" cy="54" r="3.4" fill="#fff"/><circle cx="11" cy="54" r="3.4" fill="#fff"/>
+      <circle cx="6" cy="54.5" r="1.5" fill="#1a1a1a"/><circle cx="12" cy="54.5" r="1.5" fill="#1a1a1a"/>
+    </g>
+    <path d="M4 62 Q9 66 14 62" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <!-- mortarboard -->
+    <polygon points="-20,42 0,35 20,42 0,49" fill="#1a1a1a"/>
+    <rect x="-9" y="42" width="18" height="5" fill="#1a1a1a"/>
+    <line x1="18" y1="41" x2="18" y2="54" stroke="#FFC627" stroke-width="2" stroke-linecap="round"/>
+    <g transform="translate(12,54)"><g id="fan"><line x1="0" y1="0" x2="10" y2="-10" stroke="#9B2247" stroke-width="4" stroke-linecap="round"/><rect x="8" y="-22" width="12" height="15" rx="2" fill="#fbf7ee" stroke="#d2c9ba" stroke-width="1"/></g></g>
+  </g>
+  <path id="sweat" d="M238 46 q-2 4 0 6 q2 -2 0 -6 z" transform="translate(0,0)"/>
+</g>
+</svg></body></html>

@@ -58,6 +58,19 @@ if not st.session_state.get("intro_played"):
     except OSError:
         pass
 
+ASSETS_DIR = Path(__file__).parent / "assets"
+
+
+def scene(name, width=240, height=72):
+    """A small looping drawing at the top of a tab (assets/scenes/<name>.html).
+    Decorative only; a missing file is skipped rather than shown as an error."""
+    try:
+        html = (ASSETS_DIR / "scenes" / f"{name}.html").read_text(encoding="utf-8")
+    except OSError:
+        return
+    st.components.v1.html(html, width=width, height=height)
+
+
 st.title("PSEO Talent Stickiness Dashboard")
 st.caption("Bachelor's degree graduate retention across institutions, industries, cohorts, and regions")
 
@@ -65,7 +78,6 @@ st.caption("Bachelor's degree graduate retention across institutions, industries
 # Data loading
 # ============================================================
 DATA_DIR = Path(__file__).parent / "data"
-ASSETS_DIR = Path(__file__).parent / "assets"
 
 def _load_glob(pattern):
     """Concatenate every state file matching pattern.
@@ -270,6 +282,7 @@ tab0, tab_ins, tab1, tab2, tab3, tab4 = st.tabs([
 
 # ---------------- Overview ----------------
 with tab0:
+    scene("overview")
     st.markdown(
         """
         ### A year after graduation, most college graduates are still working in the state where they earned their degree. Ten years out, the picture looks very different.
@@ -342,10 +355,12 @@ with tab0:
 
 # ---------------- Insights ----------------
 with tab_ins:
+    scene("insights")
     insights.render(tsi, flows)
 
 # ---------------- Heatmap ----------------
 with tab1:
+    scene("heatmap")
     st.subheader(f"TSI Heatmap — Y{horizon_selected}, ratio of sums across selected cohorts")
 
     h = tsi_filtered[tsi_filtered["horizon"] == horizon_selected]
@@ -383,6 +398,7 @@ with tab1:
 
 # ---------------- Retention over time line plot ----------------
 with tab2:
+    scene("retention")
     st.subheader("Retention Over Time — TSI at years 1, 5 and 10, one line per institution")
 
     h = tsi_filtered[tsi_filtered["horizon"].isin(horizons_for_lineplot)]
@@ -548,6 +564,7 @@ def sankey_popup(agg, states, horizon):
 
 
 with tab3:
+    scene("flows")
     st.subheader(f"Regional Flows — Y{horizon_selected}, total counts across selected filters")
 
     # On first load the sidebar holds the opening four, but the Sankey is the
@@ -594,6 +611,7 @@ with tab3:
 
 # ---------------- Summary Table ----------------
 with tab4:
+    scene("table")
     st.subheader("Filtered TSI Data")
 
     if tsi_filtered.empty:

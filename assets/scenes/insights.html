@@ -1,0 +1,48 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>
+  html,body{margin:0;background:transparent;overflow:hidden}
+  svg{display:block;width:100%;height:90px}
+  @media (prefers-reduced-motion: reduce){ *{animation:none !important} }
+  #eyes{transform-box:fill-box;transform-origin:50% 50%;animation:blink 12s linear infinite}
+  @keyframes blink{0%,45%{transform:scaleY(1)} 46%{transform:scaleY(.1)} 47%,78%{transform:scaleY(1)} 79%{transform:scaleY(.1)} 80%,100%{transform:scaleY(1)}}
+
+  #bulb{animation:light 12s linear infinite}
+  @keyframes light{0%,10%{fill:#e9e6e0} 13%,55%{fill:#FFC627} 60%,100%{fill:#e9e6e0}}
+  #rays{transform-box:fill-box;transform-origin:50% 50%;animation:rays 12s linear infinite}
+  @keyframes rays{0%,10%{opacity:0;transform:scale(.4)} 14%{opacity:1;transform:scale(1.15)} 18%,52%{opacity:1;transform:scale(1)} 58%,100%{opacity:0;transform:scale(.6)}}
+  #arm{transform-box:fill-box;transform-origin:0% 100%;animation:point 12s linear infinite}
+  @keyframes point{0%,10%{transform:rotate(60deg)} 14%,55%{transform:rotate(-30deg)} 60%,100%{transform:rotate(60deg)}}
+</style></head>
+<body><svg viewBox="0 0 300 90" preserveAspectRatio="xMinYMid meet" aria-hidden="true">
+  <rect x="10" y="80" width="280" height="7" rx="3.5" fill="#f0efec"/>
+<g transform="translate(-205,0)">
+
+  <g transform="translate(250,-7)">
+    <g id="rays" stroke="#FFC627" stroke-width="2" stroke-linecap="round">
+      <line x1="0" y1="2" x2="0" y2="-4"/><line x1="14" y1="7" x2="18" y2="3"/><line x1="-14" y1="7" x2="-18" y2="3"/>
+      <line x1="20" y1="20" x2="26" y2="20"/><line x1="-20" y1="20" x2="-26" y2="20"/>
+    </g>
+    <path id="bulb" d="M-9 20 a9 9 0 1 1 18 0 c0 5 -4 7 -4 11 h-10 c0 -4 -4 -6 -4 -11 z" fill="#e9e6e0"/>
+    <rect x="-5" y="31" width="10" height="3" rx="1" fill="#8b8f94"/>
+    <rect x="-4" y="34" width="8" height="2" rx="1" fill="#8b8f94"/>
+  </g>
+  
+  <g id="guy" transform="translate(250,0)">
+    
+    <line id="legL" x1="-5" y1="74" x2="-5" y2="82" stroke="#9B2247" stroke-width="4" stroke-linecap="round"/>
+    <line id="legR" x1="5" y1="74" x2="5" y2="82" stroke="#9B2247" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="58" r="16" fill="#9B2247"/>
+    <ellipse cx="-5" cy="50" rx="6" ry="4" fill="#fff" opacity=".14"/>
+    <g id="eyes">
+      <circle cx="5" cy="54" r="3.4" fill="#fff"/><circle cx="11" cy="54" r="3.4" fill="#fff"/>
+      <circle cx="6" cy="54.5" r="1.5" fill="#1a1a1a"/><circle cx="12" cy="54.5" r="1.5" fill="#1a1a1a"/>
+    </g>
+    <path d="M4 62 Q9 66 14 62" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <!-- mortarboard -->
+    <polygon points="-20,42 0,35 20,42 0,49" fill="#1a1a1a"/>
+    <rect x="-9" y="42" width="18" height="5" fill="#1a1a1a"/>
+    <line x1="18" y1="41" x2="18" y2="54" stroke="#FFC627" stroke-width="2" stroke-linecap="round"/>
+    <g transform="translate(12,54)"><line id="arm" x1="0" y1="0" x2="12" y2="-12" stroke="#9B2247" stroke-width="4" stroke-linecap="round"/></g>
+  </g>
+</g>
+</svg></body></html>
